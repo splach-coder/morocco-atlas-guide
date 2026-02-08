@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* High-End Editorial Color Palette - Morocco Atlas Guide */
+
+    /* Primary: Moroccan Terracotta - Sophisticated, earth-toned orange */
+    --primary: #C1440E;
+    --primary-light: #E67E22;
+    --primary-dark: #8E2F0A;
+
+    /* Secondary: Atlas Basalt - Deep, moody mountain blue/gray */
+    --secondary: #2C3E50;
+    --secondary-light: #34495E;
+    --secondary-dark: #1A252F;
+
+    /* Accent: Desert Sandstone - Subtle earthy brown */
+    --accent: #A67C52;
+    --accent-light: #C5A07B;
+    --accent-dark: #7D5D3E;
+
+    /* Surface colors - Sophisticated Off-Whites */
+    --surface: #FFFFFF;
+    --surface-off: #F9F7F2;
+    /* Creamier, more premium feel */
+    --surface-dark: #1F1B16;
+
+    /* Neutral colors */
+    --neutral-dark: #121212;
+    --neutral-medium: #4A443A;
+    --neutral-light: #EBE6D9;
+
+    /* Semantic borders */
+    --border-subtle: rgba(0, 0, 0, 0.06);
+    --border-strong: rgba(0, 0, 0, 0.12);
+  }
+}
+
+@theme {
+  --font-outfit: var(--font-outfit);
+  --font-inter: var(--font-inter);
+  --font-playfair: var(--font-playfair);
+
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-dark: var(--secondary-dark);
+
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+
+  --color-neutral-dark: var(--neutral-dark);
+  --color-neutral-medium: var(--neutral-medium);
+  --color-neutral-light: var(--neutral-light);
+
+  --color-surface: var(--surface);
+  --color-surface-off: var(--surface-off);
+  --color-surface-dark: var(--surface-dark);
+}
+
+@layer base {
+  * {
+    border-color: var(--border-strong);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: var(--neutral-dark);
+    font-family: var(--font-inter), sans-serif;
+    background-color: var(--surface);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair), serif;
+    color: var(--neutral-dark);
+    letter-spacing: -0.02em;
+  }
+
+  /* Refined, more compact Typography Scale */
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl leading-[1] font-medium;
+  }
+
+  h2 {
+    @apply text-3xl md:text-5xl lg:text-5xl leading-[1.1] font-medium;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl leading-[1.2] font-medium;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain {
+    position: relative;
+  }
+
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.03;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    z-index: 1;
+  }
+
+  .border-sharp {
+    border: 1px solid var(--border-strong);
+  }
+}

@@ -1,0 +1,721 @@
+[00:00:03.466] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.806] Server  LOG      ✓ Ready in 3.1s
+[00:26:05.938] Server  LOG      ○ Compiling /[locale] ...
+[00:26:13.305] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:01.120] Server  LOG      ✓ Compiled in 813ms
+[00:27:03.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:16.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:20.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:20.702] Server  LOG      ✓ Compiled in 149ms
+[00:37:00.350] Server  LOG      ✓ Compiled in 356ms
+[00:37:09.626] Server  LOG      ✓ Compiled in 264ms
+[00:39:08.556] Server  LOG      ✓ Compiled in 364ms
+[00:41:34.184] Server  LOG      ✓ Compiled in 128ms
+[00:42:25.526] Server  LOG      ✓ Compiled in 842ms
+[00:43:32.163] Server  LOG      ✓ Compiled in 96ms
+[00:46:59.937] Server  LOG      ✓ Compiled in 736ms
+[00:47:02.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:02.958] Server  LOG      ✓ Compiled in 69ms
+[00:51:13.547] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:53:30.021] Server  LOG      ✓ Compiled in 356ms
+[00:53:30.883] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/image1a-700x450-1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.883] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/tanneries-medina-of-fez-morocco-wizard8492.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.884] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/images-20.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.884] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/images-19.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.884] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/images-18-300x150.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.884] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/images-17-300x150.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:53:30.884] Browser WARN    Image with src "http://localhost:3000/images/imperial_cities/images-16.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:59:16.467] Server  LOG      ✓ Compiled in 314ms
+[00:59:18.355] Server  LOG      ✓ Compiled in 210ms
+[00:59:51.440] Server  LOG      ✓ Compiled in 238ms
+[01:00:40.250] Server  LOG      ✓ Compiled in 167ms
+[01:00:56.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:03.376] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:03:00.674] Server  LOG      ✓ Compiled in 1228ms
+[01:04:16.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:59.914] Server  LOG      ✓ Compiled in 212ms
+[01:05:02.460] Server  LOG      ✓ Compiled in 357ms
+[01:05:10.089] Server  LOG      ✓ Compiled in 219ms
+[01:05:10.309] Browser ERROR   ./src/components/ServiceDetailContent.tsx:445:1
+Parsing ecmascript source code failed
+  443 |             </div>
+  444 |             );
+> 445 | };
+      | ^
+  446 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:05:16.309] Server  LOG      ✓ Compiled in 137ms
+[01:05:16.411] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:05:27.998] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:36.910] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:48.332] Server  ERROR    ⨯ ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:08:48.508] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:49.720] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:49.943] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:50.649] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:51.365] Browser ERROR   uncaughtError: Error: ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:08:51.758] Server  ERROR    ⨯ Error: Cannot find module '../../../messages/favicon.ico.json'
+[01:08:51.992] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:08:51.992] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:09:54.294] Server  ERROR    ⨯ ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:09:54.894] Browser ERROR   uncaughtError: Error: ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:09:55.057] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:09:55.057] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:09:59.397] Server  ERROR    ⨯ ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:09:59.786] Browser ERROR   uncaughtError: Error: ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+
+[01:09:59.965] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:09:59.965] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:10:43.384] Browser ERROR   ./src/components/ServiceDetailContent.tsx:131:5
+Parsing ecmascript source code failed
+  129 |         </div>
+  130 |
+> 131 |     {/* Content Layout */ }
+      |     ^
+  132 |     <div className="container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+  133 |         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start relative">
+  134 |
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:11:06.771] Server  LOG      ✓ Compiled in 228ms
+[01:11:10.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:17.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:36.380] Server  LOG      ✓ Compiled in 634ms
+[01:11:36.477] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:11:47.388] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20 min-h-[1000px]" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:11:48.476] Server  LOG      ✓ Compiled in 152ms
+[01:11:48.577] Browser ERROR   ./src/components/ServiceDetailContent.tsx:445:1
+Parsing ecmascript source code failed
+  443 |             </div>
+  444 |             );
+> 445 | };
+      | ^
+  446 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:11:49.394] Server  LOG      ✓ Compiled in 206ms
+[01:11:51.771] Server  LOG      ✓ Compiled in 858ms
+[01:13:07.901] Server  LOG      ✓ Compiled in 288ms
+[01:13:10.686] Server  LOG      ✓ Compiled in 283ms
+[01:13:11.746] Browser ERROR   ./src/components/ServiceDetailContent.tsx:445:1
+Parsing ecmascript source code failed
+  443 |             </div>
+  444 |             );
+> 445 | };
+      | ^
+  446 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:13:13.427] Server  LOG      ✓ Compiled in 170ms
+[01:13:15.506] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:13:46.793] Browser ERROR   ./src/components/ServiceDetailContent.tsx:127:15
+Parsing ecmascript source code failed
+  125 |                     </div>
+  126 |                 </div>
+> 127 |         </div>
+      |               ^
+> 128 |             </section >
+      | ^^^^^^^^^^^^^
+  129 |
+  130 |     {/* Content Layout */ }
+  131 |     < div className = "container mx-auto px-6 md:px-12 py-20" >
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ServiceDetailContent.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component Browser]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ServiceDetailContent.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Client Component SSR]
+    ./src/app/[locale]/tours/[id]/page.tsx [Server Component]
+[01:14:17.832] Server  LOG      ✓ Compiled in 320ms
+[01:16:08.205] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

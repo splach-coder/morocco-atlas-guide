@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/apple/Desktop/projects/next_boiler_plate/src/app/%5Blocale%5D/page.tsx"],"sourcesContent":["import { useTranslations } from 'next-intl';\n\nexport default function Home() {\n  const t = useTranslations('HomePage');\n\n  return (\n    <main className=\"min-h-screen flex flex-col items-center justify-center p-24\">\n      <h1 className=\"text-4xl font-bold mb-4\">{t('title')}</h1>\n      <p className=\"text-xl text-gray-600\">{t('description')}</p>\n    </main>\n  );\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,MAAM,IAAI,IAAA,iQAAe,EAAC;IAE1B,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAA2B,EAAE;;;;;;0BAC3C,8OAAC;gBAAE,WAAU;0BAAyB,EAAE;;;;;;;;;;;;AAG9C"}}]
+}

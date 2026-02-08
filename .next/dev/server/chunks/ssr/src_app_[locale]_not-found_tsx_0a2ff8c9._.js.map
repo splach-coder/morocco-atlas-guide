@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/apple/Desktop/projects/next_boiler_plate/src/app/%5Blocale%5D/not-found.tsx"],"sourcesContent":["import { useTranslations } from 'next-intl';\n\nexport default function NotFound() {\n    const t = useTranslations('HomePage'); // fallback to generic or create NotFound namespace\n\n    return (\n        <div className=\"flex flex-col items-center justify-center min-h-[50vh] text-center\">\n            <h2 className=\"text-2xl font-bold mb-4\">Page Not Found</h2>\n            <p>Could not find requested resource</p>\n        </div>\n    );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,MAAM,IAAI,IAAA,iQAAe,EAAC,aAAa,mDAAmD;IAE1F,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,8OAAC;0BAAE;;;;;;;;;;;;AAGf"}}]
+}
