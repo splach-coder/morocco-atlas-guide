@@ -5,8 +5,9 @@ import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { ChangeEvent, useTransition, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Landmark, Compass, Map, Image as ImageIcon, Phone, Mountain } from 'lucide-react';
+import { Menu, X, Landmark, Compass, Map, Image as ImageIcon, Phone } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
+import Image from 'next/image';
 
 export default function Header() {
     const locale = useLocale();
@@ -58,9 +59,17 @@ export default function Header() {
             <header className={`fixed top-0 left-0 right-0 z-[60] transition-all duration-700 ease-out ${headerBgClass}`}>
                 <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
 
-                    {/* Typographic Logo */}
+                    {/* Logo */}
                     <Link href={`/${locale}`} className="relative z-[70] flex items-center gap-4 group">
-                        <Mountain className={`w-8 h-8 transition-colors duration-500 ${logoColorClass}`} />
+                        <div className="relative w-12 h-12 transition-transform duration-500 group-hover:scale-110">
+                            <Image
+                                src="/images/logo.webp"
+                                alt="Morocco Atlas Guide"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
+                        </div>
                         <div className="flex flex-col -gap-1">
                             <span className={`text-2xl font-medium font-playfair tracking-tight transition-colors duration-500 ${textColorClass}`}>
                                 Morocco <span className="italic">Atlas</span>

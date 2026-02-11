@@ -39,7 +39,7 @@ export const siteConfig = {
     ],
 
     // SEO / Social
-    ogImage: '/images/og-morocco-atlas-guide.png',
+    ogImage: '/images/og-image.jpg',
     twitterHandle: '@moroccoatlasguide',
     creator: siteInfo.name,
 

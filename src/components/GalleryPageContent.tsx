@@ -48,7 +48,7 @@ export const GalleryPageContent = () => {
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/excursions/visite-cascades-ouzoud-2.jpg"
+                        src="/images/excursions/rigel-No_Y3bn4lNQ-unsplash.jpg"
                         alt="Morocco Gallery"
                         fill
                         className="object-cover scale-105"

@@ -10,21 +10,21 @@ import Image from 'next/image';
 const slides = [
     {
         id: 1,
-        image: '/images/toubkal_treks/20160707_161717-1024x614.jpg',
+        image: '/images/toubkal_treks/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg',
         title: 'High Atlas',
         emphasis: 'Peaks',
         subtitle: 'Conquer the majestic Mount Toubkal with expert local guides.'
     },
     {
         id: 2,
-        image: '/images/desert_tours/desert-dunes-merzouga.webp',
+        image: '/images/desert_tours/merzouga3.jpg',
         title: 'Sahara',
         emphasis: 'Magic',
         subtitle: 'Experience the silence of the dunes and the magic of starlit nights.'
     },
     {
         id: 3,
-        image: '/images/imperial_cities/luxury-hotel-fes-galerie-region-surroundings-2-1-768x512.webp',
+        image: '/images/imperial_cities/marrakech5.jpg',
         title: 'Ancient',
         emphasis: 'Medinas',
         subtitle: 'Uncover the rich history and vibrant culture of Morocco\'s imperial cities.'

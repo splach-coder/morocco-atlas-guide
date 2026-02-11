@@ -1,7 +1,8 @@
 {
   "permissions": {
-    "additionalDirectories": [
-      "c:\\Users\\pc\\Desktop\\Ai Websites\\yoomarrakech\\src\\app\\[locale]"
+    "allow": [
+      "Bash(find \"c:\\\\Users\\\\Ultrapc\\\\Desktop\\\\Websites\\\\morocco-atlas-guide\\\\public\\\\images\" -type d -exec sh -c 'echo \"\"=== {} ===\"\"; ls -1 {} | wc -l' ;)",
+      "Bash(ls:*)"
     ]
   }
 }

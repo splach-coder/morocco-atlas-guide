@@ -7,22 +7,22 @@ import Image from 'next/image';
 const features = [
     {
         title: "Our People",
-        image: "/images/toubkal_treks/20160707_161717-1024x614.jpg",
+        image: "/images/toubkal_treks/sergio-teixeira-svdabxVg7-4-unsplash.jpg",
         description: "Meet our exceptional full-time local drivers and guides. They aren't just staff; they are your well-connected friends, sharing lifelong connections and fascinating anecdotes about the region's history and culture. You'll feel like a local in no time."
     },
     {
         title: "Local Cuisine",
-        image: "/images/excursions/Ville-Essaouira-Maroc.jpg", // Using a vibrant image for cuisine context if specific food image isn't available, or generic landscape that implies culture
-        description: "Experience flavors that tell a story. Whether it’s a cozy family-owned restaurant or a gourmet meal under the Sahara stars, our expertly curated dining experiences offer a glimpse into the heart and soul of Moroccan tradition."
+        image: "/images/imperial_cities/mauro-lima-buvA1ofvTMY-unsplash.jpg",
+        description: "Experience flavors that tell a story. Whether it's a cozy family-owned restaurant or a gourmet meal under the Sahara stars, our expertly curated dining experiences offer a glimpse into the heart and soul of Moroccan tradition."
     },
     {
         title: "Custom Experience",
-        image: "/images/desert_tours/desert-dunes-merzouga.webp",
+        image: "/images/desert_tours/merzouga5.jpg",
         description: "Imagine immersing yourself in the daily life of a nomadic family or cruising through the Sahara on a quad bike. We build custom itineraries tailored to your unique desires, ensuring your journey is nothing short of amazing."
     },
     {
         title: "Sustainable Travel",
-        image: "/images/toubkal_treks/walking_toubkal_winter.jpg",
+        image: "/images/toubkal_treks/tobias-pfeifer-F8TGlff-qks-unsplash.jpg",
         description: "Invest in local livelihoods by putting your money where your heart is. Our unique personal touch preserves the cultures you explore, satisfying your curiosity while leaving a positive impact on the communities we visit."
     }
 ];

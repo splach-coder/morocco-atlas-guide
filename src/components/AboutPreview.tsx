@@ -22,7 +22,7 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                             className="relative aspect-[4/5] overflow-hidden"
                         >
                             <Image
-                                src="/images/toubkal_treks/walking_toubkal_winter.jpg"
+                                src="/images/toubkal_treks/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg"
                                 alt="Atlas Mountains Trekking"
                                 fill
                                 className="object-cover transition-transform duration-[2s] hover:scale-110"

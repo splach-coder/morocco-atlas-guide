@@ -3,7 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "../globals.css";
-import { inter, outfit, playfair } from '@/lib/fonts';
+import { inter, outfit, playfair, roboto } from '@/lib/fonts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
     site: siteConfig.twitterHandle,
   },
   icons: {
-    icon: '/images/logo.png',
-    shortcut: '/images/logo.png',
-    apple: '/images/logo.png',
+    icon: '/images/logo.ico',
+    shortcut: '/images/logo.ico',
+    apple: '/images/logo.webp',
   },
   alternates: {
     canonical: siteConfig.url,
@@ -101,7 +101,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${inter.variable} ${outfit.variable} ${playfair.variable} font-sans min-h-screen flex flex-col antialiased text-neutral-dark`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${outfit.variable} ${playfair.variable} ${roboto.variable} font-roboto min-h-screen flex flex-col antialiased text-neutral-dark`} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
 
           <Header />

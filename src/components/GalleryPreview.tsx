@@ -16,49 +16,49 @@ interface GalleryMoment {
 const galleryMoments: GalleryMoment[] = [
     {
         id: '1',
-        image: '/images/home/20160710_103539.jpg',
+        image: '/images/imperial_cities/hamza-nouasria-7zVLZu5twJs-unsplash.jpg',
         name: 'Maria Carolina',
         quote: 'Balloon ride was magical!',
         rotation: -4
     },
     {
         id: '2',
-        image: '/images/desert_tours/desert-dunes-merzouga.webp',
+        image: '/images/desert_tours/merzouga6.jpg',
         name: 'Alessia Marika',
         quote: 'The desert was incredible.',
         rotation: 3
     },
     {
         id: '3',
-        image: '/images/excursions/Ville-Essaouira-Maroc.jpg',
+        image: '/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg',
         name: 'Aisha Davina',
         quote: 'Every sunset felt like home.',
         rotation: -2
     },
     {
         id: '4',
-        image: '/images/imperial_cities/Fes-tourisme-1024x512.jpg',
+        image: '/images/imperial_cities/marrakech8.jpg',
         name: 'Dino Kenji',
         quote: 'Everything was perfect.',
         rotation: 4
     },
     {
         id: '5',
-        image: '/images/toubkal_treks/walking_toubkal_winter.jpg',
+        image: '/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg',
         name: 'Ben Philips',
         quote: 'Best time of my life!',
         rotation: -3
     },
     {
         id: '6',
-        image: '/images/excursions/visite-cascades-ouzoud-2.jpg',
+        image: '/images/excursions/rigel-ibisQEDxODo-unsplash.jpg',
         name: 'Sophie Laurent',
         quote: 'Unforgettable memories.',
         rotation: 2
     },
     {
         id: '7',
-        image: '/images/imperial_cities/luxury-hotel-fes-galerie-region-surroundings-2-1-768x512.webp',
+        image: '/images/imperial_cities/mehdi-lamaaffar-PqX7EELWjh0-unsplash.jpg',
         name: 'James Wilson',
         quote: 'Highly recommended!',
         rotation: -5

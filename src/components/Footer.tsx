@@ -2,8 +2,9 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Instagram, Mail, MapPin, Phone, MessageCircle, Mountain } from 'lucide-react';
+import { Instagram, Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
+import Image from 'next/image';
 
 export default function Footer() {
     const locale = useLocale();
@@ -17,7 +18,14 @@ export default function Footer() {
                     {/* Brand Identity / Vision */}
                     <div className="lg:col-span-4">
                         <Link href={`/${locale}`} className="flex items-center gap-4 mb-12 group">
-                            <Mountain className="w-10 h-10 text-primary transition-transform duration-500 group-hover:scale-110" />
+                            <div className="relative w-14 h-14 transition-transform duration-500 group-hover:scale-110">
+                                <Image
+                                    src="/images/logo.webp"
+                                    alt="Morocco Atlas Guide"
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
                             <div className="flex flex-col -gap-1">
                                 <span className="text-3xl font-medium font-playfair tracking-tight">
                                     Morocco <span className="italic">Atlas</span>
@@ -112,7 +120,14 @@ export default function Footer() {
                 {/* Formal Footer Bottom */}
                 <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12">
                     <div className="flex items-center gap-8">
-                        <Mountain className="w-6 h-6 text-white/10" />
+                        <div className="relative w-6 h-6 opacity-10">
+                            <Image
+                                src="/images/logo.webp"
+                                alt="Morocco Atlas Guide"
+                                fill
+                                className="object-contain"
+                            />
+                        </div>
                         <p className="text-white/20 text-[10px] font-bold uppercase tracking-[0.4em]">
                             &copy; {currentYear} {siteInfo.name} Expedition Group
                         </p>

@@ -1,4 +1,4 @@
-import { Inter, Outfit, Playfair_Display } from 'next/font/google'
+import { Inter, Outfit, Playfair_Display, Roboto } from 'next/font/google'
 
 export const inter = Inter({
   subsets: ['latin'],
@@ -18,4 +18,12 @@ export const playfair = Playfair_Display({
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-playfair',
+})
+
+export const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700', '900'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-roboto',
 })

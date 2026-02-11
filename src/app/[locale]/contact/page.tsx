@@ -29,7 +29,7 @@ export default function ContactPage() {
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/toubkal_trekking_mountains.jpg"
+                        src="/images/toubkal_treks/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg"
                         alt="Contact Morocco Atlas Guide"
                         fill
                         className="object-cover scale-105"

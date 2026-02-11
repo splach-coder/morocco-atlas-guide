@@ -35,7 +35,7 @@ export const AboutPageContent = () => {
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/walking_toubkal_winter.jpg"
+                        src="/images/toubkal_treks/matthew-fainman-3yonP2JaGTU-unsplash.jpg"
                         alt="High Atlas Mountains"
                         fill
                         className="object-cover scale-105"
@@ -126,7 +126,7 @@ export const AboutPageContent = () => {
                         >
                             <div className="relative aspect-[4/5] overflow-hidden grayscale-[40%] hover:grayscale-0 transition-all duration-1000">
                                 <Image
-                                    src="/images/toubkal_treks/toubkal_trekking_mountains.jpg"
+                                    src="/images/toubkal_treks/rihards-sarma-mJGl8l1SiJk-unsplash.jpg"
                                     alt="Berber Hospitality"
                                     fill
                                     className="object-cover"

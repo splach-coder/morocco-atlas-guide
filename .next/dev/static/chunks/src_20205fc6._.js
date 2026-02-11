@@ -29,21 +29,21 @@ var _s = __turbopack_context__.k.signature();
 const slides = [
     {
         id: 1,
-        image: '/images/toubkal_treks/20160707_161717-1024x614.jpg',
+        image: '/images/toubkal_treks/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg',
         title: 'High Atlas',
         emphasis: 'Peaks',
         subtitle: 'Conquer the majestic Mount Toubkal with expert local guides.'
     },
     {
         id: 2,
-        image: '/images/desert_tours/desert-dunes-merzouga.webp',
+        image: '/images/desert_tours/merzouga3.jpg',
         title: 'Sahara',
         emphasis: 'Magic',
         subtitle: 'Experience the silence of the dunes and the magic of starlit nights.'
     },
     {
         id: 3,
-        image: '/images/imperial_cities/luxury-hotel-fes-galerie-region-surroundings-2-1-768x512.webp',
+        image: '/images/imperial_cities/marrakech5.jpg',
         title: 'Ancient',
         emphasis: 'Medinas',
         subtitle: 'Uncover the rich history and vibrant culture of Morocco\'s imperial cities.'
@@ -871,7 +871,7 @@ const AboutPreview = ({ locale, dict })=>{
                                 },
                                 className: "relative aspect-[4/5] overflow-hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/images/toubkal_treks/walking_toubkal_winter.jpg",
+                                    src: "/images/toubkal_treks/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg",
                                     alt: "Atlas Mountains Trekking",
                                     fill: true,
                                     className: "object-cover transition-transform duration-[2s] hover:scale-110"
@@ -1179,9 +1179,9 @@ const siteData = {
             "id": "toubkal-treks-2-days-express",
             "name": "Toubkal Treks 2 Days Express",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/20160707_161717-1024x614.jpg",
+            "image": "/images/toubkal_treks/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/ClimbToubkal_MuleClimb.png"
+                "/images/toubkal_treks/matthew-fainman-3yonP2JaGTU-unsplash.jpg"
             ],
             "description": "Toubkal Express 2 days Ascent Toubkal Express 2 days Ascent A challenging and cultural adventure in the heart of the Moroccan mountains moroccoatlasguide invites you on a unique adventure: to climb Toubkal, the highest peak in North Africa, in just 2 days. This demanding hike is reserved for experienced hikers and adventure seekers, but does not require any technical expertise. Highlights of the trek: Ascent of Toubkal (4167m): an unforgettable achievement for experienced hikers. Discovery of the Berber villages of Imlil and Aremd: immersion in the authentic Amazigh culture . Breathtaking land...",
             "pricing": [
@@ -1206,9 +1206,9 @@ const siteData = {
             "id": "imlil-azzaden-valleys-2-day-trek",
             "name": "Imlil Azzaden Valleys 2 Day Trek",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/village-imlil-montagne-maroc-900x600-1.jpg",
+            "image": "/images/toubkal_treks/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/morocco-house-africa-165782.jpg"
+                "/images/toubkal_treks/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg"
             ],
             "description": "2 Day Atlas Valley Trek with moroccoatlasguide THE PRICES STARTING FROM : 165 Euros /P Embark on a captivating journey from the bustling streets of Marrakech, weaving through a tapestry of charming hamlets and traditional Berber villages. The majestic Western High Atlas Mountains will rise before you, beckoning you deeper into their embrace. Our trek begins with a path that winds past the picturesque villages of Imlil, Arghen, and M'zzik. Each settlement offers a glimpse into the rich Berber culture, with their unique architecture and welcoming locals. As we venture onward, the landscape trans...",
             "pricing": [
@@ -1233,9 +1233,9 @@ const siteData = {
             "id": "toubkal-tres-3-days",
             "name": "Toubkal Tres 3 Days",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/walking_toubkal_winter.jpg",
+            "image": "/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/20170412_131156.jpg"
+                "/images/toubkal_treks/rihards-sarma-mJGl8l1SiJk-unsplash.jpg"
             ],
             "description": "TOUBKAL Winter 3 DAYS THE PRICES STARTING FROM 190 EUROS /P the pricing information: The price includes: Round-trip transportation between Marrakech and Imlil Guide service Muleteer and cook service 2 nights in the refuge Food during the trek The price does not include: Hotel in Marrakech Travel insurance Traditional tips for the team Additional information: The price of the trek varies depending on the number of participants, the season, and the duration of the trek. Please contact us for a detailed quote. We look forward to welcoming you to Morocco! ITENERARY Day 1: Marrakech – Toubkal Refug...",
             "pricing": [
@@ -1248,8 +1248,10 @@ const siteData = {
             "id": "berber-villages-4-days",
             "name": "Berber Villages 4 Days",
             "duration": "4_days",
-            "image": "/images/home/scenery_06.jpg",
-            "gallery": [],
+            "image": "/images/toubkal_treks/abderrahman-kamal-MilM52Qj32g-unsplash.jpg",
+            "gallery": [
+                "/images/toubkal_treks/sergio-teixeira-svdabxVg7-4-unsplash.jpg"
+            ],
             "description": "Berber Villages 4 Days ITENERARY trek itinerary: Day 1: Marrakech – Id Aissa Village Depart from Marrakech to the High Atlas, passing through the small town of Tahnaout and then Asni. Enjoy superb views of the mountain range and the summit of Toubkal, the highest peak in Morocco. Upon arrival in Imi Oughlad, meet your Berber mule driver. Begin your hike through the village of Imi Oughlad. Enjoy a beautiful climb to the Tacht Pass at 2020 m. Take in panoramic views of the Azaden Valley. After lunch, enjoy an easy descent to the village of Ait Aissa at 1800 m. Stay overnight in a gite with a loc...",
             "pricing": [
                 {
@@ -1261,8 +1263,10 @@ const siteData = {
             "id": "toubkal-winter-8-days",
             "name": "Toubkal Winter 8 Days",
             "duration": "8_days",
-            "image": "/images/toubkal_treks/IMG_20151118_193931-1-1024x750-1.jpg",
-            "gallery": [],
+            "image": "/images/toubkal_treks/tobias-pfeifer-F8TGlff-qks-unsplash.jpg",
+            "gallery": [
+                "/images/toubkal_treks/abdelhamid-azoui-BGU0uaY0tJs-unsplash.jpg"
+            ],
             "description": "TOUBKAL WINTER 8 DAYS the prices starting from : 430 euros /P OVERVIEW : During winter, the majestic Mt. Toubkal and the surrounding peaks of the High Atlas undergo a remarkable transformation into a paradise for hikers, boasting tranquil trails, crisp air, and breathtaking vistas of the Toubkal Massif. Embarking from the bustling city of Marrakech, we journey directly into the heart of the High Atlas to conquer North Africa's highest peak (4167m) amidst awe-inspiring scenery. While crampons and ice axes may be necessary depending on the weather, this expedition is crafted to be accessible to ...",
             "pricing": [
                 {
@@ -1274,9 +1278,10 @@ const siteData = {
             "id": "toubkal-15-days-walk",
             "name": "Toubkal 15 Days Walk",
             "duration": "15_days",
-            "image": "/images/toubkal_treks/Couleurs-de-lAtlas-au-Maroc-1024x676.jpg",
+            "image": "/images/toubkal_treks/matthew-fainman-3yonP2JaGTU-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/images-1.jpeg"
+                "/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg",
+                "/images/toubkal_treks/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg"
             ],
             "description": "TOUBKAL MASSIF 15 DAYS 14 NIGHTS Unforgettable Trek to Mount Toubkal an other extraordinary adventure through Morocco's High Atlas Mountains with morocco atlas guide . Join your local guide, cook, and mule driver as you explore charming Berber villages, traverse lush valleys, navigate moderate crevasses, and ascend majestic mountains bathed in golden sunlight. Experience a unique blend of comfort and adventure. Stay in traditional guesthouses and camp under a canopy of fig trees. Culminate your journey with the challenging yet rewarding climb to the summit of Mount Toubkal, North Africa's high...",
             "pricing": [
@@ -1289,9 +1294,9 @@ const siteData = {
             "id": "3-days-imlil-to-setti-fatma",
             "name": "3 Days Imlil To Setti Fatma",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/images-17.jpeg",
+            "image": "/images/toubkal_treks/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/images-14.jpeg"
+                "/images/toubkal_treks/rihards-sarma-mJGl8l1SiJk-unsplash.jpg"
             ],
             "description": "3 Days – Imlil to Setti Fatma Departure & Return Location Your hotel in Marrakech center Meeting Time 9 am Price Includes Fully escorted by local mountain guide, muleteers and cook All meals: breakfast, lunch and dinner Accommodation: 2 nights at local gites Transport: minibus or 4×4 car Price Excludes International Flights Travel Insurance Sleeping Bags Tips Walking poles, Meals not mentioned Soft drinks Why book this trek? Trekking in the High Atlas Mountains See Berber villages Beautiful scenery See the waterfall in Setti Fatma What to Bring For Atlas Trekking you need to prepare as you wou...",
             "pricing": [
@@ -1304,8 +1309,10 @@ const siteData = {
             "id": "8-days-mount-toubkal-summer",
             "name": "8 Days Mount Toubkal Summer",
             "duration": "8_days",
-            "image": "/images/toubkal_treks/placeholder.png",
-            "gallery": [],
+            "image": "/images/toubkal_treks/sergio-teixeira-svdabxVg7-4-unsplash.jpg",
+            "gallery": [
+                "/images/toubkal_treks/abderrahman-kamal-MilM52Qj32g-unsplash.jpg"
+            ],
             "description": "8 Days Mount Toubkal – Summer Itinerary: Day 1 Pick up from the airport in Marrakech and transfer to your riad where you will spend the night. B Day 2 We leave Marrakech after breakfast and drive to Imlil (1740m) via Asni. Imlil is the principal trailhead for walkers. This is the place where we meet our mule team and once all our gear is loaded we begin walking along the valley towards Tacheddirt, some 8 km from Imlil. Soon the trail begins to rise as we climb up to the pass at Tizi 'n Tamatert (2279m). We then descend to the pretty village of Ouaneskra (2200m) and continue, for a further half...",
             "pricing": [
                 {
@@ -1320,9 +1327,10 @@ const siteData = {
             "id": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
             "name": "Tour To Merzouga From Marrakech 3 Days And 2 Nights",
             "duration": "3_days",
-            "image": "/images/desert_tours/desert-dunes-merzouga.webp",
+            "image": "/images/desert_tours/merzouga1.jpg",
             "gallery": [
-                "/images/desert_tours/desert-the-sand-dunes-caravan-4944794-1024x576.jpg"
+                "/images/desert_tours/merzouga2.jpg",
+                "/images/desert_tours/dan-calderwood-7CPopIsaCkc-unsplash.jpg"
             ],
             "description": "Desert Tours moroccoatlasguide Tour to Merzouga from Marrakech: 3 Days and 2 Nights THE PRICES STARTING FROM : 390 EUROS /P OVERVIEW Embark on a 4-day adventure through Morocco's breathtaking landscapes. Traverse valleys, explore ancient kasbahs, and finally, stand in awe of the legendary Sahara Desert. Expert guides from View Morocco will be by your side every step of the way, ensuring a safe and culturally enriching journey. Itinerary: Day 1 : Marrakech to the High Atlas to Kasbah Talouet to Kasbah Ait Benhadou to Ouarzazate We will pick you up from your hotel or riad and head out to the Hig...",
             "pricing": [
@@ -1352,9 +1360,10 @@ const siteData = {
             "id": "marrakech-to-fes-5-day-sahara-desert-tour",
             "name": "Marrakech To Fes 5 Day Sahara Desert Tour",
             "duration": "5_days",
-            "image": "/images/desert_tours/desert-nature-morocco-1101123-1024x682.jpg",
+            "image": "/images/desert_tours/merzouga3.jpg",
             "gallery": [
-                "/images/desert_tours/ajt-bin-haddu-morocco-city-4753107.jpg"
+                "/images/desert_tours/merzouga4.jpg",
+                "/images/desert_tours/kristijan-nikodinovski-RfK4AQchykw-unsplash.jpg"
             ],
             "description": "MARRAKECH TO FES 5 DAYS SAHARA DESERT TOUR Unveil the Soul of Morocco: A 5-Day Adventure Embark on a captivating journey that traverses the majestic landscapes of Morocco, starting in the vibrant heart of Marrakech and culminating in the ancient city of Fes. Ascend the rugged peaks of the High Atlas Mountains, their sharp pinnacles scraping the sky. Delve into the heart of the Sahara – a sea of vast sand dunes whispering tales of time. Wander through labyrinthine medinas teeming with life, their vibrant souks overflowing with treasures. Marvel at exquisite mosques and the grandeur of once-powe...",
             "pricing": [
@@ -1367,10 +1376,10 @@ const siteData = {
             "id": "5-days-trek-atlas-mountains-and-sahara-desert",
             "name": "5 Days Trek Atlas Mountains And Sahara Desert",
             "duration": "5_days",
-            "image": "/images/toubkal_treks/Couleurs-de-lAtlas-au-Maroc-1024x676.jpg",
+            "image": "/images/desert_tours/merzouga5.jpg",
             "gallery": [
-                "/images/desert_tours/man-morocco-way-386058-1024x768.jpg",
-                "/images/desert_tours/kanio-morocco-dades-4774930-1024x682.jpg"
+                "/images/desert_tours/darolti-dan-GJw9zRK_VBs-unsplash.jpg",
+                "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg"
             ],
             "description": "5 DAYS TREK ATLAS MOUNTAINS AND SAHARA DESERT BY: moroccoatlasguide Explore Morocco: Shared & Private Desert Adventures with : moroccoatlasguide Embark on an unforgettable journey through Morocco with our shared or private desert tours, departing from either Marrakech or Fes. Tailored Experiences: Choose from excursions ranging from 2 to 8 days, designed to fit your travel style and timeframe. Explore at your own pace with a private tour, or join a vibrant shared adventure and connect with fellow travelers. Round Trip or Traverse: We offer both round-trip itineraries that return you to your de...",
             "pricing": [
@@ -1383,12 +1392,11 @@ const siteData = {
             "id": "south-morocco-discovery",
             "name": "South Morocco Discovery",
             "duration": "10_days",
-            "image": "/images/desert_tours/Village-tafraout.jpg",
+            "image": "/images/desert_tours/merzouga6.jpg",
             "gallery": [
-                "/images/desert_tours/pexels-tomas-malik-1703314-697x1024.jpg",
-                "/images/desert_tours/Village-tafraout-1-300x225.jpg",
-                "/images/desert_tours/stone-formation-around-village-of-tafraoute-morocco-north-africa-africa-RHPLF08760-300x200.jpg",
-                "/images/desert_tours/6b-300x195.jpg"
+                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
+                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+                "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg"
             ],
             "description": "SOUTH MOROCCO DISCOVERY 10 days :by moroccoatlasguide Unveiling Morocco: A Journey from Bustling Cities to Tranquil Deserts (10-Days) THE PRICES STARTING FROM 675 EUROS /P MAIN ATTRACTION: Dates Valley,Merzouga Desert,Agdaz, Taroudant ITINERARY : Day 1: Arrival in Marrakech Welcome to the captivating city of Marrakech! Immerse yourself in the vibrant energy as you arrive at any time. The city is a sensory feast, filled with the alluring scents of spices, the rhythmic sounds of musicians, and the dazzling colors of the bustling souks. In the afternoon, join a welcome meeting at a designated tim...",
             "pricing": [
@@ -1401,10 +1409,10 @@ const siteData = {
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Days Trek Saghro South Morocco",
             "duration": "9_days",
-            "image": "/images/desert_tours/images-7.jpeg",
+            "image": "/images/desert_tours/merzouga7.jpg",
             "gallery": [
-                "/images/desert_tours/images-6.jpeg",
-                "/images/desert_tours/images-2.jpeg"
+                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
+                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg"
             ],
             "description": "9 DAYS TREK SAGHRO SOUTH MOROCCO : by moroccoatlasguide Djebel Saghro: A Hidden Gem for Hikers in Morocco Introduction The Djebel Saghro mountain range is a hidden gem located in southern Morocco. While it may not be as well-known as the High Atlas or Middle Atlas mountains, it offers a unique and rewarding experience for hikers. Geography and Landscape The Djebel Saghro is a vast and rugged mountain range that stretches for over 200 kilometers. The landscape is characterized by its gentle slopes, wide valleys, and numerous oasis. The mountains are home to a variety of plant and animal life, i...",
             "pricing": [
@@ -1417,10 +1425,10 @@ const siteData = {
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "6 Day Trekking Program In Saghro Morocco",
             "duration": "6_days",
-            "image": "/images/desert_tours/kanio-morocco-dades-4774930-1024x682.jpg",
+            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
             "gallery": [
-                "/images/desert_tours/pexels-tomas-malik-1703314-697x1024.jpg",
-                "/images/desert_tours/images-4.jpeg"
+                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
+                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg"
             ],
             "description": "6 DAYS TREKKING PROGRAM IN SAGHRO MOROCCO PRICES : Price per person in euros 2 people: 540 € / person 3 people: 490 € / person 4 people and more: 410 € / person Additional Information: The price includes: All transportation Accommodation in tents or guesthouses All meals The services of a guide The price does not include: Personal travel insurance Tips Drinks What is included in the price: Round-trip transportation between Marrakech and the start of the hike and return to Marrakech at the end of the trek; 1 night in a guesthouse with locals during the hike; Tent and mattress rental during the ...",
             "pricing": [
@@ -1433,9 +1441,9 @@ const siteData = {
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Days Jebel Sirwa Safran Valley",
             "duration": "11_days",
-            "image": "/images/desert_tours/images-11-1.jpeg",
+            "image": "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
             "gallery": [
-                "/images/desert_tours/images-9.jpeg"
+                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
             ],
             "description": "Jebel Sirwa & Safran valley – 11 Days This journey is perfect for nature enthusiasts and lovers of stunning landscapes. It features a unique road trip, crossing two major passes of the Atlas Mountains, a five-day trek with outdoor camping that leads to the peak of Siroua Mountain (3,305 meters), and visits to the two most captivating Kasbahs and Ksars in the southern region. In Taliouine, we will also learn all about the prized saffron. What to Bring For Atlas Trekking you need to prepare as you would for walking in any mountain region; it can be warm and sunny during the day but the weather i...",
             "pricing": [
@@ -1451,16 +1459,12 @@ const siteData = {
             "id": "imperial-city-8-days",
             "name": "Imperial City 8 Days",
             "duration": "8_days",
-            "image": "/images/imperial_cities/luxury-hotel-fes-galerie-region-surroundings-2-1-768x512.webp",
+            "image": "/images/imperial_cities/marrakech1.jpg",
             "gallery": [
-                "/images/imperial_cities/a27d24_952563116025414f9bbea8cf5eb32e7emv2.jpg",
-                "/images/imperial_cities/image1a-700x450-1.jpg",
-                "/images/imperial_cities/tanneries-medina-of-fez-morocco-wizard8492.jpg",
-                "/images/imperial_cities/images-20.jpeg",
-                "/images/imperial_cities/images-19.jpeg",
-                "/images/imperial_cities/images-18-300x150.jpeg",
-                "/images/imperial_cities/images-17-300x150.jpeg",
-                "/images/imperial_cities/images-16.jpeg"
+                "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
+                "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg",
+                "/images/imperial_cities/mehdi-lamaaffar-PqX7EELWjh0-unsplash.jpg",
+                "/images/imperial_cities/yous-gil-2Kyh6kB5Yh8-unsplash.jpg"
             ],
             "description": "IMPERIAL CITIES 8 DAYS This trip is a phenomenal prologue to Morocco's hundreds of years old culture in an amazingly short space of time. You'll visit the nation's three most lovely magnificent urban areas, old fortifications with labyrinth like avenues encompassed by towering walls. You will see brilliant markets, fabulous mosques, Koranic schools and antiquated royal residences. You'll visit astonishing Roman demolishes, Morocco's most significant explorer city, its capital city and the snow-topped mountains of the High Atlas. Furthermore, you'll return home inclination that you've not just ...",
             "pricing": []
@@ -1469,11 +1473,11 @@ const siteData = {
             "id": "imperial-city-tour-11-days",
             "name": "Imperial City Tour 11 Days",
             "duration": "11_days",
-            "image": "/images/imperial_cities/souk-discount-bazaar-1627045-1024x576.jpg",
+            "image": "/images/imperial_cities/marrakech2.jpg",
             "gallery": [
-                "/images/imperial_cities/a-1-27.jpg",
-                "/images/imperial_cities/hara-meknes-1024x678.jpg",
-                "/images/imperial_cities/images-8.jpeg"
+                "/images/imperial_cities/eka-maitri-viryani-qL3_NSPo9o8-unsplash.jpg",
+                "/images/imperial_cities/framopia-EZqHkkyc0wg-unsplash.jpg",
+                "/images/imperial_cities/imad-ghazal-gRE6Be-o_Hw-unsplash.jpg"
             ],
             "description": "IMPERIAL CITY TOUR 11 DAYS Unveiling Morocco: From Casablanca to Rabat A Welcoming Arrival Your Moroccan adventure begins the moment you land! We'll greet you warmly at Casablanca Mohammed V International Airport and whisk you away on a scenic drive to Rabat, the capital city. Casablanca's Majesty En route, we'll stop at the awe-inspiring Hassan II Mosque, the largest mosque in Africa and the third-largest in the world. Prepare to be captivated by its intricate details, towering minaret, and stunning oceanfront location. MAIN ATTRACTION: Imperial Cities Of Morocco ITINERARY : DAY 1: Arrive at ...",
             "pricing": []
@@ -1482,9 +1486,10 @@ const siteData = {
             "id": "imperial-city-8-days-tour-tangier-chefchaouen-fes-merzouga-desert-marrakech",
             "name": "Imperial City 8 Days Tour Tangier Chefchaouen Fes Merzouga Desert Marrakech",
             "duration": "8_days",
-            "image": "/images/imperial_cities/Fes-tourisme-1024x512.jpg",
+            "image": "/images/imperial_cities/marrakech3.jpg",
             "gallery": [
-                "/images/imperial_cities/depositphotos_380141966-stock-photo-streets-fez-old-town-medina.webp"
+                "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg",
+                "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg"
             ],
             "description": "IMPERIAL CITY 8 DAYS TOUR TANGIER CHEFCHAOUEN FES MERZOUGA DESERT MARRAKECH IMPERIAL CITIES 8 DAYS TOUR TANGIER CHEFCHAOUEN FES MERZOUGA DESERT MARRAKECH Unforgettable Morocco: Tangier to Marrakech Adventure Another incredible 8-day journey through Morocco's heart, exploring ancient cities, breathtaking landscapes, and vibrant culture. This adventure takes you from bustling Tangier to the magical red city of Marrakech, with captivating stops in between. Lose yourself in the bluewashed alleys of Chefchaouen, the Blue Pearl, and soak up its unique charm. Delve into the rich history of Fes...",
             "pricing": []
@@ -1493,9 +1498,10 @@ const siteData = {
             "id": "5-day-morocco-tour-from-tangier-to-explore-the-cities-2",
             "name": "5 Day Morocco Tour From Tangier To Explore The Cities 2",
             "duration": "5_days",
-            "image": "/images/imperial_cities/Ville-Meknes-Maroc.jpg",
+            "image": "/images/imperial_cities/mehdi-sakout-54nOsVV1xI4-unsplash.jpg",
             "gallery": [
-                "/images/imperial_cities/hara-meknes-1024x678.jpg"
+                "/images/imperial_cities/mauro-lima-buvA1ofvTMY-unsplash.jpg",
+                "/images/imperial_cities/niklas-VqouWpsuziE-unsplash.jpg"
             ],
             "description": "5 DAY MOROCCO TOUR FROM TANGIER TO EXPLORE THE CITIES Northern Morocco: A Journey Through Time Embark on a captivating 5-day adventure through the vibrant cities of northern Morocco. This exciting itinerary takes you from the ancient past to the modern present, showcasing a rich tapestry of history, culture, and breathtaking landscapes. Start your journey in Tangier, the gateway to Morocco. Immerse yourself in the magic of Chefchaouen, the Blue Pearl, where vibrant blue alleys create a unique and charming atmosphere. Travel back in time at Volubilis, exploring the captivating Roman ruins...",
             "pricing": []
@@ -1504,9 +1510,11 @@ const siteData = {
             "id": "11-days-best-of-morocco",
             "name": "11 Days Best Of Morocco",
             "duration": "11_days",
-            "image": "/images/imperial_cities/oriental-mosaic-architecture-422561-768x1024.jpg",
+            "image": "/images/imperial_cities/zakaria-zayane-aBywMnV7ibk-unsplash.jpg",
             "gallery": [
-                "/images/imperial_cities/dried-cactus-flowers-bazaar-morocco-7395010-682x1024.jpg"
+                "/images/imperial_cities/soulaymane-elyoussfi-oDSEPEtrQFo-unsplash.jpg",
+                "/images/imperial_cities/toni-DBNhQdCG-XA-unsplash.jpg",
+                "/images/imperial_cities/oussama-rahib-NNECQHl9bJc-unsplash.jpg"
             ],
             "description": "Best of Morocco – 11 Days Departure & Return Location Marrakech Airport – Casablanca Airport Meeting Time Arrival time of your flight Price Includes Escorted by English speaking driver and local guides for the city tours Meals: breakfast and dinners mentioned in the itinerary Accommodation: 9 nights in riads/hotels and 1 night at a desert camp Transport: minibus or 4×4 Activity : camel ride Price Excludes International Flights Travel Insurance Meals not mentioned Tips Soft drinks Why book this trek? Explore the beautiful Imperial Cities of Morocco Cross the High Atlas via the spectacular Tizi ...",
             "pricing": []
@@ -1518,9 +1526,10 @@ const siteData = {
             "id": "marrakech-ouzoud-marrakech",
             "name": "Marrakech Ouzoud Marrakech",
             "duration": "1_day",
-            "image": "/images/excursions/ob_7efa5b_sam-8502-1024x768.jpeg",
+            "image": "/images/excursions/rigel-ibisQEDxODo-unsplash.jpg",
             "gallery": [
-                "/images/excursions/visite-cascades-ouzoud-2.jpg"
+                "/images/excursions/rigel-No_Y3bn4lNQ-unsplash.jpg",
+                "/images/excursions/rigel-QWJjSOB9t0Y-unsplash.jpg"
             ],
             "description": "Escape to Ouzoud Waterfalls: Day Trip from Marrakech Overview : Embark on an unforgettable day trip from Marrakech to Ouzoud Waterfalls, a majestic cascade reaching 100 meters! This adventure unfolds just 170 kilometers away. Your journey begins at 8:00 AM in Marrakech, as we travel north through charming villages and scenic landscapes dotted with peach, apricot, and olive farms. Upon arrival, immerse yourself in the beauty of Ouzoud village with a scenic hike. Breathe in the fresh air and listen to the calming sounds of nature. Get ready for a thrilling downhill walk! The path leads you to th...",
             "pricing": [
@@ -1533,9 +1542,10 @@ const siteData = {
             "id": "explore-de-berbers",
             "name": "Explore De Berbers",
             "duration": "1_day",
-            "image": "/images/excursions/images-11.jpeg",
+            "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
             "gallery": [
-                "/images/excursions/istockphoto-504784143-612x612-1.jpg"
+                "/images/excursions/hassan-ouajbir-INcADDyMwwo-unsplash.jpg",
+                "/images/excursions/hamza-omlacho-M9GO4Gsd2SM-unsplash.jpg"
             ],
             "description": "explore the berbers by Car MAIN ATTRACTION: Berber villages Vallies Gorges The Prices Starting from 60 euros /P ITINERARY : Immerse yourself in the true essence of Morocco on this captivating day trip from Marrakech. We'll whisk you away to explore the majestic Atlas Mountains! Journey Through Valleys and Gorges: Our adventure begins with a pick-up from your Marrakech hotel. We'll venture into the Atlas, passing by charming Berber villages. Take a moment to capture the breathtaking scenery of Moulay Brahim gorges. Imlil Exploration: Upon arrival in Imlil, a traditional Berber village, lace up ...",
             "pricing": [
@@ -1548,10 +1558,10 @@ const siteData = {
             "id": "excursion-to-the-essaouira",
             "name": "Excursion To The Essaouira",
             "duration": "1_day",
-            "image": "/images/excursions/Ville-Essaouira-Maroc.jpg",
+            "image": "/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg",
             "gallery": [
-                "/images/excursions/images-14.jpeg",
-                "/images/excursions/images-13.jpeg"
+                "/images/excursions/peter-schulz--leOF2nzJQ8-unsplash.jpg",
+                "/images/excursions/rigel-hppgLk1gxho-unsplash.jpg"
             ],
             "description": "Excursion to the Essaouira The prices starting from 60 euros /P Overview : Escape to Essaouira: A Relaxing Day Trip from Marrakech Consider a day trip to Essaouira, a charming coastal town just 175 kilometers from Marrakech. This captivating escape offers a delightful change of pace from the vibrant energy of Marrakech. Beach Bliss: Essaouira boasts a stunning ten-kilometer stretch of beach. Imagine the serenity of flawless sand washed by gentle surf. Invigorating ocean breezes and the playful sight of goats climbing Argan trees complete this picture-perfect scene Beyond the Beach: Essaouira's...",
             "pricing": [
@@ -1564,8 +1574,11 @@ const siteData = {
             "id": "kasbah-ait-ben-haddou-full-day-excursion",
             "name": "Kasbah Ait Ben Haddou Full Day Excursion",
             "duration": "1_day",
-            "image": "/images/excursions/GettyImages-9862945081-e748ff3c94ed4303b7f9ec9ef00e2c23-1024x683.jpg",
-            "gallery": [],
+            "image": "/images/excursions/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
+            "gallery": [
+                "/images/excursions/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
+                "/images/excursions/cristiano-pinto-knB5iCogf5Q-unsplash.jpg"
+            ],
             "description": "OVERVIEW : Enjoy the magic of Ouarzazate and Ait Benhaddou Kasbah on this exciting day trip from Marrakech. Journey through stunning landscapes for just four hours and discover the Gateway to the Sahara. Explore the magnificent kasbahs, bask in breathtaking sunsets, and marvel at the panoramic mountain and desert vistas. This unforgettable adventure awaits! THE PRICES STARTING FROM 80 EUROS /P ITINERARY : An other captivating journey through the High Atlas Mountains. Our adventure begins with a pick-up from your Marrakech hotel or riad. We will travel via the Tizi n Tichka Pass, a majestic lan...",
             "pricing": [
                 {
@@ -1577,10 +1590,10 @@ const siteData = {
             "id": "agafay-desert-sunset-tour",
             "name": "Agafay Desert Sunset Tour:",
             "duration": "1_day",
-            "image": "/images/excursions/images.jpeg",
+            "image": "/images/excursions/mostapha-abidour-h9L1GfDgp0s-unsplash.jpg",
             "gallery": [
-                "/images/excursions/download-5.jpeg",
-                "/images/excursions/images-11-1.jpeg"
+                "/images/excursions/laurent-gence-UMEcD4j--_I-unsplash.jpg",
+                "/images/excursions/cristiano-pinto-knB5iCogf5Q-unsplash.jpg"
             ],
             "description": "Agafay Desert Sunset Tour: The Agafay Desert, located just outside Marrakech, is only an hour's drive from the city's lively souks, the Majorelle Garden, the Koutoubia Mosque, and the bustling heart of Marrakech. This undeveloped region offers an ideal one-day excursion for those looking to escape the city's hustle and experience the serene desert landscape. Day 1 : Marrakech – Agafay Desert Aske the Prices PRICES INCLUDE Pick up and drop off in Marrakech Camel Ride Tea 3 Course Dinner PRICES DOES NOT INCLUDE Travel insurance. Soft/alcoholic drinks Tips and personal expanses Related trips you ...",
             "pricing": [
@@ -1593,9 +1606,9 @@ const siteData = {
             "id": "atlas-mountains-trekking-with-berbers",
             "name": "Atlas Mountains Trekking With Berbers",
             "duration": "1_day",
-            "image": "/images/excursions/1548182506970jpg.0.jpg",
+            "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
             "gallery": [
-                "/images/excursions/tajine-multicoloured-pottery-1623116-1024x599.jpg"
+                "/images/excursions/hassan-ouajbir-INcADDyMwwo-unsplash.jpg"
             ],
             "description": "During this day trek you will walk by the village of Tinerhourhine and around to the village of Aguersioual, follow river courses, cross seguias (traditional irrigation canals) and rivulets, past terraces and through walnut groves. Picnic on route. The day involves approx. 5 to 6 hours of walking. atlas-mountains-trekking-with-berbers Departure & Return Location Your hotel in Marrakech center Meeting Time 8 am Price Includes Fully escorted by English speaking driver and local mountain guide for the walk Lunch Transport: minibus or 4×4 car Price Excludes Tips Soft drinks Why book this excursion...",
             "pricing": [
@@ -1624,10 +1637,10 @@ const siteData = {
                 "id": "chegaga-dunes-draa-valley-8-days-7-nights",
                 "name": "Chegaga Dunes Draa Valley 8 Days 7 Nights",
                 "duration": "8_days",
-                "image": "/images/desert_tours/images-2-1.jpeg",
+                "image": "/images/desert_tours/merzouga2.jpg",
                 "gallery": [
-                    "/images/desert_tours/images-3.jpeg",
-                    "/images/desert_tours/pexels-in-merzouga-6651522-576x1024.jpg"
+                    "/images/desert_tours/merzouga3.jpg",
+                    "/images/desert_tours/merzouga4.jpg"
                 ],
                 "description": "CHEGAGA DUNES DRAA VALLEY 8 DAYS 7 NIGHTS This unforgettable 8-day expedition will unveil the breathtaking wonders of the Southern Moroccan Sahara. Immerse yourself in the tranquility of the Draa Valley's lush oases, traverse the majestic sand ridges of Chegaga, and embark on a captivating camel trek through the vast desert landscape. Our journey will ignite your respect for nature's grandeur. Witness the captivating contrast between the vibrant palm groves and the boundless stretches of golden dunes. This meticulously crafted itinerary is the perfect introduction to the Sahara, allowing you t...",
                 "pricing": [
@@ -2369,49 +2382,49 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const galleryMoments = [
     {
         id: '1',
-        image: '/images/home/20160710_103539.jpg',
+        image: '/images/imperial_cities/hamza-nouasria-7zVLZu5twJs-unsplash.jpg',
         name: 'Maria Carolina',
         quote: 'Balloon ride was magical!',
         rotation: -4
     },
     {
         id: '2',
-        image: '/images/desert_tours/desert-dunes-merzouga.webp',
+        image: '/images/desert_tours/merzouga6.jpg',
         name: 'Alessia Marika',
         quote: 'The desert was incredible.',
         rotation: 3
     },
     {
         id: '3',
-        image: '/images/excursions/Ville-Essaouira-Maroc.jpg',
+        image: '/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg',
         name: 'Aisha Davina',
         quote: 'Every sunset felt like home.',
         rotation: -2
     },
     {
         id: '4',
-        image: '/images/imperial_cities/Fes-tourisme-1024x512.jpg',
+        image: '/images/imperial_cities/marrakech8.jpg',
         name: 'Dino Kenji',
         quote: 'Everything was perfect.',
         rotation: 4
     },
     {
         id: '5',
-        image: '/images/toubkal_treks/walking_toubkal_winter.jpg',
+        image: '/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg',
         name: 'Ben Philips',
         quote: 'Best time of my life!',
         rotation: -3
     },
     {
         id: '6',
-        image: '/images/excursions/visite-cascades-ouzoud-2.jpg',
+        image: '/images/excursions/rigel-ibisQEDxODo-unsplash.jpg',
         name: 'Sophie Laurent',
         quote: 'Unforgettable memories.',
         rotation: 2
     },
     {
         id: '7',
-        image: '/images/imperial_cities/luxury-hotel-fes-galerie-region-surroundings-2-1-768x512.webp',
+        image: '/images/imperial_cities/mehdi-lamaaffar-PqX7EELWjh0-unsplash.jpg',
         name: 'James Wilson',
         quote: 'Highly recommended!',
         rotation: -5
@@ -3419,7 +3432,7 @@ const ExpertiseSection = ()=>{
                                 children: !isPlaying ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/images/toubkal_treks/walking_toubkal_winter.jpg",
+                                            src: "/images/toubkal_treks/abderrahman-kamal-MilM52Qj32g-unsplash.jpg",
                                             alt: "Atlas Expedition Guide",
                                             fill: true,
                                             className: "object-cover transition-transform duration-[1.5s] group-hover:scale-105"
@@ -3548,22 +3561,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const features = [
     {
         title: "Our People",
-        image: "/images/toubkal_treks/20160707_161717-1024x614.jpg",
+        image: "/images/toubkal_treks/sergio-teixeira-svdabxVg7-4-unsplash.jpg",
         description: "Meet our exceptional full-time local drivers and guides. They aren't just staff; they are your well-connected friends, sharing lifelong connections and fascinating anecdotes about the region's history and culture. You'll feel like a local in no time."
     },
     {
         title: "Local Cuisine",
-        image: "/images/excursions/Ville-Essaouira-Maroc.jpg",
-        description: "Experience flavors that tell a story. Whether it’s a cozy family-owned restaurant or a gourmet meal under the Sahara stars, our expertly curated dining experiences offer a glimpse into the heart and soul of Moroccan tradition."
+        image: "/images/imperial_cities/mauro-lima-buvA1ofvTMY-unsplash.jpg",
+        description: "Experience flavors that tell a story. Whether it's a cozy family-owned restaurant or a gourmet meal under the Sahara stars, our expertly curated dining experiences offer a glimpse into the heart and soul of Moroccan tradition."
     },
     {
         title: "Custom Experience",
-        image: "/images/desert_tours/desert-dunes-merzouga.webp",
+        image: "/images/desert_tours/merzouga5.jpg",
         description: "Imagine immersing yourself in the daily life of a nomadic family or cruising through the Sahara on a quad bike. We build custom itineraries tailored to your unique desires, ensuring your journey is nothing short of amazing."
     },
     {
         title: "Sustainable Travel",
-        image: "/images/toubkal_treks/walking_toubkal_winter.jpg",
+        image: "/images/toubkal_treks/tobias-pfeifer-F8TGlff-qks-unsplash.jpg",
         description: "Invest in local livelihoods by putting your money where your heart is. Our unique personal touch preserves the cultures you explore, satisfying your curiosity while leaving a positive impact on the communities we visit."
     }
 ];

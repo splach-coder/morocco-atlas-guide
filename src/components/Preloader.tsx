@@ -40,8 +40,8 @@ export default function Preloader() {
                         className="relative"
                     >
                         <Image
-                            src="/images/logo.png"
-                            alt="YooMarrakech"
+                            src="/images/logo.webp"
+                            alt="Morocco Atlas Guide"
                             width={200}
                             height={200}
                             className="object-contain"

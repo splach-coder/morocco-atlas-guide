@@ -37,9 +37,10 @@
 }
 
 @theme {
-  --font-outfit: var(--font-outfit);
-  --font-inter: var(--font-inter);
-  --font-playfair: var(--font-playfair);
+  --font-outfit: var(--font-roboto);
+  --font-inter: var(--font-roboto);
+  --font-playfair: var(--font-roboto);
+  --font-roboto: var(--font-roboto);
 
   --color-primary: var(--primary);
   --color-primary-light: var(--primary-light);
@@ -65,6 +66,7 @@
 @layer base {
   * {
     border-color: var(--border-strong);
+    font-family: var(--font-roboto), sans-serif;
   }
 
   html {
@@ -73,7 +75,7 @@
 
   body {
     color: var(--neutral-dark);
-    font-family: var(--font-inter), sans-serif;
+    font-family: var(--font-roboto), sans-serif !important;
     background-color: var(--surface);
     -webkit-font-smoothing: antialiased;
   }
@@ -84,9 +86,13 @@
   h4,
   h5,
   h6 {
-    font-family: var(--font-playfair), serif;
+    font-family: var(--font-roboto), sans-serif !important;
     color: var(--neutral-dark);
     letter-spacing: -0.02em;
+  }
+
+  p, span, div, a, button, input, textarea, select {
+    font-family: var(--font-roboto), sans-serif;
   }
 
   /* Refined, more compact Typography Scale */
@@ -124,5 +130,13 @@
 
   .border-sharp {
     border: 1px solid var(--border-strong);
+  }
+
+  .font-roboto {
+    font-family: var(--font-roboto), sans-serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-roboto), sans-serif;
   }
 }
