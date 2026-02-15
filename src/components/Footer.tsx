@@ -118,10 +118,10 @@ export default function Footer() {
                 </div>
 
                 {/* Formal Footer Bottom */}
-                <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-                    <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold uppercase tracking-[0.3em] text-white/20">
+                    <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 text-center md:text-left">
                         <div className="flex items-center gap-4">
-                            <div className="relative w-6 h-6 opacity-10">
+                            <div className="relative w-6 h-6 opacity-20 hidden md:block">
                                 <Image
                                     src="/images/logo.webp"
                                     alt="Morocco Atlas Guide"
@@ -129,26 +129,25 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <p className="text-white/20 text-[10px] font-bold uppercase tracking-[0.4em]">
-                                &copy; {currentYear} {siteInfo.name}
-                            </p>
+                            <span>&copy; {currentYear} {siteInfo.name}</span>
+                        </div>
+
+                        <div className="flex gap-8">
+                            <Link href={`/${locale}/privacy`} className="hover:text-white transition-colors">Privacy</Link>
+                            <Link href={`/${locale}/terms`} className="hover:text-white transition-colors">Terms</Link>
                         </div>
                     </div>
 
-                    <div className="flex flex-col items-center md:items-end gap-4">
-                        <div className="flex gap-8 text-[10px] font-bold uppercase tracking-[0.3em] text-white/10">
-                            <Link href={`/${locale}/privacy`} className="hover:text-primary transition-colors">Privacy</Link>
-                            <Link href={`/${locale}/terms`} className="hover:text-primary transition-colors">Terms</Link>
-                        </div>
-
-                        {/* Agency Signature */}
+                    {/* Agency Signature */}
+                    <div className="flex items-center gap-2 mt-4 md:mt-0">
+                        <span className="opacity-50">Crafted by</span>
                         <a
                             href="https://wereact.agency"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-[9px] font-medium tracking-[0.2em] text-white/20 hover:text-primary transition-colors flex items-center gap-2"
+                            className="text-white hover:text-primary transition-colors"
                         >
-                            Crafted by <span className="font-bold text-white/30 group-hover:text-white">WeReact Agency</span>
+                            WeReact Agency
                         </a>
                     </div>
                 </div>
