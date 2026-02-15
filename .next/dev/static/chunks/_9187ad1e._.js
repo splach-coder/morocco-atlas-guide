@@ -1673,24 +1673,21 @@ const GalleryPageContent = ()=>{
                             children: galleryImages.map((img, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         opacity: 0,
-                                        y: 30
+                                        y: 20
                                     },
                                     whileInView: {
                                         opacity: 1,
                                         y: 0
                                     },
                                     viewport: {
-                                        once: true
+                                        once: true,
+                                        margin: "-50px",
+                                        amount: 0.1
                                     },
                                     transition: {
-                                        duration: 0.8,
-                                        delay: index % 3 * 0.1,
-                                        ease: [
-                                            0.16,
-                                            1,
-                                            0.3,
-                                            1
-                                        ]
+                                        duration: 0.4,
+                                        delay: 0,
+                                        ease: "easeOut"
                                     },
                                     className: "break-inside-avoid",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1698,38 +1695,41 @@ const GalleryPageContent = ()=>{
                                         onClick: ()=>setSelectedImage(img),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative w-full overflow-hidden grayscale-[30%] group-hover:grayscale-0 transition-all duration-1000",
+                                                className: "relative w-full overflow-hidden transition-all duration-300",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: img.src,
                                                         alt: img.title,
                                                         width: 800,
                                                         height: 1000,
-                                                        className: "w-full h-auto object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+                                                        className: "w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-105",
+                                                        loading: index < 6 ? "eager" : "lazy",
+                                                        quality: 75,
+                                                        sizes: "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/GalleryPageContent.tsx",
                                                         lineNumber: 126,
                                                         columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+                                                        className: "absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "w-12 h-12 rounded-full border border-white/40 flex items-center justify-center",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zoom$2d$in$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ZoomIn$3e$__["ZoomIn"], {
                                                                 className: "w-5 h-5 text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                                lineNumber: 137,
+                                                                lineNumber: 140,
                                                                 columnNumber: 49
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 139,
                                                             columnNumber: 45
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 138,
                                                         columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
@@ -1747,7 +1747,7 @@ const GalleryPageContent = ()=>{
                                                             children: img.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 148,
                                                             columnNumber: 45
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1755,18 +1755,18 @@ const GalleryPageContent = ()=>{
                                                             children: img.category
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 149,
                                                             columnNumber: 45
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                    lineNumber: 144,
+                                                    lineNumber: 147,
                                                     columnNumber: 41
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 146,
                                                 columnNumber: 37
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
@@ -1807,6 +1807,9 @@ const GalleryPageContent = ()=>{
                     exit: {
                         opacity: 0
                     },
+                    transition: {
+                        duration: 0.2
+                    },
                     className: "fixed inset-0 z-[100] bg-white/95 flex items-center justify-center p-8 md:p-12 backdrop-blur-xl",
                     onClick: ()=>setSelectedImage(null),
                     children: [
@@ -1819,23 +1822,26 @@ const GalleryPageContent = ()=>{
                                 opacity: 1,
                                 scale: 1
                             },
+                            transition: {
+                                duration: 0.2
+                            },
                             className: "absolute top-8 right-8 text-neutral-dark hover:text-primary transition-colors p-4 z-[110]",
                             onClick: ()=>setSelectedImage(null),
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                 className: "w-8 h-8"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                lineNumber: 172,
+                                lineNumber: 177,
                                 columnNumber: 29
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                            lineNumber: 166,
+                            lineNumber: 170,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
-                                scale: 0.95,
+                                scale: 0.98,
                                 opacity: 0
                             },
                             animate: {
@@ -1843,8 +1849,11 @@ const GalleryPageContent = ()=>{
                                 opacity: 1
                             },
                             exit: {
-                                scale: 0.95,
+                                scale: 0.98,
                                 opacity: 0
+                            },
+                            transition: {
+                                duration: 0.2
                             },
                             className: "relative max-w-7xl w-full h-full flex flex-col justify-center items-center",
                             onClick: (e)=>e.stopPropagation(),
@@ -1855,15 +1864,18 @@ const GalleryPageContent = ()=>{
                                         src: selectedImage.src,
                                         alt: selectedImage.title,
                                         fill: true,
-                                        className: "object-contain"
+                                        className: "object-contain",
+                                        quality: 90,
+                                        priority: true,
+                                        sizes: "100vw"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 189,
                                         columnNumber: 33
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                    lineNumber: 182,
+                                    lineNumber: 188,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1874,7 +1886,7 @@ const GalleryPageContent = ()=>{
                                             children: selectedImage.category
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                            lineNumber: 192,
+                                            lineNumber: 201,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1882,30 +1894,30 @@ const GalleryPageContent = ()=>{
                                             children: selectedImage.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 204,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/GalleryPageContent.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 200,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/GalleryPageContent.tsx",
-                            lineNumber: 175,
+                            lineNumber: 180,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/GalleryPageContent.tsx",
-                    lineNumber: 159,
+                    lineNumber: 162,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/GalleryPageContent.tsx",
-                lineNumber: 157,
+                lineNumber: 160,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]

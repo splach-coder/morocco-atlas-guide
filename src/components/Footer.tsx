@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Instagram, Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
+import { Instagram, Mail, MapPin, Phone, MessageCircle, Facebook } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
 import Image from 'next/image';
 
@@ -39,8 +39,11 @@ export default function Footer() {
                             Curating profound desert and mountain experiences since 2012. We believe in the luxury of slow travel and the depth of Berber heritage.
                         </p>
                         <div className="flex gap-8">
-                            <a href={siteInfo.socials.instagram} target="_blank" className="text-white/30 hover:text-primary transition-colors">
+                            <a href={siteInfo.socials.instagram} target="_blank" className="text-white/30 hover:text-[#E4405F] transition-colors">
                                 <Instagram className="w-6 h-6" />
+                            </a>
+                            <a href={siteInfo.socials.facebook} target="_blank" className="text-white/30 hover:text-[#1877F2] transition-colors">
+                                <Facebook className="w-6 h-6" />
                             </a>
                             <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}`} className="text-white/30 hover:text-[#25D366] transition-colors">
                                 <MessageCircle className="w-6 h-6" />

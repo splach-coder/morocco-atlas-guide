@@ -12,8 +12,8 @@ export const siteInfo = {
     },
     socials: {
         youtube: "https://www.youtube.com/@adamvlogs24",
-        instagram: "#",
-        facebook: "#",
+        instagram: "https://www.instagram.com/guideatlas?igsh=OG56YjcwbWQxMmh3",
+        facebook: "https://www.facebook.com/share/17DTcYHWaL/",
         twitter: "#",
         linkedin: "#"
     },

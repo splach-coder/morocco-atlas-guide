@@ -65,7 +65,7 @@ const HeroSlider = ({ lang })=>{
                 mode: "wait",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
-                        scale: 1.1,
+                        scale: 1.05,
                         opacity: 0
                     },
                     animate: {
@@ -76,7 +76,7 @@ const HeroSlider = ({ lang })=>{
                         opacity: 0
                     },
                     transition: {
-                        duration: 2,
+                        duration: 1.2,
                         ease: [
                             0.4,
                             0,
@@ -85,30 +85,36 @@ const HeroSlider = ({ lang })=>{
                         ]
                     },
                     className: "absolute inset-0",
+                    style: {
+                        willChange: 'transform, opacity'
+                    },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: slides[currentSlide].image,
                             alt: slides[currentSlide].title,
                             fill: true,
                             className: "object-cover",
-                            priority: true
+                            priority: currentSlide === 0,
+                            loading: currentSlide === 0 ? "eager" : "lazy",
+                            quality: 85,
+                            sizes: "100vw"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 59,
+                            lineNumber: 60,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute inset-0 bg-black/20"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 66,
+                            lineNumber: 70,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 67,
+                            lineNumber: 71,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -139,8 +145,8 @@ const HeroSlider = ({ lang })=>{
                                     x: 0
                                 },
                                 transition: {
-                                    delay: 0.5,
-                                    duration: 0.8
+                                    delay: 0.3,
+                                    duration: 0.6
                                 },
                                 className: "flex items-center gap-3 mb-4",
                                 children: [
@@ -148,7 +154,7 @@ const HeroSlider = ({ lang })=>{
                                         className: "w-6 h-[1px] bg-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSlider.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 87,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -156,13 +162,13 @@ const HeroSlider = ({ lang })=>{
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$siteInfo$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["siteInfo"].tagline
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSlider.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 88,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, `tag-${currentSlide}`, true, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -175,23 +181,26 @@ const HeroSlider = ({ lang })=>{
                                         y: 0
                                     },
                                     transition: {
-                                        duration: 1,
+                                        duration: 0.8,
                                         ease: [
                                             0.16,
                                             1,
                                             0.3,
                                             1
                                         ],
-                                        delay: 0.6
+                                        delay: 0.4
                                     },
                                     className: "text-white leading-[0.9] flex flex-col",
+                                    style: {
+                                        willChange: 'transform'
+                                    },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-5xl md:text-6xl lg:text-7xl uppercase tracking-tighter font-medium",
                                             children: slides[currentSlide].title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSlider.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 103,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -199,18 +208,18 @@ const HeroSlider = ({ lang })=>{
                                             children: slides[currentSlide].emphasis
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroSlider.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 106,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, `title-${currentSlide}`, true, {
                                     fileName: "[project]/src/components/HeroSlider.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 95,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 90,
+                                lineNumber: 94,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -223,8 +232,8 @@ const HeroSlider = ({ lang })=>{
                                     y: 0
                                 },
                                 transition: {
-                                    delay: 1.2,
-                                    duration: 0.8
+                                    delay: 0.8,
+                                    duration: 0.6
                                 },
                                 className: "mt-6 md:ml-8 border-l border-primary/40 pl-6 max-w-sm",
                                 children: [
@@ -233,7 +242,7 @@ const HeroSlider = ({ lang })=>{
                                         children: slides[currentSlide].subtitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSlider.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 120,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -250,18 +259,18 @@ const HeroSlider = ({ lang })=>{
                                                             className: "w-3 h-3 group-hover:translate-x-1 transition-transform"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HeroSlider.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 131,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HeroSlider.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 129,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 125,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -274,42 +283,42 @@ const HeroSlider = ({ lang })=>{
                                                         className: "w-3 h-3 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HeroSlider.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 141,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Book via WhatsApp"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 135,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HeroSlider.tsx",
-                                        lineNumber: 119,
+                                        lineNumber: 124,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, `desc-${currentSlide}`, true, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 108,
+                                lineNumber: 113,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 74,
+                        lineNumber: 78,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/HeroSlider.tsx",
-                    lineNumber: 73,
+                    lineNumber: 77,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSlider.tsx",
-                lineNumber: 72,
+                lineNumber: 76,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,12 +335,12 @@ const HeroSlider = ({ lang })=>{
                                 ]
                             }, i, true, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 149,
+                                lineNumber: 154,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 147,
+                        lineNumber: 152,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -344,12 +353,12 @@ const HeroSlider = ({ lang })=>{
                                     className: "w-4 h-4 group-hover:-translate-x-1 transition-transform"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSlider.tsx",
-                                    lineNumber: 164,
+                                    lineNumber: 169,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 160,
+                                lineNumber: 165,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -359,24 +368,24 @@ const HeroSlider = ({ lang })=>{
                                     className: "w-4 h-4 group-hover:translate-x-1 transition-transform"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSlider.tsx",
-                                    lineNumber: 170,
+                                    lineNumber: 175,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 166,
+                                lineNumber: 171,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 159,
+                        lineNumber: 164,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HeroSlider.tsx",
-                lineNumber: 146,
+                lineNumber: 151,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -395,12 +404,12 @@ const HeroSlider = ({ lang })=>{
                     className: "h-full bg-primary/80"
                 }, `progress-${currentSlide}`, false, {
                     fileName: "[project]/src/components/HeroSlider.tsx",
-                    lineNumber: 177,
+                    lineNumber: 182,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSlider.tsx",
-                lineNumber: 176,
+                lineNumber: 181,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -833,10 +842,11 @@ const AboutPreview = ({ locale, dict })=>{
                                     y: 0
                                 },
                                 viewport: {
-                                    once: true
+                                    once: true,
+                                    margin: "-100px"
                                 },
                                 transition: {
-                                    duration: 1,
+                                    duration: 0.8,
                                     ease: [
                                         0.16,
                                         1,
@@ -849,7 +859,10 @@ const AboutPreview = ({ locale, dict })=>{
                                     src: "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
                                     alt: "Atlas Mountains Trekking",
                                     fill: true,
-                                    className: "object-cover transition-transform duration-[2s] hover:scale-110"
+                                    className: "object-cover transition-transform duration-[2s] hover:scale-110",
+                                    loading: "lazy",
+                                    quality: 80,
+                                    sizes: "(max-width: 768px) 100vw, 50vw"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
                                     lineNumber: 24,
@@ -865,17 +878,18 @@ const AboutPreview = ({ locale, dict })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         opacity: 0,
-                                        y: 100
+                                        y: 60
                                     },
                                     whileInView: {
                                         opacity: 1,
                                         y: 0
                                     },
                                     viewport: {
-                                        once: true
+                                        once: true,
+                                        margin: "-100px"
                                     },
                                     transition: {
-                                        duration: 1.2,
+                                        duration: 0.8,
                                         delay: 0.2
                                     },
                                     className: "p-4 bg-white border-sharp shadow-2xl relative z-10",
@@ -885,7 +899,7 @@ const AboutPreview = ({ locale, dict })=>{
                                             children: "12+"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 44,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -893,7 +907,7 @@ const AboutPreview = ({ locale, dict })=>{
                                             children: "Years of Heritage"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 45,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -901,18 +915,18 @@ const AboutPreview = ({ locale, dict })=>{
                                             children: "Our journey began in the dust of Imlil. Today, we are Morocco's leading boutique trekking specialists."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 46,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 37,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutPreview.tsx",
-                                lineNumber: 33,
+                                lineNumber: 36,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -933,10 +947,11 @@ const AboutPreview = ({ locale, dict })=>{
                                 x: 0
                             },
                             viewport: {
-                                once: true
+                                once: true,
+                                margin: "-100px"
                             },
                             transition: {
-                                duration: 0.8
+                                duration: 0.6
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -944,7 +959,7 @@ const AboutPreview = ({ locale, dict })=>{
                                     children: "THE ATLAS LEGACY"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 61,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -953,7 +968,7 @@ const AboutPreview = ({ locale, dict })=>{
                                         "More than a ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 66,
                                             columnNumber: 45
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -961,13 +976,13 @@ const AboutPreview = ({ locale, dict })=>{
                                             children: "Journey."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 67,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 65,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -975,7 +990,7 @@ const AboutPreview = ({ locale, dict })=>{
                                     children: "Born and raised in the High Atlas mountains, our team brings a life's worth of local knowledge to every trek. We don't just show you the path; we share our culture, our home, and our heart."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 70,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -989,7 +1004,7 @@ const AboutPreview = ({ locale, dict })=>{
                                                     children: "01"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                                    lineNumber: 73,
+                                                    lineNumber: 76,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -999,7 +1014,7 @@ const AboutPreview = ({ locale, dict })=>{
                                                             children: "Berber Roots"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                                            lineNumber: 75,
+                                                            lineNumber: 78,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1007,19 +1022,19 @@ const AboutPreview = ({ locale, dict })=>{
                                                             children: "Every guide is a native of the peaks you conquer."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 79,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 77,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 75,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1030,7 +1045,7 @@ const AboutPreview = ({ locale, dict })=>{
                                                     children: "02"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 83,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1040,7 +1055,7 @@ const AboutPreview = ({ locale, dict })=>{
                                                             children: "Boutique Service"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 85,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1048,25 +1063,25 @@ const AboutPreview = ({ locale, dict })=>{
                                                             children: "We believe in small groups and big experiences."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 86,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 84,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 82,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 74,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1079,12 +1094,12 @@ const AboutPreview = ({ locale, dict })=>{
                                                 className: "w-6 h-6 group-hover:text-white group-hover:translate-x-1 transition-all"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPreview.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 96,
                                                 columnNumber: 37
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 95,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1092,24 +1107,24 @@ const AboutPreview = ({ locale, dict })=>{
                                             children: "Discover Our Story"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPreview.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 98,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AboutPreview.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 91,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AboutPreview.tsx",
-                            lineNumber: 52,
+                            lineNumber: 55,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutPreview.tsx",
-                        lineNumber: 51,
+                        lineNumber: 54,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 ]

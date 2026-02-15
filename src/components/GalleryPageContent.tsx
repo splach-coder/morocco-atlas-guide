@@ -112,27 +112,30 @@ export const GalleryPageContent = () => {
                         {galleryImages.map((img, index) => (
                             <motion.div
                                 key={img.id}
-                                initial={{ opacity: 0, y: 30 }}
+                                initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: 0.8, delay: index % 3 * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                                viewport={{ once: true, margin: "-50px", amount: 0.1 }}
+                                transition={{ duration: 0.4, delay: 0, ease: "easeOut" }}
                                 className="break-inside-avoid"
                             >
                                 <div
                                     className="relative group overflow-hidden cursor-pointer"
                                     onClick={() => setSelectedImage(img)}
                                 >
-                                    <div className="relative w-full overflow-hidden grayscale-[30%] group-hover:grayscale-0 transition-all duration-1000">
+                                    <div className="relative w-full overflow-hidden transition-all duration-300">
                                         <Image
                                             src={img.src}
                                             alt={img.title}
                                             width={800}
                                             height={1000}
-                                            className="w-full h-auto object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+                                            className="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                                            loading={index < 6 ? "eager" : "lazy"}
+                                            quality={75}
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         />
 
                                         {/* Hover Hint */}
-                                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div className="w-12 h-12 rounded-full border border-white/40 flex items-center justify-center">
                                                 <ZoomIn className="w-5 h-5 text-white" />
                                             </div>
@@ -160,12 +163,14 @@ export const GalleryPageContent = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
+                        transition={{ duration: 0.2 }}
                         className="fixed inset-0 z-[100] bg-white/95 flex items-center justify-center p-8 md:p-12 backdrop-blur-xl"
                         onClick={() => setSelectedImage(null)}
                     >
                         <motion.button
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.2 }}
                             className="absolute top-8 right-8 text-neutral-dark hover:text-primary transition-colors p-4 z-[110]"
                             onClick={() => setSelectedImage(null)}
                         >
@@ -173,9 +178,10 @@ export const GalleryPageContent = () => {
                         </motion.button>
 
                         <motion.div
-                            initial={{ scale: 0.95, opacity: 0 }}
+                            initial={{ scale: 0.98, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            exit={{ scale: 0.95, opacity: 0 }}
+                            exit={{ scale: 0.98, opacity: 0 }}
+                            transition={{ duration: 0.2 }}
                             className="relative max-w-7xl w-full h-full flex flex-col justify-center items-center"
                             onClick={(e) => e.stopPropagation()}
                         >
@@ -185,6 +191,9 @@ export const GalleryPageContent = () => {
                                     alt={selectedImage.title}
                                     fill
                                     className="object-contain"
+                                    quality={90}
+                                    priority
+                                    sizes="100vw"
                                 />
                             </div>
 

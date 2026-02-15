@@ -304,8 +304,8 @@ const siteInfo = {
     },
     socials: {
         youtube: "https://www.youtube.com/@adamvlogs24",
-        instagram: "#",
-        facebook: "#",
+        instagram: "https://www.instagram.com/guideatlas?igsh=OG56YjcwbWQxMmh3",
+        facebook: "https://www.facebook.com/share/17DTcYHWaL/",
         twitter: "#",
         linkedin: "#"
     },
@@ -474,7 +474,7 @@ const metadata = {
                 width: 1200,
                 height: 630,
                 alt: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteConfig"].name} - Premium Morocco Tours`,
-                type: 'image/png'
+                type: 'image/jpeg'
             }
         ]
     },

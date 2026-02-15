@@ -6,6 +6,7 @@ import "../globals.css";
 import { inter, outfit, playfair, roboto } from '@/lib/fonts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import LoadingScreen from '@/components/LoadingScreen';
 
 import { siteConfig } from '@/config/site';
 import { Metadata } from 'next';
@@ -103,7 +104,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${inter.variable} ${outfit.variable} ${playfair.variable} ${roboto.variable} font-roboto min-h-screen flex flex-col antialiased text-neutral-dark`} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-
+          <LoadingScreen />
           <Header />
           <main className="flex-grow">
             {children}

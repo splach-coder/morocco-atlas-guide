@@ -50,18 +50,22 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
             <AnimatePresence mode="wait">
                 <motion.div
                     key={`bg-${currentSlide}`}
-                    initial={{ scale: 1.1, opacity: 0 }}
+                    initial={{ scale: 1.05, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ duration: 2, ease: [0.4, 0, 0.2, 1] }}
+                    transition={{ duration: 1.2, ease: [0.4, 0, 0.2, 1] }}
                     className="absolute inset-0"
+                    style={{ willChange: 'transform, opacity' }}
                 >
                     <Image
                         src={slides[currentSlide].image}
                         alt={slides[currentSlide].title}
                         fill
                         className="object-cover"
-                        priority
+                        priority={currentSlide === 0}
+                        loading={currentSlide === 0 ? "eager" : "lazy"}
+                        quality={85}
+                        sizes="100vw"
                     />
                     <div className="absolute inset-0 bg-black/20" />
                     <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
@@ -77,7 +81,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                             key={`tag-${currentSlide}`}
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 0.5, duration: 0.8 }}
+                            transition={{ delay: 0.3, duration: 0.6 }}
                             className="flex items-center gap-3 mb-4"
                         >
                             <span className="w-6 h-[1px] bg-primary" />
@@ -92,8 +96,9 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                                 key={`title-${currentSlide}`}
                                 initial={{ y: "100%" }}
                                 animate={{ y: 0 }}
-                                transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.6 }}
+                                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
                                 className="text-white leading-[0.9] flex flex-col"
+                                style={{ willChange: 'transform' }}
                             >
                                 <span className="text-5xl md:text-6xl lg:text-7xl uppercase tracking-tighter font-medium">
                                     {slides[currentSlide].title}
@@ -109,7 +114,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                             key={`desc-${currentSlide}`}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 1.2, duration: 0.8 }}
+                            transition={{ delay: 0.8, duration: 0.6 }}
                             className="mt-6 md:ml-8 border-l border-primary/40 pl-6 max-w-sm"
                         >
                             <p className="text-white/80 text-base font-light leading-relaxed mb-6 font-inter">

@@ -17,8 +17,8 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                             className="relative aspect-[4/5] overflow-hidden"
                         >
                             <Image
@@ -26,16 +26,19 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                                 alt="Atlas Mountains Trekking"
                                 fill
                                 className="object-cover transition-transform duration-[2s] hover:scale-110"
+                                loading="lazy"
+                                quality={80}
+                                sizes="(max-width: 768px) 100vw, 50vw"
                             />
                         </motion.div>
 
                         {/* Secondary Overlapping Image/Element */}
                         <div className="absolute -bottom-16 -right-16 w-3/4 hidden lg:block">
                             <motion.div
-                                initial={{ opacity: 0, y: 100 }}
+                                initial={{ opacity: 0, y: 60 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: 1.2, delay: 0.2 }}
+                                viewport={{ once: true, margin: "-100px" }}
+                                transition={{ duration: 0.8, delay: 0.2 }}
                                 className="p-4 bg-white border-sharp shadow-2xl relative z-10"
                             >
                                 <span className="block text-primary font-bold text-4xl mb-4 font-playfair leading-none">12+</span>
@@ -52,8 +55,8 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            transition={{ duration: 0.6 }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block">
                                 THE ATLAS LEGACY

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Instagram, ArrowRight, MessageCircle, ChevronDown, Globe } from 'lucide-react';
+import { Mail, MapPin, Instagram, ArrowRight, MessageCircle, ChevronDown, Globe, Facebook } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
 import Image from 'next/image';
 
@@ -141,6 +141,9 @@ export default function ContactPage() {
                                     <div className="flex gap-4">
                                         <a href={siteInfo.socials.instagram} className="w-8 h-8 rounded-full border border-neutral-light flex items-center justify-center hover:bg-primary hover:border-primary hover:text-white transition-all">
                                             <Instagram className="w-3 h-3" />
+                                        </a>
+                                        <a href={siteInfo.socials.facebook} className="w-8 h-8 rounded-full border border-neutral-light flex items-center justify-center hover:bg-primary hover:border-primary hover:text-white transition-all">
+                                            <Facebook className="w-3 h-3" />
                                         </a>
                                         <a href={siteInfo.socials.youtube} className="w-8 h-8 rounded-full border border-neutral-light flex items-center justify-center hover:bg-primary hover:border-primary hover:text-white transition-all">
                                             <Globe className="w-3 h-3" />
