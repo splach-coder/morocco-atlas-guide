@@ -75,7 +75,7 @@ export const ExpertiseSection = () => {
                             {!isPlaying ? (
                                 <>
                                     <Image
-                                        src="/images/toubkal_treks/abderrahman-kamal-MilM52Qj32g-unsplash.jpg"
+                                        src="/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg"
                                         alt="Atlas Expedition Guide"
                                         fill
                                         className="object-cover transition-transform duration-[1.5s] group-hover:scale-105"

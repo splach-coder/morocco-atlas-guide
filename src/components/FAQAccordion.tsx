@@ -44,7 +44,7 @@ export const FAQAccordion: React.FC = () => {
             <div className="container mx-auto px-6 md:px-12">
 
                 {/* Section Header - Editorial Split */}
-                <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-12 transition-all">
+                <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end mb-16 gap-8 lg:gap-12 transition-all text-center lg:text-left">
                     <div className="max-w-2xl">
                         <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block transition-all">INFORMATION DEPOT</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair tracking-tight leading-none transition-all">
@@ -52,7 +52,7 @@ export const FAQAccordion: React.FC = () => {
                             <span className="italic text-primary">Queries.</span>
                         </h2>
                     </div>
-                    <p className="text-neutral-medium text-xl font-light max-w-sm border-l border-neutral-light pl-8 mb-2 transition-all">
+                    <p className="text-neutral-medium text-xl font-light max-w-sm lg:border-l border-neutral-light lg:pl-8 mb-2 transition-all">
                         Technical details for the discerning traveler. Providing clarity before the first step.
                     </p>
                 </div>

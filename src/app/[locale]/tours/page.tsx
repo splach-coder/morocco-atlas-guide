@@ -57,7 +57,7 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg"
+                        src="/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg"
                         alt="Morocco Adventures"
                         fill
                         className="object-cover scale-105"

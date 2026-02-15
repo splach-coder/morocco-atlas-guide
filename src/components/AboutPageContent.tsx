@@ -32,10 +32,11 @@ export const AboutPageContent = () => {
     return (
         <div className="min-h-screen bg-white grain overflow-hidden">
             {/* Reduced Height Editorial Banner */}
+            {/* Reduced Height Editorial Banner */}
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/matthew-fainman-3yonP2JaGTU-unsplash.jpg"
+                        src="/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg"
                         alt="High Atlas Mountains"
                         fill
                         className="object-cover scale-105"
@@ -45,21 +46,21 @@ export const AboutPageContent = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
-                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-12 px-6 md:px-12">
+                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-6 px-6 md:pb-12 md:px-12">
                     <div className="container mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[10px] mb-6 block font-inter">
+                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter">
                                 BEYOND THE PEAKS
                             </span>
-                            <h1 className="text-5xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
+                            <h1 className="text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
                                 Berber <br />
                                 <span className="italic text-primary">Soul.</span>
                             </h1>
-                            <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
+                            <p className="text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
                                 Born from the peaks of the High Atlas, dedicated to sharing the authentic magic of Morocco.
                             </p>
                         </motion.div>
@@ -106,7 +107,7 @@ export const AboutPageContent = () => {
                                 <div className="flex -space-x-4">
                                     {[1, 2, 3].map(i => (
                                         <div key={i} className="w-12 h-12 rounded-full border-2 border-white bg-neutral-100 overflow-hidden relative shadow-lg">
-                                            <Image src={`/images/reviews/avatar-1.jpg`} alt="Guide" fill className="object-cover" />
+                                            <Image src={`/images/reviews/avatar-${i}.jpg`} alt="Guide" fill className="object-cover" />
                                         </div>
                                     ))}
                                 </div>
@@ -126,7 +127,7 @@ export const AboutPageContent = () => {
                         >
                             <div className="relative aspect-[4/5] overflow-hidden grayscale-[40%] hover:grayscale-0 transition-all duration-1000">
                                 <Image
-                                    src="/images/toubkal_treks/rihards-sarma-mJGl8l1SiJk-unsplash.jpg"
+                                    src="/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg"
                                     alt="Berber Hospitality"
                                     fill
                                     className="object-cover"

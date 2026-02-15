@@ -37,7 +37,7 @@ export const WhyTravelWithUs = ({ dict }: { dict: any }) => {
             <div className="container mx-auto px-6 md:px-12">
 
                 {/* Section Header - Editorial Split */}
-                <div className="flex flex-col lg:flex-row items-end justify-between gap-12 mb-16 transition-all">
+                <div className="flex flex-col lg:flex-row items-center lg:items-end justify-between gap-8 lg:gap-12 mb-16 transition-all text-center lg:text-left">
                     <div className="max-w-2xl">
                         <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block transition-all">THE MOROCCO ADVANTAGE</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair tracking-tight leading-none transition-all">
@@ -45,7 +45,7 @@ export const WhyTravelWithUs = ({ dict }: { dict: any }) => {
                             <span className="italic text-primary">Ancestral Guide.</span>
                         </h2>
                     </div>
-                    <p className="text-neutral-medium text-xl font-light max-w-sm border-l border-neutral-light pl-8 mb-2 transition-all">
+                    <p className="text-neutral-medium text-xl font-light max-w-sm lg:border-l border-neutral-light lg:pl-8 mb-2 transition-all">
                         In an age of generic travel, we return to the roots of authentic expedition and Berber hospitality.
                     </p>
                 </div>

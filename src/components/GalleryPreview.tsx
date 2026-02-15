@@ -44,7 +44,7 @@ const galleryMoments: GalleryMoment[] = [
     },
     {
         id: '5',
-        image: '/images/toubkal_treks/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg',
+        image: '/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg',
         name: 'Ben Philips',
         quote: 'Best time of my life!',
         rotation: -3

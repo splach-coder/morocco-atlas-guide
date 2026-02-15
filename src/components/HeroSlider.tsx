@@ -10,7 +10,7 @@ import Image from 'next/image';
 const slides = [
     {
         id: 1,
-        image: '/images/toubkal_treks/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg',
+        image: '/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg',
         title: 'High Atlas',
         emphasis: 'Peaks',
         subtitle: 'Conquer the majestic Mount Toubkal with expert local guides.'
@@ -45,7 +45,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
     const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
 
     return (
-        <section className="relative h-screen w-full overflow-hidden bg-neutral-dark grain">
+        <section className="relative h-[100dvh] w-full overflow-hidden bg-neutral-dark grain">
             {/* Background Image with Zoom Animation */}
             <AnimatePresence mode="wait">
                 <motion.div
@@ -69,7 +69,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
             </AnimatePresence>
 
             {/* Content Sidebar / Layout */}
-            <div className="relative z-10 h-full flex items-center md:items-end pb-32">
+            <div className="relative z-10 h-full flex items-end pb-12 md:pb-32">
                 <div className="container mx-auto px-6 md:px-12">
                     <div className="max-w-3xl">
                         {/* Upper Label */}

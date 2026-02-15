@@ -29,7 +29,7 @@ export default function ContactPage() {
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg"
+                        src="/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg"
                         alt="Contact Morocco Atlas Guide"
                         fill
                         className="object-cover scale-105"
@@ -39,21 +39,21 @@ export default function ContactPage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
-                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-12 px-6 md:px-12">
+                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-6 px-6 md:pb-12 md:px-12">
                     <div className="container mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[10px] mb-6 block font-inter">
+                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter">
                                 PRIVATE CONCIERGE
                             </span>
-                            <h1 className="text-5xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
+                            <h1 className="text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
                                 Let's <br />
                                 <span className="italic text-primary">Connect.</span>
                             </h1>
-                            <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
+                            <p className="text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
                                 Reach out directly to our head guide to begin crafting your bespoke Moroccan expedition.
                             </p>
                         </motion.div>

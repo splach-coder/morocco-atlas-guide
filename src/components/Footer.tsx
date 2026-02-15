@@ -118,24 +118,38 @@ export default function Footer() {
                 </div>
 
                 {/* Formal Footer Bottom */}
-                <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12">
-                    <div className="flex items-center gap-8">
-                        <div className="relative w-6 h-6 opacity-10">
-                            <Image
-                                src="/images/logo.webp"
-                                alt="Morocco Atlas Guide"
-                                fill
-                                className="object-contain"
-                            />
+                <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+                    <div className="flex flex-col md:flex-row items-center gap-8">
+                        <div className="flex items-center gap-4">
+                            <div className="relative w-6 h-6 opacity-10">
+                                <Image
+                                    src="/images/logo.webp"
+                                    alt="Morocco Atlas Guide"
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
+                            <p className="text-white/20 text-[10px] font-bold uppercase tracking-[0.4em]">
+                                &copy; {currentYear} {siteInfo.name}
+                            </p>
                         </div>
-                        <p className="text-white/20 text-[10px] font-bold uppercase tracking-[0.4em]">
-                            &copy; {currentYear} {siteInfo.name} Expedition Group
-                        </p>
                     </div>
 
-                    <div className="flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-white/10">
-                        <Link href={`/${locale}/privacy`} className="hover:text-primary transition-colors">Privacy Policy</Link>
-                        <Link href={`/${locale}/terms`} className="hover:text-primary transition-colors">Terms of Service</Link>
+                    <div className="flex flex-col items-center md:items-end gap-4">
+                        <div className="flex gap-8 text-[10px] font-bold uppercase tracking-[0.3em] text-white/10">
+                            <Link href={`/${locale}/privacy`} className="hover:text-primary transition-colors">Privacy</Link>
+                            <Link href={`/${locale}/terms`} className="hover:text-primary transition-colors">Terms</Link>
+                        </div>
+
+                        {/* Agency Signature */}
+                        <a
+                            href="https://wereact.agency"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[9px] font-medium tracking-[0.2em] text-white/20 hover:text-primary transition-colors flex items-center gap-2"
+                        >
+                            Crafted by <span className="font-bold text-white/30 group-hover:text-white">WeReact Agency</span>
+                        </a>
                     </div>
                 </div>
             </div>

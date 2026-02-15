@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Clock, MapPin, Check, X, Star, ArrowLeft, ZoomIn, ChevronLeft, ChevronRight, MessageCircle, Calendar, Users, Info } from 'lucide-react';
+import { Clock, MapPin, Check, X, Star, ArrowLeft, ZoomIn, ChevronLeft, ChevronRight, MessageCircle, Calendar, Users, Info, ChevronDown, Camera } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { siteInfo } from '@/data/siteInfo';
@@ -54,6 +54,10 @@ export const ServiceDetailContent = ({
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [lightboxIndex, setLightboxIndex] = useState(0);
 
+    // Booking State
+    const [selectedDate, setSelectedDate] = useState<string>('');
+    const [guestCount, setGuestCount] = useState<number>(2);
+
     const renderDuration = (d: string) => d?.replace('_', ' ') || 'Flexible';
 
     const openLightbox = (index: number) => {
@@ -69,12 +73,19 @@ export const ServiceDetailContent = ({
         setLightboxIndex((prev) => (prev - 1 + (gallery?.length || 1)) % (gallery?.length || 1));
     };
 
-    const whatsappUrl = `https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodeURIComponent(siteInfo.whatsappBookingMessage + " " + title)}`;
+    const whatsappUrl = `https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodeURIComponent(
+        `${siteInfo.whatsappBookingMessage} ${title}
+        
+${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : ''}
+👥 Guests: ${guestCount}
+`
+    )}`;
 
     return (
         <div className="min-h-screen bg-white grain">
             {/* Cinematic Hero Section */}
-            <section className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
+            {/* Cinematic Hero Section - Mobile Redesigned */}
+            <section className="relative h-[100dvh] md:h-[70vh] w-full overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
                         src={image}
@@ -83,42 +94,42 @@ export const ServiceDetailContent = ({
                         className="object-cover scale-105"
                         priority
                     />
-                    <div className="absolute inset-0 bg-black/30" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-black/40 md:bg-black/30" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent md:from-black/80 md:via-black/20" />
                 </div>
 
-                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-16 px-6 md:px-12">
+                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-8 px-4 md:pb-16 md:px-12">
                     <div className="container mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <Link href={`/${locale}/tours`} className="inline-flex items-center gap-3 text-white/80 hover:text-primary transition-all mb-8 group backdrop-blur-sm bg-white/5 py-2 px-4 rounded-full border border-white/10 w-fit">
-                                <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                                <span className="text-[10px] font-bold uppercase tracking-[0.2em]">Back to Adventures</span>
+                            <Link href={`/${locale}/tours`} className="inline-flex items-center gap-2 md:gap-3 text-white/80 hover:text-primary transition-all mb-6 md:mb-8 group backdrop-blur-sm bg-white/5 py-1.5 px-3 md:py-2 md:px-4 rounded-full border border-white/10 w-fit">
+                                <ArrowLeft className="w-3 h-3 md:w-4 md:h-4 group-hover:-translate-x-1 transition-transform" />
+                                <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">{locale === 'fr' ? 'Retour' : 'Back to Adventures'}</span>
                             </Link>
 
-                            <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium text-white font-playfair mb-6 leading-[0.9] tracking-tighter max-w-5xl text-shadow-lg">
+                            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-medium text-white font-playfair mb-6 leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-tighter max-w-5xl text-shadow-lg">
                                 {title}
                             </h1>
 
-                            <div className="flex flex-wrap items-center gap-6 text-white/80">
+                            <div className="flex flex-wrap items-center gap-3 md:gap-6 text-white/90 md:text-white/80">
                                 {location && (
-                                    <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+                                    <div className="flex items-center gap-1.5 md:gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
                                         <MapPin className="w-3 h-3 text-primary" />
-                                        <span className="text-[10px] font-bold uppercase tracking-[0.2em] font-inter">{location}</span>
+                                        <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.15em] md:tracking-[0.2em] font-inter">{location}</span>
                                     </div>
                                 )}
                                 {duration && (
-                                    <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+                                    <div className="flex items-center gap-1.5 md:gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
                                         <Clock className="w-3 h-3 text-primary" />
-                                        <span className="text-[10px] font-bold uppercase tracking-[0.2em] font-inter">{renderDuration(duration)}</span>
+                                        <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.15em] md:tracking-[0.2em] font-inter">{renderDuration(duration)}</span>
                                     </div>
                                 )}
-                                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+                                <div className="flex items-center gap-1.5 md:gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
                                     <Star className="w-3 h-3 text-primary fill-primary" />
-                                    <span className="text-[10px] font-bold uppercase tracking-[0.2em] font-inter">Verified Experience</span>
+                                    <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.15em] md:tracking-[0.2em] font-inter">Verified</span>
                                 </div>
                             </div>
                         </motion.div>
@@ -147,119 +158,86 @@ export const ServiceDetailContent = ({
                             </p>
                         </motion.div>
 
-                        {/* Redesigned Itinerary - Adventure Timeline */}
+                        {/* Visual Itinerary - Static & Expressive */}
                         {itinerary && itinerary.length > 0 && (
-                            <div className="relative pt-8">
+                            <div className="pt-8 mb-20">
                                 <div className="flex items-end justify-between mb-16">
                                     <div>
                                         <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">YOUR JOURNEY</span>
-                                        <h2 className="text-4xl font-medium text-neutral-dark font-playfair tracking-tight">Daily <span className="italic text-primary">Expedition.</span></h2>
+                                        <h2 className="text-4xl md:text-5xl font-medium text-neutral-dark font-playfair tracking-tight">Daily <span className="italic text-primary">Expedition.</span></h2>
                                     </div>
-                                    <div className="flex items-center gap-3">
-                                        <div className="text-right hidden md:block">
-                                            <span className="block text-[10px] font-bold uppercase tracking-widest text-neutral-400">Total Duration</span>
-                                            <span className="font-playfair font-medium text-xl text-neutral-dark">{itinerary.length} Days</span>
-                                        </div>
-                                        <div className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center bg-neutral-50">
-                                            <Clock className="w-5 h-5 text-primary" />
+                                    <div className="hidden md:block">
+                                        <div className="inline-flex items-center gap-3 bg-neutral-50 px-5 py-2.5 rounded-full border border-neutral-100">
+                                            <Clock className="w-4 h-4 text-primary" />
+                                            <span className="font-playfair font-medium text-lg text-neutral-dark">{itinerary.length} Days Adventure</span>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="space-y-0 relative ml-4 md:ml-12 pb-4">
-                                    {/* Continuous Line */}
-                                    <div className="absolute left-[11px] md:left-[15px] top-4 bottom-0 w-[2px] bg-neutral-100"></div>
+                                <div className="relative space-y-12">
+                                    {/* Vertical Guide Line */}
+                                    <div className="absolute left-4 top-4 bottom-4 w-0.5 bg-gradient-to-b from-primary/20 via-primary/10 to-transparent md:left-1/2 md:-ml-px hidden md:block"></div>
+                                    <div className="absolute left-4 top-4 bottom-4 w-0.5 bg-gradient-to-b from-primary/20 via-primary/10 to-transparent md:hidden"></div>
 
                                     {itinerary.map((day, idx) => (
-                                        <div key={idx} className="relative pb-20 last:pb-0 group">
+                                        <motion.div
+                                            key={idx}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            viewport={{ once: true, margin: "-50px" }}
+                                            transition={{ duration: 0.5, delay: idx * 0.1 }}
+                                            className={`relative flex flex-col md:flex-row gap-8 ${idx % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
+                                        >
+                                            {/* Content Side */}
+                                            <div className="flex-1 md:w-1/2">
+                                                <div className={`bg-white p-8 rounded-3xl border border-neutral-100 shadow-sm relative overflow-hidden group hover:shadow-md transition-all duration-300 ${idx % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
+                                                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary/0 via-primary/40 to-primary/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
-                                            {/* Interactive Node */}
-                                            <div
-                                                className={`absolute -left-[4px] md:lat-[0] top-0 w-8 h-8 md:w-10 md:h-10 rounded-full border-[3px] transition-all duration-500 z-10 flex items-center justify-center cursor-pointer shadow-sm
-                                                ${activeDay === idx ? 'bg-primary border-primary scale-110 shadow-primary/30 shadow-lg' : 'bg-white border-neutral-200 group-hover:border-primary/50'}`}
-                                                onClick={() => setActiveDay(activeDay === idx ? null : idx)}
-                                            >
-                                                <span className={`text-[10px] md:text-xs font-bold font-inter ${activeDay === idx ? 'text-white' : 'text-neutral-400'}`}>
-                                                    {day.day}
-                                                </span>
-                                            </div>
+                                                    <div className={`flex items-center gap-3 mb-4 ${idx % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
+                                                        <span className="inline-block px-3 py-1 rounded-full bg-primary/5 text-primary text-[10px] font-bold uppercase tracking-widest border border-primary/10">
+                                                            Day {day.day}
+                                                        </span>
+                                                    </div>
 
-                                            {/* Content Container */}
-                                            <div className="pl-12 md:pl-20">
-                                                <div
-                                                    className="cursor-pointer flex flex-col md:flex-row md:items-center gap-2 md:gap-6 mb-4"
-                                                    onClick={() => setActiveDay(activeDay === idx ? null : idx)}
-                                                >
-                                                    <span className={`text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full w-fit transition-colors border
-                                                        ${activeDay === idx ? 'bg-primary/5 text-primary border-primary/20' : 'bg-neutral-50 text-neutral-400 border-neutral-100 group-hover:text-primary group-hover:border-primary/30'}`}>
-                                                        Day 0{day.day}
-                                                    </span>
-                                                    <h3 className={`text-2xl md:text-3xl font-medium font-playfair transition-colors duration-300 ${activeDay === idx ? 'text-neutral-dark' : 'text-neutral-dark/60 group-hover:text-neutral-dark'}`}>
+                                                    <h3 className="text-2xl font-playfair font-medium text-neutral-dark mb-4 group-hover:text-primary transition-colors">
                                                         {day.title}
                                                     </h3>
+
+                                                    <p className="text-neutral-medium font-light leading-relaxed text-sm md:text-base">
+                                                        {day.description}
+                                                    </p>
+
+                                                    {/* Decorative Element */}
+                                                    <div className={`absolute -bottom-6 -right-6 w-24 h-24 bg-neutral-50 rounded-full opacity-50 pointer-events-none group-hover:bg-primary/5 transition-colors ${idx % 2 !== 0 ? 'right-auto -left-6' : ''}`}></div>
                                                 </div>
-
-                                                <AnimatePresence>
-                                                    {activeDay === idx && (
-                                                        <motion.div
-                                                            initial={{ opacity: 0, height: 0, y: -10 }}
-                                                            animate={{ opacity: 1, height: "auto", y: 0 }}
-                                                            exit={{ opacity: 0, height: 0, y: -10 }}
-                                                            transition={{ duration: 0.4, ease: [0.04, 0.62, 0.23, 0.98] }}
-                                                            className="overflow-hidden"
-                                                        >
-                                                            <div className="pt-2">
-                                                                <div className="bg-white p-6 md:p-8 rounded-2xl border border-neutral-100 shadow-xl shadow-neutral-100/50 relative overflow-hidden">
-                                                                    <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-primary/20"></div>
-                                                                    <div className="absolute -right-10 -top-10 w-32 h-32 bg-primary/5 rounded-full blur-2xl"></div>
-
-                                                                    <p className="text-neutral-medium leading-relaxed font-light text-base md:text-lg relative z-10">
-                                                                        {day.description}
-                                                                    </p>
-
-                                                                    {/* Quick Stats for the Day (Optional placeholder for future data) */}
-                                                                    <div className="flex gap-6 mt-8 pt-6 border-t border-neutral-50">
-                                                                        <div className="flex items-center gap-2 text-neutral-400 text-xs uppercase tracking-widest font-bold">
-                                                                            <MapPin className="w-4 h-4 text-primary/60" />
-                                                                            <span>Location</span>
-                                                                        </div>
-                                                                        <div className="flex items-center gap-2 text-neutral-400 text-xs uppercase tracking-widest font-bold">
-                                                                            <Users className="w-4 h-4 text-primary/60" />
-                                                                            <span>Activity</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </motion.div>
-                                                    )}
-                                                </AnimatePresence>
                                             </div>
-                                        </div>
-                                    ))}
 
-                                    {/* Finish Node */}
-                                    <div className="relative flex items-center gap-6 pt-4 group">
-                                        <div className="absolute -left-[4px] md:left-[0] w-8 h-8 md:w-10 md:h-10 rounded-full border-[3px] border-neutral-200 bg-neutral-50 flex items-center justify-center z-10 group-hover:border-primary/50 transition-colors">
-                                            <div className="w-2 h-2 rounded-full bg-neutral-300 group-hover:bg-primary transition-colors"></div>
-                                        </div>
-                                        <span className="pl-12 md:pl-20 text-[10px] font-bold uppercase tracking-[0.2em] text-neutral-400 group-hover:text-primary transition-colors">End of Journey</span>
-                                    </div>
+                                            {/* Center Icon Node */}
+                                            <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-white border-4 border-neutral-50 shadow-sm z-10 mt-6 md:mt-0">
+                                                <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-primary"></div>
+                                            </div>
+
+                                            {/* Empty Spacer Side */}
+                                            <div className="hidden md:block flex-1 md:w-1/2"></div>
+                                        </motion.div>
+                                    ))}
                                 </div>
                             </div>
                         )}
 
                         {/* Inventory Lists */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100">
-                                <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">INCLUSIONS</span>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+                            <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100 relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/5 rounded-full blur-3xl"></div>
+                                <span className="text-green-600/60 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">INCLUSIONS</span>
                                 <h3 className="font-medium text-2xl font-playfair mb-6 tracking-tight">
-                                    What's <span className="italic">Covered.</span>
+                                    What's <span className="italic text-green-600">Covered.</span>
                                 </h3>
-                                <ul className="space-y-4">
+                                <ul className="space-y-4 relative z-10">
                                     {(included.length > 0 ? included : ['Airport Transfers', 'Professional Guide', 'Muleteers & Cooking', 'All Meals', 'Technical Gear']).map((inc, i) => (
                                         <li key={i} className="flex items-start gap-4 text-neutral-dark/80 text-sm font-light font-inter group">
-                                            <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-primary transition-colors">
-                                                <Check className="w-3 h-3 text-primary group-hover:text-white transition-colors" />
+                                            <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-0.5">
+                                                <Check className="w-3 h-3 text-green-600" />
                                             </div>
                                             <span className="leading-snug">{inc}</span>
                                         </li>
@@ -267,21 +245,82 @@ export const ServiceDetailContent = ({
                                 </ul>
                             </div>
 
-                            <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100">
-                                <span className="text-neutral-400 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">EXCLUSIONS</span>
+                            <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100 relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/5 rounded-full blur-3xl"></div>
+                                <span className="text-red-400 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">EXCLUSIONS</span>
                                 <h3 className="font-medium text-2xl font-playfair mb-6 tracking-tight text-neutral-dark/50">
                                     Not <span className="italic">Included.</span>
                                 </h3>
-                                <ul className="space-y-4">
+                                <ul className="space-y-4 relative z-10">
                                     {(excluded.length > 0 ? excluded : ['Travel Insurance', 'Personal Gear', 'Bottled Drinks', 'Staff Gratuity', 'Flights']).map((exc, i) => (
                                         <li key={i} className="flex items-start gap-4 text-neutral-dark/50 text-sm font-light font-inter">
-                                            <div className="w-5 h-5 rounded-full bg-neutral-200/50 flex items-center justify-center shrink-0 mt-0.5">
-                                                <X className="w-3 h-3 text-neutral-400" />
+                                            <div className="w-5 h-5 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
+                                                <X className="w-3 h-3 text-red-400" />
                                             </div>
                                             <span className="leading-snug">{exc}</span>
                                         </li>
                                     ))}
                                 </ul>
+                            </div>
+                        </div>
+
+                        {/* NEW SECTION: Expert Advice */}
+                        <div className="bg-neutral-900 text-white p-6 md:p-16 rounded-[1rem] relative overflow-hidden mb-20">
+                            {/* Artistic Background SVGs */}
+                            <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10 pointer-events-none">
+                                <svg className="absolute top-0 left-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                    <path d="M0 100 C 20 0 50 0 100 100 Z" fill="none" stroke="white" strokeWidth="0.5" />
+                                    <path d="M0 100 C 30 20 70 20 100 100 Z" fill="none" stroke="white" strokeWidth="0.5" />
+                                </svg>
+                            </div>
+
+                            <div className="relative z-10">
+                                <div className="max-w-xl mb-12">
+                                    <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">EXPERT TIPS</span>
+                                    <h2 className="text-4xl md:text-5xl font-medium font-playfair mb-6 text-white">Essential <span className="italic text-primary">Advice.</span></h2>
+
+                                    <p className="text-white/60 font-light text-lg">
+                                        To ensure your journey is as seamless and enjoyable as possible, here are some key insights from our local experts.
+                                    </p>
+                                </div>
+
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                    {/* Tip 1 */}
+                                    <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                                        <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+                                            <div className="w-6 h-6 text-primary"><Users className="w-6 h-6" /></div>
+                                        </div>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">Cultural Etiquette</h4>
+
+                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                            Morocco is welcoming but conservative. Dress modestly (shoulders/knees covered) when visiting villages or rural areas to show respect.
+                                        </p>
+                                    </div>
+
+                                    {/* Tip 2 */}
+                                    <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                                        <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+                                            <div className="w-6 h-6 text-primary"><Calendar className="w-6 h-6" /></div>
+                                        </div>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">Best Time to Go</h4>
+
+                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                            Spring (Mar-May) and Autumn (Sep-Nov) offer the best weather. Summers can be hot in the south, while winters see snow in the Atlas.
+                                        </p>
+                                    </div>
+
+                                    {/* Tip 3 */}
+                                    <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                                        <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+                                            <div className="w-6 h-6 text-primary"><MessageCircle className="w-6 h-6" /></div>
+                                        </div>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">Currency & Tips</h4>
+
+                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                            Cash is king in remote areas. Carry Moroccan Dirhams (MAD). Tipping (5-10%) is customary and appreciated for good service.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -349,13 +388,35 @@ export const ServiceDetailContent = ({
 
                                     <div className="space-y-6 mb-8">
                                         <div className="grid grid-cols-2 gap-4">
-                                            <div className="bg-neutral-50 p-4 rounded-xl border border-neutral-100 text-center cursor-not-allowed opacity-75 hover:border-primary/30 transition-colors">
-                                                <Calendar className="w-5 h-5 text-primary mx-auto mb-2" />
-                                                <span className="text-xs font-bold text-neutral-dark block uppercase tracking-wide">Select Dates</span>
+                                            <div className="bg-neutral-50 p-3 rounded-xl border border-neutral-100 hover:border-primary/30 transition-colors relative group flex flex-col items-center justify-center cursor-pointer">
+                                                <input
+                                                    type="date"
+                                                    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
+                                                    onChange={(e) => setSelectedDate(e.target.value)}
+                                                />
+                                                <Calendar className="w-5 h-5 text-primary mb-2 group-hover:scale-110 transition-transform" />
+                                                <span className="text-[10px] font-bold text-neutral-dark block uppercase tracking-wide text-center group-hover:text-primary transition-colors">
+                                                    {selectedDate ? new Date(selectedDate).toLocaleDateString() : 'Select Date'}
+                                                </span>
                                             </div>
-                                            <div className="bg-neutral-50 p-4 rounded-xl border border-neutral-100 text-center cursor-not-allowed opacity-75 hover:border-primary/30 transition-colors">
-                                                <Users className="w-5 h-5 text-primary mx-auto mb-2" />
-                                                <span className="text-xs font-bold text-neutral-dark block uppercase tracking-wide">Guests</span>
+
+                                            <div className="bg-neutral-50 p-3 rounded-xl border border-neutral-100 hover:border-primary/30 transition-colors flex flex-col items-center justify-center gap-2">
+                                                <div className="flex items-center gap-3">
+                                                    <button
+                                                        onClick={() => setGuestCount(Math.max(1, guestCount - 1))}
+                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors"
+                                                    >
+                                                        -
+                                                    </button>
+                                                    <span className="text-sm font-bold text-neutral-dark w-4 text-center">{guestCount}</span>
+                                                    <button
+                                                        onClick={() => setGuestCount(guestCount + 1)}
+                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors"
+                                                    >
+                                                        +
+                                                    </button>
+                                                </div>
+                                                <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">Guests</span>
                                             </div>
                                         </div>
 

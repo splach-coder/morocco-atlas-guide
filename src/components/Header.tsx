@@ -50,13 +50,18 @@ export default function Header() {
     ];
 
     const isWhiteTextHeader = (pathname === `/${locale}` || pathname.startsWith(`/${locale}/tours/`)) && !isScrolled && !isMenuOpen;
-    const headerBgClass = isScrolled ? 'bg-white border-b border-neutral-light py-4' : 'bg-transparent py-8';
+    // When menu is open, remove background/border so it blends with the overlay. 
+    // Otherwise follow scroll state.
+    const headerBgClass = isMenuOpen
+        ? `bg-transparent border-none ${isScrolled ? 'py-4' : 'py-8'}`
+        : (isScrolled ? 'bg-white border-b border-neutral-light py-4' : 'bg-transparent py-8');
+
     const textColorClass = isWhiteTextHeader ? 'text-white' : 'text-neutral-dark';
     const logoColorClass = isWhiteTextHeader ? 'text-white' : 'text-primary';
 
     return (
         <>
-            <header className={`fixed top-0 left-0 right-0 z-[60] transition-all duration-700 ease-out ${headerBgClass}`}>
+            <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-700 ease-out ${headerBgClass}`}>
                 <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
 
                     {/* Logo */}
@@ -133,7 +138,7 @@ export default function Header() {
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
-                        className="fixed inset-0 z-[50] bg-white pt-32 pb-12 px-8 flex flex-col grain"
+                        className="fixed inset-0 z-[98] bg-white pt-32 pb-12 px-8 flex flex-col"
                     >
                         <div className="flex-1 flex flex-col justify-center gap-8">
                             {navLinks.map((link, idx) => (

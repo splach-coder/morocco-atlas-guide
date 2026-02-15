@@ -58,21 +58,21 @@ export const GalleryPageContent = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
-                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-12 px-6 md:px-12">
+                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-6 px-6 md:pb-12 md:px-12">
                     <div className="container mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[10px] mb-6 block font-inter">
+                            <span className="text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter">
                                 EXPEDITION JOURNAL
                             </span>
-                            <h1 className="text-5xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
+                            <h1 className="text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
                                 Captured <br />
                                 <span className="italic text-primary">Moments.</span>
                             </h1>
-                            <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
+                            <p className="text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
                                 A visual journal of the vibrant colors, breathtaking landscapes, and authentic daily life discovered on our journeys.
                             </p>
                         </motion.div>
@@ -90,8 +90,8 @@ export const GalleryPageContent = () => {
 
             {/* Gallery Section - Editorial Catalog Style */}
             <section className="py-20 bg-white">
-                <div className="container mx-auto px-6 md:px-12 text-left mb-16 transition-all">
-                    <div className="flex flex-col lg:flex-row justify-between items-end gap-12">
+                <div className="container mx-auto px-6 md:px-12 mb-16 transition-all">
+                    <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:items-end lg:text-left gap-8 md:gap-12">
                         <div className="max-w-2xl">
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">
                                 ARCHIVE MMXXIV
