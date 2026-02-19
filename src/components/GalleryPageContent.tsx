@@ -1,49 +1,161 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ZoomIn, ChevronDown } from 'lucide-react';
+import { X, ZoomIn, ChevronDown, Loader2 } from 'lucide-react';
 import Image from 'next/image';
-import { siteData } from '@/data/siteData';
+// Only show images from the gallery folder as requested
+const manualGalleryImages = Array.from({ length: 21 }, (_, i) => ({
+    id: `manual-gallery-${i + 1}`,
+    src: `/images/gallery/gallery_image_${i + 1}.jpeg`,
+    category: 'Highlights',
+    title: `Atlas Experience ${i + 1}`,
+    size: (i) % 3 === 0 ? 'large' : (i) % 3 === 1 ? 'medium' : 'small'
+}));
 
-// Dynamically generate gallery items from categorized siteData
-const allTours = [
-    ...siteData.toubkalTreks,
-    ...siteData.desertTours,
-    ...siteData.imperialCities,
-    ...siteData.excursions
-];
+const ALL_GALLERY_IMAGES = manualGalleryImages;
 
-const allTourImages = allTours.reduce((acc: any[], tour) => {
-    acc.push({
-        id: `${tour.id}-main`,
-        src: tour.image,
-        category: 'Tour',
-        title: tour.name,
-        size: acc.length % 3 === 0 ? 'large' : acc.length % 3 === 1 ? 'medium' : 'small'
-    });
+// Constants for pagination
+const INITIAL_LOAD = 24;
+const LOAD_MORE_COUNT = 12;
 
-    if ((tour as any).gallery && (tour as any).gallery.length > 0) {
-        (tour as any).gallery.forEach((img: string, idx: number) => {
-            acc.push({
-                id: `${tour.id}-gal-${idx}`,
-                src: img,
-                category: 'Experience',
-                title: `${tour.name} View`,
-                size: (acc.length + idx) % 3 === 0 ? 'medium' : (acc.length + idx) % 3 === 1 ? 'small' : 'large'
-            });
-        });
-    }
-    return acc;
-}, []);
+// Hook to detect screen size for responsive masonry
+const useColumns = () => {
+    const [columns, setColumns] = useState(1);
 
-const galleryImages = allTourImages.slice(0, 24);
+    useEffect(() => {
+        const updateColumns = () => {
+            if (window.innerWidth >= 1024) {
+                setColumns(3); // lg
+            } else if (window.innerWidth >= 768) {
+                setColumns(2); // md
+            } else {
+                setColumns(1); // mobile
+            }
+        };
 
-export const GalleryPageContent = () => {
-    const [selectedImage, setSelectedImage] = useState<typeof galleryImages[0] | null>(null);
+        updateColumns();
+        window.addEventListener('resize', updateColumns);
+        return () => window.removeEventListener('resize', updateColumns);
+    }, []);
+
+    return columns;
+};
+
+// Optimized Gallery Item Component with Framer Motion
+const GalleryItem = React.memo(({
+    img,
+    onClick,
+    index
+}: {
+    img: typeof ALL_GALLERY_IMAGES[0];
+    onClick: () => void;
+    index: number;
+}) => {
+    const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="min-h-screen bg-white grain overflow-hidden">
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="group cursor-pointer"
+            onClick={onClick}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg bg-neutral-100 mb-3">
+                <Image
+                    src={img.src}
+                    alt={img.title}
+                    fill
+                    className="object-cover transition-transform duration-700 ease-out will-change-transform"
+                    style={{
+                        transform: isHovered ? 'scale(1.05)' : 'scale(1)',
+                    }}
+                    loading={index < 6 ? "eager" : "lazy"}
+                    quality={75}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                />
+
+                <div
+                    className="absolute inset-0 bg-black/10 transition-opacity duration-300"
+                    style={{ opacity: isHovered ? 1 : 0 }}
+                />
+
+                <div
+                    className="absolute inset-0 flex items-center justify-center transition-all duration-300 transform"
+                    style={{
+                        opacity: isHovered ? 1 : 0,
+                        transform: isHovered ? 'scale(1)' : 'scale(0.95)'
+                    }}
+                >
+                    <div className="bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg">
+                        <ZoomIn className="w-5 h-5 text-neutral-900" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-1">
+                <h3 className="text-md font-medium text-neutral-dark line-clamp-1 group-hover:text-primary transition-colors duration-300">
+                    {img.title}
+                </h3>
+                <span className="text-[10px] uppercase tracking-widest text-neutral-400 mt-1 block font-inter">
+                    {img.category}
+                </span>
+            </div>
+        </motion.div>
+    );
+});
+
+GalleryItem.displayName = 'GalleryItem';
+
+export const GalleryPageContent = () => {
+    const [selectedImage, setSelectedImage] = useState<typeof ALL_GALLERY_IMAGES[0] | null>(null);
+    const columns = useColumns();
+    const [hydrated, setHydrated] = useState(false);
+    const [displayCount, setDisplayCount] = useState(INITIAL_LOAD);
+    const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+        setHydrated(true);
+    }, []);
+
+    // Get current images to display
+    const galleryImages = ALL_GALLERY_IMAGES.slice(0, displayCount);
+    const hasMore = displayCount < ALL_GALLERY_IMAGES.length;
+
+    // Memoize the column distribution
+    const columnImages = React.useMemo(() => {
+        const cols = Array.from({ length: columns }, () => [] as typeof galleryImages);
+        galleryImages.forEach((img, i) => {
+            cols[i % columns].push(img);
+        });
+        return cols;
+    }, [columns, galleryImages]);
+
+    const handleImageClick = useCallback((img: typeof ALL_GALLERY_IMAGES[0]) => {
+        setSelectedImage(img);
+    }, []);
+
+    const handleCloseModal = useCallback(() => {
+        setSelectedImage(null);
+    }, []);
+
+    const handleLoadMore = useCallback(() => {
+        setIsLoading(true);
+        // Simulate loading delay for better UX
+        setTimeout(() => {
+            setDisplayCount(prev => Math.min(prev + LOAD_MORE_COUNT, ALL_GALLERY_IMAGES.length));
+            setIsLoading(false);
+        }, 300);
+    }, []);
+
+    return (
+        <div className="min-h-screen bg-white">
             {/* Reduced Height Editorial Banner */}
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
@@ -51,8 +163,10 @@ export const GalleryPageContent = () => {
                         src="/images/excursions/rigel-No_Y3bn4lNQ-unsplash.jpg"
                         alt="Morocco Gallery"
                         fill
-                        className="object-cover scale-105"
+                        className="object-cover"
+                        style={{ transform: 'scale(1.05)' }}
                         priority
+                        quality={85}
                     />
                     <div className="absolute inset-0 bg-black/40" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -90,70 +204,75 @@ export const GalleryPageContent = () => {
 
             {/* Gallery Section - Editorial Catalog Style */}
             <section className="py-20 bg-white">
-                <div className="container mx-auto px-6 md:px-12 mb-16 transition-all">
+                <div className="container mx-auto px-6 md:px-12 mb-16">
                     <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:items-end lg:text-left gap-8 md:gap-12">
                         <div className="max-w-2xl">
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">
                                 ARCHIVE MMXXIV
                             </span>
-                            <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none transition-all">
+                            <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none">
                                 The <span className="italic">Visual Record.</span>
                             </h2>
                         </div>
                         <p className="text-neutral-medium text-[10px] font-bold uppercase tracking-[0.4em] mb-2 border-b border-primary/20 pb-1 font-inter">
-                            Showing {galleryImages.length} Artifacts
+                            Showing {Math.min(displayCount, ALL_GALLERY_IMAGES.length)} of {ALL_GALLERY_IMAGES.length} Artifacts
                         </p>
                     </div>
                 </div>
 
-                <div className="container mx-auto px-6 md:px-12 pb-20">
-                    {/* Masonry Grid - High End Catalog */}
-                    <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-                        {galleryImages.map((img, index) => (
-                            <motion.div
-                                key={img.id}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, margin: "-50px", amount: 0.1 }}
-                                transition={{ duration: 0.4, delay: 0, ease: "easeOut" }}
-                                className="break-inside-avoid"
-                            >
-                                <div
-                                    className="relative group overflow-hidden cursor-pointer"
-                                    onClick={() => setSelectedImage(img)}
-                                >
-                                    <div className="relative w-full overflow-hidden transition-all duration-300">
-                                        <Image
-                                            src={img.src}
-                                            alt={img.title}
-                                            width={800}
-                                            height={1000}
-                                            className="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                                            loading={index < 6 ? "eager" : "lazy"}
-                                            quality={75}
-                                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                <div className="container mx-auto px-6 md:px-12 pb-12">
+                    {!hydrated ? (
+                        // Skeleton / Loading State
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {[1, 2, 3, 4, 5, 6].map((i) => (
+                                <div key={i} className="aspect-[3/4] bg-neutral-100 animate-pulse rounded-lg" />
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="flex flex-col md:flex-row gap-8">
+                            {columnImages.map((column, colIndex) => (
+                                <div key={colIndex} className="flex-1 flex flex-col gap-8">
+                                    {column.map((img, imgIndex) => (
+                                        <GalleryItem
+                                            key={img.id}
+                                            img={img}
+                                            onClick={() => handleImageClick(img)}
+                                            index={colIndex * column.length + imgIndex}
                                         />
-
-                                        {/* Hover Hint */}
-                                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                            <div className="w-12 h-12 rounded-full border border-white/40 flex items-center justify-center">
-                                                <ZoomIn className="w-5 h-5 text-white" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {/* Catalog Label */}
-                                    <div className="mt-4 flex justify-between items-start">
-                                        <div>
-                                            <h3 className="text-lg font-medium font-playfair tracking-tight text-neutral-dark group-hover:text-primary transition-colors">{img.title}</h3>
-                                            <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest block mt-1 font-inter">{img.category}</span>
-                                        </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            </motion.div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
+
+                {/* Load More Button */}
+                {hasMore && hydrated && (
+                    <div className="container mx-auto px-6 md:px-12 pb-20 flex justify-center">
+                        <button
+                            onClick={handleLoadMore}
+                            disabled={isLoading}
+                            className="group relative px-12 py-4 bg-neutral-dark text-white font-inter text-[10px] uppercase tracking-[0.3em] rounded-full hover:bg-primary transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden"
+                        >
+                            <span className="relative z-10 flex items-center gap-3">
+                                {isLoading ? (
+                                    <>
+                                        <Loader2 className="w-4 h-4 animate-spin" />
+                                        Loading
+                                    </>
+                                ) : (
+                                    <>
+                                        Load More
+                                        <span className="text-primary group-hover:text-white transition-colors">
+                                            ({ALL_GALLERY_IMAGES.length - displayCount} remaining)
+                                        </span>
+                                    </>
+                                )}
+                            </span>
+                            <div className="absolute inset-0 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                        </button>
+                    </div>
+                )}
             </section>
 
             {/* Lightbox Modal - Minimal White */}
@@ -165,17 +284,15 @@ export const GalleryPageContent = () => {
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.2 }}
                         className="fixed inset-0 z-[100] bg-white/95 flex items-center justify-center p-8 md:p-12 backdrop-blur-xl"
-                        onClick={() => setSelectedImage(null)}
+                        onClick={handleCloseModal}
                     >
-                        <motion.button
-                            initial={{ opacity: 0, scale: 0.8 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.2 }}
+                        <button
                             className="absolute top-8 right-8 text-neutral-dark hover:text-primary transition-colors p-4 z-[110]"
-                            onClick={() => setSelectedImage(null)}
+                            onClick={handleCloseModal}
+                            aria-label="Close modal"
                         >
                             <X className="w-8 h-8" />
-                        </motion.button>
+                        </button>
 
                         <motion.div
                             initial={{ scale: 0.98, opacity: 0 }}
@@ -201,7 +318,9 @@ export const GalleryPageContent = () => {
                                 <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-2 block font-inter">
                                     {selectedImage.category}
                                 </span>
-                                <h2 className="text-3xl md:text-4xl font-medium font-playfair text-neutral-dark tracking-tight">{selectedImage.title}</h2>
+                                <h2 className="text-3xl md:text-4xl font-medium font-playfair text-neutral-dark tracking-tight">
+                                    {selectedImage.title}
+                                </h2>
                             </div>
                         </motion.div>
                     </motion.div>

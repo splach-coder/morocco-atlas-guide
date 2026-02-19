@@ -19,7 +19,7 @@ export default function ContactPage() {
         e.preventDefault();
         const text = `*New Inquiry from Website*\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Message:* ${formData.message}`;
         const encodedText = encodeURIComponent(text);
-        const whatsappUrl = `https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}?text=${encodedText}`;
+        const whatsappUrl = `https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodedText}`;
         window.open(whatsappUrl, '_blank');
     };
 

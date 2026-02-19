@@ -26,13 +26,15 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <div className="flex flex-col -gap-1">
-                                <span className="text-3xl font-medium font-playfair tracking-tight">
-                                    Morocco <span className="italic">Atlas</span>
+                            <div className="flex flex-col">
+                                <span className="text-2xl font-medium font-playfair uppercase leading-none">
+                                    Morocco Atlas Guide
                                 </span>
-                                <span className="text-[8px] font-bold uppercase tracking-[0.6em] text-white/30">
-                                    Expedition Guide
-                                </span>
+                                <div className="flex justify-between w-full text-[10px] font-bold uppercase mt-2 text-white/30">
+                                    {"EXPEDITION".split('').map((char, i) => (
+                                        <span key={i}>{char}</span>
+                                    ))}
+                                </div>
                             </div>
                         </Link>
                         <p className="text-white/40 leading-relaxed font-light text-lg mb-8">
@@ -45,7 +47,7 @@ export default function Footer() {
                             <a href={siteInfo.socials.facebook} target="_blank" className="text-white/30 hover:text-[#1877F2] transition-colors">
                                 <Facebook className="w-6 h-6" />
                             </a>
-                            <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}`} className="text-white/30 hover:text-[#25D366] transition-colors">
+                            <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} className="text-white/30 hover:text-[#25D366] transition-colors">
                                 <MessageCircle className="w-6 h-6" />
                             </a>
                         </div>
@@ -98,7 +100,7 @@ export default function Footer() {
                             </a>
 
                             {/* WhatsApp */}
-                            <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}`} className="flex gap-4 items-center group">
+                            <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} className="flex gap-4 items-center group">
                                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors duration-300">
                                     <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
                                 </div>

@@ -15,40 +15,83 @@ const siteData = {
     "toubkalTreks": [
         {
             "id": "toubkal-treks-2-days-express",
-            "name": "Toubkal Treks 2 Days Express",
+            "name": "Toubkal Express 2 days Ascent",
             "duration": "2_days",
             "image": "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
             "gallery": [
                 "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png"
             ],
-            "description": "Embark on an exhilarating 2-day express ascent of Mount Toubkal, North Africa's highest peak at 4,167 meters. This efficient itinerary is designed for fit hikers with limited time. You'll trek from Imlil Valley past the Sidi Chamharouch shrine to the base camp refuge, then summit at sunrise for breathtaking panoramic views of the Atlas Mountains before descending. Includes expert local guiding and mule support.",
+            "description": `moroccoatlasguide invites you on a unique adventure: to climb Toubkal, the highest peak in North Africa, in just 2 days. This demanding hike is reserved for experienced hikers and adventure seekers, but does not require any technical expertise.
+
+Highlights of the trek:
+- Ascent of Toubkal (4167m): an unforgettable achievement for experienced hikers.
+- Discovery of the Berber villages of Imlil and Aremd: immersion in the authentic Amazigh culture.
+- Breathtaking landscapes of the High Atlas: spectacular panoramas of the mountains and valleys.
+
+Practical information:
+- Duration: 2 days
+- Difficulty: High
+- Elevation gain: 2700m
+- Accommodation: Mountain refuge and lodge
+- Season: all year
+- Necessary equipment: hiking shoes, warm and waterproof mountain clothing, backpack, water bottle, headlamp, etc.
+
+This trek is a unique opportunity to:
+- Take on a sporting and personal challenge.
+- Discover the wild beauty of the High Atlas.
+- Meet the Berber people and share their culture.
+
+100% Customizable
+Tell us about your trip requirement. We’ll work together to customize your trip to meet your exact requirement so that you have a memorable trip.
+
+No Hidden Charges
+We don’t add hidden extras cost. All trips include travel permit, lodging and fooding. There are no surprises with hidden costs.`,
             "pricing": [
                 {
                     "totalPrice": 140
                 }
             ],
+            "includes": [
+                "Transportation from Marrakech",
+                "Accommodation in a refuge and lodge",
+                "Meals during the trek",
+                "Supervision by a mountain guide"
+            ],
+            "excludes": [
+                "Round-trip flights to Marrakech",
+                "Drinks not included in meals",
+                "Tips and personal expenses"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imlil – Toubkal Refuge",
-                    "description": "Depart Marrakech early for Imlil (1740m). Begin your trek through the Mizane Valley, passing the shrine of Sidi Chamharouch. Continue ascending to the Toubkal Refuge (3207m). Enjoy dinner and overnight stay at the mountain hut."
+                    "title": "Marrakech – Toubkal Refuge (3205m)",
+                    "description": "Departure in the morning at 8am from Marrakech in tourist transport or taxi to the Western High Atlas where the Toubkal massif is located (1h30 drive). We will cross Asni, a small provincial center of the isolated Berber villages of the Toubkal region. We will arrive in Imlil (1800m) where we will be met by our mule driver to start our trek. After a two and a half hour walk, we will arrive at the marabout of sidi chamharourch. This is the ideal place to have lunch while enjoying the scenery. We will continue to climb to the Toubkal refuge (2h30). We will have dinner and spend the night at the refuge. (On request, it will also be possible to spend the night under the stars by setting up a bivouac under tents). *(Day: 1h 30 of tourist transport and 5h00 of walking, high level)."
                 },
                 {
                     "day": 2,
-                    "title": "Refuge – Toubkal Summit – Imlil – Marrakech",
-                    "description": "Start before dawn for the steep climb to Toubkal Summit (4167m). Witness a spectacular sunrise over the Atlas range and Sahara. Descend back to the refuge for lunch, then continue down to Imlil where your transport awaits to return you to Marrakech."
+                    "title": "Toubkal Refuge (3205m) – Toubkal (4168m) – Marrakech",
+                    "description": "We will start the hike at dawn (departure around 5am). We recommend to be technically well equipped for the ascent, as it can be cold at the top (even in summer against all odds!). We advise you to bring gloves, a hat, a warm coat and walking sticks that can be very useful during the descent. The ascent takes 3h30, as soon as we reach the summit, we will be “on the roof of North Africa” and will be able to contemplate distant plains and enjoy a breathtaking view of the summits of the neighboring massifs which also exceed an altitude of 4000m. The descent takes 2 hours. We will have lunch at the refuge. Then, we will continue our descent for 3.5 hours to reach Imlil and take the road back to Marrakech (1h30). *(Day: 1h30 of tourist transport and 8h of walking, high level)."
                 }
             ]
         },
         {
             "id": "imlil-azzaden-valleys-2-day-trek",
-            "name": "Imlil Azzaden Valleys 2 Day Trek",
+            "name": "2 Day Atlas Valley Trek",
             "duration": "2_days",
             "image": "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png"
             ],
-            "description": "Discover the lush beauty of the Imlil and Azzaden Valleys on this accessible 2-day trek. Perfect for those seeking culture and scenery without a summit climb. Hike through juniper forests, visit the stunning Ighouliden waterfalls, and stay in authentic Berber villages. Experience the genuine hospitality of the High Atlas inhabitants while enjoying panoramic mountain vistas.",
+            "description": `Embark on a captivating journey from the bustling streets of Marrakech, weaving through a tapestry of charming hamlets and traditional Berber villages. The majestic Western High Atlas Mountains will rise before you, beckoning you deeper into their embrace.
+
+Our trek begins with a path that winds past the picturesque villages of Imlil, Arghen, and M’zzik. Each settlement offers a glimpse into the rich Berber culture, with their unique architecture and welcoming locals.
+
+As we venture onward, the landscape transforms into the breathtaking Assif Aït Mizane Valley. Here, marvel at the ancient irrigated terraced fields, meticulously crafted to sustain a bounty of fruit trees and vibrant vegetables. A true testament to human ingenuity and harmony with nature.
+
+Conquering the Tiz M’zzik mountain pass (2450m) will be a rewarding challenge, offering panoramic vistas that will leave you breathless. Breathe in the crisp mountain air as you soak in the awe-inspiring scenery.
+
+Our descent takes us through a fragrant juniper forest, eventually leading us to the charming village of Tizi Oussem. Here, we’ll rest our weary legs and immerse ourselves in the warm hospitality of a traditional village for the night.`,
             "pricing": [
                 {
                     "totalPrice": 165
@@ -57,46 +100,64 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imlil – Tizi n'Mzik – Tamsoult",
-                    "description": "Drive to Imlil and hike up to Tizi n'Mzik pass (2489m) for sweeping views. Descend into the spectacular Azzaden Valley through juniper forests to the Tamsoult refuge. Visit the cascading Ighouliden waterfalls before dinner."
+                    "title": "Marrakech – Imlil – Azzaden Valley – Tizi Oussem",
+                    "description": "Your adventure begins with a scenic drive from Marrakech to Imlil, a Berber village nestled in the foothills of Mount Toubkal, the highest peak in North Africa. Along the way, you’ll enjoy breathtaking views of the mountains and valleys. After breakfast in Imlil, you’ll embark on your trek, following a well-maintained trail through the Azzaden Valley. This valley is known for its lush green fields, traditional Berber villages, and stunning waterfalls. Enjoy a delicious lunch prepared by a Berber family in a traditional mudbrick home to learn about Berber culture. In the afternoon, ascend the Tizi Mzik Pass for panoramic views, then descend to see the Tamsoult Cascades before arriving at Tizi Oussem (1,850m) for dinner and overnight in a traditional gite."
                 },
                 {
                     "day": 2,
-                    "title": "Tamsoult – Tizi Oussem – Marrakech",
-                    "description": "Trek through classic Berber villages including Tizi Oussem and Id Issa, observing traditional mountain life. Enjoy a scenic descent through colorful landscapes to the meeting point for your transfer back to Marrakech."
+                    "title": "Tizi Oussem – Imlil – Marrakech",
+                    "description": "On the second day, you’ll trek back to Imlil, following a different route that offers equally stunning views. Along the way, you may visit other Berber villages and explore the local handicraft scene. After lunch in Imlil, you’ll be transferred back to Marrakech, where your adventure ends. (Note: The difficulty level of the trek can be adjusted to suit your fitness level)."
                 }
             ]
         },
         {
             "id": "toubkal-tres-3-days",
-            "name": "Toubkal Tres 3 Days",
+            "name": "Toubkal Winter 3 Days",
             "duration": "3_days",
             "image": "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg"
             ],
-            "description": "Experience the High Atlas in depth with this 3-day Toubkal circular trek. This route allows better acclimatization and more time to enjoy the dramatic scenery. Trek from Imlil via the Azzaden Valley, cross the Aguelzim Pass for stunning ridge views, and summit Mount Toubkal. A perfect blend of challenge and scenic reward.",
+            "description": `Join us for a memorable 3-day winter ascent of Mount Toubkal. This extended itinerary allows for better acclimatization and a more relaxed pace compared to the 2-day express option. You'll hike from Imlil to the refuge, summit the highest peak in North Africa (4167m) to enjoy breathtaking views, and spend two nights in the heart of the Atlas Mountains.
+
+The price of the trek varies depending on the number of participants, the season, and the duration of the trek. Please contact us for a detailed quote. We look forward to welcoming you to Morocco!
+
+Necessary equipment: hiking shoes, warm and waterproof mountain clothing, backpack, water bottle, headlamp, etc.`,
             "pricing": [
                 {
                     "totalPrice": 190
                 }
             ],
+            "includes": [
+                "Round-trip transportation between Marrakech and Imlil",
+                "Guide service",
+                "Muleteer and cook service",
+                "2 nights in the refuge",
+                "Food during the trek"
+            ],
+            "excludes": [
+                "Hotel in Marrakech",
+                "Travel insurance",
+                "Traditional tips for the team",
+                "Drinks not included in meals",
+                "Personal expenses"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imlil – Azzaden Valley",
-                    "description": "Transfer to Imlil. Trek over Tizi n'Mzik (2489m) into the beautiful Azzaden Valley. Stay overnight in a local gite or refuge at Tamsoult, close to the waterfalls."
+                    "title": "Marrakech – Toubkal Refuge",
+                    "description": "A short transfer from Marrakech to the village of Imlil (1800m) in the High Atlas, where we will meet our team of mule drivers and cook. After meeting our Berber team, we will start our hike to the Toubkal Refuge, passing through the village of Aremed and the small village of Chamharouch. 5 to 6 hours of walking."
                 },
                 {
                     "day": 2,
-                    "title": "Azzaden Valley – Aguelzim Pass – Toubkal Refuge",
-                    "description": "A challenging climb over the Aguelzim Pass (3650m) offers acclimatization and incredible views of the Toubkal massif. Descend to the Toubkal Refuge for the night."
+                    "title": "Toubkal Refuge – Ascent of Mount Toubkal (4167m)",
+                    "description": "Early departure to avoid the risk of bad weather. 3.5 hours of ascent to the summit of Toubkal, which does not present any technical difficulty. Once we reach the summit of Toubkal, we will be “on the roof of North Africa” and will be able to contemplate distant plains and enjoy a breathtaking view of the summits of the neighboring massifs which also exceed an altitude of 4000m. The descent takes 2 hours. We will have lunch at the refuge. 2.5 hours to descend to the refuge where we will spend the second night."
                 },
                 {
                     "day": 3,
-                    "title": "Refuge – Toubkal Summit – Imlil – Marrakech",
-                    "description": "Early ascent to Toubkal Summit (4167m). Enjoy the accomplishment and views before a long descent back to Imlil for your transfer to Marrakech."
+                    "title": "Toubkal Refuge – Imlil – Return to Marrakech",
+                    "description": "After breakfast, we will descend leisurely by the same path, passing through Sidi Chamharouch. A good lunch awaits us in Imlil under the walnut trees prepared by our cook before making a short transfer to Marrakech via Asni and Tahnaout. 1.5 hours of driving and 5 hours of walking."
                 }
             ]
         },
@@ -109,7 +170,12 @@ const siteData = {
                 "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
                 "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg"
             ],
-            "description": "Immerse yourself in Berber culture on this 4-day trek through the 'Berber Villages'. Traverse the Imnane and Azzaden valleys, crossing high passes with panoramic views but staying in traditional village guesthouses each night. This moderate trek focuses on cultural connection, landscapes, and the rhythm of local life.",
+            "description": `Immerse yourself in Berber culture on this 4-day trek through the 'Berber Villages'. Traverse the Imnane and Azzaden valleys, crossing high passes with panoramic views but staying in traditional village guesthouses each night. This moderate trek focuses on cultural connection, landscapes, and the rhythm of local life.
+
+Additional information:
+The price of the trek varies depending on the number of participants, the season, and the duration of the trek.
+Please contact us for a detailed quote.
+We look forward to welcoming you to Morocco!`,
             "pricing": [
                 {
                     "totalPrice": 245
@@ -118,23 +184,23 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imi Oughlad – Tiziane",
-                    "description": "Start at Imi Oughlad. Trek up to Tizi n'Tacht (2000m) for views of the Azzaden Valley. Descend to the village of Tiziane for overnight stay."
+                    "title": "Marrakech – Id Aissa Village",
+                    "description": "Depart from Marrakech to the High Atlas, passing through the small town of Tahnaout and then Asni. Enjoy superb views of the mountain range and the summit of Toubkal. Upon arrival in Imi Oughlad, meet your Berber mule driver. Begin your hike through the village of Imi Oughlad, followed by a beautiful climb to the Tacht Pass at 2020 m for panoramic views of the Azaden Valley. After lunch, enjoy an easy descent to the village of Ait Aissa at 1800 m. Stay overnight in a gite with a local family. (5 hours of walking and 1.5 hours of transfer)."
                 },
                 {
                     "day": 2,
-                    "title": "Tiziane – Tizi n'Taghrhourte – D'knt",
-                    "description": "Climb through walnut groves to Tizi n'Taghrhourte (1995m). Continue to Assaka spring and enjoy lunch in nature. Reach the remote village of D'knt for the night."
+                    "title": "Ait Aissa – Tkent Village",
+                    "description": "Start with a descent to the Azaden River, followed by a beautiful climb to the Teouti Pass at 2440 m altitude, ascending in the shade of walnut and juniper trees. Descend to Assaka for a lunch break under a walnut tree. Enjoy a 1.5-hour hike with small descents and ascents to the village of Tizgui de Tkent. Stay overnight in a gite with a local family. (5.5 hours of walking)."
                 },
                 {
                     "day": 3,
-                    "title": "D'knt – Tizi n'Tagdalte – Tizi Oussem",
-                    "description": "Morning climb to Tizi n'Tagdalte. Long descent through juniper forests to Tizi Oussem. Optional visit to the summer village of Azib Tamsoult."
+                    "title": "Tkent Village – Tagdalt Pass – Tizi Oussem Village",
+                    "description": "Depart from Tkent with its beautiful stone and mudbrick houses. Meet Berber villagers working the land. Enjoy a gradual ascent to the Tagdalt Pass (2700 m) for beautiful views of the valley and peaks over 3000 m. Enjoy a long descent through a juniper forest. Have lunch in the shade by the river before arriving at the village of Tizi Oussem. Stay overnight in a gite with a local family. (6 hours of walking)."
                 },
                 {
                     "day": 4,
-                    "title": "Tizi Oussem – Tizi n'Mzik – Imlil – Marrakech",
-                    "description": "Hike over Tizi n'Mzik pass (2489m) back towards Imlil. Enjoy farewell lunch before the drive back to Marrakech."
+                    "title": "Tizi Oussem Village – Tamsoult Waterfalls – Marrakech",
+                    "description": "After breakfast, ascend to the pretty village of Tamsoult. Enjoy breathtaking views of the Azaden Valley with its contrasting colors. Ascend to the Tamsoult Waterfalls and then to the Mzik Pass. Take in panoramic views of the beautiful village of Imlil. Enjoy a delicious lunch under the juniper trees before descending to the valley. Transfer to Marrakech. (5 hours of walking and 1.5 hours of driving)."
                 }
             ]
         },
@@ -147,7 +213,17 @@ const siteData = {
                 "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg"
             ],
-            "description": "The ultimate winter mountaineering adventure. This 8-day expedition allows for proper acclimatization and explores the stunning snowy peaks of the Toubkal Massif. Scale Mount Toubkal and potentially Ouanoukrim, Morocco's second-highest peak. Requires winter gear (crampons/ice axe) and moderate fitness. A true alpine experience in Africa.",
+            "description": `During winter, the majestic Mt. Toubkal and the surrounding peaks of the High Atlas undergo a remarkable transformation into a paradise for hikers, boasting tranquil trails, crisp air, and breathtaking vistas of the Toubkal Massif. Embarking from the bustling city of Marrakech, we journey directly into the heart of the High Atlas to conquer North Africa’s highest peak (4167m) amidst awe-inspiring scenery. While crampons and ice axes may be necessary depending on the weather, this expedition is crafted to be accessible to those who are physically fit and determined, even if they are new to winter trekking.
+
+WHAT TO BRING:
+moroccoatlasguide, prepares as you would for walking in any mountain region; it can be warm and sunny during the day, but the weather can quickly change to snow and cold winds. Please carry out what you carry in, leaving no rubbish behind.
+
+moroccoatlasguide is tailored to match the season and your level of fitness. You have the choice of basing yourself in Berber Guesthouses for daily walks or opting for an Atlas Mule Trek for 2+ days. On mule treks, you usually have the option of staying in Berber Guesthouses/families or wild camping in 2-person tents. In addition to regular packing, here is a checklist for moroccoatlasguide:
+
+- Good walking boots and socks
+- Comfortable shoes/slippers for camp/guesthouse
+- Trekking pants
+- Lightweight waterproof over-trousers/rain pants`,
             "pricing": [
                 {
                     "totalPrice": 430
@@ -156,49 +232,49 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imlil",
-                    "description": "Transfer to Imlil. Short acclimatization walk around the village. Overnight in a guesthouse."
+                    "title": "Transfer from Marrakech airport to the 4-star hotel.",
+                    "description": "Transfer from Marrakech airport to the 4-star hotel."
                 },
                 {
                     "day": 2,
-                    "title": "Imlil – Toubkal Refuge",
-                    "description": "Trek up to the snowline and reach the Toubkal Refuge. Winter skills briefing."
+                    "title": "Marrakech – Imlil (Acclimatization)",
+                    "description": "Transfer from Marrakech to Imlil. Acclimatization day around the Imlil Valley. One option is to trek to Tizi M’zzik col at 2660m / 8727ft in the nearby Mezzik Valley. Overnight in a local village."
                 },
                 {
                     "day": 3,
-                    "title": "Acclimatization Day",
-                    "description": "Short climbs around the refuge to practice winter walking and acclimatize to the altitude."
+                    "title": "Imlil – Sidi Chamharouch – Neltner Refuge",
+                    "description": "Ascend to the shrine at Sidi Chamharouch. Continue the ascent to reach the Neltner Refuge (3207m / 10,521ft), our accommodation for the next 3 nights."
                 },
                 {
                     "day": 4,
-                    "title": "Toubkal Summit",
-                    "description": "Summit day for Jebel Toubkal (4167m). Return to refuge."
+                    "title": "Climb Ouanoukrim (4089m)",
+                    "description": "Leave the refuge to climb Ouanoukrim (4089m / 13,415ft) during the day. Time to rest and relax in the late afternoon at the refuge."
                 },
                 {
                     "day": 5,
-                    "title": "Ouanoukrim Summit",
-                    "description": "Attempt summit of Ouanoukrim (4088m), the second highest peak, weather permitting."
+                    "title": "Summit Jebel Toubkal (4167m)",
+                    "description": "Today, make the steep ascent to the summit of Jebel Toubkal (4167m / 13,672ft). After enjoying the panoramic views, return to the Neltner Refuge for the night."
                 },
                 {
                     "day": 6,
-                    "title": "Refuge – Imlil",
-                    "description": "Descent back to the green valleys of Imlil. Celebration dinner."
+                    "title": "Refuge – Aroumd Valley – Imlil",
+                    "description": "Leave the refuge and descend down the Aroumd Valley, passing through Sidi Chamharouch, and return to Imlil for the night at the hotel."
                 },
                 {
                     "day": 7,
-                    "title": "Imlil Valley Exploration",
-                    "description": "Relaxing day exploring nearby villages or optional short hikes."
+                    "title": "Imlil – Marrakech",
+                    "description": "Transfer to Marrakech, where you’ll have the opportunity to explore the city before returning to the 4-star hotel."
                 },
                 {
                     "day": 8,
-                    "title": "Imlil – Marrakech",
-                    "description": "Transfer back to Marrakech."
+                    "title": "Transfer from the hotel to the airport.",
+                    "description": "Transfer from the hotel to the airport."
                 }
             ]
         },
         {
             "id": "toubkal-15-days-walk",
-            "name": "Toubkal 15 Days Walk",
+            "name": "Toubkal Massif 15 Days 14 Nights",
             "duration": "15_days",
             "image": "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
             "gallery": [
@@ -206,7 +282,16 @@ const siteData = {
                 "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
                 "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg"
             ],
-            "description": "A grand 15-day traverse of the High Atlas, taking you from the happy valley of Ait Bougmez to the summit of Toubkal. This comprehensive trek crosses high passes, verdant valleys, and remote Berber settlements. It is the definitive Atlas experience for dedicated trekkers, offering a profound connection with the landscape and its people.",
+            "description": `Unforgettable Trek to Mount Toubkal
+an other extraordinary adventure through Morocco’s High Atlas Mountains with morocco atlas guide. Join your local guide, cook, and mule driver as you explore charming Berber villages, traverse lush valleys, navigate moderate crevasses, and ascend majestic mountains bathed in golden sunlight.
+
+Experience a unique blend of comfort and adventure. Stay in traditional guesthouses and camp under a canopy of fig trees. Culminate your journey with the challenging yet rewarding climb to the summit of Mount Toubkal, North Africa’s highest peak at an impressive 4,167 meters (13,671 ft). The breathtaking panoramic views from the top will leave you speechless.
+
+This trek goes beyond a physical challenge. It’s a cultural immersion designed to give you a glimpse into the Berber way of life in the Atlas Mountains. The itinerary is suitable for anyone who maintains a regular fitness routine.
+
+Extend your adventure with a trip to Marrakech, a captivating city known for its fire-eaters, snake charmers, and vibrant markets.
+
+Remember: This is a demanding trek. Be prepared for changing weather conditions in the mountains (warm days, cold nights, wind, and snow possible). Pack accordingly with sturdy boots, comfortable camp shoes, trekking pants, and rain gear.`,
             "pricing": [
                 {
                     "totalPrice": 380
@@ -215,169 +300,239 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Arrival Marrakech",
-                    "description": "Welcome and transfer to hotel."
+                    "title": "Arrival in Marrakech",
+                    "description": "Arrive in Marrakech, relax at your hotel, and enjoy a delicious dinner (included)."
                 },
                 {
                     "day": 2,
-                    "title": "Marrakech – Ait Bougmez",
-                    "description": "Drive to the 'Happy Valley' of Ait Bougmez. Overnight in gite."
+                    "title": "Marrakech – Tiziane (1800m)",
+                    "description": "Embark on your trek! Hike from Marrakech to Tiziane (1800m) via Asni, Imioughlad, and Col Tacht (2000m). Enjoy stunning scenery and spend the night at a camp or gite (4.5 hours walking, +600m/-300m elevation change)."
                 },
                 {
                     "day": 3,
-                    "title": "Ait Bougmez – Arous",
-                    "description": "Begin trekking towards the Arous valley and summer pastures."
+                    "title": "Tiziane – Tizgui’n Tikkent (2250m)",
+                    "description": "The climb continues! Trek from Tiziane to Tizgui’n Tikkent campsite (2250m) via Col Téouti (2400m). Prepare for breathtaking views (6 hours walking, +1050m/-250m elevation change)."
                 },
                 {
                     "day": 4,
-                    "title": "Arous – Tarkeddite Plateau",
-                    "description": "Cross the Aghouri pass (3400m) to the vast Tarkeddite plateau."
+                    "title": "Tizgui’n Tikkent – Azib n Tamsoult (2250m)",
+                    "description": "Traverse from Azib n Tikkent to Azib n Tamsoult campsite (2250m), passing Col Tougdalt (2700m) along the way (6 hours walking, +800m/-900m elevation change)."
                 },
                 {
                     "day": 5,
-                    "title": "Ascent of M'Goun (4068m)",
-                    "description": "Optional ascent of M'Goun ridge. Descent to Oulilimt."
+                    "title": "Azib n Tamsoult – Imlil (1750m)",
+                    "description": "Descend from Azib n Tamsoult to Imlil (1750m) via Col Mezzik. Enjoy a well-deserved rest (5 hours walking)."
                 },
                 {
                     "day": 6,
-                    "title": "Oulilimt – Aflafal",
-                    "description": "Trek through stunning gorges and riverside paths."
+                    "title": "Imlil – Refuge Neltner (3200m)",
+                    "description": "Challenge yourself with a significant ascent from Imlil to Refuge Neltner (3200m) passing Armed and Sidi Chamharouch (5.5 hours walking, +1500m elevation change)."
                 },
                 {
                     "day": 7,
-                    "title": "Aflafal – Megdaz",
-                    "description": "Visit Megdaz, known for its beautiful kasbah-style architecture."
+                    "title": "Refuge Neltner – Mount Toubkal Summit (4167m) – Refuge",
+                    "description": "Conquer the summit! Hike from Refuge Neltner to the peak of Mount Toubkal (4167m) and return to the refuge for the night (5 hours walking, +1000m/-1000m elevation change)."
                 },
                 {
                     "day": 8,
-                    "title": "Megdaz – Tassaout",
-                    "description": "Follow the Tassaout generic valley."
+                    "title": "Refuge Neltner – Lac Ifni (2400m)",
+                    "description": "Explore a new route! Trek from Refuge Neltner to Lac Ifni campsite (2400m) via Col Ounamous (3700m) (6 hours walking, +500m/-1350m elevation change)."
                 },
                 {
                     "day": 9,
-                    "title": "Tassaout – Jat",
-                    "description": "Cross remote passes into the Jat valley."
+                    "title": "Lac Ifni – Taghbalout (2500m)",
+                    "description": "Continue your journey from Lac Ifni to Taghbalout campsite (2500m) passing Tissaldai (5.5 hours walking, +850m/-300m elevation change)."
                 },
                 {
                     "day": 10,
-                    "title": "Jat – Yagour Plateau",
-                    "description": "Trek to the Yagour plateau, famous for prehistoric rock carvings."
+                    "title": "Taghbalout – Camp (2600m)",
+                    "description": "Brace yourself for a challenging climb! Hike from Taghbalout to Camp (2600m) via Col 2900m and Azib Likkemt (6.5 hours walking, +900m/-800m elevation change)."
                 },
                 {
                     "day": 11,
-                    "title": "Yagour – Ourika Valley",
-                    "description": "Descent into the lush Ourika Valley."
+                    "title": "Camp – Azib Likkemt – Camp Amagdoul (2300m)",
+                    "description": "Another climb awaits! Trek from Azib Likkemt to Camp Amagdoul (2300m) via Col Likkemt (3600m) (6 hours walking, +1000m/-1200m elevation change)."
                 },
                 {
                     "day": 12,
-                    "title": "Ourika – Timichi",
-                    "description": "Trek up the valley to the village of Timichi."
+                    "title": "Camp Amagdoul – Ousertek (2100m)",
+                    "description": "Descend towards the end of the trek. Hike from Ousarou to Ousertek (2100m) via Col Eddi (2900m) and Oukaimden (2600m) (5.5 hours walking, +700m/-900m elevation change)."
                 },
                 {
                     "day": 13,
-                    "title": "Timichi – Oukaimeden – Tacheddirt",
-                    "description": "Cross Tizi n'Ouattar to the ski resort of Oukaimeden and on to Tacheddirt."
+                    "title": "Ousertek – Imioughlad – Marrakech (Transfer)",
+                    "description": "Celebrate your accomplishment! Reach the end of the trek at Imioughlad after a final hike from Ousertek via Arg Imeskar (3.5 hours walking, +300m/-400m elevation change)."
                 },
                 {
                     "day": 14,
-                    "title": "Tacheddirt – Imlil",
-                    "description": "Final pass crossing to Imlil. Celebration."
+                    "title": "Marrakech (Free Day)",
+                    "description": "Enjoy a free day in Marrakech to explore the vibrant city."
                 },
                 {
                     "day": 15,
-                    "title": "Imlil – Marrakech",
-                    "description": "Transfer back to Marrakech."
+                    "title": "Departure",
+                    "description": "Relax and reflect on your adventure. Transfer to the airport, with time for souvenir shopping in the souk if your flight allows."
                 }
             ]
         },
         {
             "id": "3-days-imlil-to-setti-fatma",
-            "name": "3 Days Imlil To Setti Fatma",
+            "name": "3 Days – Imlil to Setti Fatma",
             "duration": "3_days",
             "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
                 "/images/excursions/rigel-ibisQEDxODo-unsplash.jpg"
             ],
-            "description": "A diverse 3-day trek connecting two famous valleys: Imlil and Ourika. Trek over high passes, visit the village of Tacheddirt (highest in the Atlas), and finish at the Setti Fatma waterfalls. This route offers a great variety of landscapes from rugged peaks to lush river valleys.",
+            "description": `Why book this trek?
+- Trekking in the High Atlas Mountains
+- See Berber villages
+- Beautiful scenery
+- See the waterfall in Setti Fatma
+
+Tour Details:
+In the higher elevations you’ll find mostly evergreen alpines with some occasional undergrowth, while the lower elevations have diverse valleys of walnut, apple, cherry and other fruit trees as well as mountain orchids, poppies and irises.
+
+Trek Grades:
+- Grade 1 walks (Easy): Tend to be short day walks and rambles at low altitudes. Grade 1 walks can be enjoyed by anyone who leads a reasonably active life and no special preparation is required.
+- Grade 2 walks (Moderate): Will usually involve some longer walks (4-6 hours/day) at low altitudes (below 3000m). Some previous hill walking experience would be beneficial but these walks should be within the capabilities of those who lead a normal active life. Grade 2 walking tours may contain some optional strenuous days, and in order to get the best out of the trip we would advise that you tone up your fitness before you join.
+- Grade 3 walks (Strenuous): Are for the more serious hill walker and a higher level of physical fitness is required. Walking days are normally 6-8 hours and may involve up to 900m or more of ascent and descent. You should be prepared for several consecutive days walking, often at higher altitudes, so stamina is important.
+
+What to Bring:
+For Atlas Trekking you need to prepare as you would for walking in any mountain region; it can be warm and sunny during the day but the weather in the mountains can quickly change from sunshine to snow and cold winds (autumn through late spring). Please do not leave any rubbish behind you; carry out what you carry in.
+Atlas Treks are tailored to match the season and your level of fitness. You have the choice of basing yourself in Berber Guesthouses, from where you can take daily walks, or you can Atlas Mule Trek for 2+ days. On mule treks you usually have the choice of staying in Berber Guesthouse/with families or wild camping in 2-person tents. In addition to regular packing, here is a Check List for Atlas Trekking:
+- Good walking boots and socks
+- Comfortable shoes/slippers for camp/guesthouse
+- Trekking pants
+- Lightweight waterproof over-trousers / rain-pants`,
             "pricing": [
                 {
                     "totalPrice": 200
                 }
             ],
+            "includes": [
+                "Fully escorted by local mountain guide, muleteers and cook",
+                "All meals: breakfast, lunch and dinner",
+                "Accommodation: 2 nights at local gites",
+                "Transport: minibus or 4×4 car"
+            ],
+            "excludes": [
+                "International Flights",
+                "Travel Insurance",
+                "Sleeping Bags",
+                "Tips",
+                "Walking poles, Meals not mentioned",
+                "Soft drinks"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Imlil – Tacheddirt",
-                    "description": "Trek from Imlil over Tizi n'Tamatert (2279m) to the Tacheddirt valley. Overnight in local gite."
+                    "title": "Imlil – Tacheddirt (Valley of Tacheddirt)",
+                    "description": "After a transfer to Imlil we start walking towards the valley of Tacheddirt, passing by Tizi ‘n Tamatert (2279m) to arrive at the village of Ouanesekra (2200m) in the valley of Tacheddirt. Here we spend the night in a Berber gîte or in tents. Approx. 4 hours walking. (L/D)"
                 },
                 {
                     "day": 2,
                     "title": "Tacheddirt – Timichi",
-                    "description": "Long scenic day trekking through remote villages and passes to Timichi."
+                    "description": "We start walking from Tacheddirt towards Timichi (2000m), passing by the Tizi ‘n Tacheddirt (3172m). After the pass we descent past the villages of Ibbasen and Timichi. We spend the night in a Berber gîte. Approx. 6 to 7 hours walking. (B/L/D)"
                 },
                 {
                     "day": 3,
                     "title": "Timichi – Setti Fatma – Marrakech",
-                    "description": "Descend into the Ourika valley to Setti Fatma. Visit the waterfalls before transfer back to Marrakech."
+                    "description": "Today we walk from Timichi towards Setti Fatma (1700m). All along the journey there are Berber villages in the valley: Tiourdou, Anfli, Tadrart, Chiker. After lunch we continue via Agadir ‘n Aït Boulmane and on to the centre of Setti Fadma. If there is enough time we will visit the waterfall in Setti Fadma before returning to Marrakech. Approx. 4 to 5 hours walking."
                 }
             ]
         },
         {
             "id": "8-days-mount-toubkal-summer",
-            "name": "8 Days Mount Toubkal Summer",
+            "name": "8 Days Mount Toubkal – Summer",
             "duration": "8_days",
             "image": "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
             "gallery": [
                 "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
                 "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg"
             ],
-            "description": "An extended 8-day summer trekking program in the Toubkal National Park. Explore the Imnane, Imlil, and Azzaden valleys thoroughly before tackling the Toubkal summit. This route provides excellent acclimatization and a deep dive into the region's geography and culture. Ideal for those who want to savor the Atlas at a relaxed but active pace.",
+            "description": `Why book this trek?
+- Attempt the summit of Mt Toubkal, highest mountain in North Africa
+- Trekking in the High Atlas Mountains
+- See the beautiful Ifni Lake
+- Experience the Berber way of life
+- Explore the city of Marrakech
+
+Tour Details:
+North Africa’s highest mountain dominates the breathtaking view southwards from Marrakech, often surprising with its unexpected snow-capped peak. However, it also offers a relatively easy ascent during the summer.
+
+Trek Grades:
+- Grade 1 walks (Easy): Tend to be short day walks and rambles at low altitudes. Grade 1 walks can be enjoyed by anyone who leads a reasonably active life and no special preparation is required.
+- Grade 2 walks (Moderate): Will usually involve some longer walks (4-6 hours/day) at low altitudes (below 3000m). Some previous hill walking experience would be beneficial but these walks should be within the capabilities of those who lead a normal active life. Grade 2 walking tours may contain some optional strenuous days, and in order to get the best out of the trip we would advise that you tone up your fitness before you join.
+- Grade 3 walks (Strenuous): Are for the more serious hill walker and a higher level of physical fitness is required. Walking days are normally 6-8 hours and may involve up to 900m or more of ascent and descent. You should be prepared for several consecutive days walking, often at higher altitudes, so stamina is important.
+
+What to Bring:
+For Atlas Trekking you need to prepare as you would for walking in any mountain region; it can be warm and sunny during the day but the weather in the mountains can quickly change from sunshine to snow and cold winds (autumn through late spring). Please do not leave any rubbish behind you; carry out what you carry in.
+
+Atlas Treks are tailored to match the season and your level of fitness. You have the choice of basing yourself in Berber Guesthouses, from where you can take daily walks, or you can Atlas Mule Trek for 2+ days. On mule treks you usually have the choice of staying in Berber Guesthouse/with families or wild camping in 2-person tents. In addition to regular packing, here is a Check List for Atlas Trekking:
+- Good walking boots and socks
+- Comfortable shoes/slippers for camp/guesthouse
+- Trekking pants
+- Lightweight waterproof over-trousers / rain-pants`,
             "pricing": [
                 {
                     "totalPrice": 420
                 }
             ],
+            "includes": [
+                "Fully escorted by local mountain guide, muleteers and cook",
+                "All meals: breakfast, lunch and dinner (except in Marrakech)",
+                "Accommodation: 2 nights in Marrakech and 5 nights camping",
+                "Transport: minibus or 4×4 car"
+            ],
+            "excludes": [
+                "International Flights",
+                "Travel Insurance",
+                "Sleeping Bags",
+                "Walking poles, Meals not mentioned",
+                "Tips",
+                "Soft drinks"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Imlil",
-                    "description": "Arrival and transfer to Imlil."
+                    "title": "Arrival Marrakech",
+                    "description": "Pick up from the airport in Marrakech and transfer to your riad where you will spend the night. (B)"
                 },
                 {
                     "day": 2,
-                    "title": "Imlil – Tacheddirt",
-                    "description": "Trek to Tacheddirt via Tizi n'Tamatert."
+                    "title": "Marrakech – Imlil – Tacheddirt",
+                    "description": "We leave Marrakech after breakfast and drive to Imlil (1740m) via Asni. Imlil is the principal trailhead for walkers. This is the place where we meet our mule team and once all our gear is loaded we begin walking along the valley towards Tacheddirt, some 8 km from Imlil. Soon the trail begins to rise as we climb up to the pass at Tizi ‘n Tamatert (2279m). We then descend to the pretty village of Ouaneskra (2200m) and continue, for a further half-hour or so, to Tacheddirt (2300m), where we set up camp near the river. Approx. 4 hours walking. (B/L/D)"
                 },
                 {
                     "day": 3,
-                    "title": "Tacheddirt – Imsker",
-                    "description": "Descend the Imnane valley to Imsker."
+                    "title": "Tacheddirt – Azib Likemt",
+                    "description": "We immediately begin a long, slow ascent to the pass at Tizi Likemt (3555m). At the top we enjoy our first fine view of the Toubkal Massif before a long downhill descent to the village of Azib Likemt (2200m), where we set up our camp for the night. Approx. 5 hours walking. (B/L/D)"
                 },
                 {
                     "day": 4,
-                    "title": "Imsker – Tizi Oussem",
-                    "description": "Cross Tizi n'Techt to the Azzaden Valley."
+                    "title": "Azib Likemt – Amsouzert",
+                    "description": "This day is going to be a long but quite easy day, passing many different landscapes. From Tizi ‘n Ououraine (3120m) we enjoy further views of the Toubkal Massif, including the summit, the east face and the Ifni Dome (3876m). The trail leads on towards Amsouzert (1700m), one of the most striking villages in the region, where we spend the night in a local gite or in a camp. The gite is very basic accommodation. Approx. 6 hours walking. (B/L/D)"
                 },
                 {
                     "day": 5,
-                    "title": "Tizi Oussem – Tamsoult",
-                    "description": "Short trek to Tamsoult refuge and waterfalls."
+                    "title": "Amsouzert – Ifni Lake",
+                    "description": "West of Amsouzert are several small villages, which we explore as we make our way towards Ifni Lake (2300m), the only lake in the Massif. It is a memorable sight, surrounded by rocky mountains and giant heaps of rubble, and is unusually deep. We expect to arrive by lunchtime and spend the afternoon relaxing at the shore. We camp tonight in this area. Approx. 4 hours walking. (B/L/D)"
                 },
                 {
                     "day": 6,
-                    "title": "Tamsoult – Toubkal Refuge",
-                    "description": "High pass crossing via Aguelzim to the refuge."
+                    "title": "Ifni Lake – Tizi n’Ouanoums – Nelther Refuge",
+                    "description": "By now we should be both fit and acclimatised, and ready to tackle the hardest day of the trek. We make our way along a steep path that leads up a seemingly endless scree slope. At length we reach the pass at Tizi n’Ouanoums (3664m), a narrow ledge between two shafts of rock. From here it is a long zigzag descent to Nelther Refuge (3200m), where we spend the night in tents. Approx. 6 hours walking. (B/L/D)"
                 },
                 {
                     "day": 7,
-                    "title": "Toubkal Summit",
-                    "description": "Ascent of Toubkal. Return to Imlil."
+                    "title": "Nelther Refuge – Toubkal Summit – Imlil – Marrakech",
+                    "description": "We leave before dawn, following a well-worn route to the summit of Toubkal (4167m). If conditions are good it should take no more than 2-3 hours to reach the summit, where we enjoy beautiful views of the entire Atlas range and the Marrakech plains beyond. Returning to base, we then descend fairly rapidly to the villages of Sidi Chamharouch and Aremd, before following the Mizane River, along a well-forested trail, to the trailhead at Imlil. Transfer back to Marrakech. Approx. 9 hours walking. Night in a riad. (B/L)"
                 },
                 {
                     "day": 8,
-                    "title": "Imlil – Marrakech",
-                    "description": "Transfer back to Marrakech."
+                    "title": "Departure",
+                    "description": "Transfer back to the airport and departure. (B)"
                 }
             ]
         }
@@ -393,7 +548,7 @@ const siteData = {
                 "/images/desert_tours/merzouga2.jpg",
                 "/images/desert_tours/dan-calderwood-7CPopIsaCkc-unsplash.jpg"
             ],
-            "description": "The classic 3-day desert adventure from Marrakech to Merzouga. Travel through the High Atlas Mountains via the Tizi n'Tichka pass, visit the UNESCO heritage site of Ait Benhaddou, and explore the Dades Valley. The highlight is a camel trek into the Erg Chebbi dunes for a magical night under the stars in a Berber camp.",
+            "description": `Embark on a 3-day adventure through Morocco’s breathtaking landscapes. Traverse valleys, explore ancient kasbahs, and finally, stand in awe of the legendary Sahara Desert. Expert guides will be by your side every step of the way, ensuring a safe and culturally enriching journey.`,
             "pricing": [
                 {
                     "totalPrice": 390
@@ -402,18 +557,18 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Ait Benhaddou – Dades Valley",
-                    "description": "Depart Marrakech crossing the High Atlas. Visit Ait Benhaddou Kasbah and Ouarzazate. Continue to Dades Valley for dinner and overnight."
+                    "title": "Marrakech – Kasbah Telouet – Ait Benhaddou – Ouarzazate",
+                    "description": "We will pick you up from your hotel or riad and head out to the High Atlas Tizi-n-Tichka pass at 2260m altitude. We’ll break up your journey with a visit to the kasbah Telouet and then take the caravan tracks to the kasbah at Ait Benhaddou. Tonight, we’ll stay at the Gateway To The Sahara, Ouarzazate in a riad or a comfortable hotel."
                 },
                 {
                     "day": 2,
-                    "title": "Dades – Todra Gorges – Merzouga",
-                    "description": "Visit Todra Gorges. Drive to Merzouga. Camel trek into Erg Chebbi dunes for sunset. Overnight in desert camp."
+                    "title": "Ouarzazate – Dades Gorges – Todra Gorges – Merzouga",
+                    "description": "After breakfast we’ll take you out to see The Valley Of The Roses’ with the winding River Dades running through the centre. When we leave, we’ll get some stunning views of the surrounding countryside as we travel on toward Tinghir and the Todgha valley. Make sure you keep an eye out for traditional Berber huts and villages! Our next destination is the dramatic 300m Todgha Gorge, a popular destination with rock climbers and occasionally even film-makers. Afterward, we’ll set off for the village of Merzouga where we’ll be welcomed with a glass of mint tea and a short rest. From there, we’re off into the desert! When we’re ready, we’ll ride our camels out into the dunes and catch the sunset before spending the night in a traditional nomad’s tent. Your dinner is included."
                 },
                 {
                     "day": 3,
-                    "title": "Merzouga – Draa Valley – Marrakech",
-                    "description": "Sunrise in dunes. Return by camel. Drive back to Marrakech via Draa Valley and Anti-Atlas mountains."
+                    "title": "Merzouga – Rissani – Erfoud – Marrakech",
+                    "description": "Today, we’ll get up early to watch the desert sunrise among the dunes and to get ready for the day ahead. We’ll trek back to the hotel with our camels and grab a shower before we continue on with our adventure. We’ll make a stop at Boumalne-Dades (via Rissani and Erfoud) where we’ll see the workshops that make objects and decorations from fossilized marble. Finally, we’ll return to Marrakech where you can spend the night in your hotel or riad."
                 }
             ]
         },
@@ -427,7 +582,8 @@ const siteData = {
                 "/images/desert_tours/kristijan-nikodinovski-RfK4AQchykw-unsplash.jpg",
                 "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg"
             ],
-            "description": "A grand 5-day journey connecting two imperial cities, Marrakech and Fes, via the Sahara Desert. Experience the contrast between the green Atlas valleys and the golden dunes of Merzouga. Visit ancient Kasbahs, spend a night in the desert, and see the barbary apes in the cedar forests of Azrou before arriving in the cultural capital of Fes.",
+            "description": `Unveil the Soul of Morocco: A 5-Day Adventure
+Embark on a captivating journey that traverses the majestic landscapes of Morocco, starting in the vibrant heart of Marrakech and culminating in the ancient city of Fes. Ascend the rugged peaks of the High Atlas Mountains, their sharp pinnacles scraping the sky. Delve into the heart of the Sahara – a sea of vast sand dunes whispering tales of time. Wander through labyrinthine medinas teeming with life, their vibrant souks overflowing with treasures. Marvel at exquisite mosques and the grandeur of once-powerful royal residences. Unravel the secrets of ancient kasbahs – silent sentinels guarding forgotten stories. Explore sun-baked desert towns where time seems to stand still. Experience the thrill of a camel trek across the Merzouga dunes, culminating in a memorable night under a canopy of stars in a desert camp. This 5-day adventure promises an unforgettable immersion into the rich tapestry of Moroccan culture, history, and breathtaking natural beauty.`,
             "pricing": [
                 {
                     "totalPrice": 390
@@ -436,28 +592,28 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Dades Valley",
-                    "description": "Cross Tizi n'Tichka, visit Ait Benhaddou and Ouarzazate. Overnight in Dades."
+                    "title": "Unveiling the High Atlas and Ait Ben Haddou",
+                    "description": "Our journey begins in Marrakech, weaving through the stunning High Atlas Mountains. Conquer the Tizi n’Tichka pass, reaching a staggering 2260 meters! Breathe in the fresh mountain air and admire the dramatic landscapes. We’ll also stop at a local Argan oil cooperative to learn about this unique Moroccan product. After a delicious lunch at a local restaurant, delve into history with a visit to the UNESCO World Heritage site, Ait Ben Haddou, a magnificent kasbah. Our day concludes in Ouarzazate, where a traditional hotel awaits for dinner and a comfortable night’s rest."
                 },
                 {
                     "day": 2,
-                    "title": "Dades – Todra – Merzouga",
-                    "description": "Explore Todra Gorges. Continue to Merzouga. Initial desert exploration."
+                    "title": "Dades Gorges and the Gateway to the Sahara",
+                    "description": "Refueled by breakfast, we journey back through the Dades Valley, marveling at the fascinating rock formations known as “the monkey toes.” We’ll also encounter the historic 19th-century Kasbah of Ait Yul. Leaving the Dades behind, we head towards Tinghir and the Todra Gorges. Prepare to be awestruck by panoramic views of ancient mud-brick Berber villages clinging to the valley walls. Arrive at the Todra Gorges, a natural wonder where towering 300-meter cliffs provide a haven for rock climbers. Our path continues to Erfoud and Rissani, where we’ll savor a delicious lunch. Finally, we reach the charming village of Merzouga, greeted with a refreshing glass of mint tea before settling into our accommodation."
                 },
                 {
                     "day": 3,
-                    "title": "Merzouga Desert Exploration",
-                    "description": "4x4 tour around dunes, visit Khamlia village (Gnawa music), visit nomads. Camel trek to camp."
+                    "title": "Exploring the Desert and a Night Under the Stars",
+                    "description": "After breakfast, embark on an adventurous exploration of the region. A 4×4 guide will unveil the secrets of the Sahara, including a visit to the “village of the blacks,” descendants of Sudanese slaves, where you can experience their unique music and lifestyle. We might also stop by the scenic Lake Merzouga, a haven for diverse birdlife, including flamingos. Explore the nomad wire house, offering Berber handicrafts at lower prices compared to the bustling cities. As the afternoon arrives, prepare for a thrilling camel trek into the heart of the Erg Chebbi, a sea of mesmerizing sand dunes. Tonight, experience the magic of the desert under a blanket of stars. Choose between a traditional Berber nomad tent or a comfortable riad – the choice is yours! Savor a delightful dinner under the starlit sky."
                 },
                 {
                     "day": 4,
-                    "title": "Merzouga – Midelt",
-                    "description": "Travel north via Ziz Valley. Overnight in Midelt."
+                    "title": "Sunrise Spectacle and Ziz Valley Journey",
+                    "description": "Rise before dawn with your camel guide to witness a breathtaking sunrise, perhaps the most memorable of your life. After the enchanting sunrise, camel trek back to your Merzouga riad for a rejuvenating breakfast. Our journey continues towards Medilt, traversing through the towns of Rissani and Erfoud. In Rissani, immerse yourself in the vibrant local souk, bustling with colorful spices, dates, and lively conversations. We then travel to Errachidia, following the magnificent Ziz Valley. Take a moment to appreciate the panoramic views over the dramatic Ziz Canyon before continuing to Medilt."
                 },
                 {
                     "day": 5,
-                    "title": "Midelt – Ifrane – Fes",
-                    "description": "Cross Middle Atlas, see Azrou cedar forest. Stop in Ifrane. Arrival in Fes."
+                    "title": "Cedar Forest and Arrival in Fes",
+                    "description": "After breakfast, we depart for Fes via Azrou, a Berber village nestled within the Middle Atlas Mountains. Along the way, stop and observe the playful Barbary macaques in the famous Cedar Forest. Our final stop before reaching Fes is the charming “French village” of Ifrane – a perfect opportunity to capture some photos or enjoy a refreshing drink. Finally, arrive in Fes, your final destination, and settle into your chosen accommodation."
                 }
             ]
         },
@@ -471,7 +627,16 @@ const siteData = {
                 "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
                 "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg"
             ],
-            "description": "A diverse 5-day combination tour featuring both mountain trekking and desert exploration. Spend two days hiking in the foothills of the Atlas Mountains, experiencing Berber culture, before heading south to the Sahara for a camel trek and desert camp experience. The perfect mix of activity and discovery.",
+            "description": `Explore Morocco: Shared & Private Desert Adventures with moroccoatlasguide
+
+Embark on an unforgettable journey through Morocco with our shared or private desert tours, departing from either Marrakech or Fes.
+
+Tailored Experiences: Choose from excursions ranging from 2 to 8 days, designed to fit your travel style and timeframe. Explore at your own pace with a private tour, or join a vibrant shared adventure and connect with fellow travelers.
+Round Trip or Traverse: We offer both round-trip itineraries that return you to your departure city, or traverse journeys that take you on a one-way exploration, allowing you to discover new destinations at the end of your tour.
+Desert & Beyond: Our desert tours can be combined with thrilling treks in the majestic Atlas Mountains. Immerse yourself in the diverse landscapes of Morocco, from the vast sand dunes of the Sahara to the towering peaks and Berber villages of the Atlas range.
+Contact us today to craft your perfect Moroccan adventure!
+
+Unforgettable Morocco: Mountains, Canyons, and Desert Dunes (5 Days) Embark on an epic journey that blends the majesty of the Atlas Mountains with the magic of the Sahara Desert.`,
             "pricing": [
                 {
                     "totalPrice": 470
@@ -480,34 +645,34 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Atlas Trek",
-                    "description": "Transfer to Atlas. Hike through Berber villages. Overnight in guesthouse."
+                    "title": "Unveiling Imlil, the “Moroccan Chamonix”",
+                    "description": "Our adventure begins in Imlil, a charming village nestled within the High Atlas Mountains. Often called the “Moroccan Chamonix,” Imlil offers breathtaking scenery and a welcoming Berber atmosphere. Spend the day exploring nearby Berber villages, immersing yourself in their rich culture and traditions."
                 },
                 {
                     "day": 2,
-                    "title": "Atlas Trek – High Pass",
-                    "description": "Continue trekking, crossing high passes with panoramic views."
+                    "title": "Trekking Through the Atlas Wonders",
+                    "description": "Lace up your boots and conquer scenic day walks in the Atlas Mountains. Witness breathtaking landscapes and discover hidden gems untouched by time. Savor delicious local meals and connect with Berber communities along the way."
                 },
                 {
                     "day": 3,
-                    "title": "Atlas – Ait Benhaddou – Ouarzazate",
-                    "description": "Drive over Tichka pass to Ait Benhaddou. Explore Kasbah. Overnight Ouarzazate."
+                    "title": "Dades Gorges, a Natural Spectacle",
+                    "description": "Bid farewell to the mountains and journey towards the awe-inspiring Dades Gorges. These dramatic canyons, carved by the Dades River, offer stunning vistas and a unique geological marvel. Explore the gorges, marvel at the rock formations, and learn about the region’s history."
                 },
                 {
                     "day": 4,
-                    "title": "Ouarzazate – Merzouga",
-                    "description": "Drive to Merzouga via Draa Valley. Camel trek to desert camp."
+                    "title": "Merzouga’s Enchanting Desert",
+                    "description": "Continue your adventure towards Merzouga, the gateway to the Sahara Desert. Immerse yourself in the vastness of the sand dunes and experience the tranquility of the desert landscape. Embark on a thrilling camel trek, journeying deep into the heart of the dunes as the sun dips below the horizon. Spend the night under a blanket of stars in a traditional nomad camp, a truly unforgettable experience."
                 },
                 {
                     "day": 5,
-                    "title": "Merzouga – Marrakech",
-                    "description": "Return drive to Marrakech across the Anti-Atlas."
+                    "title": "Farewell, Morocco!",
+                    "description": "After a magical night under the stars, enjoy a leisurely breakfast before departing Merzouga. Our journey takes us back through the stark beauty of the Tazarine desert before reaching Ouarzazate. Finally, we arrive in Marrakech, where your adventure concludes. This 5-day itinerary promises a perfect blend of cultural immersion, breathtaking scenery, and unforgettable experiences."
                 }
             ]
         },
         {
             "id": "south-morocco-discovery",
-            "name": "South Morocco Discovery",
+            "name": "South Morocco Discovery 10 Days",
             "duration": "10_days",
             "image": "/images/desert_tours/merzouga6.jpg",
             "gallery": [
@@ -515,7 +680,11 @@ const siteData = {
                 "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
                 "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg"
             ],
-            "description": "An extensive 10-day exploration of Southern Morocco. This immersive route takes you off the beaten path to Taroudant, the 'Grandmother of Marrakech', the palm-filled Draa Valley, the dunes of Merzouga, and the rugged Dades Gorges. Experience the changing landscapes and deep traditions of the south.",
+            "description": `Unveiling Morocco: A Journey from Bustling Cities to Tranquil Deserts (10-Days)
+
+MAIN ATTRACTIONS: Dates Valley, Merzouga Desert, Agdz, Taroudant
+
+Embark on an extensive 10-day exploration of glorious Southern Morocco. This immersive route takes you from the vibrant streets of Marrakech to the silent dunes of Merzouga and the coastal charm of Essaouira. Experience the changing landscapes, deep traditions, and hidden treasures of the south.`,
             "pricing": [
                 {
                     "totalPrice": 675
@@ -524,53 +693,53 @@ const siteData = {
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Arrival Marrakech",
-                    "description": "Welcome and transfer to Riad."
+                    "title": "Arrival in Marrakech",
+                    "description": "Welcome to the captivating city of Marrakech! Immerse yourself in the vibrant energy as you arrive at any time. The city is a sensory feast, filled with the alluring scents of spices, the rhythmic sounds of musicians, and the dazzling colors of the bustling souks. In the afternoon, join a welcome meeting at a designated time and place (details will be confirmed upon arrival). You’ll then be transferred to your comfortable riad or hotel, where you can check in and relax after your journey."
                 },
                 {
                     "day": 2,
-                    "title": "Marrakech – Taroudant",
-                    "description": "Drive via Tizi n'Test pass to the walled city of Taroudant."
+                    "title": "DISCOVER the High Atlas and Dades Valley",
+                    "description": "After a satisfying breakfast, we embark on a scenic journey south towards Ouarzazate, the gateway to the desert. Our adventure begins with a thrilling ascent through the Tizi n’Tichka pass, offering breathtaking views of the majestic High Atlas Mountains. As we travel through Berber villages, we’ll witness the captivating contrast between fertile valleys and arid hillsides dotted with ancient Kasbahs. A highlight of the day is a stop at the fortified city of Ait Benhaddou, a UNESCO World Heritage Site. After lunch, we reach the stunning Dades Valley, settling into our comfortable hotel accommodation."
                 },
                 {
                     "day": 3,
-                    "title": "Taroudant – Igherm – Tata",
-                    "description": "Journey through Anti-Atlas landscapes to Tata."
+                    "title": "Embracing the Desert Landscape",
+                    "description": "Today, we delve deeper into the desert landscape. Leaving the Dades Gorges behind, we make our way towards Merzouga, stopping at the Todra Gorge and the Tinghir palm grove along the way. Upon arrival in Merzouga, nestled amidst the Erg Chebbi dunes, prepare for an unforgettable experience. We’ll embark on a camel trek into the heart of the dunes, arriving at our traditional Berber tents for the night. As the sun dips below the horizon, witness a breathtaking desert sunset followed by a delicious dinner under a blanket of stars."
                 },
                 {
                     "day": 4,
-                    "title": "Tata – Foum Zguid – Chegaga",
-                    "description": "Off-road adventure to Erg Chegaga wild dunes."
+                    "title": "Desert Delights and Agdaz Oasis",
+                    "description": "Awaken to a magical desert sunrise and enjoy a final camel ride back to Merzouga. We’ll then transfer to Agdz, a charming town nestled within the Draa Valley. Along the way, we’ll stop to connect with Berber families and enjoy a traditional mint tea ceremony. In the evening, we’ll settle into our comfortable hotel or riad accommodation."
                 },
                 {
                     "day": 5,
-                    "title": "Chegaga – M'hamid – Zagora",
-                    "description": "Desert drive to Zagora via Tamgroute."
+                    "title": "Unveiling the Argan Route and Taroudant",
+                    "description": "Today, we hop back into our minivan and venture towards the lively market town of Oulad Driss, often referred to as “Little Marrakech.” The journey offers scenic desert landscapes and a chance to spot the unique argan trees. Keep your eyes peeled for the famous sight of goats climbing these trees in search of nuts! We continue to Taroudant for the night."
                 },
                 {
                     "day": 6,
-                    "title": "Zagora – Merzouga",
-                    "description": "Follow majestic Draa Valley tracks to Merzouga."
+                    "title": "Essaouira, a Seaside Escape",
+                    "description": "In the morning, explore the bustling souks of Taroudant. Afterwards, we bid farewell to the High Atlas Mountains and head west towards the charming coastal town of Essaouira (approximately a 5-hour drive). Essaouira lives up to its name with its picturesque whitewashed houses adorned with bright blue shutters. Explore the art galleries, wander the ramparts, or simply relax on the beautiful sandy beaches."
                 },
                 {
                     "day": 7,
-                    "title": "Merzouga Exploration",
-                    "description": "Full day in Merzouga region. Camel trek."
+                    "title": "Exploring Essaouira at Your Pace",
+                    "description": "Today is a free day to explore Essaouira at your own leisure. Whether you choose to delve deeper into the town’s history, relax on the beach, or indulge in delicious seafood, the day is yours to create lasting memories."
                 },
                 {
                     "day": 8,
-                    "title": "Merzouga – Todra – Dades",
-                    "description": "Visit Todra Gorges. Overnight in Dades."
+                    "title": "Returning to Marrakech",
+                    "description": "After a leisurely breakfast, we’ll transfer back to the bustling city of Marrakech, where you’ll spend your final two nights in Morocco."
                 },
                 {
                     "day": 9,
-                    "title": "Dades – Marrakech",
-                    "description": "Return via Rose Valley and Ouarzazate."
+                    "title": "Unveiling the Treasures of Marrakech",
+                    "description": "Embark on a guided tour of Marrakech, uncovering the city’s hidden gems. Witness the intricate mosaics and architecture of the Bahia Palace. Delve into the serene beauty of the Saadian Tombs. Prepare to be dazzled by the vibrant souks of Marrakech, a labyrinth of sights, smells, and sounds."
                 },
                 {
                     "day": 10,
-                    "title": "Marrakech Departure",
-                    "description": "Transfer to airport."
+                    "title": "Departure",
+                    "description": "Your 10-day adventure comes to an end. Transfer to the airport for your flight home."
                 }
             ]
         },
@@ -1244,7 +1413,7 @@ const siteData = {
                     "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
                     "/images/desert_tours/merzouga4.jpg"
                 ],
-                "description": "Immersive 8-day expedition to the remote Erg Chegaga dunes. Travel off the beaten path through the Draa Valley and vast desert plateaus. Experience the solitude of the true Sahara, camp under the stars, and discover the diverse landscapes of Southern Morocco.",
+                "description": "This unforgettable 8-day expedition will unveil the breathtaking wonders of the Southern Moroccan Sahara. Immerse yourself in the tranquility of the Draa Valley’s lush oases, traverse the majestic sand ridges of Chegaga, and embark on a captivating camel trek through the vast desert landscape.\n\nOur journey will ignite your respect for nature’s grandeur. Witness the captivating contrast between the vibrant palm groves and the boundless stretches of golden dunes. This meticulously crafted itinerary is the perfect introduction to the Sahara, allowing you to discover its hidden gems and experience its magic firsthand.\n\nWHAT TO BRING WITH YOU : Good Walking Boots And Socks Comfortable Shoes/Slippers For Camp/Guesthouse Trekking Pants Lightweight Waterproof Over-Trousers / Rain-Pants",
                 "pricing": [
                     {
                         "totalPrice": 300
@@ -1253,48 +1422,45 @@ const siteData = {
                 "itinerary": [
                     {
                         "day": 1,
-                        "title": "Marrakech – Ouarzazate",
-                        "description": "Drive over Tichka pass. Visit Ouarzazate."
+                        "title": "Arrival in Marrakech or Ouarzazate",
+                        "description": "Your journey begins in either Marrakech or Ouarzazate, the gateway to the desert. Meet our welcoming staff and settle into your comfortable hotel accommodation for the night."
                     },
                     {
                         "day": 2,
-                        "title": "Ouarzazate – Zagora",
-                        "description": "Travel through the Draa Valley palm groves."
+                        "title": "Unveiling the High Atlas and Draa Valley",
+                        "description": "After a satisfying breakfast, we embark on a scenic journey south towards Ouarzazate. We’ll conquer the majestic Tizi n’Tichka pass, reaching an elevation of 2260 meters. Along the way, we’ll stop to admire the famous Kasbah of Telouet, a testament to the region’s rich history. Our adventure continues through the fertile Agdz and Zagora, before reaching Faija, where our comfortable camp awaits for a restful night under the stars. (Distance: 400 km with breaks)"
                     },
                     {
                         "day": 3,
-                        "title": "Zagora – M'hamid",
-                        "description": "Reach the end of the paved road at M'hamid."
+                        "title": "Desert Landscapes and Oued Crossing",
+                        "description": "The day begins with a delicious breakfast, followed by a hike across the vast desert plateau surrounding Faija. We’ll pass by charming farms nestled at the foot of Djebel Bani before tackling the renowned Oum Laachar pass. This exciting ascent leads us to the Oued Lemhasser, a refreshing waterway that cuts through the arid landscape. Enjoy a moderate 5-6 hour trek covering approximately 17 kilometers before settling into camp for the night."
                     },
                     {
                         "day": 4,
-                        "title": "M'hamid – Erg Chegaga",
-                        "description": "Off-road drive to the massive dunes of Chegaga. Camping."
+                        "title": "Reaching the Majestic Chegaga Dunes",
+                        "description": "Leaving the Oued Lemhasser behind, we embark on a captivating walk towards the awe-inspiring Chegaga Dunes. These towering golden giants will leave you breathless. As the day draws to a close, we’ll set up camp right amidst the dunes, offering a truly unforgettable desert experience. (5-6 hours walking / 20 kilometers)"
                     },
                     {
                         "day": 5,
-                        "title": "Chegaga Exploration",
-                        "description": "Full day in the desert. Camel trekking."
+                        "title": "Unveiling the Bougarn Dunes",
+                        "description": "Today, we delve deeper into the heart of the desert, leaving the majestic Chegaga Dunes for the equally stunning Bougarn Dunes. Explore these captivating landscapes and soak in the serenity of the vast Sahara. The night will be spent nestled comfortably in our camp amidst the dunes. (5 hours walking / 16 kilometers)"
                     },
                     {
                         "day": 6,
-                        "title": "Chegaga – Foum Zguid",
-                        "description": "Cross the dry Lake Iriqui to Foum Zguid."
+                        "title": "Crossing the Oued Naam",
+                        "description": "After breakfast, we bid farewell to the Bougarn Dunes and embark on a journey across the Oued Naam, a seasonal waterway that adds another layer of diversity to the desert landscape. Our camp for the night will be set up near the Oued Naam, offering a tranquil setting to reflect on the day’s adventures. (5-6 hours walking / 16 kilometers)"
                     },
                     {
                         "day": 7,
-                        "title": "Foum Zguid – Ouarzazate",
-                        "description": "Return via Taznakht (carpet center)."
+                        "title": "Farewell to the Desert and Return to Marrakech",
+                        "description": "On our final day, we’ll savor the last glimpses of the captivating desert landscape. Our journey takes us through the Mhamid Dunes before arriving back in Zagora. From there, we’ll transfer comfortably back to Marrakech, where you can reminisce about the unforgettable experiences of the past week. (3 hours walking / 8 hours drive back to Marrakech with breaks)"
                     },
                     {
                         "day": 8,
-                        "title": "Ouarzazate – Marrakech",
-                        "description": "Transfer back to Marrakech."
+                        "title": "Departure",
+                        "description": "We’ll arrange a smooth transfer to the airport, marking the end of your incredible moroccoatlasguide adventure. We hope you’ll carry cherished memories of the breathtaking Sahara!"
                     }
-                ],
-                "type": "other",
-                "location": "Marrakech",
-                "price": 300
+                ]
             }
         ],
         "addons": [

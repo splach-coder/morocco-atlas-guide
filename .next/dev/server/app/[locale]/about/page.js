@@ -9,7 +9,7 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_15817684.js")
 R.c("server/chunks/ssr/messages_8c18831a._.js")
 R.c("server/chunks/ssr/node_modules_826f31bf._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__4868d5ce._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a0ac6c85._.js")
 R.c("server/chunks/ssr/_9e2d0882._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_[locale]_about_page_actions_0c3db9b4.js")
 R.m("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/[locale]/about/page { GLOBAL_ERROR_MODULE => \"[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_0 => \"[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/src/app/[locale]/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_5 => \"[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_6 => \"[project]/src/app/[locale]/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)")

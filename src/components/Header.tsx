@@ -75,13 +75,15 @@ export default function Header() {
                                 priority
                             />
                         </div>
-                        <div className="flex flex-col -gap-1">
-                            <span className={`text-2xl font-medium font-playfair tracking-tight transition-colors duration-500 ${textColorClass}`}>
-                                Morocco <span className="italic">Atlas</span>
+                        <div className="flex flex-col">
+                            <span className={`text-xl font-medium font-playfair uppercase leading-none transition-colors duration-500 ${textColorClass}`}>
+                                Morocco Atlas Guide
                             </span>
-                            <span className={`text-[8px] font-bold uppercase tracking-[0.6em] transition-opacity duration-500 ${isWhiteTextHeader ? 'text-white/60' : 'text-neutral-medium'}`}>
-                                Expedition Guide
-                            </span>
+                            <div className={`flex justify-between w-full text-[9px] font-bold uppercase mt-1 transition-opacity duration-500 ${isWhiteTextHeader ? 'text-white/60' : 'text-neutral-medium'}`}>
+                                {"EXPEDITION".split('').map((char, i) => (
+                                    <span key={i}>{char}</span>
+                                ))}
+                            </div>
                         </div>
                     </Link>
 

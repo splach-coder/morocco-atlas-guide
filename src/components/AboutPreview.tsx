@@ -22,8 +22,8 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                             className="relative aspect-[4/5] overflow-hidden"
                         >
                             <Image
-                                src="/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg"
-                                alt="Atlas Mountains Trekking"
+                                src="/images/atlas-legacy.jpg"
+                                alt="Atlas Mountains Legacy"
                                 fill
                                 className="object-cover transition-transform duration-[2s] hover:scale-110"
                                 loading="lazy"
