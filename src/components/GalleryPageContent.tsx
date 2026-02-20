@@ -3,13 +3,15 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn, ChevronDown, Loader2 } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
+
+// Only show images from the gallery folder as requested
 // Only show images from the gallery folder as requested
 const manualGalleryImages = Array.from({ length: 21 }, (_, i) => ({
     id: `manual-gallery-${i + 1}`,
     src: `/images/gallery/gallery_image_${i + 1}.jpeg`,
-    category: 'Highlights',
-    title: `Atlas Experience ${i + 1}`,
+    index: i + 1,
     size: (i) % 3 === 0 ? 'large' : (i) % 3 === 1 ? 'medium' : 'small'
 }));
 
@@ -46,11 +48,13 @@ const useColumns = () => {
 const GalleryItem = React.memo(({
     img,
     onClick,
-    index
+    index,
+    t
 }: {
     img: typeof ALL_GALLERY_IMAGES[0];
     onClick: () => void;
     index: number;
+    t: any;
 }) => {
     const [isHovered, setIsHovered] = useState(false);
 
@@ -68,7 +72,7 @@ const GalleryItem = React.memo(({
             <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg bg-neutral-100 mb-3">
                 <Image
                     src={img.src}
-                    alt={img.title}
+                    alt={`${t('archive.itemTitle')} ${img.index}`}
                     fill
                     className="object-cover transition-transform duration-700 ease-out will-change-transform"
                     style={{
@@ -99,12 +103,12 @@ const GalleryItem = React.memo(({
                 </div>
             </div>
 
-            <div className="px-1">
+            <div className="px-1 text-left">
                 <h3 className="text-md font-medium text-neutral-dark line-clamp-1 group-hover:text-primary transition-colors duration-300">
-                    {img.title}
+                    {t('archive.itemTitle')} {img.index}
                 </h3>
                 <span className="text-[10px] uppercase tracking-widest text-neutral-400 mt-1 block font-inter">
-                    {img.category}
+                    {t('archive.itemCategory')}
                 </span>
             </div>
         </motion.div>
@@ -114,6 +118,8 @@ const GalleryItem = React.memo(({
 GalleryItem.displayName = 'GalleryItem';
 
 export const GalleryPageContent = () => {
+    const locale = useLocale();
+    const t = useTranslations('GalleryPage');
     const [selectedImage, setSelectedImage] = useState<typeof ALL_GALLERY_IMAGES[0] | null>(null);
     const columns = useColumns();
     const [hydrated, setHydrated] = useState(false);
@@ -180,14 +186,14 @@ export const GalleryPageContent = () => {
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter">
-                                EXPEDITION JOURNAL
+                                {t('banner.tag')}
                             </span>
                             <h1 className="text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
-                                Captured <br />
-                                <span className="italic text-primary">Moments.</span>
+                                {t('banner.titlePart1')} <br />
+                                <span className="italic text-primary">{t('banner.titlePart2')}</span>
                             </h1>
                             <p className="text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
-                                A visual journal of the vibrant colors, breathtaking landscapes, and authentic daily life discovered on our journeys.
+                                {t('banner.description')}
                             </p>
                         </motion.div>
                     </div>
@@ -208,14 +214,17 @@ export const GalleryPageContent = () => {
                     <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:items-end lg:text-left gap-8 md:gap-12">
                         <div className="max-w-2xl">
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">
-                                ARCHIVE MMXXIV
+                                {t('archive.tag')}
                             </span>
                             <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none">
-                                The <span className="italic">Visual Record.</span>
+                                {t('archive.titlePart1')} <span className="italic">{t('archive.titlePart2')}</span>
                             </h2>
                         </div>
                         <p className="text-neutral-medium text-[10px] font-bold uppercase tracking-[0.4em] mb-2 border-b border-primary/20 pb-1 font-inter">
-                            Showing {Math.min(displayCount, ALL_GALLERY_IMAGES.length)} of {ALL_GALLERY_IMAGES.length} Artifacts
+                            {t('archive.showing', {
+                                count: Math.min(displayCount, ALL_GALLERY_IMAGES.length),
+                                total: ALL_GALLERY_IMAGES.length
+                            })}
                         </p>
                     </div>
                 </div>
@@ -238,6 +247,7 @@ export const GalleryPageContent = () => {
                                             img={img}
                                             onClick={() => handleImageClick(img)}
                                             index={colIndex * column.length + imgIndex}
+                                            t={t}
                                         />
                                     ))}
                                 </div>
@@ -258,13 +268,13 @@ export const GalleryPageContent = () => {
                                 {isLoading ? (
                                     <>
                                         <Loader2 className="w-4 h-4 animate-spin" />
-                                        Loading
+                                        {t('archive.loading')}
                                     </>
                                 ) : (
                                     <>
-                                        Load More
+                                        {t('archive.loadMore')}
                                         <span className="text-primary group-hover:text-white transition-colors">
-                                            ({ALL_GALLERY_IMAGES.length - displayCount} remaining)
+                                            ({t('archive.remaining', { count: ALL_GALLERY_IMAGES.length - displayCount })})
                                         </span>
                                     </>
                                 )}
@@ -305,7 +315,7 @@ export const GalleryPageContent = () => {
                             <div className="relative w-full h-[70vh] mb-8">
                                 <Image
                                     src={selectedImage.src}
-                                    alt={selectedImage.title}
+                                    alt={`${t('archive.itemTitle')} ${selectedImage.index}`}
                                     fill
                                     className="object-contain"
                                     quality={90}
@@ -316,10 +326,10 @@ export const GalleryPageContent = () => {
 
                             <div className="text-center max-w-2xl px-6">
                                 <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-2 block font-inter">
-                                    {selectedImage.category}
+                                    {t('archive.itemCategory')}
                                 </span>
                                 <h2 className="text-3xl md:text-4xl font-medium font-playfair text-neutral-dark tracking-tight">
-                                    {selectedImage.title}
+                                    {t('archive.itemTitle')} {selectedImage.index}
                                 </h2>
                             </div>
                         </motion.div>

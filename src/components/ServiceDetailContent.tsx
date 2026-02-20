@@ -1,8 +1,7 @@
-'use client';
-
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, MapPin, Check, X, Star, ArrowLeft, ZoomIn, ChevronLeft, ChevronRight, MessageCircle, Calendar, Users, Info, ChevronDown, Camera } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { siteInfo } from '@/data/siteInfo';
@@ -50,6 +49,7 @@ export const ServiceDetailContent = ({
     itinerary = [],
     gallery = []
 }: ServiceDetailProps) => {
+    const t = useTranslations('ServiceDetail');
     const [activeDay, setActiveDay] = useState<number | null>(0);
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [lightboxIndex, setLightboxIndex] = useState(0);
@@ -73,18 +73,20 @@ export const ServiceDetailContent = ({
         setLightboxIndex((prev) => (prev - 1 + (gallery?.length || 1)) % (gallery?.length || 1));
     };
 
+    const dateInputRef = React.useRef<HTMLInputElement>(null);
+
     const whatsappUrl = `https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodeURIComponent(
         `${siteInfo.whatsappBookingMessage} ${title}
         
-${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : ''}
-👥 Guests: ${guestCount}
+👤 Guests: ${guestCount}
+${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
+${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * guestCount}` : `💰 Price: €${price}`}
 `
     )}`;
 
     return (
         <div className="min-h-screen bg-white grain">
             {/* Cinematic Hero Section */}
-            {/* Cinematic Hero Section - Mobile Redesigned */}
             <section className="relative h-[100dvh] md:h-[70vh] w-full overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
@@ -107,7 +109,7 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                         >
                             <Link href={`/${locale}/tours`} className="inline-flex items-center gap-2 md:gap-3 text-white/80 hover:text-primary transition-all mb-6 md:mb-8 group backdrop-blur-sm bg-white/5 py-1.5 px-3 md:py-2 md:px-4 rounded-full border border-white/10 w-fit">
                                 <ArrowLeft className="w-3 h-3 md:w-4 md:h-4 group-hover:-translate-x-1 transition-transform" />
-                                <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">{locale === 'fr' ? 'Retour' : 'Back to Adventures'}</span>
+                                <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">{t('back')}</span>
                             </Link>
 
                             <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-medium text-white font-playfair mb-6 leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-tighter max-w-5xl text-shadow-lg">
@@ -129,7 +131,7 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                 )}
                                 <div className="flex items-center gap-1.5 md:gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
                                     <Star className="w-3 h-3 text-primary fill-primary" />
-                                    <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.15em] md:tracking-[0.2em] font-inter">Verified</span>
+                                    <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.15em] md:tracking-[0.2em] font-inter">{t('verified')}</span>
                                 </div>
                             </div>
                         </motion.div>
@@ -138,7 +140,7 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
             </section>
 
             {/* Content Layout */}
-            < div className="container mx-auto px-6 md:px-12 py-20" >
+            <div className="container mx-auto px-6 md:px-12 py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 relative">
 
                     {/* Main Body - Left */}
@@ -151,8 +153,8 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                             viewport={{ once: true }}
                             className="max-w-3xl"
                         >
-                            <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block font-inter">THE EXPERIENCE</span>
-                            <h2 className="text-4xl font-medium text-neutral-dark font-playfair mb-8 leading-none tracking-tight">Unveil the <span className="italic text-primary">Extraordinary.</span></h2>
+                            <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block font-inter">{t('experience.tag')}</span>
+                            <h2 className="text-4xl font-medium text-neutral-dark font-playfair mb-8 leading-none tracking-tight">{t('experience.titlePart1')} <span className="italic text-primary">{t('experience.titlePart2')}</span></h2>
                             <p className="text-neutral-medium leading-relaxed text-lg font-light whitespace-pre-line">
                                 {description}
                             </p>
@@ -163,13 +165,13 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                             <div className="pt-8 mb-20">
                                 <div className="flex items-end justify-between mb-16">
                                     <div>
-                                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">YOUR JOURNEY</span>
-                                        <h2 className="text-4xl md:text-5xl font-medium text-neutral-dark font-playfair tracking-tight">Daily <span className="italic text-primary">Expedition.</span></h2>
+                                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">{t('journey.tag')}</span>
+                                        <h2 className="text-4xl md:text-5xl font-medium text-neutral-dark font-playfair tracking-tight">{t('journey.titlePart1')} <span className="italic text-primary">{t('journey.titlePart2')}</span></h2>
                                     </div>
                                     <div className="hidden md:block">
                                         <div className="inline-flex items-center gap-3 bg-neutral-50 px-5 py-2.5 rounded-full border border-neutral-100">
                                             <Clock className="w-4 h-4 text-primary" />
-                                            <span className="font-playfair font-medium text-lg text-neutral-dark">{itinerary.length} Days Adventure</span>
+                                            <span className="font-playfair font-medium text-lg text-neutral-dark">{t('journey.daysAdventure', { count: itinerary.length })}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +197,7 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
 
                                                     <div className={`flex items-center gap-3 mb-4 ${idx % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
                                                         <span className="inline-block px-3 py-1 rounded-full bg-primary/5 text-primary text-[10px] font-bold uppercase tracking-widest border border-primary/10">
-                                                            Day {day.day}
+                                                            {t('journey.day')} {day.day}
                                                         </span>
                                                     </div>
 
@@ -229,12 +231,12 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
                             <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/5 rounded-full blur-3xl"></div>
-                                <span className="text-green-600/60 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">INCLUSIONS</span>
+                                <span className="text-green-600/60 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('inclusions.tag')}</span>
                                 <h3 className="font-medium text-2xl font-playfair mb-6 tracking-tight">
-                                    What's <span className="italic text-green-600">Covered.</span>
+                                    {t('inclusions.titlePart1')} <span className="italic text-green-600">{t('inclusions.titlePart2')}</span>
                                 </h3>
                                 <ul className="space-y-4 relative z-10">
-                                    {(included.length > 0 ? included : ['Airport Transfers', 'Professional Guide', 'Muleteers & Cooking', 'All Meals', 'Technical Gear']).map((inc, i) => (
+                                    {included.map((inc, i) => (
                                         <li key={i} className="flex items-start gap-4 text-neutral-dark/80 text-sm font-light font-inter group">
                                             <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-0.5">
                                                 <Check className="w-3 h-3 text-green-600" />
@@ -247,12 +249,12 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
 
                             <div className="bg-neutral-50 p-8 md:p-10 rounded-3xl border border-neutral-100 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/5 rounded-full blur-3xl"></div>
-                                <span className="text-red-400 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">EXCLUSIONS</span>
+                                <span className="text-red-400 font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('exclusions.tag')}</span>
                                 <h3 className="font-medium text-2xl font-playfair mb-6 tracking-tight text-neutral-dark/50">
-                                    Not <span className="italic">Included.</span>
+                                    {t('exclusions.titlePart1')} <span className="italic">{t('exclusions.titlePart2')}</span>
                                 </h3>
                                 <ul className="space-y-4 relative z-10">
-                                    {(excluded.length > 0 ? excluded : ['Travel Insurance', 'Personal Gear', 'Bottled Drinks', 'Staff Gratuity', 'Flights']).map((exc, i) => (
+                                    {excluded.map((exc, i) => (
                                         <li key={i} className="flex items-start gap-4 text-neutral-dark/50 text-sm font-light font-inter">
                                             <div className="w-5 h-5 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
                                                 <X className="w-3 h-3 text-red-400" />
@@ -264,9 +266,9 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                             </div>
                         </div>
 
-                        {/* NEW SECTION: Expert Advice */}
+                        {/* EXPERT TIPS SECTION */}
                         <div className="bg-neutral-900 text-white p-6 md:p-16 rounded-[1rem] relative overflow-hidden mb-20">
-                            {/* Artistic Background SVGs */}
+                            {/* Artistic Background */}
                             <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10 pointer-events-none">
                                 <svg className="absolute top-0 left-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                                     <path d="M0 100 C 20 0 50 0 100 100 Z" fill="none" stroke="white" strokeWidth="0.5" />
@@ -276,11 +278,11 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
 
                             <div className="relative z-10">
                                 <div className="max-w-xl mb-12">
-                                    <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">EXPERT TIPS</span>
-                                    <h2 className="text-4xl md:text-5xl font-medium font-playfair mb-6 text-white">Essential <span className="italic text-primary">Advice.</span></h2>
+                                    <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">{t('tips.tag')}</span>
+                                    <h2 className="text-4xl md:text-5xl font-medium font-playfair mb-6 text-white">{t('tips.titlePart1')} <span className="italic text-primary">{t('tips.titlePart2')}</span></h2>
 
                                     <p className="text-white/60 font-light text-lg">
-                                        To ensure your journey is as seamless and enjoyable as possible, here are some key insights from our local experts.
+                                        {t('tips.description')}
                                     </p>
                                 </div>
 
@@ -290,10 +292,10 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                         <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
                                             <div className="w-6 h-6 text-primary"><Users className="w-6 h-6" /></div>
                                         </div>
-                                        <h4 className="text-xl font-playfair mb-3 text-white">Cultural Etiquette</h4>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip1.title')}</h4>
 
                                         <p className="text-sm text-white/50 font-light leading-relaxed">
-                                            Morocco is welcoming but conservative. Dress modestly (shoulders/knees covered) when visiting villages or rural areas to show respect.
+                                            {t('tips.tip1.desc')}
                                         </p>
                                     </div>
 
@@ -302,10 +304,10 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                         <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
                                             <div className="w-6 h-6 text-primary"><Calendar className="w-6 h-6" /></div>
                                         </div>
-                                        <h4 className="text-xl font-playfair mb-3 text-white">Best Time to Go</h4>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip2.title')}</h4>
 
                                         <p className="text-sm text-white/50 font-light leading-relaxed">
-                                            Spring (Mar-May) and Autumn (Sep-Nov) offer the best weather. Summers can be hot in the south, while winters see snow in the Atlas.
+                                            {t('tips.tip2.desc')}
                                         </p>
                                     </div>
 
@@ -314,10 +316,10 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                         <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
                                             <div className="w-6 h-6 text-primary"><MessageCircle className="w-6 h-6" /></div>
                                         </div>
-                                        <h4 className="text-xl font-playfair mb-3 text-white">Currency & Tips</h4>
+                                        <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip3.title')}</h4>
 
                                         <p className="text-sm text-white/50 font-light leading-relaxed">
-                                            Cash is king in remote areas. Carry Moroccan Dirhams (MAD). Tipping (5-10%) is customary and appreciated for good service.
+                                            {t('tips.tip3.desc')}
                                         </p>
                                     </div>
                                 </div>
@@ -328,7 +330,7 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                         {gallery && gallery.length > 0 && (
                             <div className="space-y-8">
                                 <div className="flex items-end justify-between px-2">
-                                    <h2 className="text-3xl font-medium text-neutral-dark font-playfair tracking-tight">Visual <span className="italic text-primary">Diary.</span></h2>
+                                    <h2 className="text-3xl font-medium text-neutral-dark font-playfair tracking-tight">{t('gallery.titlePart1')} <span className="italic text-primary">{t('gallery.titlePart2')}</span></h2>
                                 </div>
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                                     {gallery.slice(0, 8).map((imgSrc, idx) => (
@@ -372,15 +374,15 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                 <div className="relative z-10">
                                     <div className="flex items-center justify-between mb-8 pb-8 border-b border-neutral-100">
                                         <div>
-                                            <span className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest font-inter block mb-1">Starting Price</span>
+                                            <span className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest font-inter block mb-1">{t('booking.startingPrice')}</span>
                                             <div className="flex items-baseline gap-1">
                                                 <span className="text-4xl font-medium font-playfair text-neutral-dark">€{price}</span>
-                                                <span className="text-neutral-400 text-xs">/ person</span>
+                                                <span className="text-neutral-400 text-xs">{t('booking.perPerson')}</span>
                                             </div>
                                         </div>
                                         {duration && (
                                             <div className="text-right">
-                                                <span className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest font-inter block mb-1">Duration</span>
+                                                <span className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest font-inter block mb-1">{t('booking.duration')}</span>
                                                 <span className="text-neutral-dark font-medium">{renderDuration(duration)}</span>
                                             </div>
                                         )}
@@ -388,15 +390,31 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
 
                                     <div className="space-y-6 mb-8">
                                         <div className="grid grid-cols-2 gap-4">
-                                            <div className="bg-neutral-50 p-3 rounded-xl border border-neutral-100 hover:border-primary/30 transition-colors relative group flex flex-col items-center justify-center cursor-pointer">
+                                            <div
+                                                className="bg-neutral-50 p-3 rounded-xl border border-neutral-100 hover:border-primary/30 transition-all relative group flex flex-col items-center justify-center cursor-pointer overflow-hidden"
+                                                onClick={() => {
+                                                    const input = dateInputRef.current;
+                                                    if (input) {
+                                                        const el = input as any;
+                                                        if (typeof el.showPicker === 'function') {
+                                                            el.showPicker();
+                                                        } else {
+                                                            el.click();
+                                                        }
+                                                    }
+                                                }}
+                                            >
                                                 <input
+                                                    ref={dateInputRef}
                                                     type="date"
-                                                    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
+                                                    id="tour-date-picker"
+                                                    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-20"
                                                     onChange={(e) => setSelectedDate(e.target.value)}
+                                                    min={new Date().toISOString().split('T')[0]}
                                                 />
-                                                <Calendar className="w-5 h-5 text-primary mb-2 group-hover:scale-110 transition-transform" />
-                                                <span className="text-[10px] font-bold text-neutral-dark block uppercase tracking-wide text-center group-hover:text-primary transition-colors">
-                                                    {selectedDate ? new Date(selectedDate).toLocaleDateString() : 'Select Date'}
+                                                <Calendar className="w-5 h-5 text-primary mb-2 group-hover:scale-110 transition-transform relative z-10" />
+                                                <span className="text-[10px] font-bold text-neutral-dark block uppercase tracking-wide text-center group-hover:text-primary transition-colors relative z-10">
+                                                    {selectedDate ? new Date(selectedDate).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', { day: 'numeric', month: 'short', year: 'numeric' }) : t('booking.selectDate')}
                                                 </span>
                                             </div>
 
@@ -404,26 +422,40 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                                 <div className="flex items-center gap-3">
                                                     <button
                                                         onClick={() => setGuestCount(Math.max(1, guestCount - 1))}
-                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors"
+                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors focus:outline-none"
                                                     >
                                                         -
                                                     </button>
                                                     <span className="text-sm font-bold text-neutral-dark w-4 text-center">{guestCount}</span>
                                                     <button
                                                         onClick={() => setGuestCount(guestCount + 1)}
-                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors"
+                                                        className="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-500 hover:text-primary hover:border-primary transition-colors focus:outline-none"
                                                     >
                                                         +
                                                     </button>
                                                 </div>
-                                                <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">Guests</span>
+                                                <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">{t('booking.guests')}</span>
                                             </div>
                                         </div>
+
+                                        <AnimatePresence>
+                                            {guestCount > 1 && typeof price === 'number' && (
+                                                <motion.div
+                                                    initial={{ opacity: 0, height: 0 }}
+                                                    animate={{ opacity: 1, height: 'auto' }}
+                                                    exit={{ opacity: 0, height: 0 }}
+                                                    className="bg-primary/5 p-4 rounded-xl border border-primary/10 flex justify-between items-center overflow-hidden"
+                                                >
+                                                    <span className="text-[10px] font-bold text-neutral-medium uppercase tracking-[0.2em]">{t('booking.totalPrice')}</span>
+                                                    <span className="text-xl font-medium font-playfair text-neutral-dark">€{price * guestCount}</span>
+                                                </motion.div>
+                                            )}
+                                        </AnimatePresence>
 
                                         <div className="bg-neutral-50 p-4 rounded-xl border border-neutral-100 flex items-start gap-3">
                                             <Info className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                                             <p className="text-xs text-neutral-500 font-light leading-relaxed">
-                                                Trips are customizable. Contact us to adjust duration, route, or difficulty level.
+                                                {t('booking.customizable')}
                                             </p>
                                         </div>
                                     </div>
@@ -435,11 +467,11 @@ ${selectedDate ? `📅 Date: ${new Date(selectedDate).toLocaleDateString()}` : '
                                         className="w-full bg-neutral-dark text-white py-4 rounded-xl font-bold uppercase tracking-[0.15em] text-xs hover:bg-primary transition-colors flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-1 transform duration-300"
                                     >
                                         <MessageCircle className="w-4 h-4" />
-                                        <span>Book via WhatsApp</span>
+                                        <span>{t('booking.bookWhatsApp')}</span>
                                     </a>
 
                                     <p className="text-center text-neutral-400 text-[10px] mt-4 font-inter">
-                                        No commitment required. Chat with an expert first.
+                                        {t('booking.noCommitment')}
                                     </p>
                                 </div>
                             </motion.div>

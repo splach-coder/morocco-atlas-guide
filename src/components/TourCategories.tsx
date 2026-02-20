@@ -7,39 +7,44 @@ import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { siteData, siteDataFr } from '@/data/siteData';
 
-export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) => {
-    const data = locale === 'fr' ? siteDataFr : siteData;
+import { getSiteData } from '@/data/getSiteData';
+
+import { useTranslations } from 'next-intl';
+
+export const TourCategories = ({ locale }: { locale: string }) => {
+    const t = useTranslations('HomePage.PopularDestinations');
+    const data = getSiteData(locale);
 
     const categories = [
         {
             id: 'toubkal-treks',
-            name: 'High Atlas Peaks',
-            label: 'Toubkal Treks',
-            description: 'Conquer North Africa\'s highest peak and explore authentic Berber villages.',
+            name: t('categories.toubkal-treks.name'),
+            label: t('categories.toubkal-treks.label'),
+            description: t('categories.toubkal-treks.description'),
             tours: data.toubkalTreks,
             image: data.toubkalTreks[0]?.image || '/images/toubkal_treks/placeholder.png',
         },
         {
             id: 'desert-tours',
-            name: 'Sahara Sands',
-            label: 'Desert Tours',
-            description: 'Experience the profound silence of the dunes and the magic of starlit nights.',
+            name: t('categories.desert-tours.name'),
+            label: t('categories.desert-tours.label'),
+            description: t('categories.desert-tours.description'),
             tours: data.desertTours,
             image: data.desertTours[0]?.image || '/images/desert_tours/placeholder.png',
         },
         {
             id: 'imperial-cities',
-            name: 'Ancient Medinas',
-            label: 'Cities',
-            description: 'Discover the rich history, vibrant souks, and cultural heart of Morocco.',
+            name: t('categories.imperial-cities.name'),
+            label: t('categories.imperial-cities.label'),
+            description: t('categories.imperial-cities.description'),
             tours: data.imperialCities,
             image: data.imperialCities[0]?.image || '/images/imperial_cities/placeholder.png',
         },
         {
             id: 'excursions',
-            name: 'Hidden Gems',
-            label: 'Excursions',
-            description: 'Curated day journeys from Marrakech to the most stunning local landscapes.',
+            name: t('categories.excursions.name'),
+            label: t('categories.excursions.label'),
+            description: t('categories.excursions.description'),
             tours: data.excursions,
             image: data.excursions[0]?.image || '/images/excursions/placeholder.png',
         }
@@ -50,7 +55,7 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
             <div className="container mx-auto px-6 md:px-12">
 
                 {/* Header - Editorial Style */}
-                <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-24 gap-12">
+                <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-24 gap-12 text-left">
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -58,10 +63,10 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
                         className="max-w-2xl"
                     >
                         <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block">
-                            EXPEDITION CATALOG
+                            {t('tag')}
                         </span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair leading-tight tracking-tighter">
-                            Choose Your <span className="italic">Frontier.</span>
+                            {t('titlePart1')} <span className="italic">{t('titlePart2')}</span>
                         </h2>
                     </motion.div>
 
@@ -72,7 +77,7 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
                         transition={{ delay: 0.2 }}
                         className="text-neutral-medium text-xl font-light max-w-sm border-l border-neutral-light pl-8"
                     >
-                        From the heights of the High Atlas to the deep silence of the Sahara. Every category is a different world.
+                        {t('description')}
                     </motion.p>
                 </div>
 
@@ -86,7 +91,7 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
                                 whileInView={{ opacity: 1 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="group relative bg-white overflow-hidden"
+                                className="group relative bg-white overflow-hidden text-left"
                             >
                                 <Link href={`/${locale}/tours?category=${category.id}`} className="block">
                                     <div className="relative aspect-[4/3] md:aspect-square overflow-hidden">
@@ -129,11 +134,11 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
                 </div>
 
                 {/* High-End Featured Row */}
-                <div className="mt-16 pt-16 border-t border-neutral-light">
+                <div className="mt-16 pt-16 border-t border-neutral-light text-left">
                     <div className="flex items-center justify-between mb-16">
-                        <h3 className="text-4xl font-medium font-playfair tracking-tight">Featured <span className="italic">Experiences</span></h3>
+                        <h3 className="text-4xl font-medium font-playfair tracking-tight">{t('featured')} <span className="italic">{t('experiences')}</span></h3>
                         <Link href={`/${locale}/tours`} className="text-xs font-bold uppercase tracking-[0.3em] text-neutral-dark hover:text-primary transition-colors border-b-2 border-primary/20 pb-1">
-                            View Collection
+                            {t('viewCollection')}
                         </Link>
                     </div>
 
@@ -160,7 +165,7 @@ export const TourCategories = ({ locale, dict }: { locale: string, dict: any }) 
                                         />
                                         <div className="absolute bottom-6 left-6 right-6 flex justify-between items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                                             <div className="bg-white px-4 py-2 text-neutral-dark text-[10px] font-bold tracking-widest uppercase">
-                                                Explore
+                                                {t('explore')}
                                             </div>
                                         </div>
                                     </div>

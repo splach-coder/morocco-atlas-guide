@@ -11,6 +11,7 @@ import Image from 'next/image';
 
 export default function Header() {
     const locale = useLocale();
+    const t = useTranslations('Header');
     const router = useRouter();
     const pathname = usePathname();
     const [isPending, startTransition] = useTransition();
@@ -42,11 +43,11 @@ export default function Header() {
     };
 
     const navLinks = [
-        { href: `/${locale}`, label: 'Home', icon: Compass },
-        { href: `/${locale}/tours`, label: 'Adventures', icon: Map },
-        { href: `/${locale}/about`, label: 'About', icon: Landmark },
-        { href: `/${locale}/gallery`, label: 'Gallery', icon: ImageIcon },
-        { href: `/${locale}/contact`, label: 'Contact', icon: Phone },
+        { href: `/${locale}`, label: t('home'), icon: Compass },
+        { href: `/${locale}/tours`, label: t('services'), icon: Map },
+        { href: `/${locale}/about`, label: t('about'), icon: Landmark },
+        { href: `/${locale}/gallery`, label: t('gallery'), icon: ImageIcon },
+        { href: `/${locale}/contact`, label: t('contact'), icon: Phone },
     ];
 
     const isWhiteTextHeader = (pathname === `/${locale}` || pathname.startsWith(`/${locale}/tours/`)) && !isScrolled && !isMenuOpen;
@@ -111,7 +112,7 @@ export default function Header() {
                                 className={`bg-transparent border-0 text-[10px] font-bold focus:outline-none cursor-pointer tracking-widest ${textColorClass}`}
                             >
                                 <option value="en" className="text-black">EN</option>
-                                <option value="fr" className="text-black">FR</option>
+                                <option value="es" className="text-black">ES</option>
                             </select>
                         </div>
 
@@ -119,7 +120,7 @@ export default function Header() {
                             href={`/${locale}/tours`}
                             className={`hidden md:block text-[10px] font-bold uppercase tracking-[0.3em] px-8 py-4 border transition-all duration-500 ${isWhiteTextHeader ? 'border-white/30 text-white hover:bg-white hover:text-black hover:border-white' : 'border-neutral-dark text-neutral-dark hover:bg-neutral-dark hover:text-white'}`}
                         >
-                            Enquire Now
+                            {t('bookNow')}
                         </Link>
 
                         {/* Mobile Toggle */}
@@ -165,7 +166,7 @@ export default function Header() {
                             <div className="flex justify-between items-center">
                                 <div className="flex gap-6">
                                     <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/en')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'en' ? 'text-primary' : 'text-neutral-medium'}`}>English</button>
-                                    <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/fr')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'fr' ? 'text-primary' : 'text-neutral-medium'}`}>Français</button>
+                                    <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/es')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'es' ? 'text-primary' : 'text-neutral-medium'}`}>Español</button>
                                 </div>
                             </div>
                             <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-neutral-400">

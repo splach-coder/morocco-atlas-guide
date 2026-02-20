@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Instagram, ArrowRight, MessageCircle, ChevronDown, Globe, Facebook } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
@@ -9,6 +9,7 @@ import Image from 'next/image';
 
 export default function ContactPage() {
     const locale = useLocale();
+    const t = useTranslations('ContactPage');
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -47,14 +48,14 @@ export default function ContactPage() {
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter">
-                                PRIVATE CONCIERGE
+                                {t('banner.tag')}
                             </span>
                             <h1 className="text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
-                                Let's <br />
-                                <span className="italic text-primary">Connect.</span>
+                                {t('banner.titlePart1')} <br />
+                                <span className="italic text-primary">{t('banner.titlePart2')}</span>
                             </h1>
                             <p className="text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
-                                Reach out directly to our head guide to begin crafting your bespoke Moroccan expedition.
+                                {t('banner.description')}
                             </p>
                         </motion.div>
                     </div>
@@ -82,11 +83,11 @@ export default function ContactPage() {
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.8 }}
                             >
-                                <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block font-inter">
-                                    CHANNELS
+                                <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block font-inter text-left">
+                                    {t('channels.tag')}
                                 </span>
-                                <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair mb-8 leading-[0.95] tracking-tighter">
-                                    Directly <span className="italic">to a Guide.</span>
+                                <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair mb-8 leading-[0.95] tracking-tighter text-left">
+                                    {t('channels.titlePart1')} <span className="italic">{t('channels.titlePart2')}</span>
                                 </h2>
 
                                 <div className="space-y-px bg-neutral-light border border-neutral-light overflow-hidden shadow-xl">
@@ -95,12 +96,12 @@ export default function ContactPage() {
                                         href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}`}
                                         className="group block bg-white p-8 hover:bg-neutral-dark transition-colors duration-700"
                                     >
-                                        <div className="flex flex-col gap-4">
+                                        <div className="flex flex-col gap-4 text-left">
                                             <div className="w-10 h-10 rounded-full border border-neutral-light flex items-center justify-center group-hover:border-white/20 transition-colors duration-700">
                                                 <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors duration-700" />
                                             </div>
                                             <div>
-                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">Instant Messaging</span>
+                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">{t('channels.messaging.tag')}</span>
                                                 <span className="text-2xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700">{siteInfo.contact.phone}</span>
                                             </div>
                                         </div>
@@ -111,12 +112,12 @@ export default function ContactPage() {
                                         href={`mailto:${siteInfo.contact.email}`}
                                         className="group block bg-white p-8 hover:bg-neutral-dark transition-colors duration-700"
                                     >
-                                        <div className="flex flex-col gap-4">
+                                        <div className="flex flex-col gap-4 text-left">
                                             <div className="w-10 h-10 rounded-full border border-neutral-light flex items-center justify-center group-hover:border-white/20 transition-colors duration-700">
                                                 <Mail className="w-4 h-4 text-primary group-hover:text-white transition-colors duration-700" />
                                             </div>
                                             <div>
-                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">Email Correspondence</span>
+                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">{t('channels.email.tag')}</span>
                                                 <span className="text-xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700 lowercase">{siteInfo.contact.email}</span>
                                             </div>
                                         </div>
@@ -124,12 +125,12 @@ export default function ContactPage() {
 
                                     {/* Location Info */}
                                     <div className="bg-white p-8">
-                                        <div className="flex flex-col gap-4">
+                                        <div className="flex flex-col gap-4 text-left">
                                             <div className="w-10 h-10 rounded-full border border-neutral-light flex items-center justify-center">
                                                 <MapPin className="w-4 h-4 text-primary" />
                                             </div>
                                             <div>
-                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 font-inter">Our Base</span>
+                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 font-inter">{t('channels.location.tag')}</span>
                                                 <span className="text-lg font-light text-neutral-medium leading-relaxed block font-inter">{siteInfo.contact.address}</span>
                                             </div>
                                         </div>
@@ -137,7 +138,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="mt-12 flex items-center gap-6 opacity-40 grayscale group hover:grayscale-0 hover:opacity-100 transition-all duration-700">
-                                    <span className="text-[10px] font-bold uppercase tracking-[0.4em] font-inter">Follow the Trail</span>
+                                    <span className="text-[10px] font-bold uppercase tracking-[0.4em] font-inter">{t('channels.follow')}</span>
                                     <div className="flex gap-4">
                                         <a href={siteInfo.socials.instagram} className="w-8 h-8 rounded-full border border-neutral-light flex items-center justify-center hover:bg-primary hover:border-primary hover:text-white transition-all">
                                             <Instagram className="w-3 h-3" />
@@ -162,44 +163,44 @@ export default function ContactPage() {
                                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                                 className="bg-white border-sharp p-8 md:p-12 shadow-xl relative"
                             >
-                                <div className="relative z-10">
-                                    <h2 className="text-4xl font-medium text-neutral-dark font-playfair mb-4 leading-none tracking-tight">Send a <span className="italic">Proclamation.</span></h2>
-                                    <p className="text-neutral-medium font-light text-lg leading-relaxed mb-12 max-w-md font-inter">Tell us about your dream journey. We usually provide a tailored response within 2 hours.</p>
+                                <div className="relative z-10 text-left">
+                                    <h2 className="text-4xl font-medium text-neutral-dark font-playfair mb-4 leading-none tracking-tight">{t('form.titlePart1')} <span className="italic">{t('form.titlePart2')}</span></h2>
+                                    <p className="text-neutral-medium font-light text-lg leading-relaxed mb-12 max-w-md font-inter">{t('form.description')}</p>
 
                                     <form onSubmit={handleWhatsAppSubmit} className="space-y-8">
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                             <div className="space-y-3">
-                                                <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">Your Name</label>
+                                                <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">{t('form.name')}</label>
                                                 <input
                                                     type="text"
                                                     required
                                                     value={formData.name}
                                                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                                    placeholder="Sarah J."
+                                                    placeholder={t('form.namePlaceholder')}
                                                     className="w-full bg-transparent border-0 border-b border-neutral-light py-3 text-neutral-dark outline-none focus:border-primary transition-all font-light text-lg placeholder:text-neutral-200"
                                                 />
                                             </div>
                                             <div className="space-y-3">
-                                                <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">Email Address</label>
+                                                <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">{t('form.email')}</label>
                                                 <input
                                                     type="email"
                                                     required
                                                     value={formData.email}
                                                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                                    placeholder="sarah@example.com"
+                                                    placeholder={t('form.emailPlaceholder')}
                                                     className="w-full bg-transparent border-0 border-b border-neutral-light py-3 text-neutral-dark outline-none focus:border-primary transition-all font-light text-lg placeholder:text-neutral-200"
                                                 />
                                             </div>
                                         </div>
 
                                         <div className="space-y-3">
-                                            <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">The Vision</label>
+                                            <label className="text-[10px] font-bold text-neutral-dark uppercase tracking-[0.2em] font-inter">{t('form.vision')}</label>
                                             <textarea
                                                 rows={4}
                                                 required
                                                 value={formData.message}
                                                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                                                placeholder="I would like to trek Mount Toubkal in December..."
+                                                placeholder={t('form.visionPlaceholder')}
                                                 className="w-full bg-transparent border-0 border-b border-neutral-light py-3 text-neutral-dark outline-none focus:border-primary transition-all font-light text-lg placeholder:text-neutral-200 resize-none min-h-[100px]"
                                             ></textarea>
                                         </div>
@@ -212,7 +213,7 @@ export default function ContactPage() {
                                                 <ArrowRight className="w-6 h-6 text-neutral-dark group-hover:text-white transition-transform group-hover:translate-x-2" />
                                             </div>
                                             <span className="text-neutral-dark font-bold uppercase tracking-[0.2em] text-[10px] group-hover:text-primary transition-colors font-inter">
-                                                Submit via WhatsApp
+                                                {t('form.submit')}
                                             </span>
                                         </button>
                                     </form>

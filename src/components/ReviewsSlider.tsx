@@ -30,7 +30,10 @@ interface ReviewsSliderProps {
     reviews: Review[];
 }
 
+import { useTranslations } from 'next-intl';
+
 export const ReviewsSlider: React.FC<ReviewsSliderProps> = ({ reviews }) => {
+    const t = useTranslations('HomePage.ReviewsSlider');
     // Calculate average rating
     const avgRating = reviews.length > 0
         ? (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1)
@@ -42,22 +45,22 @@ export const ReviewsSlider: React.FC<ReviewsSliderProps> = ({ reviews }) => {
 
                 {/* Testimonial Header - High End Editorial */}
                 <div className="flex flex-col lg:flex-row items-end justify-between border-b border-neutral-light pb-8 mb-16 gap-12">
-                    <div className="max-w-2xl">
-                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block">THE GUEST RECORD</span>
+                    <div className="max-w-2xl text-left">
+                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block">{t('tag')}</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair tracking-tight leading-none transition-all">
-                            Voices of the <span className="italic text-primary">High Atlas.</span>
+                            {t('titlePart1')} <span className="italic text-primary">{t('titlePart2')}</span>
                         </h2>
                     </div>
 
                     <div className="flex items-center gap-12 mb-4">
                         <div className="text-right">
                             <span className="text-6xl font-medium font-playfair text-neutral-dark block leading-none">{avgRating}</span>
-                            <span className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest mt-2 block">Global Index</span>
+                            <span className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest mt-2 block">{t('globalIndex')}</span>
                         </div>
                         <div className="h-16 w-px bg-neutral-light" />
                         <div className="text-right">
                             <span className="text-5xl font-medium font-playfair text-neutral-dark block leading-none">{reviews.length}+</span>
-                            <span className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest mt-2 block">Verified Stories</span>
+                            <span className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest mt-2 block">{t('verifiedStories')}</span>
                         </div>
                     </div>
                 </div>
@@ -84,7 +87,7 @@ export const ReviewsSlider: React.FC<ReviewsSliderProps> = ({ reviews }) => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1, duration: 0.8 }}
-                                className="group flex flex-col h-full"
+                                className="group flex flex-col h-full text-left"
                             >
                                 <div className="flex flex-col gap-4 flex-grow">
                                     <div className="flex items-center gap-1">
@@ -127,7 +130,7 @@ export const ReviewsSlider: React.FC<ReviewsSliderProps> = ({ reviews }) => {
                             <MessageSquare className="w-6 h-6 text-neutral-dark group-hover:text-white transition-colors" />
                         </div>
                         <span className="text-neutral-dark font-bold uppercase tracking-[0.2em] text-[10px]">
-                            Document your Discovery
+                            {t('cta')}
                         </span>
                     </a>
                 </div>

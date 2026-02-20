@@ -8,6 +8,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     const locale = useLocale();
+    const t = useTranslations('Footer');
     const currentYear = new Date().getFullYear();
 
     return (
@@ -27,7 +28,7 @@ export default function Footer() {
                                 />
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-2xl font-medium font-playfair uppercase leading-none">
+                                <span className="text-2xl font-medium font-playfair uppercase leading-none text-left">
                                     Morocco Atlas Guide
                                 </span>
                                 <div className="flex justify-between w-full text-[10px] font-bold uppercase mt-2 text-white/30">
@@ -37,8 +38,8 @@ export default function Footer() {
                                 </div>
                             </div>
                         </Link>
-                        <p className="text-white/40 leading-relaxed font-light text-lg mb-8">
-                            Curating profound desert and mountain experiences since 2012. We believe in the luxury of slow travel and the depth of Berber heritage.
+                        <p className="text-white/40 leading-relaxed font-light text-lg mb-8 text-left">
+                            {t('vision')}
                         </p>
                         <div className="flex gap-8">
                             <a href={siteInfo.socials.instagram} target="_blank" className="text-white/30 hover:text-[#E4405F] transition-colors">
@@ -54,28 +55,28 @@ export default function Footer() {
                     </div>
 
                     {/* Deep Navigation Columns */}
-                    <div className="lg:col-span-2">
-                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">Expeditions</h4>
+                    <div className="lg:col-span-2 text-left">
+                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">{t('expeditions')}</h4>
                         <ul className="space-y-6">
-                            <li><Link href={`/${locale}/tours?category=toubkal-treks`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Atlas Peaks</Link></li>
-                            <li><Link href={`/${locale}/tours?category=desert-tours`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Sahara Magic</Link></li>
-                            <li><Link href={`/${locale}/tours?category=imperial-cities`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Ancient Cities</Link></li>
-                            <li><Link href={`/${locale}/tours?category=excursions`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Hidden Gems</Link></li>
+                            <li><Link href={`/${locale}/tours?category=toubkal-treks`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('atlasPeaks')}</Link></li>
+                            <li><Link href={`/${locale}/tours?category=desert-tours`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('saharaMagic')}</Link></li>
+                            <li><Link href={`/${locale}/tours?category=imperial-cities`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('ancientCities')}</Link></li>
+                            <li><Link href={`/${locale}/tours?category=excursions`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('hiddenGems')}</Link></li>
                         </ul>
                     </div>
 
-                    <div className="lg:col-span-2">
-                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">Company</h4>
+                    <div className="lg:col-span-2 text-left">
+                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">{t('company')}</h4>
                         <ul className="space-y-6">
-                            <li><Link href={`/${locale}/about`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Our Heritage</Link></li>
-                            <li><Link href={`/${locale}/gallery`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Gallery</Link></li>
-                            <li><Link href={`/${locale}/contact`} className="text-white/40 hover:text-white transition-colors text-sm font-light">Private Enquiries</Link></li>
+                            <li><Link href={`/${locale}/about`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('ourHeritage')}</Link></li>
+                            <li><Link href={`/${locale}/gallery`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('gallery')}</Link></li>
+                            <li><Link href={`/${locale}/contact`} className="text-white/40 hover:text-white transition-colors text-sm font-light">{t('privateEnquiries')}</Link></li>
                         </ul>
                     </div>
 
                     {/* Contact - Direct & Sophisticated */}
-                    <div className="lg:col-span-4">
-                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">Get in Touch</h4>
+                    <div className="lg:col-span-4 text-left">
+                        <h4 className="text-white font-bold mb-10 uppercase tracking-[0.3em] text-[10px]">{t('getInTouch')}</h4>
                         <div className="space-y-6">
                             {/* Address */}
                             <div className="flex gap-4 items-start group">
@@ -105,7 +106,7 @@ export default function Footer() {
                                     <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
                                 </div>
                                 <span className="text-sm font-light text-white/60 group-hover:text-white transition-colors">
-                                    WhatsApp Available
+                                    {t('whatsappAvailable')}
                                 </span>
                             </a>
 
@@ -138,14 +139,14 @@ export default function Footer() {
                         </div>
 
                         <div className="flex gap-8">
-                            <Link href={`/${locale}/privacy`} className="hover:text-white transition-colors">Privacy</Link>
-                            <Link href={`/${locale}/terms`} className="hover:text-white transition-colors">Terms</Link>
+                            <Link href={`/${locale}/privacy`} className="hover:text-white transition-colors">{t('privacy')}</Link>
+                            <Link href={`/${locale}/terms`} className="hover:text-white transition-colors">{t('terms')}</Link>
                         </div>
                     </div>
 
                     {/* Agency Signature */}
                     <div className="flex items-center gap-2 mt-4 md:mt-0">
-                        <span className="opacity-50">Crafted by</span>
+                        <span className="opacity-50">{t('craftedBy')}</span>
                         <a
                             href="https://wereact.agency"
                             target="_blank"

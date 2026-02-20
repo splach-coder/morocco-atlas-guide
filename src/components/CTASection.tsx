@@ -5,8 +5,12 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
+import { useTranslations } from 'next-intl';
 
-export const CTASection = ({ locale, dict }: { locale: string, dict: any }) => {
+export const CTASection = ({ locale }: { locale: string }) => {
+    const t = useTranslations('CTASection');
+    const marqueeItems = t.raw('marquee') as string[];
+
     return (
         <section className="py-20 bg-surface-off overflow-hidden grain relative">
             {/* Background Texture/Accent */}
@@ -24,16 +28,16 @@ export const CTASection = ({ locale, dict }: { locale: string, dict: any }) => {
                         className="mb-10 text-balance"
                     >
                         <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">
-                            BEGIN YOUR CHAPTER
+                            {t('tag')}
                         </span>
 
                         <h2 className="text-5xl md:text-7xl font-medium text-neutral-dark font-playfair leading-[0.9] tracking-tighter mb-10">
-                            The Mountains <br />
-                            <span className="italic text-primary">Are Calling.</span>
+                            {t('titlePart1')} <br />
+                            <span className="italic text-primary">{t('titlePart2')}</span>
                         </h2>
 
                         <p className="text-neutral-medium text-lg font-light leading-relaxed max-w-2xl mx-auto mb-12">
-                            Join Morocco Atlas Guide for an unforgettable journey. Whether it's trekking the High Atlas or exploring the Sahara, we provide authentic local experiences tailored just for you.
+                            {t('description')}
                         </p>
                     </motion.div>
 
@@ -52,7 +56,7 @@ export const CTASection = ({ locale, dict }: { locale: string, dict: any }) => {
                                 <ArrowRight className="w-5 h-5 text-neutral-dark group-hover:text-white group-hover:translate-x-2 transition-transform" />
                             </div>
                             <span className="text-neutral-dark font-bold uppercase tracking-[0.2em] text-[10px]">
-                                Browse Adventures
+                                {t('browseAdventures')}
                             </span>
                         </Link>
 
@@ -68,7 +72,7 @@ export const CTASection = ({ locale, dict }: { locale: string, dict: any }) => {
                                 <MessageCircle className="w-5 h-5 text-neutral-dark group-hover:text-white scale-110" />
                             </div>
                             <span className="text-neutral-dark font-bold uppercase tracking-[0.2em] text-[10px]">
-                                Speak with a Guide
+                                {t('speakWithGuide')}
                             </span>
                         </a>
                     </motion.div>
@@ -76,7 +80,7 @@ export const CTASection = ({ locale, dict }: { locale: string, dict: any }) => {
 
                 {/* Minimalist Marquee Style Footer */}
                 <div className="mt-12 pt-12 border-t border-neutral-dark/5 flex flex-wrap justify-center gap-12 md:gap-16 opacity-90">
-                    {['TOUBKAL SUMMIT', 'SAHARA MAGIC', 'AUTHENTIC BERBER', 'TAILORED LUXURY'].map((item) => (
+                    {marqueeItems.map((item: string) => (
                         <span key={item} className="text-accent font-bold text-[8px] tracking-[0.5em] whitespace-nowrap">
                             {item}
                         </span>

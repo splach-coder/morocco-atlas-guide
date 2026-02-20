@@ -1,11 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Play } from 'lucide-react';
 import Image from 'next/image';
 
 export const ExpertiseSection = () => {
+    const t = useTranslations('ExpertiseSection');
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
@@ -22,39 +24,39 @@ export const ExpertiseSection = () => {
                             transition={{ duration: 0.8 }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block font-inter">
-                                CERTIFIED EXCELLENCE
+                                {t('tag')}
                             </span>
 
                             <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-playfair text-neutral-dark mb-8 leading-[1]">
-                                High Atlas <br />
-                                <span className="italic text-primary">Heritage.</span>
+                                {t('titleHighAtlas')} <br />
+                                <span className="italic text-primary">{t('heritage')}</span>
                             </h2>
 
                             <div className="space-y-8">
                                 <p className="text-neutral-medium text-lg font-light leading-relaxed font-inter">
-                                    Led by <strong className="text-neutral-dark font-medium">Lahoucine</strong>, a Mountain & Desert Guide recognized by the Ministry of Tourism. Bridging ancestral roots with elite European training (EMMOE Spain, EMHM France).
+                                    {t('description')}
                                 </p>
 
                                 <div className="flex flex-col gap-6 pt-4">
                                     <div className="flex items-baseline gap-4 border-l border-primary/30 pl-6">
                                         <span className="text-primary font-bold text-sm tracking-widest pt-1">01</span>
                                         <div>
-                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">UIAA Standards</h4>
-                                            <p className="text-neutral-medium/80 font-light text-sm">Union Internationale des Associations d'Alpinisme compliance.</p>
+                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">{t('item1Title')}</h4>
+                                            <p className="text-neutral-medium/80 font-light text-sm">{t('item1Desc')}</p>
                                         </div>
                                     </div>
                                     <div className="flex items-baseline gap-4 border-l border-primary/30 pl-6">
                                         <span className="text-primary font-bold text-sm tracking-widest pt-1">02</span>
                                         <div>
-                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">Royal Federation</h4>
-                                            <p className="text-neutral-medium/80 font-light text-sm">Certified by the Royale Marocaine De Ski Et Montagne.</p>
+                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">{t('item2Title')}</h4>
+                                            <p className="text-neutral-medium/80 font-light text-sm">{t('item2Desc')}</p>
                                         </div>
                                     </div>
                                     <div className="flex items-baseline gap-4 border-l border-primary/30 pl-6">
                                         <span className="text-primary font-bold text-sm tracking-widest pt-1">03</span>
                                         <div>
-                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">Professional Team</h4>
-                                            <p className="text-neutral-medium/80 font-light text-sm">Expert Guides, Drivers, Muleteers & Cooks.</p>
+                                            <h4 className="font-bold text-neutral-dark mb-1 tracking-widest uppercase text-xs">{t('item3Title')}</h4>
+                                            <p className="text-neutral-medium/80 font-light text-sm">{t('item3Desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +114,7 @@ export const ExpertiseSection = () => {
                             className="absolute -bottom-8 -left-8 bg-white p-8 shadow-xl max-w-sm hidden lg:block border border-neutral-light"
                         >
                             <p className="text-2xl font-playfair italic text-neutral-dark leading-tight">
-                                "Our visitors should be happy here."
+                                {t('quote')}
                             </p>
                         </motion.div>
                     </div>

@@ -3,10 +3,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, MapPin, Users, Star, Mountain, Heart } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
-export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) => {
+export const AboutPreview = ({ locale }: { locale: string }) => {
+    const t = useTranslations('HomePage.AboutPreview');
     return (
         <section className="py-16 bg-[#F9F7F2] overflow-hidden grain">
             <div className="container mx-auto px-6 md:px-12">
@@ -33,7 +35,7 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                         </motion.div>
 
                         {/* Secondary Overlapping Image/Element */}
-                        <div className="absolute -bottom-16 -right-16 w-3/4 hidden lg:block">
+                        <div className="absolute -bottom-16 -right-16 w-3/4 hidden lg:block text-left">
                             <motion.div
                                 initial={{ opacity: 0, y: 60 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -42,16 +44,16 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                                 className="p-4 bg-white border-sharp shadow-2xl relative z-10"
                             >
                                 <span className="block text-primary font-bold text-4xl mb-4 font-playfair leading-none">12+</span>
-                                <h4 className="text-neutral-dark font-bold tracking-[0.2em] text-xs uppercase mb-2">Years of Heritage</h4>
+                                <h4 className="text-neutral-dark font-bold tracking-[0.2em] text-xs uppercase mb-2">{t('yearsOfHeritage')}</h4>
                                 <p className="text-neutral-medium font-light text-sm leading-relaxed">
-                                    Our journey began in the dust of Imlil. Today, we are Morocco's leading boutique trekking specialists.
+                                    {t('yearsHeritageDesc')}
                                 </p>
                             </motion.div>
                         </div>
                     </div>
 
                     {/* Content Section */}
-                    <div className="lg:col-span-5 lg:col-start-8 pt-12">
+                    <div className="lg:col-span-5 lg:col-start-8 pt-12 text-left">
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -59,31 +61,31 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                             transition={{ duration: 0.6 }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block">
-                                THE ATLAS LEGACY
+                                {t('tag')}
                             </span>
 
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair mb-8 leading-[0.95] tracking-tighter">
-                                More than a <br />
-                                <span className="italic">Journey.</span>
+                                {t('titlePart1')} <br />
+                                <span className="italic">{t('titlePart2')}</span>
                             </h2>
 
                             <p className="text-neutral-medium text-xl font-light leading-relaxed mb-12">
-                                Born and raised in the High Atlas mountains, our team brings a life's worth of local knowledge to every trek. We don't just show you the path; we share our culture, our home, and our heart.
+                                {t('description')}
                             </p>
 
                             <div className="space-y-12 mb-16">
                                 <div className="flex gap-8 group">
                                     <div className="text-primary font-bold text-sm tracking-widest pt-1">01</div>
                                     <div>
-                                        <h4 className="font-bold text-neutral-dark mb-2 tracking-widest uppercase text-xs">Berber Roots</h4>
-                                        <p className="text-neutral-medium/80 font-light text-sm">Every guide is a native of the peaks you conquer.</p>
+                                        <h4 className="font-bold text-neutral-dark mb-2 tracking-widest uppercase text-xs">{t('item1Title')}</h4>
+                                        <p className="text-neutral-medium/80 font-light text-sm">{t('item1Desc')}</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-8 group">
                                     <div className="text-primary font-bold text-sm tracking-widest pt-1">02</div>
                                     <div>
-                                        <h4 className="font-bold text-neutral-dark mb-2 tracking-widest uppercase text-xs">Boutique Service</h4>
-                                        <p className="text-neutral-medium/80 font-light text-sm">We believe in small groups and big experiences.</p>
+                                        <h4 className="font-bold text-neutral-dark mb-2 tracking-widest uppercase text-xs">{t('item2Title')}</h4>
+                                        <p className="text-neutral-medium/80 font-light text-sm">{t('item2Desc')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +98,7 @@ export const AboutPreview = ({ locale, dict }: { locale: string, dict: any }) =>
                                     <ArrowRight className="w-6 h-6 group-hover:text-white group-hover:translate-x-1 transition-all" />
                                 </div>
                                 <span className="font-bold uppercase tracking-[0.2em] text-xs text-neutral-dark group-hover:text-primary transition-colors">
-                                    Discover Our Story
+                                    {t('cta')}
                                 </span>
                             </Link>
                         </motion.div>

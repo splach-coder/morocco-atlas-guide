@@ -1,4 +1,4 @@
-import { siteData } from '@/data/siteData';
+import { getSiteData } from '@/data/getSiteData';
 import { HeroSlider } from '@/components/HeroSlider';
 import { ReviewsSlider } from '@/components/ReviewsSlider';
 import { AboutPreview } from '@/components/AboutPreview';
@@ -16,7 +16,7 @@ export default async function Home({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await import(`../../../messages/${locale}.json`);
+  const data = getSiteData(locale);
 
   return (
     <main className="flex flex-col min-h-screen bg-white">
@@ -24,7 +24,7 @@ export default async function Home({
       <HeroSlider lang={locale} />
 
       {/* 2. Intro / About Preview */}
-      <AboutPreview locale={locale} dict={t.HomePage.AboutPreview} />
+      <AboutPreview locale={locale} />
 
       {/* 2.5 Expertise / Guide Profile */}
       <ExpertiseSection />
@@ -33,13 +33,13 @@ export default async function Home({
       <CoreValuesSection />
 
       {/* 3. Tour Categories - NEW: Organized into 4 main categories */}
-      <TourCategories locale={locale} dict={t.HomePage.PopularDestinations} />
+      <TourCategories locale={locale} />
 
       {/* 4. Why Travel With Us */}
-      <WhyTravelWithUs dict={t.HomePage.WhyTravel} />
+      <WhyTravelWithUs />
 
       {/* 5. Reviews - Google Style */}
-      <ReviewsSlider reviews={siteData.reviews.items} />
+      <ReviewsSlider reviews={data.reviews.items} />
 
       {/* 6. Gallery Preview - Traveler Stories */}
       <GalleryPreview locale={locale} />
@@ -48,7 +48,7 @@ export default async function Home({
       <FAQAccordion />
 
       {/* 8. CTA */}
-      <CTASection locale={locale} dict={t.HomePage.CTA} />
+      <CTASection locale={locale} />
     </main>
   );
 }

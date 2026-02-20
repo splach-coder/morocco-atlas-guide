@@ -8,6 +8,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2d$client$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-intl/dist/esm/development/react-client/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/use-intl/dist/esm/development/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-ssr] (ecmascript)");
@@ -70,6 +71,7 @@ const AnimatedCounter = ({ value, suffix = '', decimals = 0 })=>{
 };
 const AboutPageContent = ()=>{
     const locale = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocale"])();
+    const t = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2d$client$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslations"])('AboutPage');
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-white grain overflow-hidden",
         children: [
@@ -135,7 +137,7 @@ const AboutPageContent = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-primary font-bold uppercase tracking-[0.5em] text-[9px] md:text-[10px] mb-4 md:mb-6 block font-inter",
-                                        children: "BEYOND THE PEAKS"
+                                        children: t('banner.tag')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 56,
@@ -144,15 +146,16 @@ const AboutPageContent = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: "text-4xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter",
                                         children: [
-                                            "Berber ",
+                                            t('banner.titlePart1'),
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 60,
-                                                columnNumber: 40
+                                                columnNumber: 58
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "italic text-primary",
-                                                children: "Soul."
+                                                children: t('banner.titlePart2')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 61,
@@ -166,7 +169,7 @@ const AboutPageContent = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-white/60 md:text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm",
-                                        children: "Born from the peaks of the High Atlas, dedicated to sharing the authentic magic of Morocco."
+                                        children: t('banner.description')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 63,
@@ -245,7 +248,7 @@ const AboutPageContent = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block font-inter",
-                                        children: "THE ANCESTRAL PATH"
+                                        children: t('story.tag')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 90,
@@ -254,15 +257,16 @@ const AboutPageContent = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-4xl md:text-6xl font-medium text-neutral-dark font-playfair mb-8 leading-[1] tracking-tighter",
                                         children: [
-                                            "From Imlil to the ",
+                                            t('story.titlePart1'),
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 94,
-                                                columnNumber: 51
+                                                columnNumber: 57
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "italic",
-                                                children: "Highest Peaks"
+                                                children: t('story.titlePart2')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 95,
@@ -278,14 +282,14 @@ const AboutPageContent = ()=>{
                                         className: "space-y-6 text-neutral-medium text-lg font-light leading-relaxed max-w-xl font-inter",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "Morocco Atlas Guide was founded by a team of local Berber guides born and raised in the heart of the High Atlas mountains. Our connection to this land isn't just professional; it's ancestral."
+                                                children: t('story.text1')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 98,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "For over a decade, we have been leading travelers through the ancient trails of Mount Toubkal and the vast silence of the Sahara. Our mission is to provide more than just a tour—we offer an immersion into the Berber way of life."
+                                                children: t('story.text2')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 101,
@@ -331,15 +335,16 @@ const AboutPageContent = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-neutral-dark font-bold text-[10px] uppercase tracking-[0.2em] leading-loose font-inter",
                                                 children: [
-                                                    "Elite Team of ",
+                                                    t('story.guides.titlePart1'),
+                                                    " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                                         lineNumber: 115,
-                                                        columnNumber: 51
+                                                        columnNumber: 68
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-primary",
-                                                        children: "Certified Local Guides"
+                                                        children: t('story.guides.titlePart2')
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                                         lineNumber: 116,
@@ -416,7 +421,7 @@ const AboutPageContent = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-neutral-dark font-bold text-[10px] uppercase tracking-[0.2em] font-inter",
-                                                children: "Years of Mountain Excellence"
+                                                children: t('story.stats')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 139,
@@ -470,7 +475,7 @@ const AboutPageContent = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter",
-                                        children: "Guest Fidelity"
+                                        children: t('stats.fidelity')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 152,
@@ -495,7 +500,7 @@ const AboutPageContent = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter",
-                                        children: "Successful Summits"
+                                        children: t('stats.summits')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 156,
@@ -520,7 +525,7 @@ const AboutPageContent = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter",
-                                        children: "Local Stewardship"
+                                        children: t('stats.stewardship')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutPageContent.tsx",
                                         lineNumber: 160,
@@ -561,7 +566,7 @@ const AboutPageContent = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter",
-                                            children: "THE ATLAS PILLARS"
+                                            children: t('philosophy.tag')
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutPageContent.tsx",
                                             lineNumber: 171,
@@ -570,14 +575,15 @@ const AboutPageContent = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-5xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none",
                                             children: [
-                                                "Our ",
+                                                t('philosophy.titlePart1'),
+                                                " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "italic",
-                                                    children: "Philosophy."
+                                                    children: t('philosophy.titlePart2')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutPageContent.tsx",
                                                     lineNumber: 173,
-                                                    columnNumber: 37
+                                                    columnNumber: 62
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
@@ -593,7 +599,7 @@ const AboutPageContent = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-neutral-medium text-lg font-light max-w-sm border-l border-neutral-light pl-6 mb-2 font-inter",
-                                    children: "Integrity, hospitality, and safety aren't just words; they are the terrain we navigate every day."
+                                    children: t('philosophy.description')
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AboutPageContent.tsx",
                                     lineNumber: 176,
@@ -610,18 +616,18 @@ const AboutPageContent = ()=>{
                             children: [
                                 {
                                     icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-                                    title: "Unrivaled Safety",
-                                    text: "Elite certification by national mountain guides. Deep expertise in high-altitude logistics and terrain management."
+                                    title: t('philosophy.item1.title'),
+                                    text: t('philosophy.item1.description')
                                 },
                                 {
                                     icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"],
-                                    title: "Profound Hospitality",
-                                    text: "Beyond the trail, we offer a seat at our table. Experience the deep rhythm of Berber life in our mountain homes."
+                                    title: t('philosophy.item2.title'),
+                                    text: t('philosophy.item2.description')
                                 },
                                 {
                                     icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
-                                    title: "Tailored Expeditions",
-                                    text: "From accessible excursions to technical summits. Every path is calibrated for your unique threshold and vision."
+                                    title: t('philosophy.item3.title'),
+                                    text: t('philosophy.item3.description')
                                 }
                             ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
@@ -710,15 +716,16 @@ const AboutPageContent = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-5xl md:text-7xl lg:text-8xl font-medium text-white font-playfair mb-10 leading-[0.9] tracking-tighter",
                                         children: [
-                                            "Begin Your ",
+                                            t('cta.titlePart1'),
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 213,
-                                                columnNumber: 44
+                                                columnNumber: 55
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "italic text-primary",
-                                                children: "Legacy."
+                                                children: t('cta.titlePart2')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 214,
@@ -750,7 +757,7 @@ const AboutPageContent = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white font-bold uppercase tracking-[0.2em] text-[10px] font-inter",
-                                                children: "Private Enquiry"
+                                                children: t('cta.enquiry')
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutPageContent.tsx",
                                                 lineNumber: 223,
@@ -787,7 +794,7 @@ const AboutPageContent = ()=>{
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/AboutPageContent.tsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };

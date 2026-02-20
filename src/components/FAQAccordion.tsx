@@ -3,37 +3,39 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Plus, Minus } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 interface FAQItem {
     question: string;
     answer: string;
 }
 
-const faqData: FAQItem[] = [
-    {
-        question: "Is Mount Toubkal suitable for beginners?",
-        answer: "Yes! While it's the highest peak in North Africa, the standard route is non-technical during summer. However, it requires a good level of physical fitness. Our expert guides pace the trek perfectly to help everyone reach the summit safely."
-    },
-    {
-        question: "What equipment do I need for a High Atlas trek?",
-        answer: "For summer treks, you'll need sturdy hiking boots, layers of comfortable clothing, a sun hat, and a good sleeping bag. During winter, crampons and ice axes are required (which we can provide). We'll send you a detailed packing list upon booking."
-    },
-    {
-        question: "How do we handle food and water during the tours?",
-        answer: "Our team includes professional cook who prepares fresh, healthy Berber meals (tagines, couscous, fresh salads). We provide safe water during the trek, either purified or bottled, to ensure your health throughout the journey."
-    },
-    {
-        question: "Can I customize a desert or mountain tour?",
-        answer: "Absolutely! We specialize in tailor-made experiences. Whether you want to extend your stay in a desert camp or add specialized trekking routes in the Atlas, we'll design an itinerary that matches your desires perfectly."
-    },
-    {
-        question: "How does the WhatsApp booking work?",
-        answer: "It's simple and direct. Once you find a tour you like, click the 'Book via WhatsApp' button. This connects you directly with our lead guide. You can ask questions, confirm dates, and finalize your booking without any complex forms."
-    }
-];
-
 export const FAQAccordion: React.FC = () => {
+    const t = useTranslations('FAQSection');
     const [openIndex, setOpenIndex] = useState<number>(0);
+
+    const faqData: FAQItem[] = [
+        {
+            question: t('items.0.question'),
+            answer: t('items.0.answer')
+        },
+        {
+            question: t('items.1.question'),
+            answer: t('items.1.answer')
+        },
+        {
+            question: t('items.2.question'),
+            answer: t('items.2.answer')
+        },
+        {
+            question: t('items.3.question'),
+            answer: t('items.3.answer')
+        },
+        {
+            question: t('items.4.question'),
+            answer: t('items.4.answer')
+        }
+    ];
 
     const toggleFAQ = (index: number) => {
         setOpenIndex(openIndex === index ? -1 : index);
@@ -46,14 +48,14 @@ export const FAQAccordion: React.FC = () => {
                 {/* Section Header - Editorial Split */}
                 <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end mb-16 gap-8 lg:gap-12 transition-all text-center lg:text-left">
                     <div className="max-w-2xl">
-                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block transition-all">INFORMATION DEPOT</span>
+                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block transition-all">{t('tag')}</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-dark font-playfair tracking-tight leading-none transition-all">
-                            Common <br />
-                            <span className="italic text-primary">Queries.</span>
+                            {t('titlePart1')} <br />
+                            <span className="italic text-primary">{t('titlePart2')}</span>
                         </h2>
                     </div>
                     <p className="text-neutral-medium text-xl font-light max-w-sm lg:border-l border-neutral-light lg:pl-8 mb-2 transition-all">
-                        Technical details for the discerning traveler. Providing clarity before the first step.
+                        {t('description')}
                     </p>
                 </div>
 

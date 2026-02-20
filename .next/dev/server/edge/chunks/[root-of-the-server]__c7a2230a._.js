@@ -24,7 +24,7 @@ const routing = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules
     // A list of all locales that are supported
     locales: [
         'en',
-        'fr'
+        'es'
     ],
     // Used when no locale matches
     defaultLocale: 'en'

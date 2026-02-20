@@ -1,0 +1,14 @@
+{
+  "/[locale]/about/page": "/[locale]/about",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/gallery/page": "/[locale]/gallery",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/privacy/page": "/[locale]/privacy",
+  "/[locale]/terms/page": "/[locale]/terms",
+  "/[locale]/tours/[id]/page": "/[locale]/tours/[id]",
+  "/[locale]/tours/page": "/[locale]/tours",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

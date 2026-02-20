@@ -2,23 +2,26 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { siteData } from '@/data/siteData';
-import { ArrowRight, MapPin, ChevronDown } from 'lucide-react';
+import { getSiteData } from '@/data/getSiteData';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 export default function ToursPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = React.use(params);
+    const t = useTranslations('ToursPage');
     const searchParams = useSearchParams();
     const categoryFilter = searchParams.get('category');
+    const data = getSiteData(locale);
 
     const allTours = React.useMemo(() => {
         const categories = {
-            'toubkal-treks': siteData.toubkalTreks,
-            'desert-tours': siteData.desertTours,
-            'imperial-cities': siteData.imperialCities,
-            'excursions': siteData.excursions
+            'toubkal-treks': data.toubkalTreks,
+            'desert-tours': data.desertTours,
+            'imperial-cities': data.imperialCities,
+            'excursions': data.excursions
         };
 
         if (categoryFilter && categories[categoryFilter as keyof typeof categories]) {
@@ -26,12 +29,12 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
         }
 
         return [
-            ...siteData.toubkalTreks,
-            ...siteData.desertTours,
-            ...siteData.imperialCities,
-            ...siteData.excursions
+            ...data.toubkalTreks,
+            ...data.desertTours,
+            ...data.imperialCities,
+            ...data.excursions
         ];
-    }, [categoryFilter]);
+    }, [categoryFilter, data]);
 
     const renderPrice = (item: any) => {
         if (item.pricing && item.pricing[0]) {
@@ -43,11 +46,11 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
 
     const getCategoryTitle = () => {
         switch (categoryFilter) {
-            case 'toubkal-treks': return 'Atlas Peaks';
-            case 'desert-tours': return 'Sahara Sands';
-            case 'imperial-cities': return 'Ancient Medinas';
-            case 'excursions': return 'Hidden Gems';
-            default: return 'All Adventures';
+            case 'toubkal-treks': return t('categories.atlas');
+            case 'desert-tours': return t('categories.sahara');
+            case 'imperial-cities': return t('categories.cities');
+            case 'excursions': return t('categories.hidden');
+            default: return t('allAdventures');
         }
     };
 
@@ -75,13 +78,13 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.5em] text-[10px] mb-6 block font-inter">
-                                EXPEDITION COLLECTION
+                                {t('expeditionCollection')}
                             </span>
                             <h1 className="text-5xl md:text-7xl font-medium text-white font-playfair mb-4 leading-none tracking-tighter">
-                                {getCategoryTitle().split(' ')[0]} <span className="italic text-primary">{getCategoryTitle().split(' ')[1] || 'Tours'}</span>
+                                {getCategoryTitle().split(' ')[0]} <span className="italic text-primary">{getCategoryTitle().split(' ').slice(1).join(' ') || ''}</span>
                             </h1>
                             <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest font-inter max-w-sm">
-                                Curated journeys through the most profound landscapes of Morocco, guided by heritage.
+                                {t('description')}
                             </p>
                         </motion.div>
                     </div>
@@ -104,11 +107,11 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                     <div className="flex flex-col md:flex-row items-center justify-between border-b border-neutral-light pb-8 mb-16 gap-8">
                         <div className="flex flex-wrap gap-6">
                             {[
-                                { id: null, label: 'All' },
-                                { id: 'toubkal-treks', label: 'Atlas' },
-                                { id: 'desert-tours', label: 'Sahara' },
-                                { id: 'imperial-cities', label: 'Cities' },
-                                { id: 'excursions', label: 'Hidden' }
+                                { id: null, label: t('categories.all') },
+                                { id: 'toubkal-treks', label: t('categories.atlas').split(' ')[0] },
+                                { id: 'desert-tours', label: t('categories.sahara').split(' ')[0] },
+                                { id: 'imperial-cities', label: t('categories.cities').split(' ')[1] || t('categories.cities') },
+                                { id: 'excursions', label: t('categories.hidden').split(' ')[0] }
                             ].map((cat) => (
                                 <Link
                                     key={cat.id || 'all'}
@@ -129,7 +132,7 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                             ))}
                         </div>
                         <p className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest font-inter">
-                            {allTours.length} results
+                            {allTours.length} {t('results')}
                         </p>
                     </div>
 
@@ -155,7 +158,7 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                                         {/* Minimal Hover UI */}
                                         <div className="absolute inset-x-6 bottom-6 flex justify-between items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                                             <div className="bg-white px-4 py-2 text-neutral-dark text-[10px] font-bold tracking-[0.3em] uppercase">
-                                                Discover
+                                                {t('discover')}
                                             </div>
                                         </div>
                                     </div>
@@ -187,9 +190,9 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
 
                     {allTours.length === 0 && (
                         <div className="text-center py-20">
-                            <h2 className="text-3xl font-playfair italic text-neutral-300">No journeys discovered.</h2>
+                            <h2 className="text-3xl font-playfair italic text-neutral-300">{t('noJourneys')}</h2>
                             <Link href={`/${locale}/tours`} className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary mt-6 inline-block hover:border-b border-primary pb-1 transition-all">
-                                All Adventures
+                                {t('allAdventures')}
                             </Link>
                         </div>
                     )}

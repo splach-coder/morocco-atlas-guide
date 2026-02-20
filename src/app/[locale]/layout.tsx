@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    alternateLocale: 'fr_FR',
+    alternateLocale: ['es_ES', 'fr_FR'],
     url: siteConfig.url,
     title: `${siteConfig.name} | Discover the Magic of Morocco`,
     description: siteConfig.description,
@@ -73,6 +73,7 @@ export const metadata: Metadata = {
     canonical: siteConfig.url,
     languages: {
       'en': `${siteConfig.url}/en`,
+      'es': `${siteConfig.url}/es`,
       'fr': `${siteConfig.url}/fr`,
     },
   },

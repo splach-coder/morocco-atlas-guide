@@ -3,31 +3,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
-const features = [
-    {
-        title: "Our People",
-        image: "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
-        description: "Meet our exceptional full-time local drivers and guides. They aren't just staff; they are your well-connected friends, sharing lifelong connections and fascinating anecdotes about the region's history and culture. You'll feel like a local in no time."
-    },
-    {
-        title: "Local Cuisine",
-        image: "/images/food tour/annie-spratt-_V4v7BbG338-unsplash.jpg",
-        description: "Experience flavors that tell a story. Whether it's a cozy family-owned restaurant or a gourmet meal under the Sahara stars, our expertly curated dining experiences offer a glimpse into the heart and soul of Moroccan tradition."
-    },
-    {
-        title: "Custom Experience",
-        image: "/images/desert_tours/merzouga5.jpg",
-        description: "Imagine immersing yourself in the daily life of a nomadic family or cruising through the Sahara on a quad bike. We build custom itineraries tailored to your unique desires, ensuring your journey is nothing short of amazing."
-    },
-    {
-        title: "Sustainable Travel",
-        image: "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
-        description: "Invest in local livelihoods by putting your money where your heart is. Our unique personal touch preserves the cultures you explore, satisfying your curiosity while leaving a positive impact on the communities we visit."
-    }
-];
+import { useTranslations } from 'next-intl';
 
 export const CoreValuesSection = () => {
+    const t = useTranslations('CoreValuesSection');
+
+    const features = [
+        {
+            title: t('features.0.title'),
+            image: "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+            description: t('features.0.description')
+        },
+        {
+            title: t('features.1.title'),
+            image: "/images/food tour/annie-spratt-_V4v7BbG338-unsplash.jpg",
+            description: t('features.1.description')
+        },
+        {
+            title: t('features.2.title'),
+            image: "/images/desert_tours/merzouga5.jpg",
+            description: t('features.2.description')
+        },
+        {
+            title: t('features.3.title'),
+            image: "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
+            description: t('features.3.description')
+        }
+    ];
+
     return (
         <section className="py-24 bg-neutral-50 grain overflow-hidden">
             <div className="container mx-auto px-6 md:px-12">
@@ -35,11 +38,11 @@ export const CoreValuesSection = () => {
                 {/* Header */}
                 <div className="text-center mb-20 max-w-3xl mx-auto">
                     <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block font-inter">
-                        THE ATLAS PROMISE
+                        {t('tag')}
                     </span>
                     <h2 className="text-4xl md:text-5xl font-medium font-playfair text-neutral-dark leading-tight">
-                        More Than a Tour, <br />
-                        <span className="italic text-primary">A Connection.</span>
+                        {t('titlePart1')} <br />
+                        <span className="italic text-primary">{t('titlePart2')}</span>
                     </h2>
                 </div>
 

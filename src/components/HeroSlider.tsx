@@ -7,39 +7,43 @@ import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle } from 'lucide-rea
 import Link from 'next/link';
 import Image from 'next/image';
 
-const slides = [
-    {
-        id: 1,
-        image: '/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg',
-        title: 'High Atlas',
-        emphasis: 'Peaks',
-        subtitle: 'Conquer the majestic Mount Toubkal with expert local guides.'
-    },
-    {
-        id: 2,
-        image: '/images/desert_tours/merzouga3.jpg',
-        title: 'Sahara',
-        emphasis: 'Magic',
-        subtitle: 'Experience the silence of the dunes and the magic of starlit nights.'
-    },
-    {
-        id: 3,
-        image: '/images/imperial_cities/marrakech5.jpg',
-        title: 'Ancient',
-        emphasis: 'Medinas',
-        subtitle: 'Uncover the rich history and vibrant culture of Morocco\'s imperial cities.'
-    }
-];
+import { useTranslations } from 'next-intl';
 
 export const HeroSlider = ({ lang }: { lang: string }) => {
+    const t = useTranslations('HomePage.HeroSlider');
+    const tCommon = useTranslations('Common');
     const [currentSlide, setCurrentSlide] = useState(0);
+
+    const slides = [
+        {
+            id: 1,
+            image: '/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg',
+            title: t('slide1.title'),
+            emphasis: t('slide1.emphasis'),
+            subtitle: t('slide1.subtitle')
+        },
+        {
+            id: 2,
+            image: '/images/desert_tours/merzouga3.jpg',
+            title: t('slide2.title'),
+            emphasis: t('slide2.emphasis'),
+            subtitle: t('slide2.subtitle')
+        },
+        {
+            id: 3,
+            image: '/images/imperial_cities/marrakech5.jpg',
+            title: t('slide3.title'),
+            emphasis: t('slide3.emphasis'),
+            subtitle: t('slide3.subtitle')
+        }
+    ];
 
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
         }, 8000);
         return () => clearInterval(timer);
-    }, []);
+    }, [slides.length]);
 
     const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
     const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
@@ -75,7 +79,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
             {/* Content Sidebar / Layout */}
             <div className="relative z-10 h-full flex items-end pb-12 md:pb-32">
                 <div className="container mx-auto px-6 md:px-12">
-                    <div className="max-w-3xl">
+                    <div className="max-w-3xl text-left">
                         {/* Upper Label */}
                         <motion.div
                             key={`tag-${currentSlide}`}
@@ -86,7 +90,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                         >
                             <span className="w-6 h-[1px] bg-primary" />
                             <span className="text-white text-[10px] font-bold uppercase tracking-[0.4em]">
-                                {siteInfo.tagline}
+                                {tCommon('tagline')}
                             </span>
                         </motion.div>
 
@@ -127,19 +131,19 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                                     className="relative group overflow-hidden bg-primary px-6 py-3 text-white font-bold text-xs tracking-widest uppercase transition-all hover:bg-white hover:text-black"
                                 >
                                     <span className="relative z-10 flex items-center gap-3">
-                                        Explore Journeys
+                                        {t('explore')}
                                         <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                                     </span>
                                 </Link>
 
                                 <a
-                                    href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodeURIComponent(siteInfo.whatsappBookingMessage)}`}
+                                    href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}?text=${encodeURIComponent(tCommon('whatsappBookingMessage'))}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-white font-bold tracking-widest uppercase text-[10px] border-b border-white/20 pb-1 hover:border-primary transition-all flex items-center gap-2 group"
                                 >
                                     <MessageCircle className="w-3 h-3 text-primary" />
-                                    Book via WhatsApp
+                                    {t('bookWhatsApp')}
                                 </a>
                             </div>
                         </motion.div>

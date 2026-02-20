@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface GalleryMoment {
     id: string;
@@ -13,58 +14,6 @@ interface GalleryMoment {
     rotation: number;
 }
 
-const galleryMoments: GalleryMoment[] = [
-    {
-        id: '1',
-        image: '/images/imperial_cities/hamza-nouasria-7zVLZu5twJs-unsplash.jpg',
-        name: 'Maria Carolina',
-        quote: 'Balloon ride was magical!',
-        rotation: -4
-    },
-    {
-        id: '2',
-        image: '/images/desert_tours/merzouga6.jpg',
-        name: 'Alessia Marika',
-        quote: 'The desert was incredible.',
-        rotation: 3
-    },
-    {
-        id: '3',
-        image: '/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg',
-        name: 'Aisha Davina',
-        quote: 'Every sunset felt like home.',
-        rotation: -2
-    },
-    {
-        id: '4',
-        image: '/images/imperial_cities/marrakech8.jpg',
-        name: 'Dino Kenji',
-        quote: 'Everything was perfect.',
-        rotation: 4
-    },
-    {
-        id: '5',
-        image: '/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg',
-        name: 'Ben Philips',
-        quote: 'Best time of my life!',
-        rotation: -3
-    },
-    {
-        id: '6',
-        image: '/images/excursions/rigel-ibisQEDxODo-unsplash.jpg',
-        name: 'Sophie Laurent',
-        quote: 'Unforgettable memories.',
-        rotation: 2
-    },
-    {
-        id: '7',
-        image: '/images/imperial_cities/mehdi-lamaaffar-PqX7EELWjh0-unsplash.jpg',
-        name: 'James Wilson',
-        quote: 'Highly recommended!',
-        rotation: -5
-    }
-];
-
 // Fixed tape rotations to avoid hydration mismatch
 const tapeRotations = [-1, 2, -2, 1, 0, -1, 2];
 
@@ -73,6 +22,60 @@ interface GalleryPreviewProps {
 }
 
 export const GalleryPreview: React.FC<GalleryPreviewProps> = ({ locale }) => {
+    const t = useTranslations('GalleryPreview');
+
+    const galleryMoments: GalleryMoment[] = [
+        {
+            id: '1',
+            image: '/images/imperial_cities/hamza-nouasria-7zVLZu5twJs-unsplash.jpg',
+            name: 'Maria Carolina',
+            quote: t('moments.1'),
+            rotation: -4
+        },
+        {
+            id: '2',
+            image: '/images/desert_tours/merzouga6.jpg',
+            name: 'Alessia Marika',
+            quote: t('moments.2'),
+            rotation: 3
+        },
+        {
+            id: '3',
+            image: '/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg',
+            name: 'Aisha Davina',
+            quote: t('moments.3'),
+            rotation: -2
+        },
+        {
+            id: '4',
+            image: '/images/imperial_cities/marrakech8.jpg',
+            name: 'Dino Kenji',
+            quote: t('moments.4'),
+            rotation: 4
+        },
+        {
+            id: '5',
+            image: '/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg',
+            name: 'Ben Philips',
+            quote: t('moments.5'),
+            rotation: -3
+        },
+        {
+            id: '6',
+            image: '/images/excursions/rigel-ibisQEDxODo-unsplash.jpg',
+            name: 'Sophie Laurent',
+            quote: t('moments.6'),
+            rotation: 2
+        },
+        {
+            id: '7',
+            image: '/images/imperial_cities/mehdi-lamaaffar-PqX7EELWjh0-unsplash.jpg',
+            name: 'James Wilson',
+            quote: t('moments.7'),
+            rotation: -5
+        }
+    ];
+
     return (
         <section className="py-20 bg-neutral-100/50 grain overflow-hidden relative">
             <div className="container mx-auto px-6 md:px-12 relative z-10">
@@ -85,11 +88,11 @@ export const GalleryPreview: React.FC<GalleryPreviewProps> = ({ locale }) => {
                     className="text-center mb-16"
                 >
                     <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">
-                        Real stories from real travelers
+                        {t('tag')}
                     </span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-neutral-dark font-playfair leading-tight">
-                        Moments that made every journey<br />
-                        <span className="italic text-primary">unforgettable</span>
+                        {t('titlePart1')}<br />
+                        <span className="italic text-primary">{t('titlePart2')}</span>
                     </h2>
                 </motion.div>
 
@@ -162,7 +165,7 @@ export const GalleryPreview: React.FC<GalleryPreviewProps> = ({ locale }) => {
                         href={`/${locale}/gallery`}
                         className="inline-flex items-center gap-3 bg-neutral-dark text-white px-8 py-3 rounded-full font-bold text-[10px] tracking-[0.2em] uppercase hover:bg-primary transition-colors shadow-xl"
                     >
-                        See more happiness
+                        {t('cta')}
                     </Link>
                 </motion.div>
             </div>

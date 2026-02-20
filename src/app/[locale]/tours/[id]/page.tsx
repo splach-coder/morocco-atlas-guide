@@ -2,7 +2,7 @@
 
 import React, { use } from 'react';
 import { notFound } from 'next/navigation';
-import { siteData } from '@/data/siteData';
+import { getSiteData } from '@/data/getSiteData';
 import { ServiceDetailContent } from '@/components/ServiceDetailContent';
 
 interface PageProps {
@@ -14,13 +14,14 @@ interface PageProps {
 
 export default function TourDetailPage({ params }: PageProps) {
     const { id, locale } = use(params);
+    const data = getSiteData(locale);
 
     // Search across all tour categories
     const allTours = [
-        ...siteData.toubkalTreks,
-        ...siteData.desertTours,
-        ...siteData.imperialCities,
-        ...siteData.excursions
+        ...data.toubkalTreks,
+        ...data.desertTours,
+        ...data.imperialCities,
+        ...data.excursions
     ];
 
     const item = allTours.find(t => t.id === id);
