@@ -50,7 +50,7 @@ export default function Header() {
         { href: `/${locale}/contact`, label: t('contact'), icon: Phone },
     ];
 
-    const isWhiteTextHeader = (pathname === `/${locale}` || pathname.startsWith(`/${locale}/tours/`)) && !isScrolled && !isMenuOpen;
+    const isWhiteTextHeader = !isScrolled && !isMenuOpen;
     // When menu is open, remove background/border so it blends with the overlay. 
     // Otherwise follow scroll state.
     const headerBgClass = isMenuOpen
@@ -69,7 +69,7 @@ export default function Header() {
                     <Link href={`/${locale}`} className="relative z-[70] flex items-center gap-4 group">
                         <div className="relative w-12 h-12 transition-transform duration-500 group-hover:scale-110">
                             <Image
-                                src="/images/logo.webp"
+                                src="/images/logo-1.webp"
                                 alt="Morocco Atlas Guide"
                                 fill
                                 className="object-contain"
@@ -113,6 +113,7 @@ export default function Header() {
                             >
                                 <option value="en" className="text-black">EN</option>
                                 <option value="es" className="text-black">ES</option>
+                                <option value="fr" className="text-black">FR</option>
                             </select>
                         </div>
 
@@ -167,6 +168,7 @@ export default function Header() {
                                 <div className="flex gap-6">
                                     <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/en')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'en' ? 'text-primary' : 'text-neutral-medium'}`}>English</button>
                                     <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/es')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'es' ? 'text-primary' : 'text-neutral-medium'}`}>Español</button>
+                                    <button onClick={() => { router.replace(pathname.replace(`/${locale}`, '/fr')); setIsMenuOpen(false); }} className={`text-[10px] font-bold tracking-widest uppercase ${locale === 'fr' ? 'text-primary' : 'text-neutral-medium'}`}>Français</button>
                                 </div>
                             </div>
                             <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-neutral-400">

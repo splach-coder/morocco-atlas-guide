@@ -90,25 +90,45 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            {/* Phone */}
-                            <a href={`tel:${siteInfo.contact.phone.replace(/\s/g, '')}`} className="flex gap-4 items-center group">
-                                <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                                    <Phone className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
-                                </div>
-                                <span className="text-lg font-medium font-playfair text-white group-hover:text-primary transition-colors">
-                                    {siteInfo.contact.phone}
-                                </span>
-                            </a>
+                            {/* Phone Numbers */}
+                            <div className="flex flex-col gap-4">
+                                <a href={`tel:${siteInfo.contact.phone.replace(/\s/g, '')}`} className="flex gap-4 items-center group">
+                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                                        <Phone className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
+                                    </div>
+                                    <span className="text-lg font-medium font-playfair text-white group-hover:text-primary transition-colors">
+                                        {siteInfo.contact.phone}
+                                    </span>
+                                </a>
+                                <a href={`tel:${siteInfo.contact.phone2?.replace(/\s/g, '')}`} className="flex gap-4 items-center group">
+                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                                        <Phone className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
+                                    </div>
+                                    <span className="text-lg font-medium font-playfair text-white group-hover:text-primary transition-colors">
+                                        {siteInfo.contact.phone2}
+                                    </span>
+                                </a>
+                            </div>
 
-                            {/* WhatsApp */}
-                            <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} className="flex gap-4 items-center group">
-                                <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors duration-300">
-                                    <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
-                                </div>
-                                <span className="text-sm font-light text-white/60 group-hover:text-white transition-colors">
-                                    {t('whatsappAvailable')}
-                                </span>
-                            </a>
+                            {/* WhatsApp Channels */}
+                            <div className="flex flex-col gap-4">
+                                <a href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} className="flex gap-4 items-center group">
+                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors duration-300">
+                                        <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
+                                    </div>
+                                    <span className="text-sm font-light text-white/60 group-hover:text-white transition-colors">
+                                        {t('whatsappAvailable')} (Main)
+                                    </span>
+                                </a>
+                                <a href={`https://wa.me/${siteInfo.contact.whatsapp2?.replace(/\+/g, '').replace(/\s/g, '')}`} className="flex gap-4 items-center group">
+                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors duration-300">
+                                        <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
+                                    </div>
+                                    <span className="text-sm font-light text-white/60 group-hover:text-white transition-colors">
+                                        {t('whatsappAvailable')} (Backup)
+                                    </span>
+                                </a>
+                            </div>
 
                             {/* Email */}
                             <a href={`mailto:${siteInfo.contact.email}`} className="flex gap-4 items-center group">

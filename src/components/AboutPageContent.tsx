@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { motion, useInView, useMotionValue, useTransform, animate } from 'framer-motion';
-import { Shield, Star, Heart, ChevronDown, ArrowRight, Mountain, Users, Map, Compass } from 'lucide-react';
+import { Shield, Star, Heart, ChevronDown, ArrowRight, Mountain, Users, Map, Compass, Globe, Info } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -32,11 +32,11 @@ export const AboutPageContent = () => {
 
     return (
         <div className="min-h-screen bg-white grain overflow-hidden">
-            {/* Reduced Height Editorial Banner */}
+            {/* Editorial Banner */}
             <section className="relative h-[50vh] md:h-[60vh] w-full flex overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg"
+                        src="/images/gallery/gallery_image_19.jpeg"
                         alt="High Atlas Mountains"
                         fill
                         className="object-cover scale-105"
@@ -76,8 +76,8 @@ export const AboutPageContent = () => {
                 </motion.div>
             </section>
 
-            {/* Our Story Section - Asymmetric Editorial */}
-            <section className="py-20">
+            {/* Heritage Section - Lahoucine's Legacy */}
+            <section className="py-24">
                 <div className="container mx-auto px-6 md:px-12">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
                         <motion.div
@@ -88,33 +88,29 @@ export const AboutPageContent = () => {
                             className="lg:col-span-6"
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-8 block font-inter">
-                                {t('story.tag')}
+                                {t('heritage.tag')}
                             </span>
                             <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair mb-8 leading-[1] tracking-tighter">
-                                {t('story.titlePart1')} <br />
-                                <span className="italic">{t('story.titlePart2')}</span>
+                                {t('heritage.titlePart1')} <br />
+                                <span className="italic">{t('heritage.titlePart2')}</span>
                             </h2>
-                            <div className="space-y-6 text-neutral-medium text-lg font-light leading-relaxed max-w-xl font-inter">
+                            <div className="space-y-6 text-neutral-medium text-lg font-light leading-relaxed max-w-xl font-inter text-justify">
                                 <p>
-                                    {t('story.text1')}
-                                </p>
-                                <p>
-                                    {t('story.text2')}
+                                    {t('heritage.description')}
                                 </p>
                             </div>
 
-                            <div className="flex items-center gap-8 mt-12 pt-12 border-t border-neutral-light">
-                                <div className="flex -space-x-4">
-                                    {[1, 2, 3].map(i => (
-                                        <div key={i} className="w-12 h-12 rounded-full border-2 border-white bg-neutral-100 overflow-hidden relative shadow-lg">
-                                            <Image src={`/images/reviews/avatar-${i}.jpg`} alt="Guide" fill className="object-cover" />
-                                        </div>
-                                    ))}
-                                </div>
-                                <p className="text-neutral-dark font-bold text-[10px] uppercase tracking-[0.2em] leading-loose font-inter">
-                                    {t('story.guides.titlePart1')} <br />
-                                    <span className="text-primary">{t('story.guides.titlePart2')}</span>
-                                </p>
+                            <div className="mt-12 pt-12 border-t border-neutral-light">
+                                <blockquote className="relative">
+                                    <span className="absolute -top-10 -left-6 text-primary/10 text-8xl font-serif">"</span>
+                                    <h3 className="text-xl font-medium text-neutral-dark font-playfair mb-4 flex items-center gap-3">
+                                        <Shield className="w-5 h-5 text-primary" />
+                                        {t('heritage.quote.title')}
+                                    </h3>
+                                    <p className="text-neutral-medium italic text-lg leading-relaxed font-inter">
+                                        {t('heritage.quote.text')}
+                                    </p>
+                                </blockquote>
                             </div>
                         </motion.div>
 
@@ -125,86 +121,149 @@ export const AboutPageContent = () => {
                             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                             className="lg:col-span-6 relative pt-12 lg:pt-0"
                         >
-                            <div className="relative aspect-[4/5] overflow-hidden grayscale-[40%] hover:grayscale-0 transition-all duration-1000">
+                            <div className="relative aspect-[4/5] overflow-hidden transition-all duration-1000 shadow-2xl">
                                 <Image
-                                    src="/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg"
-                                    alt="Berber Hospitality"
+                                    src="/images/atlas-legacy.jpg"
+                                    alt="Lahoucine - Expert Guide"
                                     fill
                                     className="object-cover"
                                 />
-                            </div>
-                            {/* Structured Info Card */}
-                            <div className="absolute -bottom-8 -left-8 bg-white border-sharp p-8 shadow-xl hidden md:block max-w-xs">
-                                <span className="text-primary font-bold text-5xl block font-playfair mb-2 leading-none">12+</span>
-                                <span className="text-neutral-dark font-bold text-[10px] uppercase tracking-[0.2em] font-inter">{t('story.stats')}</span>
                             </div>
                         </motion.div>
                     </div>
                 </div>
             </section>
 
-            {/* Stats Grid - High End Formal */}
-            <section className="py-20 border-y border-neutral-light bg-surface-off grain">
+            {/* Mission & Why Us - Alternating Structure */}
+            <section className="py-24 bg-neutral-light/10 grain">
                 <div className="container mx-auto px-6 md:px-12">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
-                        <div className="flex flex-col items-center">
-                            <AnimatedCounter value={98} suffix="%" />
-                            <h3 className="text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter">{t('stats.fidelity')}</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center mb-32">
+                        <div className="order-2 md:order-1">
+                            <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('mission.tag')}</span>
+                            <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight mb-8">
+                                {t('mission.titlePart1')} <span className="italic">{t('mission.titlePart2')}</span>
+                            </h2>
+                            <div className="space-y-6 text-neutral-medium text-lg font-light leading-relaxed font-inter">
+                                <p>{t('mission.text1')}</p>
+                                <p>{t('mission.text2')}</p>
+                            </div>
                         </div>
-                        <div className="flex flex-col items-center">
-                            <AnimatedCounter value={1200} suffix="+" />
-                            <h3 className="text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter">{t('stats.summits')}</h3>
+                        <div className="order-1 md:order-2 relative aspect-square shadow-sharp overflow-hidden">
+                            <Image
+                                src="/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg"
+                                alt="Our Mission"
+                                fill
+                                className="object-cover hover:scale-105 transition-transform duration-1000"
+                            />
                         </div>
-                        <div className="flex flex-col items-center">
-                            <AnimatedCounter value={100} suffix="%" />
-                            <h3 className="text-neutral-medium font-bold uppercase tracking-[0.3em] text-[10px] mt-6 font-inter">{t('stats.stewardship')}</h3>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+                        <div className="relative aspect-square shadow-sharp overflow-hidden">
+                            <Image
+                                src="/images/desert_tours/merzouga2.jpg"
+                                alt="Trekking Adventures"
+                                fill
+                                className="object-cover hover:scale-105 transition-transform duration-1000"
+                            />
+                        </div>
+                        <div>
+                            <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('whyUs.tag')}</span>
+                            <h2 className="text-4xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight mb-8">
+                                {t('whyUs.titlePart1')} <span className="italic">{t('whyUs.titlePart2')}</span>
+                            </h2>
+                            <div className="text-neutral-medium text-lg font-light leading-relaxed font-inter">
+                                <p>{t('whyUs.text')}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Values / Features - Catalog Design */}
-            <section className="py-20">
-                <div className="container mx-auto px-6 md:px-12">
-                    <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8 text-left">
-                        <div className="max-w-2xl">
-                            <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('philosophy.tag')}</span>
-                            <h2 className="text-5xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none">
-                                {t('philosophy.titlePart1')} <span className="italic">{t('philosophy.titlePart2')}</span>
-                            </h2>
-                        </div>
-                        <p className="text-neutral-medium text-lg font-light max-w-sm border-l border-neutral-light pl-6 mb-2 font-inter">
-                            {t('philosophy.description')}
+            {/* Local Leaders Section */}
+            <section className="py-24 bg-neutral-dark text-white relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/5 -skew-x-12 translate-x-1/4" />
+                <div className="container mx-auto px-6 md:px-12 relative z-10">
+                    <div className="max-w-4xl mx-auto text-center mb-20">
+                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block font-inter">{t('leaders.tag')}</span>
+                        <h2 className="text-4xl md:text-7xl font-medium font-playfair mb-10 leading-none">
+                            {t('leaders.titlePart1')} <span className="italic">{t('leaders.titlePart2')}</span>
+                        </h2>
+                        <p className="text-white/70 text-xl font-light leading-relaxed font-inter">
+                            {t('leaders.text1')}
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-neutral-light border border-neutral-light overflow-hidden shadow-xl">
-                        {[
-                            { icon: Mountain, title: t('philosophy.item1.title'), text: t('philosophy.item1.description') },
-                            { icon: Heart, title: t('philosophy.item2.title'), text: t('philosophy.item2.description') },
-                            { icon: Compass, title: t('philosophy.item3.title'), text: t('philosophy.item3.description') }
-                        ].map((item, idx) => (
-                            <motion.div
-                                key={idx}
-                                initial={{ opacity: 0 }}
-                                whileInView={{ opacity: 1 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: idx * 0.1 }}
-                                className="bg-white p-12 group hover:bg-neutral-dark transition-colors duration-700"
-                            >
-                                <div className="w-12 h-12 rounded-full border border-neutral-light flex items-center justify-center mb-8 group-hover:border-white/20 transition-colors duration-700">
-                                    <item.icon className="w-5 h-5 text-primary group-hover:text-white transition-colors duration-700" />
-                                </div>
-                                <h3 className="text-2xl font-medium text-neutral-dark font-playfair mb-4 group-hover:text-white transition-colors duration-700">{item.title}</h3>
-                                <p className="text-neutral-medium/80 font-light text-sm leading-relaxed group-hover:text-white/60 transition-colors duration-700 font-inter">{item.text}</p>
-                            </motion.div>
-                        ))}
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                        <div className="lg:col-span-5 relative aspect-[1/1] md:aspect-[4/5] shadow-2xl overflow-hidden rounded-sm">
+                            <Image
+                                src="/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg"
+                                alt="Local Leader"
+                                fill
+                                className="object-cover opacity-90"
+                            />
+                        </div>
+                        <div className="lg:col-span-7 space-y-8">
+                            <h3 className="text-3xl font-playfair italic text-white/90 leading-snug">
+                                {t('leaders.text2')}
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            {/* Final CTA - Immersive Editorial Statement */}
-            <section className="pb-20 px-6">
+            {/* Cultural Insights & Travel Tips */}
+            <section className="py-24 bg-white">
+                <div className="container mx-auto px-6 md:px-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                        {/* Cultural Diversity */}
+                        <div className="p-10 border border-neutral-light hover:border-primary/30 transition-all duration-500 hover:shadow-xl">
+                            <Globe className="w-10 h-10 text-primary mb-8" />
+                            <span className="text-primary font-bold uppercase tracking-[0.2em] text-[9px] mb-4 block font-inter">{t('culture.tag')}</span>
+                            <h3 className="text-3xl font-medium text-neutral-dark font-playfair mb-6 leading-tight">{t('culture.titlePart1')} <br />{t('culture.titlePart2')}</h3>
+                            <div className="space-y-4 text-neutral-medium text-sm font-light font-inter leading-relaxed">
+                                <p>{t('culture.text1')}</p>
+                                <p>{t('culture.text2')}</p>
+                                <p>{t('culture.text3')}</p>
+                            </div>
+                        </div>
+
+                        {/* Dress Code */}
+                        <div className="p-10 border border-neutral-light hover:border-primary/30 transition-all duration-500 hover:shadow-xl">
+                            <Users className="w-10 h-10 text-primary mb-8" />
+                            <span className="text-primary font-bold uppercase tracking-[0.2em] text-[9px] mb-4 block font-inter">{t('dressCode.tag')}</span>
+                            <h3 className="text-3xl font-medium text-neutral-dark font-playfair mb-6 leading-tight">{t('dressCode.titlePart1')} <br />{t('dressCode.titlePart2')}</h3>
+                            <div className="space-y-4 text-neutral-medium text-sm font-light font-inter leading-relaxed">
+                                <p>{t('dressCode.text1')}</p>
+                                <p>{t('dressCode.text2')}</p>
+                            </div>
+                        </div>
+
+                        {/* Things to Know */}
+                        <div className="p-10 bg-neutral-light/10 border border-neutral-light hover:border-primary/30 transition-all duration-500 hover:shadow-xl">
+                            <Info className="w-10 h-10 text-primary mb-8" />
+                            <span className="text-primary font-bold uppercase tracking-[0.2em] text-[9px] mb-4 block font-inter">{t('thingsToKnow.tag')}</span>
+                            <h3 className="text-3xl font-medium text-neutral-dark font-playfair mb-6 leading-tight">{t('thingsToKnow.titlePart1')} <br />{t('thingsToKnow.titlePart2')}</h3>
+                            <div className="space-y-6 text-neutral-medium text-sm font-light font-inter leading-relaxed">
+                                <p className="italic border-l-2 border-primary/30 pl-4">{t('thingsToKnow.intro')}</p>
+                                <p>{t('thingsToKnow.intro2')}</p>
+                                <p className="font-medium text-neutral-dark">{t('thingsToKnow.outro')}</p>
+                                <ul className="space-y-4 pt-4 border-t border-neutral-light">
+                                    {t.raw('thingsToKnow.items').map((item: string, idx: number) => (
+                                        <li key={idx} className="flex gap-4 items-start">
+                                            <span className="text-primary font-bold text-[10px] mt-1 shrink-0">0{idx + 1}</span>
+                                            <span className="text-xs leading-relaxed">{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Final CTA */}
+            <section className="pb-24 px-6 md:px-0">
                 <div className="container mx-auto">
                     <div className="relative bg-neutral-dark p-16 md:p-24 overflow-hidden text-center grain">
                         <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/10 skew-x-12 translate-x-1/2 pointer-events-none" />
@@ -231,3 +290,4 @@ export const AboutPageContent = () => {
         </div>
     );
 };
+

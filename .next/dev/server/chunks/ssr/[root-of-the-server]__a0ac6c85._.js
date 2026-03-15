@@ -12,7 +12,8 @@ const routing = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules
     // A list of all locales that are supported
     locales: [
         'en',
-        'es'
+        'es',
+        'fr'
     ],
     // Used when no locale matches
     defaultLocale: 'en'
@@ -45,6 +46,10 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
             "../../messages/es.json": {
                 id: ()=>"[project]/messages/es.json (json, async loader)",
                 module: ()=>__turbopack_context__.A("[project]/messages/es.json (json, async loader)")
+            },
+            "../../messages/fr.json": {
+                id: ()=>"[project]/messages/fr.json (json, async loader)",
+                module: ()=>__turbopack_context__.A("[project]/messages/fr.json (json, async loader)")
             }
         }).import(`../../messages/${locale}.json`)).default
     };
@@ -333,9 +338,11 @@ const siteInfo = {
     description: "Authentic Berber-led mountain and desert adventures. Experience the magic of the High Atlas and Sahara with expert local guides from Imlil.",
     tagline: "Your Gateway to Toubkal & the Sahara",
     contact: {
-        phone: "+212 6 69 15 35 07",
-        whatsapp: "+212 6 69 15 35 07",
-        email: "gomolilt0147@gmail.com",
+        phone: "+212 659100172",
+        phone2: "+212 669153507",
+        whatsapp: "+212 659100172",
+        whatsapp2: "+212 669153507",
+        email: "contact@moroccoatlasguide.com",
         address: "Imlil Asni Tahanaout Marrakech, Morocco"
     },
     socials: {

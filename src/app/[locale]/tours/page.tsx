@@ -140,7 +140,7 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
                         {allTours.map((item: any, idx) => (
                             <motion.div
-                                key={item.id}
+                                key={`${item.id}-${idx}`}
                                 initial={{ opacity: 0, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -149,10 +149,10 @@ export default function ToursPage({ params }: { params: Promise<{ locale: string
                                 <Link href={`/${locale}/tours/${item.id}`} className="block group">
                                     <div className="relative aspect-[4/5] mb-6 overflow-hidden bg-neutral-100 border-sharp">
                                         <Image
-                                            src={item.image || '/images/hero-marrakech.jpg'}
-                                            alt={item.name}
+                                            src={item.image || '/images/marrakech/marrakech.jpg'}
+                                            alt={item.name || 'Tour Image'}
                                             fill
-                                            className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105 grayscale-[30%] group-hover:grayscale-0"
+                                            className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
                                         />
 
                                         {/* Minimal Hover UI */}

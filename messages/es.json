@@ -165,42 +165,69 @@
             "tag": "MÁS ALLÁ DE LAS CUMBRES",
             "titlePart1": "Alma",
             "titlePart2": "Bereber.",
-            "description": "Nacidos de las cumbres del Alto Atlas, dedicados a compartir la auténtica magia de Marruecos."
+            "description": "Nacido de las cumbres del Alto Atlas, dedicado a compartir la auténtica magia de Marruecos."
         },
-        "story": {
-            "tag": "EL CAMINO ANCESTRAL",
-            "titlePart1": "De Imlil a las",
-            "titlePart2": "Más Altas Cumbres",
-            "text1": "Morocco Atlas Guide fue fundada por un equipo de guías bereberes locales nacidos y criados en el corazón de las montañas del Alto Atlas. Nuestra conexión con esta tierra no es solo profesional; es ancestral.",
-            "text2": "Durante más de una década, hemos guiado a viajeros a través de los antiguos senderos del Monte Toubkal y el vasto silencio del Sahara. Nuestra misión es ofrecer más que un simple tour: ofrecemos una inmersión en el estilo de vida bereber.",
-            "guides": {
-                "titlePart1": "Equipo de Élite de",
-                "titlePart2": "Guías Locales Certificados"
-            },
-            "stats": "Años de Excelencia en Montaña"
-        },
-        "stats": {
-            "fidelity": "Fidelidad de los Huéspedes",
-            "summits": "Cumbres Exitosas",
-            "stewardship": "Administración Local"
-        },
-        "philosophy": {
-            "tag": "LOS PILARES DEL ATLAS",
-            "titlePart1": "Nuestra",
-            "titlePart2": "Filosofía.",
-            "description": "Integridad, hospitalidad y seguridad no son solo palabras; son el terreno que navegamos todos los días.",
-            "item1": {
-                "title": "Seguridad Inigualable",
-                "description": "Certificación de élite por guías de montaña nacionales. Profunda experiencia en logística de alta montaña y gestión del terreno."
-            },
-            "item2": {
-                "title": "Hospitalidad Profunda",
-                "description": "Más allá del sendero, ofrecemos un lugar en nuestra mesa. Experimenta el profundo ritmo de la vida bereber en nuestras casas de montaña."
-            },
-            "item3": {
-                "title": "Expediciones a Medida",
-                "description": "Desde excursiones accesibles hasta cumbres técnicas. Cada camino se calibra para tu umbral y visión únicos."
+        "heritage": {
+            "tag": "NUESTRO PATRIMONIO",
+            "titlePart1": "El Legado de",
+            "titlePart2": "Lahoucine",
+            "description": "Lahoucine es un guía oficial de montaña y desierto reconocido por el Ministerio de Turismo de Marruecos y calificado en las escuelas más prestigiosas de Europa (EMMOE) Escuela Militar de Montaña y Operaciones Especiales en España con (Diploma de Montaña Superior) y en la (EMHM) École Militaire de Haute Montagne Française en Francia; además de la Federación Real Marroquí de Esquí y Montaña. Habiendo crecido en el corazón de las montañas del Alto Atlas, LAHOUCINE puede compartir su conocimiento local experto para llevarte a una aventura inolvidable. Somos un equipo profesional y competente (guías, conductores, muleros, cocineros, ...) liderado por moroccoatlasguide. Verás hermosos valles altos y picos nevados, intercalados con encantadores pueblos bereberes.",
+            "quote": {
+                "title": "La seguridad ante todo",
+                "text": "Mientras viajas por el mundo, es importante que te sientas seguro y cómodo. Cuando viajas con moroccoatlasguide, puedes estar tranquilo de que tu seguridad es nuestra mayor prioridad; contar con la seguridad de un grupo de nuevos amigos y un líder local experto significa que puedes relajarte y disfrutar."
             }
+        },
+        "mission": {
+            "tag": "NUESTRA MISIÓN",
+            "titlePart1": "Creando",
+            "titlePart2": "Sueños.",
+            "text1": "Embárcate en una aventura emocionante en medio de los majestuosos paisajes del Alto Atlas con nuestra amplia gama de servicios adaptados a cada una de tus necesidades. Ya sea que busques una breve caminata guiada de un día o un paquete de trekking completo, te tenemos cubierto. Nuestras ofertas incluyen arreglos de transporte a la región, alojamientos acogedores, comidas deliciosas, guías expertos, mulas confiables para asistencia y más.",
+            "text2": "Creando experiencias inolvidables, personalizamos los itinerarios para que se ajusten perfectamente a tus preferencias. Las aventuras a medida satisfacen tus intereses, limitaciones de tiempo, tamaño del grupo, preferencias de dificultad del trekking y estándares de alojamiento deseados. Sumérgete en el corazón del Alto Atlas y permítenos convertir tus sueños de expedición en realidad."
+        },
+        "whyUs": {
+            "tag": "¿POR QUÉ NOSOTROS?",
+            "titlePart1": "La Diferencia",
+            "titlePart2": "Local.",
+            "text": "El trekking presenta una oportunidad excepcional para sumergirse en las impresionantes maravillas naturales de Marruecos. Nuestras expediciones de trekking ofrecen un vistazo a los diversos e impresionantes paisajes de Marruecos, brindando encuentros de primera mano con la auténtica vida bereber a través de montañas, valles, campo y terreno desértico. Morocco Atlas Guide se erige como una empresa turística local operada por bereberes, enfocada en aventuras de trekking y en fomentar el conocimiento de la cultura bereber. Además, ampliamos nuestra experiencia para satisfacer todos tus requisitos de tours en Marruecos, incluyendo arreglos de alojamiento, traslados, recorridos por la ciudad y más."
+        },
+        "leaders": {
+            "tag": "LÍDERES LOCALES",
+            "titlePart1": "El Corazón del",
+            "titlePart2": "Viaje.",
+            "text1": "Los mejores guías para revelar el corazón de un destino son los LÍDERES LOCALES que viven allí, por lo que trabajamos exclusivamente con líderes locales. En las expediciones, tu líder no es solo un experto en viajes, sino también tu maestro, gurú de viajes y proveedor apasionado de auténticas experiencias de base.",
+            "text2": "Cuando la gente usa la palabra 'extraordinario', probablemente esté pensando en lugares como Marruecos. En una tierra donde montar camellos sobre las dunas al atardecer es común, donde el aire está lleno del aroma de los tagines con azafrán, y donde los pastores amazigh guían a las cabras por las laderas de las montañas del Alto Atlas, 'extraordinario' parece insuficiente. Ya sea que estés paseando por la ciudad portuaria de Esauira azotada por el viento, explorando la famosa Kasbah de Ait Ben Haddou o durmiendo bajo las estrellas en el Sahara, la cálida hospitalidad del Magreb hará que un recorrido por Marruecos sea verdaderamente inolvidable."
+        },
+        "culture": {
+            "tag": "DIVERSIDAD CULTURAL",
+            "titlePart1": "Encrucijada de",
+            "titlePart2": "Civilizaciones.",
+            "text1": "El rico tapiz de culturas de Marruecos refleja su papel histórico como encrucijada de civilizaciones. A lo largo de los siglos, la tierra ha sido habitada por diversos pueblos, incluidos los indígenas amazigh (bereberes) junto con influencias del Este (fenicios y árabes), del Sur (africanos subsaharianos) y del Norte (romanos y andaluces españoles, tanto musulmanes como judíos).",
+            "text2": "En la actualidad, la mayoría de los marroquíes se identifican como bereberes o árabes, y el árabe es el idioma oficial. El Islam es la religión predominante, y los musulmanes sunitas representan el 99% de la población; sin embargo, las minorías religiosas son respetadas y conviven armoniosamente.",
+            "text3": "La sociedad marroquí se enorgullece de su hospitalidad y apertura a diversas culturas, ideas y estilos de vida. No obstante, es crucial respetar las creencias locales y las normas culturales para evitar ofensas involuntarias. Lo que puede ser aceptable en la propia cultura podría malinterpretarse al navegar por los matices de la etiqueta y las costumbres marroquíes."
+        },
+        "dressCode": {
+            "tag": "CÓDIGO DE VESTIMENTA",
+            "titlePart1": "Respeto y",
+            "titlePart2": "Modestia.",
+            "text1": "Como se mencionó anteriormente, hay un énfasis cultural en la modestia, particularmente para las mujeres, dentro de las comunidades musulmanas. El grado en que esto influye en los viajeros varía dependiendo de la ubicación dentro del país, ya sea un punto turístico o no, y el tipo de alojamiento elegido, ya sea un hotel orientado al turismo o un establecimiento local.",
+            "text2": "Es aconsejable tener precaución tanto en la vestimenta como en el comportamiento para evitar causar ofensas involuntarias. Sin embargo, Marruecos reconoce el valor del turismo y extiende una cálida bienvenida a los visitantes, con concesiones que a menudo se hacen en zonas turísticas y playas. En los centros urbanos y centros turísticos de la costa oeste, los propios marroquíes tienden a adoptar actitudes más occidentales."
+        },
+        "thingsToKnow": {
+            "tag": "COSAS QUE SABER",
+            "titlePart1": "Antes de",
+            "titlePart2": "Llegar.",
+            "intro": "Marruecos es una muestra asombrosa y reveladora de lo exótico. Marruecos es también un viaje a un mundo eterno y sereno de pueblos costeros, ciudades pintadas de colores que se adhieren a las laderas y puestos remotos defendidos por fortalezas de adobe de cuento de hadas.",
+            "intro2": "Esta tierra cautivadora es una fusión de los mundos africano y árabe. Está impregnada de tradiciones milenarias. No es de extrañar que Marruecos haya sido famoso por artistas y escritores durante décadas y siga encantando a todos los que lo visitan.",
+            "outro": "Sin embargo, hay algunas cosas que debes saber antes de viajar a Marruecos por turismo:",
+            "items": [
+                "Es un país precioso",
+                "Marruecos es uno de los países más pacíficos del mundo. Tiene muchos lugares de interés para visitar, especialmente cuando viajas por turismo.",
+                "Asegúrate de cambiar dírham marroquí por 1 dólar. Hay una gran tasa de conversión de moneda que te da la oportunidad de gastar menos y disfrutar más.",
+                "Hay una gran oferta de viajes en el país. En términos relativos, la tasa del dírham es decente y estable. Puedes esperar pocas sorpresas.",
+                "Los hoteles en Marruecos son económicos, tienen una buena relación calidad-precio y son bastante fáciles de localizar. El país se ha convertido en una parada común para los visitantes, lo que ha aumentado el número de hoteles en cada región.",
+                "Visa y MasterCard se aceptan en la mayoría de los cajeros automáticos para adelantos de efectivo. Sin embargo, asegúrate de que no se acepten tarjetas de crédito en muchas de las tiendas más pequeñas. Puedes bastarte con unos 4000 dírhams.",
+                "Una vez que estés en Marruecos, necesitarás efectivo inmediatamente para pagar el transporte. Asegúrate de sacar algo de efectivo del primer cajero automático que veas en el aeropuerto; sin embargo, no saques demasiado."
+            ]
         },
         "cta": {
             "titlePart1": "Comienza tu",
@@ -243,6 +270,11 @@
             "vision": "La Visión",
             "visionPlaceholder": "Me gustaría hacer un trek al Monte Toubkal en diciembre...",
             "submit": "Enviar vía WhatsApp"
+        },
+        "map": {
+            "tag": "NUESTRA UBICACIÓN",
+            "titlePart1": "Encuéntranos en",
+            "titlePart2": "Imlil."
         }
     },
     "FAQSection": {

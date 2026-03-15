@@ -20,9 +20,7 @@ __turbopack_context__.s([
     "siteData",
     ()=>siteData,
     "siteDataEs",
-    ()=>siteDataEs,
-    "siteDataFr",
-    ()=>siteDataFr
+    ()=>siteDataEs
 ]);
 const siteData = {
     "currency": "EUR",
@@ -4526,33 +4524,79 @@ Propinas para el equipo local.`,
         "items": [
             {
                 "id": "review-1",
-                "author": "Sarah Johnson",
-                "country": "United Kingdom",
+                "author": "Michelle Newport",
                 "rating": 5,
-                "date": "November 2024",
-                "tourId": "toubkal-treks-2-days-express",
-                "comment": "An incredible experience! Our guide was knowledgeable and made the trek to Toubkal summit unforgettable. The Berber hospitality was amazing, and the mountain views were breathtaking. Highly recommend Morocco Atlas Guide!",
-                "avatar": "/images/reviews/avatar-1.jpg"
+                "date": "May 29, 2024",
+                "comment": "Abdul was absolutely wonderful as our guide on our 2 day Mnt Toubkal climb. I highly recommend this hike with Abdul, he is very friendly, supportive and attentive to the needs of the group. This excursion was the highlight of our trip in Marrakech."
             },
             {
                 "id": "review-2",
-                "author": "Marco Rossi",
-                "country": "Italy",
+                "author": "Mary Fuller",
                 "rating": 5,
-                "date": "October 2024",
-                "tourId": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
-                "comment": "The desert tour exceeded all expectations. Sleeping under the stars in the Sahara was magical. Our guide shared fascinating stories about Berber culture. The whole team was professional and friendly.",
-                "avatar": "/images/reviews/avatar-2.jpg"
+                "date": "May 15, 2024",
+                "comment": "We had the most incredible hike with Abdell in March. He took my husband, two dogs, and I into the Atlas from Imlill and through his village high above. The views were incredible and hearing the call to prayer from above was unforgettable. The tea, soup, bread and cookies in his home was honestly some of the best food we've had in a long time! I would happily recommend them for any short or long excursion and can't wait to come back again!"
+            },
+            {
+                "id": "review-3",
+                "author": "Simon Webb",
+                "rating": 5,
+                "date": "May 10, 2024",
+                "comment": "The best guide in Morocco, I would highly recommend hiring Ibrahim and his team for any adventure across the Sahara."
+            },
+            {
+                "id": "review-4",
+                "author": "Carrie J. Hall - Realtor",
+                "rating": 5,
+                "date": "May 8, 2024",
+                "comment": "Just spent 14 days with Ibrahim, his driver and 3 other friends. Fantastic Guide! Good english, better french. He is kind, humorous, very patient and can roll easily if we wanted to make a change to his original program. We focused on areas off the beaten path and boy did we see alot! Ask him about the mountain Oasis he introduced the CDNs to. Shhh - if he takes you there turn off the geotags for your photos. It is a special spot."
+            },
+            {
+                "id": "review-5",
+                "author": "Gina Roskin",
+                "rating": 5,
+                "date": "January 16, 2024",
+                "comment": "Excellent tour in the atlas with guide Ibrahim. Delicious lunch at the place of a berber family. I really enjoyed it."
+            },
+            {
+                "id": "review-6",
+                "author": "steven roscoe",
+                "rating": 5,
+                "date": "November 22, 2023",
+                "comment": "I went as part of group trek through part of the Sahara desert with ibrahim and his company. We were out for 5 days and everything about it was excellent. Ibrahim, Hassan, Omar and everybody else were very friendly and knowledgeable. Nothing was too much for them and they would stop and answer any questions you had about the area. Everything was ran smoothly and the food and camp set up were beyond what I could have hoped. Would 100% recommend using these guides for any of the trips/treks they run."
+            },
+            {
+                "id": "review-7",
+                "author": "Ella Sussex",
+                "rating": 5,
+                "date": "October 7, 2023",
+                "comment": "The three days we spent with Abdel and Mohammed from Trek Atlas were my favourite from months of travel in Africa. Great food, communication, hospitality, and so nice for us to be able to connect with a guide close to our age. A very authentic experience that was different from other touristic excursions, very treasured memories for us. Hope to see you again soon one day!"
+            },
+            {
+                "id": "review-8",
+                "author": "Leighton Van Rooijen",
+                "rating": 5,
+                "date": "October 7, 2023",
+                "comment": "We went trekking with Abdell and Muhammad. Abdell was the best guide I have had in all of my travels in Africa. Instantly he was cracking jokes and telling us about the place. On top of that Muhammad was a fantastic cook. I can't express just how great the pair are!"
+            },
+            {
+                "id": "review-9",
+                "author": "Hannah McLay",
+                "rating": 5,
+                "date": "October 4, 2023",
+                "comment": "Had an amazing experience and tour visiting Morocco with your help. You ensured that we were safe on our trip always checking in to ensure we felt comfortable. As well as your fantastic knowledge on the countryside and town. You made our trip to morroco so special and something I will always treasure."
+            },
+            {
+                "id": "review-10",
+                "author": "Andrew Chappell",
+                "rating": 5,
+                "date": "October 3, 2023",
+                "comment": "I spent 6 days with Ibrahim and trekked along Toubkal and visited various places in the local area. Ibrahim was extremely flexible, professional and kind. He went above and beyond with his extensive local knowledge making everything very convenient and smooth. I would certainly recommend Ibrahim to anyone to use."
             }
         ],
         "averageRating": 5,
-        "totalReviews": 6
+        "totalReviews": 10
     },
     "packages": []
-};
-const siteDataFr = {
-    ...siteData,
-    location: "Marrakech"
 };
 }),
 "[project]/src/data/siteDataEs.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -6436,27 +6480,77 @@ Propinas para el equipo local.`,
         "items": [
             {
                 "id": "review-1",
-                "author": "Sarah Johnson",
-                "country": "Reino Unido",
+                "author": "Michelle Newport",
                 "rating": 5,
-                "date": "Noviembre 2024",
-                "tourId": "toubkal-treks-2-days-express",
-                "comment": "¡Una experiencia increíble! Nuestro guía era muy conocedor e hizo que el ascenso al Toubkal fuera inolvidable. La hospitalidad bereber fue asombrosa y las vistas a la montaña eran impresionantes. ¡Recomiendo encarecidamente Morocco Atlas Guide!",
-                "avatar": "/images/reviews/avatar-1.jpg"
+                "date": "29 de mayo de 2024",
+                "comment": "Abdul fue un guía absolutamente maravilloso en nuestra ascensión de 2 días al Monte Toubkal. Recomiendo encarecidamente esta caminata con Abdul, es muy amable, solidario y atento a las necesidades del grupo. Esta excursión fue lo más destacado de nuestro viaje a Marrakech."
             },
             {
                 "id": "review-2",
-                "author": "Marco Rossi",
-                "country": "Italia",
+                "author": "Mary Fuller",
                 "rating": 5,
-                "date": "Octubre 2024",
-                "tourId": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
-                "comment": "El tour al desierto superó todas las expectativas. Dormir bajo las estrellas en el Sahara fue mágico. Nuestro guía compartió historias fascinantes sobre la cultura bereber. Todo el equipo fue profesional y amable.",
-                "avatar": "/images/reviews/avatar-2.jpg"
+                "date": "15 de mayo de 2024",
+                "comment": "Tuvimos la caminata más increíble con Abdell en marzo. Llevó a mi esposo, a mis dos perros y a mí al Atlas desde Imlil y a través de su pueblo en lo alto. Las vistas eran increíbles y escuchar la llamada a la oración desde arriba fue inolvidable. ¡El té, la sopa, el pan y las galletas en su casa fueron, sinceramente, de los mejores que hemos comido en mucho tiempo! Los recomiendo encarecidamente para cualquier excursión corta o larga y ¡no puedo esperar para volver!"
+            },
+            {
+                "id": "review-3",
+                "author": "Simon Webb",
+                "rating": 5,
+                "date": "10 de mayo de 2024",
+                "comment": "El mejor guía en Marruecos, recomiendo encarecidamente contratar a Ibrahim y su equipo para cualquier aventura en el Sahara."
+            },
+            {
+                "id": "review-4",
+                "author": "Carrie J. Hall - Realtor",
+                "rating": 5,
+                "date": "8 de mayo de 2024",
+                "comment": "Acabo de pasar 14 días con Ibrahim, su conductor y otros 3 amigos. ¡Guía fantástico! Buen inglés, mejor francés. Es amable, humorístico, muy paciente y se adapta fácilmente si queríamos hacer un cambio en su programa original. Nos enfocamos en áreas fuera de los caminos trillados y ¡vaya que vimos mucho! Pregúntenle sobre el Oasis de montaña que les presentó a los CDN. Shhh - si él los lleva allí, desactiven el geotagging de sus fotos. Es un lugar especial."
+            },
+            {
+                "id": "review-5",
+                "author": "Gina Roskin",
+                "rating": 5,
+                "date": "16 de enero de 2024",
+                "comment": "Excelente recorrido por el Atlas con el guía Ibrahim. Delicioso almuerzo en casa de una familia bereber. Realmente lo disfruté."
+            },
+            {
+                "id": "review-6",
+                "author": "steven roscoe",
+                "rating": 5,
+                "date": "22 de noviembre de 2023",
+                "comment": "Participé en una caminata grupal por parte del desierto del Sahara con Ibrahim y su compañía. Estuvimos fuera durante 5 días y todo fue excelente. Ibrahim, Hassan, Omar y todos los demás fueron muy amables y conocedores. Nada era demasiado para ellos y se detenían para responder cualquier pregunta que tuvieras sobre el área. Todo funcionó sin problemas y la comida y la configuración del campamento superaron lo que podría haber esperado. Recomendaría al 100% contratar a estos guías para cualquiera de los viajes/caminatas que ofrecen."
+            },
+            {
+                "id": "review-7",
+                "author": "Ella Sussex",
+                "rating": 5,
+                "date": "7 de octubre de 2023",
+                "comment": "Los tres días que pasamos con Abdel y Mohammed de Trek Atlas fueron mis favoritos en meses de viaje por África. Buena comida, comunicación, hospitalidad, y muy agradable para nosotros poder conectar con un guía cercano a nuestra edad. Una experiencia muy auténtica, diferente de otras excursiones turísticas, recuerdos muy preciados para nosotros. ¡Espero volver a verlos pronto algún día!"
+            },
+            {
+                "id": "review-8",
+                "author": "Leighton Van Rooijen",
+                "rating": 5,
+                "date": "7 de octubre de 2023",
+                "comment": "Fuimos de trekking con Abdell y Muhammad. Abdell fue el mejor guía que he tenido en todos mis viajes por África. Instantáneamente estaba haciendo bromas y contándonos sobre el lugar. Además, Muhammad era un cocinero fantástico. ¡No puedo expresar lo genial que es este par!"
+            },
+            {
+                "id": "review-9",
+                "author": "Hannah McLay",
+                "rating": 5,
+                "date": "4 de octubre de 2023",
+                "comment": "Tuve una experiencia y un recorrido increíbles visitando Marruecos con tu ayuda. Te aseguraste de que estuviéramos seguros en nuestro viaje, siempre verificando que nos sintiéramos cómodos. Así como tu fantástico conocimiento sobre el campo y la ciudad. Hiciste nuestro viaje a Marruecos tan especial, algo que siempre atesoraré."
+            },
+            {
+                "id": "review-10",
+                "author": "Andrew Chappell",
+                "rating": 5,
+                "date": "3 de octubre de 2023",
+                "comment": "Pasé 6 días con Ibrahim y caminé por Toubkal y visité varios lugares en el área local. Ibrahim fue extremadamente flexible, profesional y amable. Fue más allá con su amplio conocimiento local, haciendo todo muy conveniente y sin problemas. Ciertamente recomendaría a Ibrahim a cualquiera."
             }
         ],
         "averageRating": 5,
-        "totalReviews": 6
+        "totalReviews": 10
     },
     "packages": []
 };

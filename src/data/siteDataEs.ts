@@ -12,10 +12,19 @@ export const siteDataEs = {
             "duration": "2_days",
             "image": "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
             "gallery": [
-                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
                 "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
-                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg"
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `moroccoatlasguide te invita a una aventura única: escalar el Toubkal, el pico más alto de África del Norte, en solo 2 días. Esta exigente caminata está reservada para excursionistas experimentados y buscadores de aventura, pero no requiere ninguna experiencia técnica.
 
@@ -77,10 +86,19 @@ No añadimos costes extra ocultos. Todos los viajes incluyen permiso de viaje, a
             "duration": "2_days",
             "image": "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
-                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
-                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg"
+                "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `Embárcate en un viaje cautivador desde las bulliciosas calles de Marrakech, tejiendo un tapiz de encantadores aldeas y tradicionales pueblos bereberes. Las majestuosas montañas del Alto Atlas Occidental se alzarán ante ti, invitándote a adentrarte más en su abrazo.
 
@@ -115,10 +133,19 @@ Nuestro descenso nos lleva a través de un fragante bosque de enebros, finalment
             "duration": "3_days",
             "image": "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
                 "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
-                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png"
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `Únete a nosotros para una memorable ascensión invernal de 3 días al Monte Toubkal. Este itinerario extendido permite una mejor aclimatación y un ritmo más relajado en comparación con la opción exprés de 2 días. Caminarás desde Imlil hasta el refugio, coronarás el pico más alto de África del Norte (4167m) para disfrutar de vistas impresionantes, y pasarás dos noches en el corazón de las montañas del Atlas.
 
@@ -168,10 +195,19 @@ Equipo necesario: zapatos de senderismo, ropa de montaña cálida e impermeable,
             "duration": "4_days",
             "image": "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
-                "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
-                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg"
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `Sumérgete en la cultura bereber en este trek de 4 días a través de los 'Pueblos Bereberes'. Atraviesa los valles de Imnane y Azzaden, cruzando altos pasos con vistas panorámicas pero quedándote en casas de huéspedes de pueblos tradicionales cada noche. Este trek moderado se centra en la conexión cultural, los paisajes y el ritmo de la vida local.
 
@@ -213,10 +249,19 @@ Por favor contáctanos para un presupuesto detallado.
             "duration": "8_days",
             "image": "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
             "gallery": [
-                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+                "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
                 "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
-                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png"
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `Durante el invierno, el majestuoso Monte Toubkal y los picos circundantes del Alto Atlas sufren una notable transformación en un paraíso para excursionistas, con senderos tranquilos, aire fresco e impresionantes vistas del Macizo del Toubkal. Partiendo de la bulliciosa ciudad de Marrakech, viajamos directamente al corazón del Alto Atlas para conquistar el pico más alto de África del Norte (4167m) en medio de un paisaje impresionante. Aunque pueden ser necesarios crampones y piolets dependiendo del tiempo, esta expedición está diseñada para ser accesible para aquellos que están físicamente en forma y decididos, incluso si son nuevos en el senderismo de invierno.
 
@@ -283,10 +328,19 @@ moroccoatlasguide se adapta a la temporada y tu nivel de forma física. Tienes l
             "duration": "15_days",
             "image": "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
             "gallery": [
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+                "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
                 "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
-                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
                 "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
-                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg"
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `Trek Inolvidable al Monte Toubkal
 Otra aventura extraordinaria a través de las montañas del Alto Atlas de Marruecos con morocco atlas guide. Únete a tu guía local, cocinero y arriero mientras exploras encantadores pueblos bereberes, atraviesas valles exuberantes, navegas grietas moderadas y asciendes majestuosas montañas bañadas en luz dorada.
@@ -387,10 +441,19 @@ Recuerda: Este es un trek exigente. Prepárate para condiciones climáticas camb
             "duration": "3_days",
             "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
             "gallery": [
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
-                "/images/excursions/rigel-ibisQEDxODo-unsplash.jpg",
-                "/images/ourika/abdelhamid-azoui-BGU0uaY0tJs-unsplash.jpg",
-                "/images/ourika/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg"
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `¿Por qué reservar este trek?
 - Senderismo en las montañas del Alto Atlas
@@ -456,9 +519,18 @@ Los Treks del Atlas se adaptan a la temporada y tu nivel de forma física. Tiene
             "duration": "8_days",
             "image": "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
             "gallery": [
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+                "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
                 "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
                 "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
-                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
                 "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
             "description": `¿Por qué reservar este trek?
@@ -641,7 +713,7 @@ Embárcate en un cautivador viaje que atraviesa los majestuosos paisajes de Marr
             "gallery": [
                 "/images/desert_tours/darolti-dan-GJw9zRK_VBs-unsplash.jpg",
                 "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
-                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
                 "/images/desert_tours/merzouga7.jpg",
                 "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg"
             ],
@@ -767,116 +839,186 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Días Trek Saghro Sur de Marruecos",
             "duration": "9_days",
-            "image": "/images/desert_tours/merzouga7.jpg",
+            "image": "/images/saghro/Jbel-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
-            "description": "Una aventura de trekking de 9 días en el Jebel Saghro, un espectacular cordón montañoso volcánico que conecta el Alto Atlas y el Sahara. Conocido por sus mesetas, agujas de basalto y calidez invernal, es un favorito para el trekking en temporada seca. Camina a través de pueblos remotos y dramáticas formaciones rocosas con nuestro equipo experto.",
+            "description": `Trek de 9 días por el Jebel Saghro, sur de Marruecos — por moroccoatlasguide
+
+Jebel Saghro: Una joya oculta para los senderistas en Marruecos
+
+El macizo del Jebel Saghro es una joya oculta del sur de Marruecos. Menos conocido que el Alto Atlas o el Atlas Medio, ofrece a los senderistas una experiencia única y enriquecedora.
+
+Geografía y paisaje: Una vasta cordillera accidentada que se extiende más de 200 km. Pendientes suaves, amplios valles, numerosos oasis y una rica fauna y flora con muchas especies endémicas.
+
+Cultura y gente: Hogar de numerosos pueblos beréberes — un pueblo nómade que habita la región desde hace siglos, conocido por su hospitalidad y su modo de vida tradicional.
+
+Por qué el Jebel Saghro: Es un yacimiento geológico del Precámbrico (230–570 millones de años), Geoparque Mundial de la UNESCO, con arte rupestre prehistórico, fósiles raros y espectaculares formaciones volcánicas.
+
+PRECIO POR PERSONA (EUR)
+• 2 personas: 750 € por persona
+• 3 personas: 680 € por persona
+• 4 personas o más: 460 € por persona
+
+Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: primavera u otoño`,
             "pricing": [
                 {
                     "totalPrice": 750
                 }
             ],
+            "includes": [
+                "Transporte de ida y vuelta Marrakech ↔ inicio/fin del trek",
+                "2 noches en casa de familia rural",
+                "Alquiler de tienda y colchón durante todo el recorrido",
+                "Todas las comidas durante el trek",
+                "Servicios de arriero y mulas",
+                "Cocinero profesional",
+                "Guía de montaña cualificado"
+            ],
+            "excludes": [
+                "Vuelos de ida y vuelta",
+                "Hotel y comidas en Marrakech",
+                "Bebidas y gastos personales",
+                "Seguro de repatriación",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Tagdilt",
-                    "description": "Conducción por el paso Tichka hasta Ouarzazate y Boumalne Dades. Llegada a Tagdilt."
+                    "title": "Marrakech – Tizi N'Tichka – Ouarzazate – Valle del Dadés – Aït Youl",
+                    "description": "Traslado de Marrakech a Ouarzazate por el puerto de Tizi N'Tichka (2.260 m). Almuerzo en Ouarzazate antes de llegar a AÏt Youl. Tiempo libre para explorar este pequeño pueblo y conocer a sus vecinos trabajando en los campos. Aprox. 6 horas en coche. Noche en tienda."
                 },
                 {
                     "day": 2,
-                    "title": "Tagdilt – Almou N'Ouarg",
-                    "description": "Comienzo del trek. Cruce del Tizi n'Ouzarzam. Campamento en Almou N'Ouarg."
+                    "title": "Aït Youl (1.500 m) – Meseta de Tafoughalt (1.600 m)",
+                    "description": "Tras el desayuno, partimos hacia las montañas del Saghro cruzando pequeños pueblos alrededor de Kalâat M'Gouna — la Ciudad de las Rosas — al pie del macizo volcánico del Saghro. Noche en tienda en la meseta de Tafoughalt, cerca de un pozo frecuentado por los nómadas de la tribu Aït Atta. Aprox. 5 h 30 de caminata."
                 },
                 {
                     "day": 3,
-                    "title": "Almou N'Ouarg – Igli",
-                    "description": "Trek hasta la cima de Kouaouch (2600m). Descenso a Igli."
+                    "title": "Tafoughalt (1.600 m) – Puerto de Tagmout (1.900 m) – Assaka (1.500 m)",
+                    "description": "Una hora de marcha hasta el puerto de Tizi n-Tagmout (1.900 m), luego un corto descenso hasta el pueblo de Tagmout. Un cañón rodeado de rocas lleva al pueblo de Assaka (1.584 m). Noche en tienda más allá de Assaka."
                 },
                 {
                     "day": 4,
-                    "title": "Igli – Bab n'Ali",
-                    "description": "Caminata a través de gargantas hasta las famosas torres de roca de Bab n'Ali."
+                    "title": "Assaka (1.584 m) – Ighazoun (1.250 m)",
+                    "description": "Descendemos este magnífico valle cruzando una sucesión de pequeños pueblos: Tajalajt, Berkou y Tifdassine — donde sus habitantes viven de sus rebaños de cabras y ovejas. Almuerzo bajo los almendros. Por la tarde cruzamos un pequeño puerto antes de descender al valle de Ighazzoun. Noche en tienda. Aprox. 5 h 30 de caminata."
                 },
                 {
                     "day": 5,
-                    "title": "Bab n'Ali – Ighazzoun",
-                    "description": "Trek a través de Tadaout n'Tablah paisajes diversos."
+                    "title": "Ighazzoun – Tadaout N'Tablah – Bab N'Ali (1.416 m)",
+                    "description": "Cruzamos el pueblo de Ighazzoun y ascendemos a la meseta de Tadaoute N'Tablah, en el corazón de un circo rocoso de paisaje surrealista. Llegamos a la famosa puerta de Bab N'Ali (1.416 m) — imponentes pináculos de arenisca metamórfica del Precámbrico que pueden admirarse desde distintos ángulos según la luz."
                 },
                 {
                     "day": 6,
-                    "title": "Ighazzoun – Handour",
-                    "description": "Trek hasta el pueblo de Handour. Oasis verdes contrastando con roca."
+                    "title": "Bab N'Ali – Gargantas de Afourare – Igli (2.000 m)",
+                    "description": "Continuamos por las gargantas del Assif n-Afourare hasta el pequeño oasis de Boualouz, pasando campos de cereales y plantaciones de almendros. Cruzamos el pueblo de Afourare hacia el pequeño oasis de Igli (2.000 m), en el corazón del macizo del Saghro. Por el camino encontramos pastores trashumantes Aït Atta. Noche en tienda."
                 },
                 {
                     "day": 7,
-                    "title": "Handour – Nkob – Marrakech",
-                    "description": "Caminata corta. Encuentro con transporte en Nkob. Conducción de regreso a Marrakech."
+                    "title": "Igli (2.000 m) – Cumbre de Kouaouch (2.570 m) – Almou N'Ouarg (1.850 m)",
+                    "description": "Tras el desayuno ascendemos los acantilados del Tassigdelt, apreciando los colores de las rocas y el silencio de las montañas. Tomamos el sendero hacia la cumbre de Kouaouch (2.570 m), desde donde disfrutamos de una magnífica vista sobre el macizo del M'goun y el Valle de las Rosas. Descenso al campamento de Almou N'Ouarg. Aprox. 5 h 30 de caminata. Noche en tienda."
                 },
                 {
                     "day": 8,
-                    "title": "Día Libre en Marrakech",
-                    "description": "Explora la Medina."
+                    "title": "Almou N'Ouarg (2.400 m) – Tagdilt (1.650 m)",
+                    "description": "Un ascenso regular hasta el puerto de Ifed (2.400 m) con vistas panorámicas sobre el valle del Dadés y el flanco sur del macizo del M'goun. Hermoso descenso por una senda de mulos a través de un pequeño valle de adelfa. Almuerzo en ruta. Por la tarde continuamos hacia el pueblo de Tagdilt (1.650 m). Noche en casa rural."
                 },
                 {
                     "day": 9,
-                    "title": "Salida",
-                    "description": "Traslado al aeropuerto."
+                    "title": "Tagdilt (1.650 m) – Valle del Dadés – Ouarzazate – Marrakech",
+                    "description": "Salida a las 8:00 h. Regreso en coche a Marrakech por el valle del Dadés con paradas fotográficas. Almuerzo tras el puerto de Tichka. Llegada a Marrakech. Aprox. 6 horas en coche."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Djebel Saghro"
         },
         {
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "Programa de Trekking de 6 Días en Saghro Marruecos",
             "duration": "6_days",
-            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/merzouga3.jpg",
-                "/images/desert_tours/merzouga2.jpg"
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
-            "description": "Un programa de trekking enfocado de 6 días en la hermosa región de Jebel Saghro. Experimenta el \"Monument Valley\" de Marruecos con su única geología volcánica. Este itinerario más corto captura los puntos destacados de la cordillera, incluyendo los pináculos de Bab n'Ali y la interacción auténtica con los nómadas de la tribu Ait Atta.",
+            "description": `Programa de Trekking de 6 Días en el Jebel Saghro, Marruecos
+
+PRECIO POR PERSONA (EUR)
+• 2 personas: 540 € por persona
+• 3 personas: 490 € por persona
+• 4 personas o más: 410 € por persona
+
+Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: primavera u otoño`,
             "pricing": [
                 {
                     "totalPrice": 540
                 }
             ],
+            "includes": [
+                "Transporte de ida y vuelta Marrakech ↔ inicio/fin del trek",
+                "1 noche en casa de familia rural",
+                "Alquiler de tienda y colchón durante el trek",
+                "Todas las comidas durante el trek",
+                "Servicios de arriero y mulas",
+                "Cocinero profesional",
+                "Guía de montaña cualificado"
+            ],
+            "excludes": [
+                "Vuelos de ida y vuelta",
+                "Hotel y comidas en Marrakech",
+                "Bebidas y gastos personales",
+                "Seguro de repatriación",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Tagdilt",
-                    "description": "Conducción desde Marrakech hasta el pueblo de Tagdilt vía Ouarzazate."
+                    "title": "Marrakech – Puerto de Tichka – Ouarzazate – Tagdilt",
+                    "description": "Salida temprana hacia Ouarzazate por el puerto de Tizi N'Tichka. Tras descubrir el Valle del Dadés y sus mil kasbahs, nos dirigimos al sur por una meseta deserta hasta el pueblo de Tagdilt. Noche con familia local a 1.650 m. Aprox. 6 horas en coche."
                 },
                 {
                     "day": 2,
-                    "title": "Tagdilt – Almou N'Ouarg",
-                    "description": "Comienzo del trekking hacia los pastos estacionales de Almou N'Ouarg."
+                    "title": "Tagdilt – Puerto N'Iferd – Irefd – Meseta N'Ouarg (2.250 m)",
+                    "description": "Observamos la carga de las mulas antes de partir. Cruzamos una enorme meseta y ascendemos al puerto de Tizi N'Iferd (2.400 m) con hermosas vistas del macizo central del Alto Atlas. Descendemos a la meseta de Iferd y montamos el campamento a 2.250 m — lugar frecuentado por los pastores nómadas de Aít Atta. Aprox. 5 h 30 de caminata. Noche en tienda."
                 },
                 {
                     "day": 3,
-                    "title": "Almou N'Ouarg – Igli",
-                    "description": "Ascenso del pico Kouaouch para vistas panorámicas. Campamento en Igli."
+                    "title": "Almou N'Ouarg – Cumbre de Kouaouck (2.600 m) – Igli (1.700 m)",
+                    "description": "Ascenso a la cumbre del Kouaouch (2.600 m) — sin medios técnicos. Nuestro cocinero lleva el picnic. Descenso por Tassegdelt. Noche en tienda en Igli (1.700 m). Aprox. 5 h 30 de caminata."
                 },
                 {
                     "day": 4,
-                    "title": "Igli – Bab n'Ali",
-                    "description": "Caminata hasta las espectaculares formaciones rocosas de Bab n'Ali."
+                    "title": "Igli – Gargantas de Afourar – Bab N'Ali – Oasis de Ighazzoun",
+                    "description": "Descendemos el valle de Afourar que se convierte gradualmente en gargantas, pasamos el pequeño oasis de Bouallouz y llegamos a Ousdidene. El paisaje se abre a una enorme meseta dominada por las cimas de Bab N'Ali. Tras cruzar la famosa puerta, continuamos hasta el oasis de Ighazzoun. Noche en tienda. Aprox. 5 horas de caminata."
                 },
                 {
                     "day": 5,
-                    "title": "Bab n'Ali – Nkob",
-                    "description": "Trek final hasta Handour/Nkob."
+                    "title": "Oasis de Ighazzoun – Tifdassine – Handour",
+                    "description": "Salida a las 8:30 h hacia el pequeño puerto de Tifdassine. Largo descenso por el bello valle del mismo nombre. Almuerzo bajo los almendros. Continuamos hasta el pueblo de Handour. Noche en tienda."
                 },
                 {
                     "day": 6,
-                    "title": "Nkob – Marrakech",
-                    "description": "Traslado de regreso a Marrakech vía el Valle del Draa."
+                    "title": "Handour – Ighazzoun – Agdez – Ouarzazate – Marrakech",
+                    "description": "Tras despedir a nuestro equipo de mulas, una corta pista nos lleva a Nkob y luego a Agdez antes de cruzar el puerto de Tichka. Almuerzo tras el puerto. Llegada a Marrakech por la tarde. Aprox. 7 horas de traslado."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Djebel Saghro"
         },
         {
             "id": "11-days-jebel-sirwa-safran-valley",
@@ -889,69 +1031,93 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
                 "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
                 "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
             ],
-            "description": "Una aventura única de 11 días combinando la cordillera volcánica de Sirwa y la capital del azafrán de Taliouine. Este trek une el Alto Atlas y el Anti-Atlas, ofreciendo paisajes de gargantas, mesetas y campos de azafrán (mejor en temporada de cosecha octubre-noviembre). Cumbre del Jebel Sirwa (3304m) y explora antiguos graneros fortificados.",
+            "description": `Jebel Sirwa y el Valle del Azafrán — 11 Días
+
+Este viaje es ideal para los amantes de la naturaleza y los paisajes impresionantes. Incluye un road trip excepcional cruzando dos grandes puertos del Atlas, un trek de cinco días con bivouac hasta la cumbre del Jebel Siroua (3.305 m), y la visita a dos de las kasbahs y ksars más fascinantes del sur. En Taliouine, descubriremos el mundo del precioso azafrán.
+
+Niveles de Trekking:
+• Nivel 1 (Fácil): Excursiones cortas a baja altitud, accesibles a cualquier persona con vida activa.
+• Nivel 2 (Moderado): Marchas de 4–6 horas/día por debajo de 3.000 m. Se recomienda experiencia previa.
+• Nivel 3 (Difícil): Para senderistas experimentados con excelente forma física: 6–8 h diarias, hasta 900 m de desnivel, varios días consecutivos en altitud.`,
             "pricing": [
                 {
                     "totalPrice": 600
                 }
             ],
+            "includes": [
+                "Recogida en aeropuerto y traslados hoteleros",
+                "Alojamiento en riads en Marrakech",
+                "Todas las comidas durante el trek",
+                "Servicios de arriero y mulas",
+                "Cocinero profesional",
+                "Guía de montaña cualificado",
+                "Visita al ksar de Aët Ben Haddou (UNESCO)"
+            ],
+            "excludes": [
+                "Vuelos de ida y vuelta",
+                "Bebidas y gastos personales",
+                "Seguro de repatriación",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Tamlakout",
-                    "description": "Conducción por el Tizi n'Test. Llegada a Tamlakout."
+                    "title": "Marrakech",
+                    "description": "Nuestro conductor le esperará en el aeropuerto y le llevará a su alojamiento — un riad típico de la medina de Marrakech. El resto de la tarde es libre para descubrir la ciudad. Noche en riad."
                 },
                 {
                     "day": 2,
-                    "title": "Tamlakout – Ait Tigga",
-                    "description": "Comienzo del trek. Caminata a través de almendros hasta Ait Tigga."
+                    "title": "Marrakech – Taliouine",
+                    "description": "Tras el desayuno, traslado desde Marrakech cruzando el Alto Atlas por el espectacular puerto de Tizin'Test (2.100 m). Almuerzo en ruta antes de llegar a Taliouine (1.063 m), famosa por su producción de azafrán y la gran kasbah El Glaoui. Tiempo libre para explorar. Cena y noche en casa rural."
                 },
                 {
                     "day": 3,
-                    "title": "Ait Tigga – Idoughagh",
-                    "description": "Visita al antiguo Agadir (granero). Trek hasta Idoughagh."
+                    "title": "Taliouine – Akhfamane",
+                    "description": "Comienzo suave del trek desde Taliouine por las orillas del Oued Zagmouzen, cruzando una sucesión de pequeños pueblos hasta Akhfamane (1.250 m). Noche en tiendas."
                 },
                 {
                     "day": 4,
-                    "title": "Idoughagh – Aison",
-                    "description": "Trek a través de campos de azafrán hasta Aison."
+                    "title": "Akhfamane – Ti N'Iddr (1.684 m)",
+                    "description": "Trek de Akhfamane a Ti n'Iddr siguiendo un sendero que sube el valle por el antiguo pueblo de Mazwad (1.441 m). Más allá, el valle se estrecha en una garganta hasta el encantador pueblo de Ti n'Iddr con su notable kasbah, mezquita y agadir. Noche en tiendas."
                 },
                 {
                     "day": 5,
-                    "title": "Aison – Tisgui",
-                    "description": "Caminata hasta el pueblo de Tisgui."
+                    "title": "Ti N'Iddr – Tegragra (2.650 m)",
+                    "description": "Trek por el valle Assif n'Wamrane a través de un paisaje cada vez más dramatic. Subida empinada al pueblo de Atougha con vistas panorámicas, y continuación a los magníficos pastos estivales de Tegragra (2.650 m). Los pastores aún practican la transhumancia estacional. Noche en tiendas cerca de un punto de agua."
                 },
                 {
                     "day": 6,
-                    "title": "Tisgui – Cumbre Sirwa – Tikniouine",
-                    "description": "Ascenso del Jebel Sirwa. Vistas volcánicas dramáticas. Campamento en Tikniouine."
+                    "title": "Tegragra – Cumbre Jebel Siroua (opc.) – Campamento Cascada (2.400 m)",
+                    "description": "Ascenso opcional al Jebel Siroua (3.305 m) y Jebel Guiliz (2.905 m), seguido de descenso por el valle Assif n'Aïtou'Byal hasta el campamento de la Cascada (2.400 m). Alternativa: descenso directo desde Tegragra. Noche junto al río."
                 },
                 {
                     "day": 7,
-                    "title": "Tikniouine – Aziouane",
-                    "description": "Trek a través de pastos de Iriqui hasta las magníficas rocas de Aziouane."
+                    "title": "Campamento Cascada – Gargantas de Tislit",
+                    "description": "Descendemos el valle pasando por el encantador pueblo de Tizgui (2.200 m), con parada para visitar su impresionante granero fortificado, antes de llegar a las formaciones rocosas surrealistas y las palmeras de las gargantas de Tislit. Noche en tiendas."
                 },
                 {
                     "day": 8,
-                    "title": "Aziouane – Amassine",
-                    "description": "Caminata final hasta el pueblo de Amassine."
+                    "title": "Gargantas de Tislit – Souk Larba – Aët Ben Haddou",
+                    "description": "Continuamos hasta el pueblo de Tislit, cruzamos paisajes abiertos de campos cultivados y flores silvestres hasta Souk Larba (1.675 m). Traslado por carretera hasta el alojamiento en Aët Ben Haddou por la ruta panorámica. Aprox. 4 horas en coche. Desayuno, almuerzo y cena incluidos."
                 },
                 {
                     "day": 9,
-                    "title": "Amassine – Marrakech",
-                    "description": "Traslado de regreso a Marrakech."
+                    "title": "Aët Ben Haddou – Marrakech",
+                    "description": "Tras el desayuno, visita al ksar de Aët Ben Haddou (Patrimonio Mundial UNESCO). Cruzamos paisajes cambiantes y espectaculares llegando al puerto de Tiz-n-Tichka (2.260 m) antes de continuar a Marrakech. Tarde libre. Noche en riad."
                 },
                 {
                     "day": 10,
                     "title": "Marrakech",
-                    "description": "Día libre."
+                    "description": "Último día completo en Marrakech para explorar y comprar libremente en su magnífica medina. Alojamiento en riad."
                 },
                 {
                     "day": 11,
-                    "title": "Salida",
-                    "description": "Traslado al aeropuerto."
+                    "title": "Marrakech – Salida",
+                    "description": "Traslado al aeropuerto de Marrakech para el vuelo de regreso."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Jebel Sirwa"
         }
     ],
 
@@ -970,54 +1136,72 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
                 "/images/imperial_cities/marrakech8.jpg",
                 "/images/imperial_cities/marrakech9.jpg"
             ],
-            "description": "Descubre la historia real de Marruecos en este tour de 8 días por las Ciudades Imperiales. Visita la Mezquita Hassan II de Casablanca, la capital Rabat, las ruinas romanas de Volubilis, el corazón cultural de Fez y termina en la vibrante Marrakech. Experimenta la rica arquitectura, bulliciosas medinas y diversos paisajes del Reino.",
+            "description": `Ciudades Imperiales de Marruecos — 8 Días
+
+Este viaje es una introducción excepcional a la cultura marroquí de varios siglos, condensada en un itinerario cautivador: tres ciudades históricas de una belleza única, antiguas fortificaciones con avenidas laberinticas rodeadas de imponentes murallas, mercados animados, magníficas mezquitas, escuelas coránicas, antiguos palacios reales, asombrosos vestigios romanos y los nevados picos del Alto Atlas.
+
+Principales atracciones: Fez, Meknès, Rabat, Marrakech`,
             "pricing": [
                 {
                     "totalPrice": 780
                 }
             ],
+            "includes": [
+                "Traslados aeropuerto/hotel en todo el circuito",
+                "Todo el transporte en vehículo privado",
+                "Guía profesional de habla española",
+                "Alojamiento en hoteles/riads"
+            ],
+            "excludes": [
+                "Vuelos internacionales",
+                "Comidas (salvo indicación contraria)",
+                "Entradas a museos",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Llegada a Casablanca",
-                    "description": "Bienvenida y traslado al hotel."
+                    "title": "Casablanca",
+                    "description": "Llegada a Casablanca y visita a la magnífica Mezquita Hassan II, mono arquitectónico que funde influencias árabes y diseño moderno. Paseo por el malecón de Casablanca. Exploración de la animada Plaza Mohammed V y admiración de la Catedral del Sagrado Corazón."
                 },
                 {
                     "day": 2,
                     "title": "Casablanca – Rabat",
-                    "description": "Visita a la Mezquita Hassan II. Traslado a Rabat para ver la Kasbah de los Oudayas y la Torre Hassan."
+                    "description": "Dirección a Rabat, la capital de Marruecos. Visita a la Necrópolis de Chellah (ruinas romanas y merinidas), la inacabada Torre Hassan y el Mausoleo de Mohammed V, y paseo por la Kasbah de los Oudayas del siglo XII con vistas al río Bou Regreg. Continuación hacia Fez."
                 },
                 {
                     "day": 3,
-                    "title": "Rabat – Volubilis – Meknes – Fez",
-                    "description": "Explora las ruinas romanas de Volubilis. Visita Moulay Idriss y Meknes. Continuación a Fez."
+                    "title": "Fez – La Medina Laberintica",
+                    "description": "Con un guía local, sumérgete en Fez, Patrimonio Mundial de la UNESCO. Piérdete por los callejones de Fes el-Bali — la mayor zona urbana sin coches del mundo. Imprégna de los aromas y colores de los zocos, asiste al proceso tradicional del curtido de cuero, disfruta de vistas panorámicas desde la torre sur y descubre el arte del mosaico marroquí en una cooperativa de cerámica."
                 },
                 {
                     "day": 4,
-                    "title": "Tour Guiado por Fez",
-                    "description": "Día completo dedicado a explorar la medina más antigua del mundo."
+                    "title": "Fez – Meknès – Volubilis – Midelt",
+                    "description": "Visita Meknès, la Ciudad Imperial del siglo XVIII, famosa por sus enormes murallas y la colosal Puerta Bab Mansour. Explora el granero Sahrij Swani. Retrocede en el tiempo en Volubilis (UNESCO), con bien conservadas ruinas romanas. Conducción por las montañas del Medio Atlas hasta Midelt."
                 },
                 {
                     "day": 5,
-                    "title": "Fez – Ifrane – Beni Mellal",
-                    "description": "Conducción a través de los bosques de cedros del Medio Atlas. Parada en Ifrane, la 'Pequeña Suiza'."
+                    "title": "Midelt – Errachidia – Merzouga (Sahara)",
+                    "description": "Rumbo al Desierto del Sahara. Parada en Ifrane, la 'Pequeña Suiza' de Marruecos. Observación de macacos berberiscos en los bosques de cedros de Azrou. Almuerzo en Midelt, continuación por Errachidia y los palmerales del Valle del Ziz hasta Arfoud y Merzouga, al borde de las dunas del Erg Chebbi."
                 },
                 {
                     "day": 6,
-                    "title": "Beni Mellal – Ouzoud – Marrakech",
-                    "description": "Visita a las impresionantes Cascadas de Ouzoud en camino a Marrakech."
+                    "title": "Dunas de Merzouga – Ouarzazate",
+                    "description": "Tras el desayuno, exploración del oasis de Eljerf y parada en Tinjdad. Almuerzo en las espectaculares Gargantas del Todra. Continuación por el Valle del Dadés con sus extraordinarias formaciones rocosas y por el Valle de las Rosas. Noche en Ouarzazate, el 'Hollywood de África'."
                 },
                 {
                     "day": 7,
-                    "title": "Tour Guiado por Marrakech",
-                    "description": "Explora la Ciudad Roja: Palacios, Koutoubia y Jemaa el-Fnaa."
+                    "title": "Ouarzazate – Marrakech",
+                    "description": "Visita a la Casbah de Aët Ben Haddou (UNESCO), decorado de innumerables producciones hollywoodienses. Cruce del Alto Atlas por el espectacular Puerto de Tizi-n-Tichka, con vistas a montañas rojas y pueblos beréberes, antes de llegar a Marrakech."
                 },
                 {
                     "day": 8,
-                    "title": "Salida",
-                    "description": "Traslado al aeropuerto de Marrakech."
+                    "title": "Descubrimiento de Marrakech",
+                    "description": "Visita guiada de Marrakech: el Palacio Bahia (obra maestra del arte morisco), el Minarete de la Koutoubia, las Tumbas Saadíes y la cautivadora energía de la Plaza Jemaa el-Fna. Tarde libre para explorar los zocos laberinticos antes del traslado de salida."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Ciudades Imperiales"
         },
         {
             "id": "imperial-city-tour-11-days",
@@ -1031,69 +1215,90 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
                 "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
                 "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg"
             ],
-            "description": "Un gran tour de 11 días cubriendo las Ciudades Imperiales y la magia del Norte. Desde la moderna metrópoli de Casablanca hasta la perla azul de Chefchaouen, los antiguos callejones de Fez y los bulliciosos zocos de Marrakech. Incluye un toque del desierto y los paisajes cinematográficos del sur.",
+            "description": `Tour Ciudades Imperiales — 11 Días
+
+Tu aventura marroquí comienza en el Aeropuerto Internacional Mohammed V de Casablanca. De camino a Rabat, nos detenemos en la impresionante Mezquita Hassan II — la más grande de África y la tercera del mundo.
+
+Este viaje de 11 días recorre Ciudades Imperiales, la Perla Azul de Chefchaouen, las dunas del Sahara, las gargantas del Todra y del Dadés, el Valle de las Rosas, Ouarzazate y los legendarios paisajes del sur, terminando con dos noches en la vibrante Marrakech.
+
+Principales atracciones: Casablanca, Rabat, Chefchaouen, Volubilis, Meknès, Fez, Desierto de Merzouga, Gargantas del Todra, Valle del Dadés, Ouarzazate, Aët Ben Haddou, Marrakech`,
             "pricing": [
                 {
                     "totalPrice": 950
                 }
             ],
+            "includes": [
+                "Recogida en aeropuerto y traslados hoteleros",
+                "Alojamiento en riads y hoteles",
+                "Treking en camello hasta campamento berbér del desierto",
+                "Guía profesional en todo el circuito",
+                "Todo el transporte en vehículo privado"
+            ],
+            "excludes": [
+                "Vuelos internacionales",
+                "Comidas (salvo indicación contraria)",
+                "Entradas a museos",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Llegada a Casablanca",
-                    "description": "Bienvenida y traslado al hotel."
+                    "title": "Casablanca – Rabat",
+                    "description": "Llegada al aeropuerto de Casablanca, encuentro con el guía y salida hacia Rabat con parada en la Mezquita Hassan II, la más grande de África. Continuación a Rabat: visita a la Torre Hassan y la Kasbah de los Oudayas, alojamiento en riad."
                 },
                 {
                     "day": 2,
-                    "title": "Casablanca – Rabat",
-                    "description": "Visita a la Mezquita Hassan II. Traslado a Rabat."
+                    "title": "Rabat – Chefchaouen",
+                    "description": "Tras el desayuno, visita a la Torre Hassan de Rabat. Partida hacia Chefchaouen, 'la Perla Azul', cruzando Knitra y las montañas del Rif por Wazzen y encantadores pueblos rifeños. Llegada a Chefchaouen a primera hora de la tarde."
                 },
                 {
                     "day": 3,
-                    "title": "Rabat – Chefchaouen",
-                    "description": "Conducción hacia el norte hasta la Ciudad Azul. Tarde libre para explorar."
+                    "title": "Chefchaouen – Volubilis – Meknès – Fez",
+                    "description": "Tras el desayuno, dirección a Volubilis, el impresionante yacimiento arqueológico romano de Marruecos. Continuación a Meknès, ciudad del siglo XVII con imponentes murallas y la majestuosa Puerta Bab El Mansour. Visita al Mausoleo de Moulay Ismail. Noche en Fez."
                 },
                 {
                     "day": 4,
-                    "title": "Chefchaouen – Volubilis – Fez",
-                    "description": "Visita a las ruinas romanas mientras nos dirigimos hacia el sur hasta Fez."
+                    "title": "Fez – Visita Guiada Completa",
+                    "description": "Piérdete en los callejones laberinticos de Fez, la ciudad más antigua de Marruecos. Visita la Puerta del Palacio Real, el barrio judío (Mellah), la Universidad Al-Qarawiyne (la más antigua del mundo), las concurridas tenerías, el Museo Attarine y el Mausoleo de Moulay Idriss. Visita a una cooperativa de azulejos y vistas panorámicas de la medina."
                 },
                 {
                     "day": 5,
-                    "title": "Tour Guiado por Fez",
-                    "description": "Descubre la capital espiritual de Marruecos."
+                    "title": "Fez – Medio Atlas – Merzouga",
+                    "description": "Salida de Fez hacia el sur por el Medio Atlas. Parada en el bosque de cedros para observar macacos berberiscos. Continuación por el puerto Tizi Ntalghamt, Midelt y las gargantas del Ziz. Almuerzo en Errachidia, luego Merzouga. Tras un té de menta, paseo en camello hasta un campamento berbér en las dunas del Erg Chebbi — las más altas del norte de África. Cena y noche bajo las estrellas."
                 },
                 {
                     "day": 6,
-                    "title": "Fez – Merzouga",
-                    "description": "Larga conducción a través del Medio Atlas y el Valle del Ziz hasta las dunas del Sahara."
+                    "title": "Merzouga – Gargantas del Todra – Valle del Dadés",
+                    "description": "Amanecer mágico sobre el desierto y tranquilo paseo en camello de regreso al hotel. Tras el desayuno, rumbo a Tinghir y las espectaculares Gargantas del Todra — las más altas y estrechas de Marruecos. Continuación al Valle del Dadés para cenar y pernoctar."
                 },
                 {
                     "day": 7,
-                    "title": "Merzouga – Dades",
-                    "description": "Paseo en camello al amanecer. Conducción a las Gargantas del Todra y del Dades."
+                    "title": "Valle del Dadés – Valle de las Rosas – Ouarzazate",
+                    "description": "Exploración del Valle del Dadés — el 'Valle de los Mil Kasbahs' — con magníficas oportunidades fotográficas. Encuentro con nómadas beréberes en sus viviendas rupestres. Recorrido por el fértil Valle de las Rosas, con parada en Kalaat M'gouna para agua de rosa. Llegada a Ouarzazate, el 'Hollywood de África'."
                 },
                 {
                     "day": 8,
-                    "title": "Dades – Ouarzazate – Marrakech",
-                    "description": "Visita a Ait Benhaddou. Cruce del Alto Atlas hasta Marrakech."
+                    "title": "Ouarzazate – Aët Ben Haddou – Marrakech",
+                    "description": "Conducción hacia Marrakech por el espectacular Puerto Tizi Ntichka en el Alto Atlas. Parada en la Casbah de Aët Ben Haddou (UNESCO), la más famosa de Marruecos. Alojamiento en riad en Marrakech."
                 },
                 {
                     "day": 9,
-                    "title": "Tour por Marrakech",
-                    "description": "Visita guiada a los monumentos de la ciudad."
+                    "title": "Marrakech – Visita Guiada",
+                    "description": "Exploración de Marrakech, la 'Ciudad Roja'. Visita a los Jardines Majorelle, la Torre Koutoubia, las Tumbas Saadías y el Palacio Bahia. Almuerzo cerca de la Plaza Jemaa el-Fna, luego recorrido por los zocos laberinticos. Tarde libre."
                 },
                 {
                     "day": 10,
-                    "title": "Día Libre en Marrakech",
-                    "description": "Relájate o compra en los zocos."
+                    "title": "Marrakech – Día Libre",
+                    "description": "Jornada tranquila en Marrakech. Se puede organizar una clase de cocina bajo petición."
                 },
                 {
                     "day": 11,
                     "title": "Salida",
-                    "description": "Traslado al aeropuerto."
+                    "description": "Traslado al aeropuerto de Marrakech para el vuelo de regreso."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Ciudades Imperiales"
         },
         {
             "id": "imperial-city-8-days-tour-tangier-chefchaouen-fes-merzouga-desert-marrakech",
@@ -1107,100 +1312,140 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
                 "/images/imperial_cities/hazy-momo-YSTtLgsvRa8-unsplash.jpg",
                 "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg"
             ],
-            "description": "De norte a sur: La completa experiencia marroquí de 8 días. Comienza en Tánger, puerta de entrada a África, explora las calles azules de Chefchaouen, la historia de Fez, paseo en camello en el desierto de Merzouga y termina en la vibrante Marrakech. Una aventura rápida viendo los mejores puntos destacados.",
+            "description": `Marruecos Inolvidable: de Tánger a Marrakech en 8 Días
+
+Un increíble viaje de 8 días por las antiguas ciudades, paisajes impresionantes y cultura vibrante de Marruecos.
+
+• Piérdete en los callejones de fachadas azules de Chefchaouen, la 'Perla Azul'
+• Súmergete en la historia de Fez, la ciudad más antigua de Marruecos, con su medina laberintica, tenerías y antigua universidad
+• Vive la magia del Sahara con un paseo en camello por las doradas dunas de Merzouga y una noche en un campamento berbér tradicional bajo un cielo estrellado
+• Explora el Valle del Dadés, el 'Valle de los Mil Kasbahs', y conoce a nómadas beréberes
+• Visita Ouarzazate, 'Hollywood de África', y la casbah de Aët Ben Haddou (UNESCO)
+• Súmergete en la vibrante energía de los zocos coloridos, palacios históricos y jardines de Marrakech
+
+Principales atracciones: Tánger, Chefchaouen, Fez, Desierto de Merzouga, Ouarzazate, Montañas del Atlas, Marrakech`,
             "pricing": [
                 {
                     "totalPrice": 750
                 }
             ],
+            "includes": [
+                "Recogida en puerto/aeropuerto de Tánger",
+                "Todo el transporte privado",
+                "Alojamiento en hoteles/riads",
+                "Treking en camello hasta campamento berbér del desierto",
+                "Guía profesional en todo el circuito"
+            ],
+            "excludes": [
+                "Vuelos internacionales o ferry",
+                "Comidas (salvo indicación contraria)",
+                "Entradas a museos",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Tánger – Chefchaouen",
-                    "description": "Llegada a Tánger. Conducción a Chefchaouen."
+                    "title": "Tánger – Tetuán – Chefchaouen (La Perla Azul)",
+                    "description": "Llegada a Tánger y encuentro en el puerto o aeropuerto. Conducción hacia Chefchaouen con parada en la encantadora Tetuán, impregnada de influencia española. A la llegada a Chefchaouen, visita guiada de esta hechizante 'Perla Azul' — paseo por callejones de casas encaladas en azul con vistas panorámicas. Cena y noche en hotel en la plaza de Chefchaouen."
                 },
                 {
                     "day": 2,
-                    "title": "Chefchaouen – Fez",
-                    "description": "Mañana en Chaouen. Conducción por la tarde a Fez."
+                    "title": "Chefchaouen – Volubilis – Meknès – Fez",
+                    "description": "Salida por los pintorescos pueblos de montaña de Jbala. Dirección a Fez, una de las cuatro Ciudades Imperiales, con parada en las ruinas romanas de Volubilis y la Ciudad Imperial de Meknès. Noche en riad u hotel en Fez."
                 },
                 {
                     "day": 3,
-                    "title": "Tour por Fez",
-                    "description": "Exploración guiada de la Medina de Fez."
+                    "title": "Fez – La Magia al Descubierto",
+                    "description": "Día completo para explorar el corazón intelectual de Marruecos. Visita las impresionantes madrasas (Al-Chahrij, Bouinania, Attarin), sumérgate en el animado zoco de Fes El-Jadid y admira la Mezquita Karaouine — considerada la primera universidad del mundo. Exploración del barrio de los curtidores de cuero. Noche en riad."
                 },
                 {
                     "day": 4,
-                    "title": "Fez – Merzouga",
-                    "description": "Conducción a través del Atlas hasta el Sahara. Noche en campamento del desierto."
+                    "title": "Fez – Medio Atlas – Aventura en el Desierto",
+                    "description": "Salida de Fez por las montañas del Medio Atlas. Parada en Ifrane, 'Suiza de África'. Visita al pueblo beréber de Azrou, famoso por alfombras y talla de madera. Continuación por el puerto de Tizi Talghemt hacia Errachidia y los palmerales de Tafilalet hasta Erfoud. Noche en campamento beréber entre las dunas."
                 },
                 {
                     "day": 5,
-                    "title": "Merzouga – Ouarzazate",
-                    "description": "Viaje vía Gargantas del Todra y Valle del Dades."
+                    "title": "Gargantas, Valles y Kasbahs",
+                    "description": "Visita a Rissani y el impresionante ksar de Touroug rodeado de un oasis espectacular. Continuación a Tinejdad y Tinerhir para un paseo por las majestuosas Gargantas del Todra. Exploración del magnífico Valle del Dadés, con parada en Kelâa M'gouna — corazón del Valle de las Rosas. Llegada a Ouarzazate y visita a la Casbah Taourirt. Noche en Ouarzazate."
                 },
                 {
                     "day": 6,
-                    "title": "Ouarzazate – Marrakech",
-                    "description": "Visita a Ait Benhaddou y Paso Tichka."
+                    "title": "Ouarzazate – Aët Ben Haddou – Marrakech",
+                    "description": "Dirección a Marrakech por el espectacular Puerto de Tizi-n-Tichka con panorámicas impresionantes. Parada en la Casbah de Aët Ben Haddou (UNESCO) y visita a la Casbah de Telouet, antigua residencia de un bajá de Marrakech. Admira los vivos colores de las llanuras del Haouz en el descenso. Llegada a Marrakech y alojamiento en riad."
                 },
                 {
                     "day": 7,
-                    "title": "Tour por Marrakech",
-                    "description": "Exploración de la ciudad."
+                    "title": "Marrakech – Descubriendo la Magia",
+                    "description": "Visita guiada matinal de Marrakech: la emblemática Plaza Jemaa el-Fna — viva de artistas, músicos y cuentacuentos —, la Medersa Ben Youssef, los Jardines de la Ménara, el Museo Dar Si Sáid, los Jardines del Agdal, las Tumbas Saadías, el Palacio El Badí y el Palacio Bahia. Tarde y cena en la animada Jemaa el-Fna. Noche en riad."
                 },
                 {
                     "day": 8,
-                    "title": "Salida",
-                    "description": "Traslado al aeropuerto de Marrakech."
+                    "title": "Adiós a Marruecos",
+                    "description": "Disfruta de una mañana tranquila antes del traslado al aeropuerto para el vuelo de salida. Fin de tu inolvidable aventura marroquí."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Ciudades Imperiales"
         },
         {
-            "id": "5-day-morocco-tour-from-tangier-to-explore-the-cities-2",
-            "name": "Tour 5 Días por Marruecos desde Tánger para Explorar las Ciudades 2",
-            "duration": "5_days",
-            "image": "/images/imperial_cities/mehdi-sakout-54nOsVV1xI4-unsplash.jpg",
-            "gallery": [
-                "/images/imperial_cities/mehdi-sakout-54nOsVV1xI4-unsplash.jpg",
-                "/images/imperial_cities/mauro-lima-buvA1ofvTMY-unsplash.jpg",
-                "/images/imperial_cities/niklas-VqouWpsuziE-unsplash.jpg",
-                "/images/imperial_cities/marrakech10.jpg",
-                "/images/imperial_cities/marrakech4.jpg"
-            ],
-            "description": "Un tour enfocado de 5 días por el norte de Marruecos. Explora las vibras mediterráneas de Tánger, las calles azules fotogénicas de Chefchaouen, la antigua historia romana en Volubilis y la profundidad espiritual de Fez. Perfecto para quienes llegan en ferry desde España.",
+            "description": `Marruecos del Norte: Un Viaje a Través del Tiempo — 5 Días
+
+Embárquese en una cautivadora aventura de 5 días por las vibrantes ciudades del norte de Marruecos. Este emocionante itinerario le llevará desde la antigüedad hasta la actualidad, revelando un rico mosaico de historia, cultura y paisajes impresionantes.
+
+Puntos destacados:
+• Explore Tánger, la puerta de entrada a Marruecos.
+• Sumérjase en la magia de Chefchaouen, la 'Perla Azul'.
+• Retroceda en el tiempo en las ruinas romanas de Volubilis.
+• Descubra la grandeza imperial de Meknès.
+• Piérdase en la medina laberíntica de Fez (UNESCO).
+• Viva el encanto moderno de Rabat y la Mezquita Hassan II de Casablanca.`,
             "pricing": [
                 {
                     "totalPrice": 500
                 }
             ],
+            "includes": [
+                "Transporte privado en vehículo confortable",
+                "Conductor/guía profesional de habla española",
+                "Alojamiento en riads tradicionales u hoteles",
+                "Desayuno diario",
+                "Visitas guiadas en Fez y Meknès"
+            ],
+            "excludes": [
+                "Vuelos internacionales",
+                "Almuerzos y cenas",
+                "Entradas a monumentos",
+                "Propinas y gastos personales"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Llegada a Tánger",
-                    "description": "Explora la Kasbah y las Cuevas de Hércules."
+                    "title": "Tánger – Tetuán – Chefchaouen",
+                    "description": "Comience su aventura marroquí con un recorrido panorámico por las montañas del Rif, pasando por Tetuán. Deténgase para disfrutar de vistas impresionantes antes de llegar a Chefchaouen, el 'Perla Azul'. Explore su encantadora medina, donde la arquitectura española se mezcla con vibrantes colores marroquíes. Disfrute de una noche tranquila en un riad con vistas a la ciudad azul."
                 },
                 {
                     "day": 2,
-                    "title": "Tánger – Chefchaouen",
-                    "description": "Conducción escénica hasta la Ciudad Azul."
+                    "title": "Chefchaouen – Volubilis – Meknès – Fez",
+                    "description": "Tras el desayuno, partida hacia Volubilis para explorar sus fascinantes ruinas romanas. Continuación hacia la majestuosa ciudad imperial de Meknès. Tras un almuerzo tranquilo, explore su medina histórica, sus enormes murallas y la monumental puerta Bab el Mansour. Viaje a Fez, la ciudad más antigua de Marruecos, para pasar la noche."
                 },
                 {
                     "day": 3,
-                    "title": "Chefchaouen – Volubilis – Meknes",
-                    "description": "Visita a las ruinas romanas y ciudad imperial de Meknes."
+                    "title": "Fez – Exploración de Día Completo",
+                    "description": "Dedique el día a la laberíntica medina de Fez. Visite la puerta del Palacio Real, la antigua judería (Mellah) y la mundialmente conocida Universidad Al-Qarawiyne. Explore las vibrantes tenerías, el Museo Attarine y el Mausoleo de Moulay Idriss. Disfrute de vistas panorámicas sobre toda la medina desde las colinas circundantes."
                 },
                 {
                     "day": 4,
-                    "title": "Meknes – Fez",
-                    "description": "Corta conducción a Fez. Tour de medio día."
+                    "title": "Fez – Rabat – Casablanca",
+                    "description": "Salida hacia Rabat, la capital. Explore el bullicioso zoco de Bab El Had y sumérjase en la atmósfera costera. Tras el almuerzo, continúe hacia el sur hasta Casablanca para visitar la obra maestra arquitectónica de la Mezquita Hassan II, la tercera más grande del mundo. Alojamiento en hotel."
                 },
                 {
                     "day": 5,
-                    "title": "Fez – Tánger/Salida",
-                    "description": "Regreso al norte o traslado al aeropuerto."
+                    "title": "Casablanca – Arcila – Tánger",
+                    "description": "Disfrute de una mañana relajada en Casablanca antes de conducir hacia el norte hasta la encantadora ciudad costera de Arcila (Asilah), conocida por sus murallas blancas y murales artísticos. Concluya su aventura marroquí en Tánger, donde termina el tour."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Marruecos del Norte"
         },
         {
             "id": "11-days-best-of-morocco",
@@ -1215,69 +1460,96 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
                 "/images/imperial_cities/marrakech5.jpg",
                 "/images/imperial_cities/marrakech7.jpg"
             ],
-            "description": "El definitivo circuito de 11 días por Marruecos. Comenzando y terminando en Marrakech (o Casablanca), este tour circunda los puntos destacados del país: Ciudades Imperiales, Desierto del Sahara, Montañas del Atlas y costa. Es lo 'Mejor de Marruecos' en un paquete completo.",
+            "description": `Lo Mejor de Marruecos — 11 Días
+
+Embárquese en una aventura inolvidable de 11 días por el corazón de Marruecos. Este viaje revela las diversas riquezas del país: majestuosas montañas, desiertos dorados, belleza costera, ciudades imperiales, palacios reales y mezquitas antiguas. Una verdadera inmersión en el espíritu de 'Las Mil y Una Noches'.
+
+¿Por qué reservar este viaje?
+• Explore las magníficas Ciudades Imperiales de Fez, Meknès, Rabat y Marrakech.
+• Cruce el Alto Atlas por el espectacular puerto de Tizi n'Tichka.
+• Visite el ksar de Aët Ben Haddou, Patrimonio de la Humanidad (UNESCO).
+• Viva un paseo en camello al atardecer en las dunas del Erg Chebbi.
+• Descubra las ruinas romanas de Volubilis y el 'Perla Azul' de Chefchaouen.`,
             "pricing": [
                 {
-                    "totalPrice": 1100
+                    "totalPrice": 1000
                 }
+            ],
+            "includes": [
+                "Traslados aeropuerto (llegada Marrakech / salida Casablanca)",
+                "Transporte privado en minibús o 4x4",
+                "Conductor/guía profesional de habla española",
+                "Guías oficiales locales en ciudades imperiales",
+                "9 noches en riads/hoteles y 1 noche en campamento de desierto",
+                "Desayuno y cena diarios según mención",
+                "Paseo en camello al atardecer en Merzouga"
+            ],
+            "excludes": [
+                "Vuelos internacionales",
+                "Seguro de viaje",
+                "Almuerzos y bebidas",
+                "Propinas",
+                "Entradas a monumentos"
             ],
             "itinerary": [
                 {
                     "day": 1,
                     "title": "Llegada a Marrakech",
-                    "description": "Bienvenida."
+                    "description": "Encuentro en el aeropuerto de Marrakech y traslado a su riad en el corazón de la medina. Tarde libre para explorar la vibrante atmósfera de la ciudad."
                 },
                 {
                     "day": 2,
-                    "title": "Marrakech – Casablanca – Rabat",
-                    "description": "Capitales costeras."
+                    "title": "Visita Guiada por Marrakech",
+                    "description": "Un día completo para descubrir los encantos de Marrakech: la plaza Jemaa El Fna, tumbas saadíes, Palacio Bahia, Medersa Ben Youssef y los jardines Majorelle. Desayuno y cena incluidos."
                 },
                 {
                     "day": 3,
-                    "title": "Rabat – Fez",
-                    "description": "Vía Meknes y Volubilis."
+                    "title": "Marrakech – Tizi n'Tichka – Aët Ben Haddou",
+                    "description": "Salida hacia Aët Ben Haddou, cruzando el Alto Atlas por el espectacular puerto de Tizi n'Tichka (2.260 m). Explore el ksar protegido por la UNESCO, uno de los pueblos fortificados mejor conservados de Marruecos."
                 },
                 {
                     "day": 4,
-                    "title": "Tour por Fez",
-                    "description": "Inmersión total en la vida de la medina."
+                    "title": "Aët Ben Haddou – Uarzazat – Dadés – Gargantas del Todra",
+                    "description": "Recorrido por Uarzazat (el Hollywood de Marruecos) y el Valle de los Mil Kasbahs. Paso por el Valle de las Rosas para llegar a las dramáticas Gargantas del Todra. Disfrute de los paisajes del cañón."
                 },
                 {
                     "day": 5,
-                    "title": "Fez – Merzouga",
-                    "description": "Conducción al Desierto."
+                    "title": "Gargantas del Todra – Erfoud – Erg Chebbi (Merzouga)",
+                    "description": "Caminata matinal por la garganta. Más tarde, conducción vía Tinejdad y Erfoud hacia las dunas doradas del Erg Chebbi. Paseo en camello al atardecer hasta su campamento de desierto para una noche bajo las estrellas."
                 },
                 {
                     "day": 6,
-                    "title": "Exploración de Merzouga",
-                    "description": "Dunas y nómadas."
+                    "title": "Merzouga – Valle del Ziz – Midelt – Ifrane – Fez",
+                    "description": "Amanecer en el desierto seguido de regreso en camello. Partida hacia Fez vía el frondoso Valle del Ziz y el Medio Atlas. Parada en el bosque de cedros de Azrou e Ifrane, la 'Pequeña Suiza'. Llegada a Fez."
                 },
                 {
                     "day": 7,
-                    "title": "Merzouga – Dades",
-                    "description": "Gargantas y Valles."
+                    "title": "Visita Guiada por Fez",
+                    "description": "Explore la medina medieval viva más grande del mundo. Visite los barrios de artesanos, las famosas tenerías y monumentos históricos con un guía local certificado. Tarde libre."
                 },
                 {
                     "day": 8,
-                    "title": "Dades – Marrakech",
-                    "description": "Kasbahs y Montañas."
+                    "title": "Fez – Chefchaouen",
+                    "description": "Conducción por las escénicas montañas del Rif hasta Chefchaouen, el 'Perla Azul'. Explore sus calles lavadas en azul y su rica historia como refugio de exiliados. Noche en casa de huéspedes tradicional."
                 },
                 {
                     "day": 9,
-                    "title": "Tour por Marrakech",
-                    "description": "Lugares de interés de la ciudad."
+                    "title": "Chefchaouen – Volubilis – Meknès",
+                    "description": "Partida hacia la ciudad imperial de Meknès. Visita a las ruinas romanas de Volubilis y la ciudad santa de Moulay Idriss. En Meknès, vea la puerta Bab El Mansour y el Mausoleo Moulay Ismaïl."
                 },
                 {
                     "day": 10,
-                    "title": "Excursión de un Día a Essaouira",
-                    "description": "Relájate en la costa."
+                    "title": "Meknès – Rabat – Casablanca",
+                    "description": "Viaje a la capital política, Rabat. Visite la Torre Hassan, el Mausoleo Mohammed V y la Kasbah de los Oudayas. Continúe hacia Casablanca para su última noche."
                 },
                 {
                     "day": 11,
-                    "title": "Salida",
-                    "description": "Traslado."
+                    "title": "Salida desde Casablanca",
+                    "description": "Traslado al aeropuerto de Casablanca para su vuelo de regreso. Fin de su aventura marroquí."
                 }
-            ]
+            ],
+            "type": "other",
+            "location": "Todo Marruecos"
         }
     ],
 
@@ -1285,154 +1557,285 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
     "excursions": [
         {
             "id": "marrakech-ouzoud-marrakech",
-            "name": "Marrakech Ouzoud Marrakech",
+            "name": "Excursión a las Cascadas de Ouzoud desde Marrakech",
             "duration": "1_day",
             "image": "/images/excursions/rigel-ibisQEDxODo-unsplash.jpg",
             "gallery": [
-                "/images/excursions/rigel-No_Y3bn4lNQ-unsplash.jpg",
-                "/images/excursions/rigel-QWJjSOB9t0Y-unsplash.jpg",
-                "/images/excursions/rigel-hppgLk1gxho-unsplash.jpg",
                 "/images/ouzoud/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
-                "/images/ouzoud/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg"
+                "/images/ouzoud/rihards-sarma-mJGl8l1SiJk-unsplash.jpg",
+                "/images/ouzoud/selina-bubendorfer-jP51Ai2tQGE-unsplash.jpg",
+                "/images/ouzoud/sergio-teixeira-svdabxVg7-4-unsplash.jpg",
+                "/images/ouzoud/tobias-pfeifer-F8TGlff-qks-unsplash.jpg",
+                "/images/ouzoud/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg"
             ],
-            "description": "Escapa del calor de la ciudad a las majestuosas Cascadas de Ouzoud. Un viaje de 2,5 horas te lleva a las cascadas más altas de África del Norte (110m). Camina hacia abajo a través de olivares, haz un paseo en barco bajo las cascadas y observa a los residentes monos de Berbería. Un día refrescante en la naturaleza.",
+            "description": `Escapada a las Cascadas de Ouzoud: Excursión de un día desde Marrakech
+
+¡Embárquese en una inolvidable excursión de un día desde Marrakech a las cascadas de Ouzoud, una majestuosa caída de agua que alcanza los 100 metros de altura! Esta aventura se encuentra a solo 170 kilómetros de distancia.
+
+Su viaje comienza a las 8:00 AM en Marrakech, mientras nos dirigimos al norte a través de pueblos encantadores y paisajes pintorescos salpicados de campos de melocotones, albaricoques y olivos. A su llegada, sumérjase en la belleza del pueblo de Ouzoud recorriendo un pintoresco sendero de senderismo. Respire el aire puro y déjese llevar por los sonidos relajantes de la naturaleza.
+
+¡Prepárese para un descenso emocionante! El sendero le llevará al pie de las cascadas, donde podrá admirar toda su potencia y maravillarse con los arcoíris que bailan en la niebla. Esté atento: ¡podría encontrarse con macacos de Berbería en el camino! Al pie de las cataratas, podrá bañarse en la piscina natural, dar un paseo en bote o simplemente relajarse disfrutando de un delicioso almuerzo junto al arroyo. Revitalizados, iniciaremos el ascenso de regreso al pueblo, donde se reunirá con su conductor para el regreso a Marrakech.`,
+            "highlights": [
+                "Admira vistas espléndidas de las cascadas",
+                "Disfruta de los paisajes del Alto Atlas",
+                "Almuerzo con una vista impresionante",
+                "Avistamiento de macacos de Berbería",
+                "Caminata hasta el pie de las cataratas",
+                "Posibilidad de baño y frescura",
+                "Senderismo por los olivares"
+            ],
             "pricing": [
                 {
                     "totalPrice": 55
                 }
             ],
+            "includes": [
+                "Transporte con aire acondicionado",
+                "Conductor experimentado multilingüe",
+                "Combustible",
+                "Tiempo libre para explorar Ouzoud"
+            ],
+            "excludes": [
+                "Bebidas",
+                "Entradas",
+                "Seguro de viaje"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Ouzoud – Marrakech",
-                    "description": "Recogida a las 08:00. Conducción a Ouzoud. Caminata guiada. Almuerzo con vista a las cascadas. Regreso a Marrakech aproximadamente a las 18:00."
+                    "title": "Marrakech – Cascadas de Ouzoud – Marrakech",
+                    "description": "Salida a las 8:00 AM. Conducción escénica por la región del Atlas. Caminata guiada al pie de las cataratas. Tiempo libre para baño o paseo en bote. Almuerzo junto al río. Regreso a Marrakech por la tarde."
                 }
             ]
         },
         {
             "id": "explore-de-berbers",
-            "name": "Explora los Bereberes",
+            "name": "Explora los Bereberes: Valles y Pueblos del Atlas",
             "duration": "1_day",
             "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
             "gallery": [
-                "/images/excursions/hassan-ouajbir-INcADDyMwwo-unsplash.jpg",
-                "/images/excursions/hamza-omlacho-M9GO4Gsd2SM-unsplash.jpg",
-                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg"
+                "/images/ourika/abdelhamid-azoui-BGU0uaY0tJs-unsplash.jpg",
+                "/images/ourika/abderrahman-kamal-MilM52Qj32g-unsplash.jpg",
+                "/images/ourika/hassan-ahrouch-CfmIZwBvxNY-unsplash.jpg",
+                "/images/ourika/matthew-fainman-3yonP2JaGTU-unsplash.jpg"
             ],
-            "description": "Explora la vida auténtica del pueblo bereber en las montañas del Alto Atlas. Visita el valle de Imlil, camina hasta pueblos tradicionales como Aremd, disfruta de un almuerzo casero con una familia local y contempla los impresionantes paisajes que enmarcan su vida diaria. Una inmersión cultural a poca distancia en coche de Marrakech.",
+            "description": `Sumérjase en el corazón del auténtico Marruecos en esta excursión de un día desde Marrakech. ¡Le llevaremos a explorar las majestuosas montañas del Atlas!
+
+Nuestra aventura comienza con la recogida en su hotel de Marrakech. Nos adentraremos en el Atlas, atravesando encantadores pueblos bereberes y capturando paisajes impresionantes en las gargantas de Moulay Brahim. A su llegada a Imlil, un pueblo bereber tradicional, disfrute de una caminata de dos horas a través de paisajes magníficos. Tras la caminata, degustaremos un delicioso almuerzo con una familia bereber, experimentando la hospitalidad local de primera mano.
+
+Continuaremos hacia el valle de Imnane, pasando por el pueblo de Tamatert. Ascenderemos al paso de Tizi n'Tamaterte para disfrutar de vistas panorámicas de los valles de Imnane y Ait Mizane, con las montañas del Atlas como telón de fondo. Relájese con una taza de té de menta en una casa bereber tradicional y admire el monte Toubkal, el pico más alto del norte de África. Esta excursión promete un día lleno de paisajes encantadores y encuentros culturales.`,
             "pricing": [
                 {
                     "totalPrice": 60
                 }
             ],
+            "includes": [
+                "Traslados de ida y vuelta desde Marrakech",
+                "Caminata guiada por los pueblos bereberes",
+                "Almuerzo con una familia local"
+            ],
+            "excludes": [
+                "Propinas",
+                "Gastos personales"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Valle de Imlil",
-                    "description": "Conducción a Imlil. Caminata suave a través de nogales hasta pueblos bereberes. Almuerzo en una casa local. Regreso a Marrakech."
+                    "title": "Marrakech – Imlil – Valle de Imnane – Marrakech",
+                    "description": "Recogida en el hotel. Recorrido por las Gargantas de Moulay Brahim. Caminata de 2 horas en Imlil. Almuerzo tradicional con lugareños. Vistas panorámicas desde Tizi n'Tamaterte. Ceremonia del té de menta. Regreso a Marrakech vía Tahnaoute."
                 }
             ]
         },
         {
             "id": "excursion-to-the-essaouira",
-            "name": "Excursión a Essaouira",
+            "name": "Excursión a Essaouira: Una Escapada Relajante",
             "duration": "1_day",
             "image": "/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg",
             "gallery": [
-                "/images/excursions/peter-schulz--leOF2nzJQ8-unsplash.jpg",
-                "/images/excursions/rigel-hppgLk1gxho-unsplash.jpg",
-                "/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg",
-                "/images/essaouira/hamza-omlacho-M9GO4Gsd2SM-unsplash.jpg",
-                "/images/essaouira/mostapha-abidour-h9L1GfDgp0s-unsplash.jpg"
+                "/images/essaouira/youssef-aboutaleb-ad1FM2Xj0QQ-unsplash.jpg",
+                "/images/essaouira/rigel-QWJjSOB9t0Y-unsplash.jpg",
+                "/images/essaouira/rigel-No_Y3bn4lNQ-unsplash.jpg",
+                "/images/essaouira/rigel-ibisQEDxODo-unsplash.jpg",
+                "/images/essaouira/rigel-hppgLk1gxho-unsplash.jpg",
+                "/images/essaouira/peter-schulz--leOF2nzJQ8-unsplash.jpg",
+                "/images/essaouira/pete-bread-4eZeMUKdV-8-unsplash.jpg",
+                "/images/essaouira/hamza-omlacho-M9GO4Gsd2SM-unsplash.jpg"
             ],
-            "description": "Visita la encantadora ciudad costera de Essaouira, la 'Ciudad del Viento de África'. Explora la histórica Medina (Patrimonio de la Humanidad de la UNESCO), camina por las murallas portuguesas, observa a los pescadores en el puerto y disfruta de mariscos frescos. Un día relajado con ambiente bohemio, famosa por su música Gnawa y galerías de arte.",
+            "description": `Escapada a Essaouira: Una relajante excursión de un día desde Marrakech
+
+Considere una excursión de un día a Essaouira, una encantadora ciudad costera situada a solo 175 kilómetros de Marrakech. Esta cautivadora escapada ofrece un descanso bienvenido del ajetreo de Marrakech. Disfrute de la serenidad de una playa de arena de diez kilómetros acariciada por suaves olas, de la refrescante brisa marina y del divertido espectáculo de las cabras trepando por los arganes.
+
+Explore la fascinante historia de Essaouira en el corazón de su Medina medieval (UNESCO). Sumérjase en el animado ambiente de la plaza Moulay El Hassan, explore las imponentes fortificaciones de la Skala y pasee por el bullicioso puerto. No se pierda Derb Lealouj, el antiguo barrio judío, para conocer el rico patrimonio de la ciudad. Con su clima agradable y su riqueza cultural, Essaouira es la escapada costera ideal.`,
+            "highlights": [
+                "Relájese en la playa de 10 km",
+                "Explore la Medina medieval (UNESCO)",
+                "Visite las históricas fortificaciones de la Skala",
+                "Pasee por el bullicioso puerto pesquero",
+                "Descubra el antiguo barrio judío",
+                "Disfrute de mariscos frescos frente al océano"
+            ],
             "pricing": [
                 {
                     "totalPrice": 60
                 }
             ],
+            "includes": [
+                "Traslado desde/hacia Marrakech",
+                "Pausa para el café en ruta",
+                "Visita a cooperativa de aceite de argán",
+                "Tiempo libre para explorar"
+            ],
+            "excludes": [
+                "Bebidas",
+                "Gastos personales"
+            ],
             "itinerary": [
                 {
                     "day": 1,
                     "title": "Marrakech – Essaouira – Marrakech",
-                    "description": "Conducción matutina a la costa (aproximadamente 3 horas). Parada en cooperativa de aceite de argán. Tiempo libre para explorar la Medina de Essaouira y la playa. Regreso por la tarde."
+                    "description": "Salida a las 7:30 AM. Conducción escénica con paradas en cooperativas de aceite de argán. Exploración de la Skala y la Medina. Tiempo libre para almorzar y caminar por la playa. Regreso a Marrakech por la tarde."
                 }
             ]
         },
         {
             "id": "kasbah-ait-ben-haddou-full-day-excursion",
-            "name": "Excursión de Día Completo a la Kasbah Ait Ben Haddou",
+            "name": "Excursión a Ait Ben Haddou y Ouarzazate",
             "duration": "1_day",
             "image": "/images/excursions/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
             "gallery": [
-                "/images/excursions/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
-                "/images/excursions/cristiano-pinto-knB5iCogf5Q-unsplash.jpg",
-                "/images/excursions/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
+                "/images/ouarzazate/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
+                "/images/ouarzazate/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
+                "/images/ouarzazate/abdou-faiz-wGy7RhTKODg-unsplash.jpg",
+                "/images/ouarzazate/cristiano-pinto-knB5iCogf5Q-unsplash.jpg",
                 "/images/ouarzazate/hassan-ouajbir-INcADDyMwwo-unsplash.jpg",
-                "/images/ouarzazate/laurent-gence-UMEcD4j--_I-unsplash.jpg"
+                "/images/ouarzazate/laurent-gence-UMEcD4j--_I-unsplash.jpg",
+                "/images/ouarzazate/sergio-otoya--3uyPo-2cOE-unsplash.jpg"
             ],
-            "description": "Viaja en el tiempo hasta el Ksar de Ait Benhaddou, un sitio del Patrimonio Mundial de la UNESCO y famosa locación de filmación (Gladiator, Juego de Tronos). Cruza el Alto Atlas por el paso Tizi n'Tichka (2260m) para llegar a este impresionante ejemplo de arquitectura de tierra del sur de Marruecos. Una excursión de día completo imprescindible para amantes de la historia y el cine.",
+            "description": `Ouarzazate y Ait Ben Haddou: La Puerta del Sahara
+
+Viva la magia de Ouarzazate y del Ksar de Ait Ben Haddou, declarado Patrimonio de la Humanidad por la UNESCO, en esta excursión de día completo desde Marrakech. Atraviese paisajes impresionantes cruzando el Alto Atlas por el paso Tizi n'Tichka (2260 m).
+
+Explore las magníficas Kasbahs, admire paisajes desérticos impresionantes y descubra por qué esta región es conocida como el "Hollywood de Marruecos". Desde la compleja arquitectura de Ait Ben Haddou hasta la histórica Kasbah de Taourirt, este viaje ofrece una visión inolvidable de la rica historia y la belleza cinematográfica del desierto.`,
             "pricing": [
                 {
                     "totalPrice": 80
                 }
             ],
+            "includes": [
+                "Transporte privado",
+                "Guía/conductor de habla inglesa/española",
+                "Almuerzo",
+                "Agua mineral"
+            ],
+            "excludes": [
+                "Bebidas gaseosas",
+                "Seguro de viaje",
+                "Propinas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Marrakech – Ait Benhaddou – Marrakech",
-                    "description": "Conducción escénica por el Alto Atlas. Tour guiado por la Kasbah de Ait Benhaddou. Visita a Ouarzazate. Regreso a Marrakech."
+                    "title": "Marrakech – Tizi n'Tichka – Ait Ben Haddou – Ouarzazate",
+                    "description": "Recogida por la mañana. Conducción escénica a través del Alto Atlas. Visita al Ksar de Ait Ben Haddou (UNESCO). Exploración de Ouarzazate y la Kasbah de Taourirt. Regreso a Marrakech por la tarde."
                 }
             ]
         },
         {
             "id": "agafay-desert-sunset-tour",
-            "name": "Tour Atardecer en el Desierto de Agafay:",
+            "name": "Experiencia al Atardecer en el Desierto de Agafay",
             "duration": "1_day",
             "image": "/images/excursions/mostapha-abidour-h9L1GfDgp0s-unsplash.jpg",
             "gallery": [
-                "/images/excursions/laurent-gence-UMEcD4j--_I-unsplash.jpg",
-                "/images/excursions/cristiano-pinto-knB5iCogf5Q-unsplash.jpg",
-                "/images/excursions/mostapha-abidour-h9L1GfDgp0s-unsplash.jpg",
-                "/images/Camel Riding/dan-calderwood-7CPopIsaCkc-unsplash.jpg",
-                "/images/Camel Riding/oussama-rahib-f7F8URbIx08-unsplash.jpg"
+                "/images/agafay/aiden-YMhbqDNprrI-unsplash.jpg",
+                "/images/agafay/aiden-vnrzfK5ImL4-unsplash.jpg",
+                "/images/agafay/casa-lalla-takerkoust-nOfi2CRmehk-unsplash.jpg",
+                "/images/agafay/chloe-lefleur-COrxJuZax0U-unsplash.jpg",
+                "/images/agafay/chloe-lefleur-_7BVOQAcmMg-unsplash.jpg",
+                "/images/agafay/chloe-lefleur-jMb3w4jsorA-unsplash.jpg",
+                "/images/agafay/danai-tsoutreli-ygavSm9JGFg-unsplash.jpg",
+                "/images/agafay/ifeoluwa-b-U_SG5fO-ivs-unsplash.jpg",
+                "/images/agafay/kostas-fotiadis-cqR7hPZmA8w-unsplash.jpg",
+                "/images/agafay/tommaso-poletti-cVaCh5z_R3s-unsplash.jpg"
             ],
-            "description": "Experimenta la magia del desierto sin viajar lejos. El Desierto de Piedra de Agafay ofrece un paisaje dramático similar a la luna a solo 45 minutos de Marrakech. Disfruta de un paseo en camello, contempla un impresionante atardecer sobre las montañas del Atlas y saborea una cena marroquí tradicional bajo las estrellas.",
+            "description": `Experiencia al Atardecer en el Desierto de Agafay
+
+El desierto de Agafay, situado a solo una hora en coche de los bulliciosos zocos de Marrakech y del Jardín Majorelle, ofrece una escapada serena a un paisaje pedregoso y lunar espectacular. Esta región preservada es ideal para quienes desean experimentar la tranquilidad del desierto sin viajar lejos. Sea testigo de un atardecer impresionante sobre las montañas del Atlas, disfrute de un paseo en camello por las dunas rocosas y saboree una cena tradicional marroquí de 3 platos bajo las estrellas en un campamento nómada.`,
             "pricing": [
                 {
                     "totalPrice": 75
                 }
             ],
+            "includes": [
+                "Recogida y traslado en Marrakech",
+                "Paseo en camello por las dunas",
+                "Té tradicional marroquí",
+                "Cena de 3 platos en un campamento desértico"
+            ],
+            "excludes": [
+                "Seguro de viaje",
+                "Bebidas gaseosas/alcohólicas",
+                "Propinas y gastos personales"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Experiencia en el Desierto de Agafay",
-                    "description": "Recogida por la tarde. Conducción a Agafay. Paseo en camello al atardecer. Cena en tienda nómada. Regreso a Marrakech por la noche."
+                    "title": "Marrakech – Desierto de Agafay",
+                    "description": "Recogida por la tarde en Marrakech. Conducción al desierto de Agafay. Paseo en camello al atardecer. Cena tradicional bajo las estrellas. Regreso a Marrakech por la noche."
                 }
             ]
         },
         {
             "id": "atlas-mountains-trekking-with-berbers",
-            "name": "Trekking en Montañas del Atlas con Bereberes",
+            "name": "Senderismo en el Alto Atlas: Pueblos y Valles Bereberes",
             "duration": "1_day",
             "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
             "gallery": [
-                "/images/excursions/hassan-ouajbir-INcADDyMwwo-unsplash.jpg",
-                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
-                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg"
+                "/images/toubkal_treks/gallery_image_4.jpeg",
+                "/images/toubkal_treks/gallery_image_5.jpeg",
+                "/images/toubkal_treks/gallery_image_6.jpeg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+                "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+                "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+                "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+                "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+                "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
+                "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg"
             ],
-            "description": "Un día de trekking personalizado en las montañas del Atlas adaptado a tu nivel de forma física. Camina a través de pintorescos pueblos bereberes como Tinerhourhine y Aguersioual, cruza arroyos y camina a través de nogales. Acompañado por un guía de montaña profesional para una aventura ecológica segura e informativa.",
+            "description": `Senderismo en el Alto Atlas: Pueblos y Valles Bereberes
+
+Esta caminata de un día le llevará a través de los pintorescos pueblos de Tinerhourhine y Aguersioual. Siga los arroyos de montaña y las tradicionales "seguias" (canales de riego), atravesando exuberantes terrazas y campos de nogales. Su caminata, de aproximadamente 5-6 horas, ofrece una inmersión profunda en la vida de montaña bereber.
+
+Acompañado por un guía y un conductor profesionales, disfrutará de un almuerzo de picnic en plena naturaleza. Esta excursión se adapta perfectamente a la temporada y a su condición física, ofreciendo vistas impresionantes del monte Toubkal y las cumbres circundantes.
+
+**Precio desde 40 €**
+
+**Seleccione un paquete:**
+- 2-3 personas
+- 4 a 5 personas
+- 6 a 12 personas`,
             "pricing": [
                 {
                     "totalPrice": 40
                 }
             ],
+            "includes": [
+                "Acompañamiento completo de conductor de habla inglesa/española",
+                "Guía de montaña local para el trek",
+                "Almuerzo",
+                "Transporte en minibús o 4x4"
+            ],
+            "excludes": [
+                "Propinas",
+                "Bebidas gaseosas"
+            ],
             "itinerary": [
                 {
                     "day": 1,
-                    "title": "Día de Trekking en el Atlas",
-                    "description": "Caminata guiada de día completo (5-6 horas) en la región de Imlil. Almuerzo de picnic incluido. Ruta adaptada a la capacidad del grupo."
+                    "title": "Experiencia de Senderismo en el Atlas",
+                    "description": "Encuentro a las 8:00 AM en Marrakech. Conducción a las montañas del Atlas. Caminata guiada de 5-6 horas. Almuerzo de picnic incluido. Visita a cooperativa de aceite de argán. Regreso por la tarde."
                 }
             ]
         }
@@ -1522,12 +1925,17 @@ QUÉ TRAER CONTIGO: Buenas Botas de Senderismo y Calcetines Zapatos Cómodos/Zap
                 "id": "9-days-trek-saghro-south-morocco",
                 "name": "9 Días Trek Saghro Sur de Marruecos",
                 "duration": "9_days",
-                "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
+                "image": "/images/saghro/Jbel-Saghro.jpg",
                 "gallery": [
-                    "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                    "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
-                    "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                    "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                    "/images/saghro/Jbel-Saghro.jpg",
+                    "/images/saghro/mount-saghro.jpg",
+                    "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                    "/images/saghro/Back-ground-picture-Saghro.jpg",
+                    "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                    "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                    "/images/saghro/saghro-biking.jpg",
+                    "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                    "/images/saghro/siroua-410x250.jpeg"
                 ],
                 "description": `Djebel Saghro: Una Joya Oculta para Excursionistas en Marruecos
 
@@ -1622,12 +2030,17 @@ La mejor época para hacer senderismo en el Djebel Saghro es durante la primaver
                 "id": "6-days-trekking-program-in-saghro-morocco",
                 "name": "Programa de Trekking de 6 Días en Saghro Marruecos",
                 "duration": "6_days",
-                "image": "/images/desert_tours/merzouga3.jpg",
+                "image": "/images/saghro/mount-saghro.jpg",
                 "gallery": [
-                    "/images/desert_tours/merzouga4.jpg",
-                    "/images/desert_tours/merzouga2.jpg",
-                    "/images/desert_tours/merzouga3.jpg",
-                    "/images/desert_tours/merzouga1.jpg"
+                    "/images/saghro/mount-saghro.jpg",
+                    "/images/saghro/Jbel-Saghro.jpg",
+                    "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                    "/images/saghro/Back-ground-picture-Saghro.jpg",
+                    "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                    "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                    "/images/saghro/saghro-biking.jpg",
+                    "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                    "/images/saghro/siroua-410x250.jpeg"
                 ],
                 "description": `6 DÍAS DE PROGRAMA DE TREKKING EN SAGHRO MARRUECOS
 
@@ -1880,28 +2293,79 @@ Propinas para el equipo local.`,
         "items": [
             {
                 "id": "review-1",
-                "author": "Sarah Johnson",
-                "country": "Reino Unido",
+                "author": "Michelle Newport",
                 "rating": 5,
-                "date": "Noviembre 2024",
-                "tourId": "toubkal-treks-2-days-express",
-                "comment": "¡Una experiencia increíble! Nuestro guía era muy conocedor e hizo que el ascenso al Toubkal fuera inolvidable. La hospitalidad bereber fue asombrosa y las vistas a la montaña eran impresionantes. ¡Recomiendo encarecidamente Morocco Atlas Guide!",
-                "avatar": "/images/reviews/avatar-1.jpg"
+                "date": "29 de mayo de 2024",
+                "comment": "Abdul fue un guía absolutamente maravilloso en nuestra ascensión de 2 días al Monte Toubkal. Recomiendo encarecidamente esta caminata con Abdul, es muy amable, solidario y atento a las necesidades del grupo. Esta excursión fue lo más destacado de nuestro viaje a Marrakech."
             },
             {
                 "id": "review-2",
-                "author": "Marco Rossi",
-                "country": "Italia",
+                "author": "Mary Fuller",
                 "rating": 5,
-                "date": "Octubre 2024",
-                "tourId": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
-                "comment": "El tour al desierto superó todas las expectativas. Dormir bajo las estrellas en el Sahara fue mágico. Nuestro guía compartió historias fascinantes sobre la cultura bereber. Todo el equipo fue profesional y amable.",
-                "avatar": "/images/reviews/avatar-2.jpg"
+                "date": "15 de mayo de 2024",
+                "comment": "Tuvimos la caminata más increíble con Abdell en marzo. Llevó a mi esposo, a mis dos perros y a mí al Atlas desde Imlil y a través de su pueblo en lo alto. Las vistas eran increíbles y escuchar la llamada a la oración desde arriba fue inolvidable. ¡El té, la sopa, el pan y las galletas en su casa fueron, sinceramente, de los mejores que hemos comido en mucho tiempo! Los recomiendo encarecidamente para cualquier excursión corta o larga y ¡no puedo esperar para volver!"
+            },
+            {
+                "id": "review-3",
+                "author": "Simon Webb",
+                "rating": 5,
+                "date": "10 de mayo de 2024",
+                "comment": "El mejor guía en Marruecos, recomiendo encarecidamente contratar a Ibrahim y su equipo para cualquier aventura en el Sahara."
+            },
+            {
+                "id": "review-4",
+                "author": "Carrie J. Hall - Realtor",
+                "rating": 5,
+                "date": "8 de mayo de 2024",
+                "comment": "Acabo de pasar 14 días con Ibrahim, su conductor y otros 3 amigos. ¡Guía fantástico! Buen inglés, mejor francés. Es amable, humorístico, muy paciente y se adapta fácilmente si queríamos hacer un cambio en su programa original. Nos enfocamos en áreas fuera de los caminos trillados y ¡vaya que vimos mucho! Pregúntenle sobre el Oasis de montaña que les presentó a los CDN. Shhh - si él los lleva allí, desactiven el geotagging de sus fotos. Es un lugar especial."
+            },
+            {
+                "id": "review-5",
+                "author": "Gina Roskin",
+                "rating": 5,
+                "date": "16 de enero de 2024",
+                "comment": "Excelente recorrido por el Atlas con el guía Ibrahim. Delicioso almuerzo en casa de una familia bereber. Realmente lo disfruté."
+            },
+            {
+                "id": "review-6",
+                "author": "steven roscoe",
+                "rating": 5,
+                "date": "22 de noviembre de 2023",
+                "comment": "Participé en una caminata grupal por parte del desierto del Sahara con Ibrahim y su compañía. Estuvimos fuera durante 5 días y todo fue excelente. Ibrahim, Hassan, Omar y todos los demás fueron muy amables y conocedores. Nada era demasiado para ellos y se detenían para responder cualquier pregunta que tuvieras sobre el área. Todo funcionó sin problemas y la comida y la configuración del campamento superaron lo que podría haber esperado. Recomendaría al 100% contratar a estos guías para cualquiera de los viajes/caminatas que ofrecen."
+            },
+            {
+                "id": "review-7",
+                "author": "Ella Sussex",
+                "rating": 5,
+                "date": "7 de octubre de 2023",
+                "comment": "Los tres días que pasamos con Abdel y Mohammed de Trek Atlas fueron mis favoritos en meses de viaje por África. Buena comida, comunicación, hospitalidad, y muy agradable para nosotros poder conectar con un guía cercano a nuestra edad. Una experiencia muy auténtica, diferente de otras excursiones turísticas, recuerdos muy preciados para nosotros. ¡Espero volver a verlos pronto algún día!"
+            },
+            {
+                "id": "review-8",
+                "author": "Leighton Van Rooijen",
+                "rating": 5,
+                "date": "7 de octubre de 2023",
+                "comment": "Fuimos de trekking con Abdell y Muhammad. Abdell fue el mejor guía que he tenido en todos mis viajes por África. Instantáneamente estaba haciendo bromas y contándonos sobre el lugar. Además, Muhammad era un cocinero fantástico. ¡No puedo expresar lo genial que es este par!"
+            },
+            {
+                "id": "review-9",
+                "author": "Hannah McLay",
+                "rating": 5,
+                "date": "4 de octubre de 2023",
+                "comment": "Tuve una experiencia y un recorrido increíbles visitando Marruecos con tu ayuda. Te aseguraste de que estuviéramos seguros en nuestro viaje, siempre verificando que nos sintiéramos cómodos. Así como tu fantástico conocimiento sobre el campo y la ciudad. Hiciste nuestro viaje a Marruecos tan especial, algo que siempre atesoraré."
+            },
+            {
+                "id": "review-10",
+                "author": "Andrew Chappell",
+                "rating": 5,
+                "date": "3 de octubre de 2023",
+                "comment": "Pasé 6 días con Ibrahim y caminé por Toubkal y visité varios lugares en el área local. Ibrahim fue extremadamente flexible, profesional y amable. Fue más allá con su amplio conocimiento local, haciendo todo muy conveniente y sin problemas. Ciertamente recomendaría a Ibrahim a cualquiera."
             }
         ],
         "averageRating": 5,
-        "totalReviews": 6
+        "totalReviews": 10
     },
     "packages": []
+
 
 };

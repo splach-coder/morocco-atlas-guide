@@ -1,0 +1,470 @@
+{
+    "HomePage": {
+        "title": "Bienvenue chez Morocco Atlas Guide",
+        "description": "Expéditions authentiques en montagne et dans le désert",
+        "heroTag": "Experts de l'Atlas et du Sahara",
+        "heroTitle": "Le cœur du Haut Atlas, l'âme du Sahara",
+        "heroFooter": "Expéditions sur mesure guidées par des guides locaux berbères à travers les paysages les plus époustouflants du Maroc.",
+        "cta": "Explorer les Aventures",
+        "HeroSlider": {
+            "slide1": {
+                "title": "Haut Atlas",
+                "emphasis": "Sommets",
+                "subtitle": "Conquérez le majestueux Mont Toubkal avec des guides locaux experts."
+            },
+            "slide2": {
+                "title": "Sahara",
+                "emphasis": "Magie",
+                "subtitle": "Vivez le silence des dunes et la magie des nuits étoilées."
+            },
+            "slide3": {
+                "title": "Anciennes",
+                "emphasis": "Médinas",
+                "subtitle": "Découvrez la riche histoire et la culture vibrante des villes impériales du Maroc."
+            },
+            "explore": "Explorer les Voyages",
+            "bookWhatsApp": "Réserver par WhatsApp"
+        },
+        "ReviewsSlider": {
+            "tag": "LE REGISTRE DES HÔTES",
+            "titlePart1": "Voix du",
+            "titlePart2": "Haut Atlas.",
+            "globalIndex": "Indice Global",
+            "verifiedStories": "Histoires Vérifiées",
+            "cta": "Documentez Votre Découverte"
+        },
+        "PopularDestinations": {
+            "tag": "CATALOGUE DES EXPÉDITIONS",
+            "titlePart1": "Choisissez votre",
+            "titlePart2": "Frontière.",
+            "description": "Des hauteurs du Haut Atlas au profond silence du Sahara. Chaque catégorie est un monde différent.",
+            "featured": "En Vedette",
+            "experiences": "Expériences",
+            "viewCollection": "Voir la Collection",
+            "explore": "Explorer",
+            "categories": {
+                "toubkal-treks": {
+                    "name": "Sommets du Haut Atlas",
+                    "label": "Treks au Toubkal",
+                    "description": "Conquérez le plus haut sommet d'Afrique du Nord et explorez d'authentiques villages berbères."
+                },
+                "desert-tours": {
+                    "name": "Sables du Sahara",
+                    "label": "Circuits dans le Désert",
+                    "description": "Vivez le profond silence des dunes et la magie des nuits étoilées."
+                },
+                "imperial-cities": {
+                    "name": "Anciennes Médinas",
+                    "label": "Villes",
+                    "description": "Découvrez la riche histoire, les souks vibrants et le cœur culturel du Maroc."
+                },
+                "excursions": {
+                    "name": "Joyaux Cachés",
+                    "label": "Excursions",
+                    "description": "Excursions d'une journée organisées depuis Marrakech vers les plus beaux paysages locaux."
+                }
+            }
+        },
+        "WhyTravel": {
+            "tag": "L'AVANTAGE MAROC",
+            "titlePart1": "Pourquoi faire confiance au",
+            "titlePart2": "Guide Ancestral.",
+            "description": "À une époque de voyages génériques, nous revenons aux racines de l'expédition authentique et de l'hospitalité berbère.",
+            "reasons": {
+                "01": {
+                    "title": "Guides Ancestraux",
+                    "desc": "Nés et élevés dans les sommets du Haut Atlas, nos guides offrent des connaissances ancestrales profondes qu'aucun script ne peut reproduire."
+                },
+                "02": {
+                    "title": "Sécurité d'Élite",
+                    "desc": "Nos professionnels de la montagne sont certifiés UIAA, spécialistes de la sécurité technique et de la logistique de haute montagne."
+                },
+                "03": {
+                    "title": "Rythme Sur Mesure",
+                    "desc": "Nous calibrons chaque expédition selon votre seuil unique, votre curiosité et votre forme physique."
+                },
+                "04": {
+                    "title": "Qualité Boutique",
+                    "desc": "Définir le luxe comme l'authenticité. Des gîtes de montagne reculés aux campements sous les étoiles du désert."
+                }
+            }
+        },
+        "AboutPreview": {
+            "tag": "L'HÉRITAGE DE L'ATLAS",
+            "titlePart1": "Plus qu'un",
+            "titlePart2": "Voyage.",
+            "description": "Nés et élevés dans les montagnes du Haut Atlas, notre équipe apporte les connaissances locales de toute une vie à chaque trek. Nous ne nous contentons pas de vous montrer le chemin ; nous partageons notre culture, notre foyer et notre cœur.",
+            "item1Title": "Racines Berbères",
+            "item1Desc": "Chaque guide est originaire des sommets que vous conquérez.",
+            "item2Title": "Service Boutique",
+            "item2Desc": "Nous croyons aux petits groupes et aux grandes expériences.",
+            "cta": "Découvrez Notre Histoire",
+            "yearsOfHeritage": "Années d'Héritage",
+            "yearsHeritageDesc": "Notre voyage a commencé dans la poussière d'Imlil. Aujourd'hui, nous sommes les principaux spécialistes du trekking boutique au Maroc."
+        },
+        "Gallery": {
+            "title": "Galerie",
+            "headlinePart1": "Découvrez les Paysages, ",
+            "headlinePart2": "la Culture et les Moments du Maroc en Photos",
+            "explore": "Explorer la Galerie",
+            "description": "Entrez au Maroc à travers notre galerie organisée, capturant la beauté, la culture et les moments inoubliables de nos voyages à travers le pays. Des monuments emblématiques aux joyaux cachés, vivez le Maroc dans chaque image."
+        },
+        "FAQ": {
+            "title": "Questions",
+            "headlinePart1": "Tout ce que",
+            "headlinePart2": "vous devez savoir.",
+            "subHeadline": "Réponses professionnelles pour vos préparatifs en montagne et dans le désert.",
+            "stillHaveQuestions": "Encore des questions ?",
+            "contactText": "Besoin d'aide pour la planification ? Nos experts locaux sont disponibles 24h/24 et 7j/7 sur WhatsApp.",
+            "contactBtn": "Discuter avec un Guide"
+        },
+        "CTA": {
+            "ready": "Votre aventure au sommet vous attend.",
+            "text": "Rejoignez Morocco Atlas Guide pour un voyage inoubliable au cœur de l'Atlas.",
+            "button": "Réservez votre Expédition"
+        }
+    },
+    "ExpertiseSection": {
+        "tag": "EXCELLENCE CERTIFIÉE",
+        "titleHighAtlas": "Haut Atlas",
+        "heritage": "Héritage.",
+        "description": "Dirigé par Lahoucine, guide de montagne et de désert reconnu par le Ministère du Tourisme. Alliant racines ancestrales et formation européenne d'élite (EMMOE Espagne, EMHM France).",
+        "item1Title": "Normes UIAA",
+        "item1Desc": "Conformité avec l'Union Internationale des Associations d'Alpinisme.",
+        "item2Title": "Fédération Royale",
+        "item2Desc": "Certifié par la Royale Marocaine De Ski Et Montagne.",
+        "item3Title": "Équipe Professionnelle",
+        "item3Desc": "Guides experts, chauffeurs, muletiers et cuisiniers.",
+        "quote": "\"Nos visiteurs doivent être heureux ici.\""
+    },
+    "CoreValuesSection": {
+        "tag": "LA PROMESSE DE L'ATLAS",
+        "titlePart1": "Plus qu'un circuit,",
+        "titlePart2": "Une connexion.",
+        "features": [
+            {
+                "title": "Notre Gens",
+                "description": "Rencontrez nos exceptionnels chauffeurs et guides locaux à plein temps. Ce ne sont pas seulement du personnel ; ce sont vos amis bien connectés, partageant des relations de toute une vie et des anecdotes fascinantes sur l'histoire et la culture de la région. Vous vous sentirez comme un local en un rien de temps."
+            },
+            {
+                "title": "Cuisine Locale",
+                "description": "Découvrez des saveurs qui racontent une histoire. Que ce soit dans un restaurant familial chaleureux ou un repas gastronomique sous les étoiles du Sahara, nos expériences culinaires organisées par des experts offrent un aperçu du cœur et de l'âme de la tradition marocaine."
+            },
+            {
+                "title": "Expérience Personnalisée",
+                "description": "Imaginez-vous immergé dans la vie quotidienne d'une famille nomade ou parcourant le Sahara en quad. Nous créons des itinéraires sur mesure adaptés à vos désirs uniques, garantissant que votre voyage soit tout simplement incroyable."
+            },
+            {
+                "title": "Voyage Durable",
+                "description": "Investissez dans les moyens de subsistance locaux en mettant votre argent là où est votre cœur. Notre touche personnelle unique préserve les cultures que vous explorez, satisfaisant votre curiosité tout en laissant un impact positif sur les communautés que nous visitons."
+            }
+        ]
+    },
+    "AboutPage": {
+        "banner": {
+            "tag": "AU-DELÀ DES SOMMETS",
+            "titlePart1": "Âme",
+            "titlePart2": "Berbère.",
+            "description": "Né des sommets du Haut Atlas, dédié au partage de la magie authentique du Maroc."
+        },
+        "heritage": {
+            "tag": "NOTRE PATRIMOINE",
+            "titlePart1": "L'Héritage de",
+            "titlePart2": "Lahoucine",
+            "description": "Lahoucine est un guide officiel de montagne et de désert reconnu par le Ministère du Tourisme du Maroc et qualifié dans les écoles les plus prestigieuses d'Europe (EMMOE) École Militaire de Montagne et d'Opérations Spéciales en Espagne avec (Diplôme de Montagne Supérieure) et à l'(EMHM) École Militaire de Haute Montagne Française en France ; en plus de la Fédération Royale Marocaine de Ski et de Montagne. Ayant grandi au cœur des montagnes du Haut Atlas, LAHOUCINE peut partager ses connaissances locales expertes pour vous emmener dans une aventure inoubliable. Nous sommes une équipe professionnelle et compétente (guides, chauffeurs, muletiers, cuisiniers, ...) dirigée par moroccoatlasguide. Vous verrez de magnifiques hautes vallées et des sommets enneigés, entrecoupés de charmants villages berbères.",
+            "quote": {
+                "title": "La sécurité avant tout",
+                "text": "Lorsque vous voyagez à travers le monde, il est important que vous vous sentiez en sécurité et à l'aise. Quand vous voyagez avec moroccoatlasguide, vous pouvez être tranquille car votre sécurité est notre priorité absolue ; bénéficier de la sécurité d'un groupe de nouveaux amis et d'un leader local expert signifie que vous pouvez vous détendre et profiter."
+            }
+        },
+        "mission": {
+            "tag": "NOTRE MISSION",
+            "titlePart1": "Créer des",
+            "titlePart2": "Rêves.",
+            "text1": "Embarquez pour une aventure passionnante au milieu des paysages majestueux du Haut Atlas avec notre large gamme de services adaptés à chacun de vos besoins. Que vous recherchiez une courte randonnée guidée d'une journée ou un forfait trekking complet, nous avons ce qu'il vous faut. Nos offres incluent des arrangements de transport vers la région, des hébergements accueillants, des repas délicieux, des guides experts, des mules fiables pour l'assistance et plus encore.",
+            "text2": "Créant des expériences inoubliables, nous personnalisons les itinéraires pour qu'ils s'adaptent parfaitement à vos préférences. Les aventures sur mesure répondent à vos intérêts, contraintes de temps, taille du groupe, préférences de difficulté du trekking et standards d'hébergement souhaités. Plongez au cœur du Haut Atlas et laissez-nous transformer vos rêves d'expédition en réalité."
+        },
+        "whyUs": {
+            "tag": "POURQUOI NOUS ?",
+            "titlePart1": "La Différence",
+            "titlePart2": "Locale.",
+            "text": "Le trekking offre une opportunité exceptionnelle de s'immerger dans les superbes merveilles naturelles du Maroc. Nos expéditions de trekking offrent un aperçu des paysages diversifiés et époustouflants du Maroc, offrant des rencontres de première main avec la vie berbère authentique à travers montagnes, vallées, campagne et terrain désertique. Morocco Atlas Guide se présente comme une entreprise touristique locale exploitée par des Berbères, axée sur les aventures de trekking et la promotion de la connaissance de la culture berbère. De plus, nous étendons notre expertise pour satisfaire toutes vos exigences de circuits au Maroc, y compris les arrangements d'hébergement, les transferts, les circuits en ville et plus encore."
+        },
+        "leaders": {
+            "tag": "LEADERS LOCAUX",
+            "titlePart1": "Le Cœur du",
+            "titlePart2": "Voyage.",
+            "text1": "Les meilleurs guides pour révéler le cœur d'une destination sont les LEADERS LOCAUX qui y vivent, c'est pourquoi nous travaillons exclusivement avec des leaders locaux. Lors des expéditions, votre leader n'est pas seulement un expert en voyage, mais aussi votre professeur, gourou du voyage et fournisseur passionné d'expériences authentiques de base.",
+            "text2": "Quand les gens utilisent le mot 'extraordinaire', ils pensent probablement à des endroits comme le Maroc. Dans une terre où monter à dos de chameau sur les dunes au coucher du soleil est courant, où l'air est rempli de l'arôme des tajines au safran, et où les bergers amazigh guident les chèvres sur les pentes des montagnes du Haut Atlas, 'extraordinaire' semble insuffisant. Que vous vous promeniez dans la ville portuaire venteuse d'Essaouira, exploriez la célèbre Kasbah d'Aït Ben Haddou ou dormiez sous les étoiles dans le Sahara, la chaleureuse hospitalité du Maghreb rendra un circuit au Maroc véritablement inoubliable."
+        },
+        "culture": {
+            "tag": "DIVERSITÉ CULTURELLE",
+            "titlePart1": "Carrefour des",
+            "titlePart2": "Civilisations.",
+            "text1": "La riche tapisserie des cultures du Maroc reflète son rôle historique en tant que carrefour des civilisations. Au fil des siècles, la terre a été habitée par divers peuples, y compris les autochtones amazigh (berbères) ainsi que des influences de l'Est (phéniciens et arabes), du Sud (africains subsahariens) et du Nord (romains et andalous espagnols, tant musulmans que juifs).",
+            "text2": "Aujourd'hui, la majorité des Marocains s'identifient comme berbères ou arabes, et l'arabe est la langue officielle. L'islam est la religion prédominante, et les musulmans sunnites représentent 99% de la population ; cependant, les minorités religieuses sont respectées et coexistent harmonieusement.",
+            "text3": "La société marocaine est fière de son hospitalité et de son ouverture aux diverses cultures, idées et modes de vie. Néanmoins, il est crucial de respecter les croyances locales et les normes culturelles pour éviter toute offense involontaire. Ce qui peut être acceptable dans sa propre culture pourrait être mal interprété en naviguant dans les nuances de l'étiquette et des coutumes marocaines."
+        },
+        "dressCode": {
+            "tag": "CODE VESTIMENTAIRE",
+            "titlePart1": "Respect et",
+            "titlePart2": "Pudeur.",
+            "text1": "Comme mentionné précédemment, l'accent culturel est mis sur la pudeur, particulièrement pour les femmes, au sein des communautés musulmanes. La mesure dans laquelle cela influence les voyageurs varie selon l'endroit dans le pays, qu'il soit touristique ou non, et le type d'hébergement choisi, qu'il s'agisse d'un hôtel orienté vers le tourisme ou d'un établissement local.",
+            "text2": "Il est conseillé d'être prudent tant dans la tenue vestimentaire que dans le comportement pour éviter de causer une offense involontaire. Cependant, le Maroc reconnaît la valeur du tourisme et réserve un accueil chaleureux aux visiteurs, avec des concessions souvent faites dans les zones touristiques et les plages. Dans les centres urbains et les stations balnéaires de la côte ouest, les Marocains eux-mêmes ont tendance à adopter des attitudes plus occidentales."
+        },
+        "thingsToKnow": {
+            "tag": "CHOSES À SAVOIR",
+            "titlePart1": "Avant",
+            "titlePart2": "d'Arriver.",
+            "intro": "Le Maroc est un échantillon étonnant et révélateur de l'exotique. Le Maroc est aussi un voyage dans un monde éternel et serein de villages côtiers, de villes colorées accrochées aux flancs des collines et d'avant-postes isolés défendus par des forteresses en pisé de conte de fées.",
+            "intro2": "Cette terre captivante est une fusion des mondes africain et arabe. Elle est imprégnée de traditions millénaires. Il n'est pas étonnant que le Maroc soit réputé auprès des artistes et des écrivains depuis des décennies et continue d'enchanter tous ceux qui le visitent.",
+            "outro": "Cependant, il y a certaines choses que vous devez savoir avant de voyager au Maroc pour le tourisme :",
+            "items": [
+                "C'est un pays magnifique",
+                "Le Maroc est l'un des pays les plus pacifiques du monde. Il a de nombreux lieux d'intérêt à visiter, surtout lorsque vous voyagez pour le tourisme.",
+                "Assurez-vous de changer le dirham marocain pour 1 dollar. Il y a un bon taux de conversion monétaire qui vous donne l'occasion de dépenser moins et de profiter plus.",
+                "Il y a une grande offre de voyages dans le pays. En termes relatifs, le taux du dirham est décent et stable. Vous pouvez vous attendre à peu de surprises.",
+                "Les hôtels au Maroc sont économiques, ont un bon rapport qualité-prix et sont assez faciles à localiser. Le pays est devenu une escale courante pour les visiteurs, ce qui a augmenté le nombre d'hôtels dans chaque région.",
+                "Visa et MasterCard sont acceptées dans la plupart des distributeurs automatiques pour les avances de fonds. Cependant, assurez-vous que les cartes de crédit ne sont pas acceptées dans beaucoup de petits magasins. Vous pouvez vous contenter d'environ 4000 dirhams.",
+                "Une fois que vous êtes au Maroc, vous aurez besoin d'argent liquide immédiatement pour payer le transport. Assurez-vous de retirer de l'argent liquide au premier distributeur que vous voyez à l'aéroport ; cependant, n'en retirez pas trop."
+            ]
+        },
+        "cta": {
+            "titlePart1": "Commencez votre",
+            "titlePart2": "Héritage.",
+            "enquiry": "Consultation Privée"
+        }
+    },
+    "ContactPage": {
+        "banner": {
+            "tag": "CONCIERGERIE PRIVÉE",
+            "titlePart1": "Allons",
+            "titlePart2": "Connecter.",
+            "description": "Contactez directement notre guide principal pour commencer à concevoir votre expédition marocaine sur mesure."
+        },
+        "channels": {
+            "tag": "CANAUX",
+            "titlePart1": "Directement",
+            "titlePart2": "à un Guide.",
+            "messaging": {
+                "tag": "Messagerie Instantanée",
+                "label": "Téléphone / WhatsApp"
+            },
+            "email": {
+                "tag": "Correspondance par Email",
+                "label": "Courrier Électronique"
+            },
+            "location": {
+                "tag": "Notre Base"
+            },
+            "follow": "Suivez le Sentier"
+        },
+        "form": {
+            "titlePart1": "Envoyez une",
+            "titlePart2": "Proclamation.",
+            "description": "Parlez-nous du voyage de vos rêves. Nous offrons généralement une réponse personnalisée en moins de 2 heures.",
+            "name": "Votre Nom",
+            "namePlaceholder": "Sarah J.",
+            "email": "Courrier Électronique",
+            "emailPlaceholder": "sarah@example.com",
+            "vision": "La Vision",
+            "visionPlaceholder": "Je voudrais faire un trek au Mont Toubkal en décembre...",
+            "submit": "Envoyer via WhatsApp"
+        },
+        "map": {
+            "tag": "NOTRE EMPLACEMENT",
+            "titlePart1": "Trouvez-nous à",
+            "titlePart2": "Imlil."
+        }
+    },
+    "FAQSection": {
+        "tag": "DÉPÔT D'INFORMATIONS",
+        "titlePart1": "Consultations",
+        "titlePart2": "Courantes.",
+        "description": "Détails techniques pour le voyageur exigeant. Apporter de la clarté avant le premier pas.",
+        "items": [
+            {
+                "question": "Le Mont Toubkal est-il adapté aux débutants ?",
+                "answer": "Oui ! Bien qu'il soit le plus haut sommet d'Afrique du Nord, l'itinéraire standard n'est pas technique pendant l'été. Cependant, il nécessite un bon niveau de forme physique. Nos guides experts règlent parfaitement le rythme du trek pour aider tout le monde à atteindre le sommet en sécurité."
+            },
+            {
+                "question": "Quel équipement ai-je besoin pour un trek dans le Haut Atlas ?",
+                "answer": "Pour les treks d'été, vous aurez besoin de chaussures de montagne robustes, de couches de vêtements confortables, d'un chapeau de soleil et d'un bon sac de couchage. Pendant l'hiver, des crampons et des piolets sont nécessaires (que nous pouvons fournir). Nous vous enverrons une liste détaillée de l'équipement lors de la réservation."
+            },
+            {
+                "question": "Comment gérez-vous la nourriture et l'eau pendant les circuits ?",
+                "answer": "Notre équipe comprend un cuisinier professionnel qui prépare des repas berbères frais et sains (tajines, couscous, salades fraîches). Nous fournissons de l'eau sûre pendant le trek, soit purifiée soit en bouteille, pour garantir votre santé tout au long du voyage."
+            },
+            {
+                "question": "Puis-je personnaliser un circuit dans le désert ou la montagne ?",
+                "answer": "Absolument ! Nous sommes spécialisés dans les expériences sur mesure. Que vous souhaitiez prolonger votre séjour dans un campement du désert ou ajouter des itinéraires de trekking spécialisés dans l'Atlas, nous concevrons un itinéraire qui correspond parfaitement à vos désirs."
+            },
+            {
+                "question": "Comment fonctionne la réservation par WhatsApp ?",
+                "answer": "C'est simple et direct. Une fois que vous avez trouvé un circuit qui vous plaît, cliquez sur le bouton 'Réserver via WhatsApp'. Cela vous connecte directement à notre guide principal. Vous pouvez poser des questions, confirmer les dates et finaliser votre réservation sans formulaires complexes."
+            }
+        ]
+    },
+    "CTASection": {
+        "tag": "COMMENCEZ VOTRE CHAPITRE",
+        "titlePart1": "Les Montagnes",
+        "titlePart2": "Vous Appellent.",
+        "description": "Rejoignez Morocco Atlas Guide pour un voyage inoubliable. Que vous fassiez du trekking dans le Haut Atlas ou exploriez le Sahara, nous offrons des expériences locales authentiques adaptées juste pour vous.",
+        "browseAdventures": "Explorer les Aventures",
+        "speakWithGuide": "Parler avec un Guide",
+        "marquee": [
+            "SOMMET DU TOUBKAL",
+            "MAGIE DU SAHARA",
+            "AUTHENTIQUE BERBÈRE",
+            "LUXE SUR MESURE"
+        ]
+    },
+    "GalleryPreview": {
+        "tag": "Histoires réelles de voyageurs réels",
+        "titlePart1": "Des moments qui ont rendu chaque voyage",
+        "titlePart2": "inoubliable",
+        "cta": "Voir plus de bonheur",
+        "moments": {
+            "1": "Le tour en montgolfière était magique !",
+            "2": "Le désert était incroyable.",
+            "3": "Chaque coucher de soleil donnait l'impression d'être à la maison.",
+            "4": "Tout était parfait.",
+            "5": "Le meilleur moment de ma vie !",
+            "6": "Des souvenirs inoubliables.",
+            "7": "Très recommandé !"
+        }
+    },
+    "Header": {
+        "home": "Accueil",
+        "services": "Circuits",
+        "activities": "Expéditions",
+        "about": "Notre Héritage",
+        "gallery": "Galerie",
+        "contact": "Contact",
+        "bookNow": "Réserver Maintenant",
+        "tripNow": "Expéditions",
+        "bookYourTrip": "Commencer le Voyage",
+        "allRightsReserved": "Tous droits réservés."
+    },
+    "Footer": {
+        "vision": "Organisant des expériences profondes dans le désert et la montagne depuis 2012. Nous croyons au luxe du voyage lent et à la profondeur de l'héritage berbère.",
+        "expeditions": "Expéditions",
+        "atlasPeaks": "Sommets de l'Atlas",
+        "saharaMagic": "Magie du Sahara",
+        "ancientCities": "Villes Anciennes",
+        "hiddenGems": "Joyaux Cachés",
+        "company": "Compagnie",
+        "ourHeritage": "Notre Héritage",
+        "gallery": "Galerie",
+        "privateEnquiries": "Consultations Privées",
+        "getInTouch": "Prenez Contact",
+        "whatsappAvailable": "WhatsApp Disponible",
+        "privacy": "Confidentialité",
+        "terms": "Conditions",
+        "craftedBy": "Créé par"
+    },
+    "Common": {
+        "tagline": "Votre porte d'entrée vers le Toubkal et le Sahara",
+        "whatsappBookingMessage": "Bonjour Morocco Atlas Guide, je voudrais réserver : ",
+        "bookNow": "Réserver",
+        "viewDetails": "Explorer",
+        "contactUs": "Consulter",
+        "priceFrom": "À partir de",
+        "duration": "Durée",
+        "perPerson": "pp",
+        "whatsappAvailable": "WhatsApp Disponible"
+    },
+    "ToursPage": {
+        "expeditionCollection": "COLLECTION D'EXPÉDITIONS",
+        "description": "Voyages organisés à travers les paysages les plus profonds du Maroc, guidés par le patrimoine.",
+        "allAdventures": "Toutes les Aventures",
+        "results": "résultats",
+        "discover": "Découvrir",
+        "noJourneys": "Aucun voyage découvert.",
+        "categories": {
+            "all": "Tous",
+            "atlas": "Sommets de l'Atlas",
+            "sahara": "Sables du Sahara",
+            "cities": "Anciennes Médinas",
+            "hidden": "Joyaux Cachés"
+        }
+    },
+    "GalleryPage": {
+        "banner": {
+            "tag": "JOURNAL D'EXPÉDITION",
+            "titlePart1": "Moments",
+            "titlePart2": "Capturés.",
+            "description": "Un journal visuel des couleurs vibrantes, des paysages époustouflants et de la vie quotidienne authentique découverts lors de nos voyages."
+        },
+        "archive": {
+            "tag": "ARCHIVE MMXXIV",
+            "titlePart1": "Le Registre",
+            "titlePart2": "Visuel.",
+            "showing": "Affichage de {count} sur {total} Artéfacts",
+            "loadMore": "Charger Plus",
+            "loading": "Chargement",
+            "remaining": "{count} restants",
+            "itemTitle": "Expérience Atlas",
+            "itemCategory": "Le Meilleur"
+        }
+    },
+    "ServiceDetail": {
+        "back": "Retour aux Aventures",
+        "verified": "Vérifié",
+        "experience": {
+            "tag": "L'EXPÉRIENCE",
+            "titlePart1": "Découvrez",
+            "titlePart2": "l'Extraordinaire."
+        },
+        "journey": {
+            "tag": "VOTRE VOYAGE",
+            "titlePart1": "Expédition",
+            "titlePart2": "Journalière.",
+            "daysAdventure": "{count} Jours d'Aventure",
+            "day": "Jour"
+        },
+        "inclusions": {
+            "tag": "INCLUSIONS",
+            "titlePart1": "Ce qui est",
+            "titlePart2": "Couvert."
+        },
+        "exclusions": {
+            "tag": "EXCLUSIONS",
+            "titlePart1": "Non",
+            "titlePart2": "Inclus."
+        },
+        "tips": {
+            "tag": "CONSEILS D'EXPERTS",
+            "titlePart1": "Conseils",
+            "titlePart2": "Essentiels.",
+            "description": "Pour garantir que votre voyage soit aussi fluide et agréable que possible, voici quelques idées clés de nos experts locaux.",
+            "tip1": {
+                "title": "Étiquette Culturelle",
+                "desc": "Le Maroc est accueillant mais conservateur. Habillez-vous modestement (épaules et genoux couverts) lorsque vous visitez des villages ou des zones rurales pour montrer du respect."
+            },
+            "tip2": {
+                "title": "Meilleure Période pour Partir",
+                "desc": "Le printemps (mars-mai) et l'automne (septembre-novembre) offrent le meilleur climat. Les étés peuvent être chauds dans le sud, tandis que les hivers apportent de la neige dans l'Atlas."
+            },
+            "tip3": {
+                "title": "Monnaie et Pourboires",
+                "desc": "L'argent liquide est roi dans les zones reculées. Apportez des dirhams marocains (MAD). Les pourboires (5-10%) sont habituels et appréciés pour un bon service."
+            }
+        },
+        "gallery": {
+            "titlePart1": "Journal",
+            "titlePart2": "Visuel."
+        },
+        "booking": {
+            "startingPrice": "Prix de Départ",
+            "perPerson": "/ personne",
+            "selectDate": "Sélectionner une Date",
+            "guests": "Invités",
+            "totalPrice": "Prix Total",
+            "duration": "Durée",
+            "customizable": "Les voyages sont personnalisables. Contactez-nous pour ajuster la durée, l'itinéraire ou le niveau de difficulté.",
+            "bookWhatsApp": "Réserver par WhatsApp",
+            "noCommitment": "Sans engagement. Discutez d'abord avec un expert."
+        }
+    }
+}

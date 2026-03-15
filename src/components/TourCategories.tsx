@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
-import { siteData, siteDataFr } from '@/data/siteData';
+// Removed unused imports
 
 import { getSiteData } from '@/data/getSiteData';
 
@@ -99,7 +99,7 @@ export const TourCategories = ({ locale }: { locale: string }) => {
                                             src={category.image}
                                             alt={category.name}
                                             fill
-                                            className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110 grayscale-[30%] group-hover:grayscale-0"
+                                            className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
                                         />
                                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500" />
 
@@ -156,7 +156,7 @@ export const TourCategories = ({ locale }: { locale: string }) => {
                                 transition={{ delay: i * 0.1 }}
                             >
                                 <Link href={`/${locale}/tours/${tour.id}`} className="block group">
-                                    <div className="relative aspect-[3/4] mb-8 overflow-hidden grayscale-[50%] group-hover:grayscale-0 transition-all duration-700">
+                                    <div className="relative aspect-[3/4] mb-8 overflow-hidden group-hover:scale-[1.02] transition-all duration-700">
                                         <Image
                                             src={tour.image}
                                             alt={tour.name}

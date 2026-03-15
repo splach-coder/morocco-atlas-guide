@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, MapPin, Check, X, Star, ArrowLeft, ZoomIn, ChevronLeft, ChevronRight, MessageCircle, Calendar, Users, Info, ChevronDown, Camera } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { siteInfo } from '@/data/siteInfo';
 
@@ -34,10 +35,15 @@ interface ServiceDetailProps {
     subItems?: SubItem[];
     locale: string;
     gallery?: string[];
+    /** The category key this tour belongs to (e.g. 'toubkal-treks') */
+    category?: string;
+    /** Sibling tours in the same category for prev/next navigation */
+    siblings?: { id: string; name: string; image: string }[];
 }
 
 export const ServiceDetailContent = ({
     locale,
+    id,
     title,
     description,
     image,
@@ -47,9 +53,12 @@ export const ServiceDetailContent = ({
     included = [],
     excluded = [],
     itinerary = [],
-    gallery = []
+    gallery = [],
+    category = '',
+    siblings = []
 }: ServiceDetailProps) => {
     const t = useTranslations('ServiceDetail');
+    const router = useRouter();
     const [activeDay, setActiveDay] = useState<number | null>(0);
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [lightboxIndex, setLightboxIndex] = useState(0);
@@ -57,6 +66,10 @@ export const ServiceDetailContent = ({
     // Booking State
     const [selectedDate, setSelectedDate] = useState<string>('');
     const [guestCount, setGuestCount] = useState<number>(2);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id]);
 
     const renderDuration = (d: string) => d?.replace('_', ' ') || 'Flexible';
 
@@ -107,7 +120,8 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <Link href={`/${locale}/tours`} className="inline-flex items-center gap-2 md:gap-3 text-white/80 hover:text-primary transition-all mb-6 md:mb-8 group backdrop-blur-sm bg-white/5 py-1.5 px-3 md:py-2 md:px-4 rounded-full border border-white/10 w-fit">
+                            {/* Back button — preserves category filter */}
+                            <Link href={category ? `/${locale}/tours?category=${category}` : `/${locale}/tours`} className="inline-flex items-center gap-2 md:gap-3 text-white/80 hover:text-primary transition-all mb-6 md:mb-8 group backdrop-blur-sm bg-white/5 py-1.5 px-3 md:py-2 md:px-4 rounded-full border border-white/10 w-fit">
                                 <ArrowLeft className="w-3 h-3 md:w-4 md:h-4 group-hover:-translate-x-1 transition-transform" />
                                 <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">{t('back')}</span>
                             </Link>
@@ -155,7 +169,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                         >
                             <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block font-inter">{t('experience.tag')}</span>
                             <h2 className="text-4xl font-medium text-neutral-dark font-playfair mb-8 leading-none tracking-tight">{t('experience.titlePart1')} <span className="italic text-primary">{t('experience.titlePart2')}</span></h2>
-                            <p className="text-neutral-medium leading-relaxed text-lg font-light whitespace-pre-line">
+                            <p className="text-neutral-dark leading-relaxed text-xl md:text-2xl font-medium whitespace-pre-line border-l-4 border-primary/20 pl-8 md:pl-10 italic">
                                 {description}
                             </p>
                         </motion.div>
@@ -205,7 +219,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                                         {day.title}
                                                     </h3>
 
-                                                    <p className="text-neutral-medium font-light leading-relaxed text-sm md:text-base">
+                                                    <p className="text-neutral-dark/90 font-medium leading-relaxed text-base md:text-lg">
                                                         {day.description}
                                                     </p>
 
@@ -237,7 +251,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                 </h3>
                                 <ul className="space-y-4 relative z-10">
                                     {included.map((inc, i) => (
-                                        <li key={i} className="flex items-start gap-4 text-neutral-dark/80 text-sm font-light font-inter group">
+                                        <li key={i} className="flex items-start gap-4 text-neutral-dark/80 text-sm font-normal font-inter group">
                                             <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-0.5">
                                                 <Check className="w-3 h-3 text-green-600" />
                                             </div>
@@ -255,7 +269,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                 </h3>
                                 <ul className="space-y-4 relative z-10">
                                     {excluded.map((exc, i) => (
-                                        <li key={i} className="flex items-start gap-4 text-neutral-dark/50 text-sm font-light font-inter">
+                                        <li key={i} className="flex items-start gap-4 text-neutral-dark/50 text-sm font-normal font-inter">
                                             <div className="w-5 h-5 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
                                                 <X className="w-3 h-3 text-red-400" />
                                             </div>
@@ -281,7 +295,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                     <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block font-inter">{t('tips.tag')}</span>
                                     <h2 className="text-4xl md:text-5xl font-medium font-playfair mb-6 text-white">{t('tips.titlePart1')} <span className="italic text-primary">{t('tips.titlePart2')}</span></h2>
 
-                                    <p className="text-white/60 font-light text-lg">
+                                    <p className="text-white/80 font-light text-xl">
                                         {t('tips.description')}
                                     </p>
                                 </div>
@@ -294,7 +308,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                         </div>
                                         <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip1.title')}</h4>
 
-                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                        <p className="text-base text-white/70 font-light leading-relaxed">
                                             {t('tips.tip1.desc')}
                                         </p>
                                     </div>
@@ -306,7 +320,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                         </div>
                                         <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip2.title')}</h4>
 
-                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                        <p className="text-base text-white/70 font-light leading-relaxed">
                                             {t('tips.tip2.desc')}
                                         </p>
                                     </div>
@@ -318,7 +332,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                         </div>
                                         <h4 className="text-xl font-playfair mb-3 text-white">{t('tips.tip3.title')}</h4>
 
-                                        <p className="text-sm text-white/50 font-light leading-relaxed">
+                                        <p className="text-base text-white/70 font-light leading-relaxed">
                                             {t('tips.tip3.desc')}
                                         </p>
                                     </div>
@@ -534,6 +548,88 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                     )}
                 </AnimatePresence>
             </div>
+
+            {/* ── In-Category Navigation ───────────────────── */}
+            {siblings.length > 1 && (() => {
+                const currentIdx = siblings.findIndex(s => s.id === id);
+                const prevSibling = currentIdx > 0 ? siblings[currentIdx - 1] : null;
+                const nextSibling = currentIdx < siblings.length - 1 ? siblings[currentIdx + 1] : null;
+                const categoryLabel = category.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+                return (
+                    <div className="border-t border-neutral-100 bg-white">
+                        <div className="container mx-auto px-6 md:px-12">
+                            {/* Breadcrumb + counter */}
+                            <div className="flex items-center gap-2 py-4 border-b border-neutral-100 overflow-hidden">
+                                <Link
+                                    href={`/${locale}/tours?category=${category}`}
+                                    className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary hover:text-primary/70 transition-colors whitespace-nowrap"
+                                >
+                                    {categoryLabel}
+                                </Link>
+                                <span className="text-neutral-300 text-xs">›</span>
+                                <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-neutral-400 truncate">{title}</span>
+                                <span className="ml-auto text-[10px] text-neutral-400 font-bold uppercase tracking-widest whitespace-nowrap pl-4">
+                                    {currentIdx + 1} / {siblings.length}
+                                </span>
+                            </div>
+
+                            {/* Prev / Next row */}
+                            <div className="grid grid-cols-2 divide-x divide-neutral-100">
+                                {/* Previous */}
+                                <div className="py-6 pr-6 md:pr-10">
+                                    {prevSibling ? (
+                                        <button
+                                            onClick={() => { window.scrollTo({ top: 0, behavior: 'instant' }); router.push(`/${locale}/tours/${prevSibling.id}`); }}
+                                            className="group flex items-center gap-3 md:gap-4"
+                                        >
+                                            <div className="w-9 h-9 md:w-10 md:h-10 rounded-full border border-neutral-200 flex-shrink-0 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all">
+                                                <ChevronLeft className="w-4 h-4 text-neutral-dark group-hover:text-white transition-colors" />
+                                            </div>
+                                            <div className="min-w-0">
+                                                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-neutral-400 mb-0.5">Previous</p>
+                                                <p className="text-sm font-medium text-neutral-dark group-hover:text-primary transition-colors leading-tight line-clamp-2">{prevSibling.name}</p>
+                                            </div>
+                                        </button>
+                                    ) : (
+                                        <div className="flex items-center gap-3 md:gap-4 opacity-25 select-none">
+                                            <div className="w-9 h-9 rounded-full border border-neutral-200 flex-shrink-0 flex items-center justify-center">
+                                                <ChevronLeft className="w-4 h-4" />
+                                            </div>
+                                            <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-neutral-400">First in collection</p>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Next */}
+                                <div className="py-6 pl-6 md:pl-10">
+                                    {nextSibling ? (
+                                        <button
+                                            onClick={() => { window.scrollTo({ top: 0, behavior: 'instant' }); router.push(`/${locale}/tours/${nextSibling.id}`); }}
+                                            className="group flex items-center gap-3 md:gap-4 justify-end w-full"
+                                        >
+                                            <div className="min-w-0 text-right">
+                                                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-neutral-400 mb-0.5">Next</p>
+                                                <p className="text-sm font-medium text-neutral-dark group-hover:text-primary transition-colors leading-tight line-clamp-2">{nextSibling.name}</p>
+                                            </div>
+                                            <div className="w-9 h-9 md:w-10 md:h-10 rounded-full border border-neutral-200 flex-shrink-0 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all">
+                                                <ChevronRight className="w-4 h-4 text-neutral-dark group-hover:text-white transition-colors" />
+                                            </div>
+                                        </button>
+                                    ) : (
+                                        <div className="flex items-center gap-3 md:gap-4 justify-end opacity-25 select-none">
+                                            <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-neutral-400">Last in collection</p>
+                                            <div className="w-9 h-9 rounded-full border border-neutral-200 flex-shrink-0 flex items-center justify-center">
+                                                <ChevronRight className="w-4 h-4" />
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                );
+            })()}
         </div>
     );
 };

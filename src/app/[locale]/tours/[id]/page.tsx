@@ -16,28 +16,39 @@ export default function TourDetailPage({ params }: PageProps) {
     const { id, locale } = use(params);
     const data = getSiteData(locale);
 
-    // Search across all tour categories
-    const allTours = [
-        ...data.toubkalTreks,
-        ...data.desertTours,
-        ...data.imperialCities,
-        ...data.excursions
-    ];
+    // Determine which category this tour belongs to
+    const categoryMap: Record<string, { key: string; items: any[] }> = {
+        'toubkal-treks': { key: 'toubkal-treks', items: data.toubkalTreks },
+        'desert-tours': { key: 'desert-tours', items: data.desertTours },
+        'imperial-cities': { key: 'imperial-cities', items: data.imperialCities },
+        'excursions': { key: 'excursions', items: data.excursions },
+    };
 
-    const item = allTours.find(t => t.id === id);
+    let category = '';
+    let siblings: { id: string; name: string; image: string }[] = [];
+    let item: any = null;
+
+    for (const [, { key, items }] of Object.entries(categoryMap)) {
+        const found = items.find((t: any) => t.id === id);
+        if (found) {
+            item = found;
+            category = key;
+            siblings = items.map((t: any) => ({ id: t.id, name: t.name, image: t.image || '' }));
+            break;
+        }
+    }
 
     if (!item) {
         return notFound();
     }
 
-    // formatting price
+    // Format price
     let price: number | string = 0;
     if (item.pricing && item.pricing[0]) {
         const p = item.pricing[0] as any;
         price = p.totalPrice || p.pricePerPerson || 0;
     }
 
-    // Use the actual description from the tour data
     const description = item.description || `Experience the magic of ${item.name}. This curated tour takes you through the most iconic locations, offering a blend of history, culture, and breathtaking scenery. Our professional guides ensure you don't miss any hidden gems.`;
 
     return (
@@ -47,7 +58,7 @@ export default function TourDetailPage({ params }: PageProps) {
             type="tour"
             title={item.name}
             description={description}
-            image={item.image || "/images/hero-marrakech.jpg"}
+            image={item.image || "/images/marrakech/marrakech.jpg"}
             price={price}
             duration={item.duration}
             location="Marrakech Region"
@@ -56,6 +67,8 @@ export default function TourDetailPage({ params }: PageProps) {
             itinerary={(item as any).itinerary || undefined}
             subItems={[]}
             gallery={item.gallery || []}
+            category={category}
+            siblings={siblings}
         />
     );
 }

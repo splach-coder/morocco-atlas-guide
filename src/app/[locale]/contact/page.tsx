@@ -92,20 +92,33 @@ export default function ContactPage() {
 
                                 <div className="space-y-px bg-neutral-light border border-neutral-light overflow-hidden shadow-xl">
                                     {/* Phone/WhatsApp */}
-                                    <a
-                                        href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '')}`}
-                                        className="group block bg-white p-8 hover:bg-neutral-dark transition-colors duration-700"
-                                    >
-                                        <div className="flex flex-col gap-4 text-left">
-                                            <div className="w-10 h-10 rounded-full border border-neutral-light flex items-center justify-center group-hover:border-white/20 transition-colors duration-700">
-                                                <MessageCircle className="w-4 h-4 text-primary group-hover:text-white transition-colors duration-700" />
+                                    <div className="bg-white p-8">
+                                        <div className="flex flex-col gap-6 text-left">
+                                            <div className="w-10 h-10 rounded-full border border-neutral-light flex items-center justify-center">
+                                                <MessageCircle className="w-4 h-4 text-primary" />
                                             </div>
-                                            <div>
-                                                <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">{t('channels.messaging.tag')}</span>
-                                                <span className="text-2xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700">{siteInfo.contact.phone}</span>
+                                            <div className="space-y-6">
+                                                <div className="group">
+                                                    <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 font-inter">{t('channels.messaging.tag')} (Main)</span>
+                                                    <a
+                                                        href={`https://wa.me/${siteInfo.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`}
+                                                        className="text-2xl font-medium text-neutral-dark font-playfair hover:text-primary transition-colors"
+                                                    >
+                                                        {siteInfo.contact.phone}
+                                                    </a>
+                                                </div>
+                                                <div className="group pt-6 border-t border-neutral-light/50">
+                                                    <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 font-inter">{t('channels.messaging.tag')} (Backup)</span>
+                                                    <a
+                                                        href={`https://wa.me/${siteInfo.contact.whatsapp2?.replace(/\+/g, '').replace(/\s/g, '')}`}
+                                                        className="text-2xl font-medium text-neutral-dark font-playfair hover:text-primary transition-colors"
+                                                    >
+                                                        {siteInfo.contact.phone2}
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </div>
 
                                     {/* Email */}
                                     <a
@@ -137,7 +150,7 @@ export default function ContactPage() {
                                     </div>
                                 </div>
 
-                                <div className="mt-12 flex items-center gap-6 opacity-40 grayscale group hover:grayscale-0 hover:opacity-100 transition-all duration-700">
+                                <div className="mt-12 flex items-center gap-6 opacity-40 group hover:opacity-100 transition-all duration-700">
                                     <span className="text-[10px] font-bold uppercase tracking-[0.4em] font-inter">{t('channels.follow')}</span>
                                     <div className="flex gap-4">
                                         <a href={siteInfo.socials.instagram} className="w-8 h-8 rounded-full border border-neutral-light flex items-center justify-center hover:bg-primary hover:border-primary hover:text-white transition-all">
@@ -220,6 +233,32 @@ export default function ContactPage() {
                                 </div>
                             </motion.div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Map Section - Immersive Integration */}
+            <section className="py-24 bg-surface-off grain border-t border-neutral-light">
+                <div className="container mx-auto px-6 md:px-12">
+                    <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8 text-left">
+                        <div className="max-w-2xl">
+                            <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block font-inter">{t('map.tag')}</span>
+                            <h2 className="text-5xl md:text-6xl font-medium text-neutral-dark font-playfair tracking-tight leading-none">
+                                {t('map.titlePart1')} <span className="italic">{t('map.titlePart2')}</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div className="relative w-full h-[500px] shadow-2xl transition-all duration-1000 border-sharp overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13660.122228384696!2d-7.92897467643252!3d31.136666108467494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb00e5efec05a9d%3A0x965e72a7f152f377!2sImlil!5e0!3m2!1sfr!2sma!4v1773504603877!5m2!1sfr!2sma"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
                 </div>
             </section>
