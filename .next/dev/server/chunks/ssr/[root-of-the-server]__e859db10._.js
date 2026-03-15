@@ -857,12 +857,17 @@ Embark on an extensive 10-day exploration of glorious Southern Morocco. This imm
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Days Trek Saghro South Morocco",
             "duration": "9_days",
-            "image": "/images/desert_tours/merzouga7.jpg",
+            "image": "/images/saghro/Jbel-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `9-Day Trek in Jebel Saghro, Southern Morocco — by moroccoatlasguide
 
@@ -957,12 +962,17 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "6 Day Trekking Program In Saghro Morocco",
             "duration": "6_days",
-            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/merzouga3.jpg",
-                "/images/desert_tours/merzouga2.jpg"
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `6-Day Trekking Program in Jebel Saghro, Morocco
 
@@ -3907,12 +3917,17 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Días Trek Saghro Sur de Marruecos",
             "duration": "9_days",
-            "image": "/images/desert_tours/merzouga7.jpg",
+            "image": "/images/saghro/Jbel-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `Trek de 9 días por el Jebel Saghro, sur de Marruecos — por moroccoatlasguide
 
@@ -4007,12 +4022,17 @@ Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: pr
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "Programa de Trekking de 6 Días en Saghro Marruecos",
             "duration": "6_days",
-            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/merzouga3.jpg",
-                "/images/desert_tours/merzouga2.jpg"
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `Programa de Trekking de 6 Días en el Jebel Saghro, Marruecos
 
@@ -6341,7 +6361,7 @@ Distance totale : ~60 km — Difficulté : modérée à difficile — Meilleures
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "Programme Trekking Saghro 6 Jours",
             "duration": "6_days",
-            "image": "/images/saghro/mount-saghro.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
                 "/images/saghro/mount-saghro.jpg",
                 "/images/saghro/Jbel-Saghro.jpg",

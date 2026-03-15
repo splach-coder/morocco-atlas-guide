@@ -131,7 +131,7 @@ export default function ContactPage() {
                                             </div>
                                             <div>
                                                 <span className="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2 group-hover:text-white/40 transition-colors duration-700 font-inter">{t('channels.email.tag')}</span>
-                                                <span className="text-xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700 lowercase">{siteInfo.contact.email}</span>
+                                                <span className="text-lg sm:text-xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700 lowercase break-all">{siteInfo.contact.email}</span>
                                             </div>
                                         </div>
                                     </a>

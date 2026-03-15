@@ -379,7 +379,7 @@ function ContactPage() {
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: "text-xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700 lowercase",
+                                                                        className: "text-lg sm:text-xl font-medium text-neutral-dark font-playfair group-hover:text-white transition-colors duration-700 lowercase break-all",
                                                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$siteInfo$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteInfo"].contact.email
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/[locale]/contact/page.tsx",

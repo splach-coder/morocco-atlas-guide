@@ -343,7 +343,7 @@ const HeroSlider = ({ lang })=>{
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-12 right-6 md:right-12 z-20 flex items-end gap-6 md:gap-8",
+                className: "absolute bottom-12 right-6 md:right-12 z-20 hidden md:flex items-end gap-6 md:gap-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hidden md:flex flex-col gap-3 text-white/40 font-bold text-[10px] uppercase tracking-widest",
@@ -410,22 +410,6 @@ const HeroSlider = ({ lang })=>{
                 fileName: "[project]/src/components/HeroSlider.tsx",
                 lineNumber: 158,
                 columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2 md:hidden",
-                children: slides.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: ()=>swiperRef.current?.slideToLoop(i),
-                        "aria-label": `Go to slide ${i + 1}`,
-                        className: `transition-all duration-300 rounded-full ${activeIndex === i ? 'w-6 h-1.5 bg-primary' : 'w-1.5 h-1.5 bg-white/30 hover:bg-white/50'}`
-                    }, i, false, {
-                        fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 194,
-                        columnNumber: 21
-                    }, ("TURBOPACK compile-time value", void 0)))
-            }, void 0, false, {
-                fileName: "[project]/src/components/HeroSlider.tsx",
-                lineNumber: 192,
-                columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
@@ -445,7 +429,6 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/swiper/swiper-react.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/index.mjs [app-ssr] (ecmascript) <locals>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/pagination.mjs [app-ssr] (ecmascript) <export default as Pagination>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/autoplay.mjs [app-ssr] (ecmascript) <export default as Autoplay>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-ssr] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-square.js [app-ssr] (ecmascript) <export default as MessageSquare>");
@@ -629,14 +612,10 @@ const ReviewsSlider = ({ reviews })=>{
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
                     modules: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__["Pagination"],
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__["Autoplay"]
                     ],
                     spaceBetween: 48,
                     slidesPerView: 1,
-                    pagination: {
-                        clickable: true
-                    },
                     autoplay: {
                         delay: 6000,
                         disableOnInteraction: false
@@ -649,7 +628,7 @@ const ReviewsSlider = ({ reviews })=>{
                             slidesPerView: 3
                         }
                     },
-                    className: "w-full !pb-24",
+                    className: "w-full !pb-8",
                     children: reviews.map((review, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                             className: "h-full",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -680,12 +659,12 @@ const ReviewsSlider = ({ reviews })=>{
                                                     className: `w-3 h-3 ${i < review.rating ? 'fill-primary text-primary' : 'text-neutral-200'}`
                                                 }, i, false, {
                                                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 92,
                                                     columnNumber: 45
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 90,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -699,12 +678,12 @@ const ReviewsSlider = ({ reviews })=>{
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 100,
                                                 columnNumber: 41
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 99,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -717,7 +696,7 @@ const ReviewsSlider = ({ reviews })=>{
                                                             children: review.author
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 107,
                                                             columnNumber: 45
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -725,42 +704,42 @@ const ReviewsSlider = ({ reviews })=>{
                                                             children: review.date
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                            lineNumber: 111,
+                                                            lineNumber: 108,
                                                             columnNumber: 45
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 106,
                                                     columnNumber: 41
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GoogleIcon, {
                                                     className: "w-5 h-5 text-neutral-200 group-hover:text-primary transition-colors duration-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 110,
                                                     columnNumber: 41
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 105,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 89,
                                     columnNumber: 33
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                lineNumber: 85,
+                                lineNumber: 82,
                                 columnNumber: 29
                             }, ("TURBOPACK compile-time value", void 0))
                         }, review.id, false, {
                             fileName: "[project]/src/components/ReviewsSlider.tsx",
-                            lineNumber: 84,
+                            lineNumber: 81,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
@@ -782,12 +761,12 @@ const ReviewsSlider = ({ reviews })=>{
                                     className: "w-6 h-6 text-neutral-dark group-hover:text-white transition-colors"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 127,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                lineNumber: 129,
+                                lineNumber: 126,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -795,18 +774,18 @@ const ReviewsSlider = ({ reviews })=>{
                                 children: t('cta')
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ReviewsSlider.tsx",
-                                lineNumber: 132,
+                                lineNumber: 129,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ReviewsSlider.tsx",
-                        lineNumber: 123,
+                        lineNumber: 120,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/ReviewsSlider.tsx",
-                    lineNumber: 122,
+                    lineNumber: 119,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -2012,12 +1991,17 @@ Embark on an extensive 10-day exploration of glorious Southern Morocco. This imm
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Days Trek Saghro South Morocco",
             "duration": "9_days",
-            "image": "/images/desert_tours/merzouga7.jpg",
+            "image": "/images/saghro/Jbel-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `9-Day Trek in Jebel Saghro, Southern Morocco — by moroccoatlasguide
 
@@ -2112,12 +2096,17 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "6 Day Trekking Program In Saghro Morocco",
             "duration": "6_days",
-            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/merzouga3.jpg",
-                "/images/desert_tours/merzouga2.jpg"
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `6-Day Trekking Program in Jebel Saghro, Morocco
 
@@ -5062,12 +5051,17 @@ Embárcate en una extensa exploración de 10 días del glorioso Sur de Marruecos
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Días Trek Saghro Sur de Marruecos",
             "duration": "9_days",
-            "image": "/images/desert_tours/merzouga7.jpg",
+            "image": "/images/saghro/Jbel-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/ismail-el-youssefi-geeSPCxnKzU-unsplash.jpg",
-                "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `Trek de 9 días por el Jebel Saghro, sur de Marruecos — por moroccoatlasguide
 
@@ -5162,12 +5156,17 @@ Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: pr
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "Programa de Trekking de 6 Días en Saghro Marruecos",
             "duration": "6_days",
-            "image": "/images/desert_tours/marvin-meyer-X0XRRXSVLU4-unsplash.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
-                "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
-                "/images/desert_tours/raul-mermans-garcia-oWzVpeYyJ-w-unsplash.jpg",
-                "/images/desert_tours/merzouga3.jpg",
-                "/images/desert_tours/merzouga2.jpg"
+                "/images/saghro/mount-saghro.jpg",
+                "/images/saghro/Jbel-Saghro.jpg",
+                "/images/saghro/Jbel-saghro-winter-sunshine-4.jpg",
+                "/images/saghro/Back-ground-picture-Saghro.jpg",
+                "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+                "/images/saghro/desert-marocain-trek-dans-le-desert-1024x683.jpg",
+                "/images/saghro/saghro-biking.jpg",
+                "/images/saghro/68c807acb7a2ebaf99afbe46_Jebel Saghro – Morocco’s Hidden Mountain Treasure.jpg",
+                "/images/saghro/siroua-410x250.jpeg"
             ],
             "description": `Programa de Trekking de 6 Días en el Jebel Saghro, Marruecos
 
@@ -7496,7 +7495,7 @@ Distance totale : ~60 km — Difficulté : modérée à difficile — Meilleures
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "Programme Trekking Saghro 6 Jours",
             "duration": "6_days",
-            "image": "/images/saghro/mount-saghro.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
                 "/images/saghro/mount-saghro.jpg",
                 "/images/saghro/Jbel-Saghro.jpg",

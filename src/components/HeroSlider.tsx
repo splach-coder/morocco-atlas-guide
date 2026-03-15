@@ -155,7 +155,7 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
             </Swiper>
 
             {/* Navigation Controls */}
-            <div className="absolute bottom-12 right-6 md:right-12 z-20 flex items-end gap-6 md:gap-8">
+            <div className="absolute bottom-12 right-6 md:right-12 z-20 hidden md:flex items-end gap-6 md:gap-8">
                 {/* Slide Numbers */}
                 <div className="hidden md:flex flex-col gap-3 text-white/40 font-bold text-[10px] uppercase tracking-widest">
                     {slides.map((_, i) => (
@@ -188,17 +188,17 @@ export const HeroSlider = ({ lang }: { lang: string }) => {
                 </div>
             </div>
 
-            {/* Dot indicators (mobile) */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2 md:hidden">
+            {/* Dot indicators (mobile) - HIDDEN as per request */}
+            {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2 md:hidden">
                 {slides.map((_, i) => (
                     <button
                         key={i}
                         onClick={() => swiperRef.current?.slideToLoop(i)}
-                        aria-label={`Go to slide ${i + 1}`}
+                        aria-label={`Go to slide ${i+1}`}
                         className={`transition-all duration-300 rounded-full ${activeIndex === i ? 'w-6 h-1.5 bg-primary' : 'w-1.5 h-1.5 bg-white/30 hover:bg-white/50'}`}
                     />
                 ))}
-            </div>
+            </div> */}
 
 
         </section>

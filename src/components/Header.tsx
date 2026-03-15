@@ -76,7 +76,7 @@ export default function Header() {
                                 priority
                             />
                         </div>
-                        <div className="flex flex-col">
+                        <div className="hidden sm:flex flex-col">
                             <span className={`text-xl font-medium font-playfair uppercase leading-none transition-colors duration-500 ${textColorClass}`}>
                                 Morocco Atlas Guide
                             </span>

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { Star, MessageSquare } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -67,18 +67,15 @@ export const ReviewsSlider: React.FC<ReviewsSliderProps> = ({ reviews }) => {
 
                 {/* Reviews Carousel - High End Catalog Style */}
                 <Swiper
-                    modules={[Pagination, Autoplay]}
+                    modules={[Autoplay]}
                     spaceBetween={48}
                     slidesPerView={1}
-                    pagination={{
-                        clickable: true,
-                    }}
                     autoplay={{ delay: 6000, disableOnInteraction: false }}
                     breakpoints={{
                         768: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },
                     }}
-                    className="w-full !pb-24"
+                    className="w-full !pb-8"
                 >
                     {reviews.map((review, index) => (
                         <SwiperSlide key={review.id} className="h-full">

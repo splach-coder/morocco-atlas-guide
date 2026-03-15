@@ -21,7 +21,7 @@ export default function Footer() {
                         <Link href={`/${locale}`} className="flex items-center gap-4 mb-12 group">
                             <div className="relative w-14 h-14 transition-transform duration-500 group-hover:scale-110">
                                 <Image
-                                    src="/images/logo.webp"
+                                    src="/images/logo-1.webp"
                                     alt="Morocco Atlas Guide"
                                     fill
                                     className="object-contain"
@@ -131,11 +131,11 @@ export default function Footer() {
                             </div>
 
                             {/* Email */}
-                            <a href={`mailto:${siteInfo.contact.email}`} className="flex gap-4 items-center group">
+                            <a href={`mailto:${siteInfo.contact.email}`} className="flex gap-4 items-center group min-w-0">
                                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                                     <Mail className="w-4 h-4 text-primary group-hover:text-white transition-colors" />
                                 </div>
-                                <span className="text-sm tracking-widest uppercase text-white/60 group-hover:text-white transition-colors">
+                                <span className="text-[10px] sm:text-sm tracking-widest text-white/60 group-hover:text-white transition-colors break-all">
                                     {siteInfo.contact.email}
                                 </span>
                             </a>
@@ -149,7 +149,7 @@ export default function Footer() {
                         <div className="flex items-center gap-4">
                             <div className="relative w-6 h-6 opacity-20 hidden md:block">
                                 <Image
-                                    src="/images/logo.webp"
+                                    src="/images/logo-1.webp"
                                     alt="Morocco Atlas Guide"
                                     fill
                                     className="object-contain"
