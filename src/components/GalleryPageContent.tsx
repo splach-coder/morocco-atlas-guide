@@ -69,7 +69,7 @@ const GalleryItem = React.memo(({
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg bg-neutral-100 mb-3">
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg bg-neutral-100">
                 <Image
                     src={img.src}
                     alt={`${t('archive.itemTitle')} ${img.index}`}
@@ -101,15 +101,6 @@ const GalleryItem = React.memo(({
                         <ZoomIn className="w-5 h-5 text-neutral-900" />
                     </div>
                 </div>
-            </div>
-
-            <div className="px-1 text-left">
-                <h3 className="text-md font-medium text-neutral-dark line-clamp-1 group-hover:text-primary transition-colors duration-300">
-                    {t('archive.itemTitle')} {img.index}
-                </h3>
-                <span className="text-[10px] uppercase tracking-widest text-neutral-400 mt-1 block font-inter">
-                    {t('archive.itemCategory')}
-                </span>
             </div>
         </motion.div>
     );
@@ -312,7 +303,7 @@ export const GalleryPageContent = () => {
                             className="relative max-w-7xl w-full h-full flex flex-col justify-center items-center"
                             onClick={(e) => e.stopPropagation()}
                         >
-                            <div className="relative w-full h-[70vh] mb-8">
+                            <div className="relative w-full h-[70vh]">
                                 <Image
                                     src={selectedImage.src}
                                     alt={`${t('archive.itemTitle')} ${selectedImage.index}`}
@@ -322,15 +313,6 @@ export const GalleryPageContent = () => {
                                     priority
                                     sizes="100vw"
                                 />
-                            </div>
-
-                            <div className="text-center max-w-2xl px-6">
-                                <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-2 block font-inter">
-                                    {t('archive.itemCategory')}
-                                </span>
-                                <h2 className="text-3xl md:text-4xl font-medium font-playfair text-neutral-dark tracking-tight">
-                                    {t('archive.itemTitle')} {selectedImage.index}
-                                </h2>
                             </div>
                         </motion.div>
                     </motion.div>
