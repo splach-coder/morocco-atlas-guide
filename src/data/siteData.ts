@@ -8,7 +8,7 @@ export const siteData = {
             "id": "toubkal-treks-2-days-express",
             "name": "Toubkal Express 2 days Ascent",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+            "image": "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -82,7 +82,7 @@ We don’t add hidden extras cost. All trips include travel permit, lodging and 
             "id": "imlil-azzaden-valleys-2-day-trek",
             "name": "2 Day Atlas Valley Trek",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
+            "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -129,7 +129,7 @@ Our descent takes us through a fragrant juniper forest, eventually leading us to
             "id": "toubkal-tres-3-days",
             "name": "Toubkal Winter 3 Days",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
+            "image": "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -191,7 +191,7 @@ Necessary equipment: hiking shoes, warm and waterproof mountain clothing, backpa
             "id": "berber-villages-4-days",
             "name": "Berber Villages 4 Days",
             "duration": "4_days",
-            "image": "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
+            "image": "/images/toubkal_treks/gallery_image_6.jpeg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -245,7 +245,7 @@ We look forward to welcoming you to Morocco!`,
             "id": "toubkal-winter-8-days",
             "name": "Toubkal Winter 8 Days",
             "duration": "8_days",
-            "image": "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
+            "image": "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -324,7 +324,7 @@ moroccoatlasguide is tailored to match the season and your level of fitness. You
             "id": "toubkal-15-days-walk",
             "name": "Toubkal Massif 15 Days 14 Nights",
             "duration": "15_days",
-            "image": "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
+            "image": "/images/toubkal_treks/sven123musik-ai-generated-8635944_1920.png",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -437,7 +437,7 @@ Remember: This is a demanding trek. Be prepared for changing weather conditions 
             "id": "3-days-imlil-to-setti-fatma",
             "name": "3 Days – Imlil to Setti Fatma",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+            "image": "/images/toubkal_treks/mads-schmidt-rasmussen-SY7nFt-jeiE-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -515,7 +515,7 @@ Atlas Treks are tailored to match the season and your level of fitness. You have
             "id": "8-days-mount-toubkal-summer",
             "name": "8 Days Mount Toubkal – Summer",
             "duration": "8_days",
-            "image": "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+            "image": "/images/toubkal_treks/gallery_image_4.jpeg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -624,7 +624,7 @@ Atlas Treks are tailored to match the season and your level of fitness. You have
             "id": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
             "name": "Tour To Merzouga From Marrakech 3 Days And 2 Nights",
             "duration": "3_days",
-            "image": "/images/desert_tours/merzouga1.jpg",
+            "image": "/images/desert_tours/merzouga6.jpg",
             "gallery": [
                 "/images/desert_tours/merzouga2.jpg",
                 "/images/desert_tours/dan-calderwood-7CPopIsaCkc-unsplash.jpg",
@@ -660,7 +660,7 @@ Atlas Treks are tailored to match the season and your level of fitness. You have
             "id": "marrakech-to-fes-5-day-sahara-desert-tour",
             "name": "Marrakech To Fes 5 Day Sahara Desert Tour",
             "duration": "5_days",
-            "image": "/images/desert_tours/merzouga3.jpg",
+            "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/merzouga4.jpg",
                 "/images/desert_tours/kristijan-nikodinovski-RfK4AQchykw-unsplash.jpg",
@@ -707,7 +707,7 @@ Embark on a captivating journey that traverses the majestic landscapes of Morocc
             "id": "5-days-trek-atlas-mountains-and-sahara-desert",
             "name": "5 Days Trek Atlas Mountains And Sahara Desert",
             "duration": "5_days",
-            "image": "/images/desert_tours/merzouga5.jpg",
+            "image": "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/darolti-dan-GJw9zRK_VBs-unsplash.jpg",
                 "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
@@ -762,7 +762,7 @@ Unforgettable Morocco: Mountains, Canyons, and Desert Dunes (5 Days) Embark on a
             "id": "south-morocco-discovery",
             "name": "South Morocco Discovery 10 Days",
             "duration": "10_days",
-            "image": "/images/desert_tours/merzouga6.jpg",
+            "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
                 "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
@@ -837,7 +837,7 @@ Embark on an extensive 10-day exploration of glorious Southern Morocco. This imm
             "id": "9-days-trek-saghro-south-morocco",
             "name": "9 Days Trek Saghro South Morocco",
             "duration": "9_days",
-            "image": "/images/saghro/Jbel-Saghro.jpg",
+            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
             "gallery": [
                 "/images/saghro/Jbel-Saghro.jpg",
                 "/images/saghro/mount-saghro.jpg",
@@ -942,7 +942,7 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "6-day-trekking-program-in-saghro-morocco",
             "name": "6 Day Trekking Program In Saghro Morocco",
             "duration": "6_days",
-            "image": "/images/saghro/Back-ground-picture-Saghro.jpg",
+            "image": "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
             "gallery": [
                 "/images/saghro/mount-saghro.jpg",
                 "/images/saghro/Jbel-Saghro.jpg",
@@ -1022,7 +1022,7 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Days Jebel Sirwa Safran Valley",
             "duration": "11_days",
-            "image": "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
+            "image": "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
                 "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
@@ -1125,7 +1125,7 @@ Trekking Levels:
             "id": "imperial-city-8-days",
             "name": "Imperial City 8 Days",
             "duration": "8_days",
-            "image": "/images/imperial_cities/marrakech1.jpg",
+            "image": "/images/imperial_cities/marrakech9.jpg",
             "gallery": [
                 "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
                 "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg",
@@ -1205,7 +1205,7 @@ Key Highlights: Fes, Meknes, Rabat, Marrakech`,
             "id": "imperial-city-tour-11-days",
             "name": "Imperial City Tour 11 Days",
             "duration": "11_days",
-            "image": "/images/imperial_cities/marrakech2.jpg",
+            "image": "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/eka-maitri-viryani-qL3_NSPo9o8-unsplash.jpg",
                 "/images/imperial_cities/framopia-EZqHkkyc0wg-unsplash.jpg",
@@ -1302,7 +1302,7 @@ Key Highlights: Casablanca, Rabat, Chefchaouen, Volubilis, Meknes, Fes, Merzouga
             "id": "imperial-city-8-days-tour-tangier-chefchaouen-fes-merzouga-desert-marrakech",
             "name": "Imperial City 8 Days Tour Tangier Chefchaouen Fes Merzouga Desert Marrakech",
             "duration": "8_days",
-            "image": "/images/imperial_cities/marrakech3.jpg",
+            "image": "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg",
                 "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg",
@@ -1449,7 +1449,7 @@ Highlights:
             "id": "11-days-best-of-morocco",
             "name": "11 Days Best Of Morocco",
             "duration": "11_days",
-            "image": "/images/imperial_cities/zakaria-zayane-aBywMnV7ibk-unsplash.jpg",
+            "image": "/images/imperial_cities/oussama-rahib-NNECQHl9bJc-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/soulaymane-elyoussfi-oDSEPEtrQFo-unsplash.jpg",
                 "/images/imperial_cities/toni-DBNhQdCG-XA-unsplash.jpg",
@@ -1557,7 +1557,7 @@ Why book this tour?
             "id": "marrakech-ouzoud-marrakech",
             "name": "Ouzoud Waterfalls Day Trip from Marrakech",
             "duration": "1_day",
-            "image": "/images/excursions/rigel-ibisQEDxODo-unsplash.jpg",
+            "image": "/images/ouzoud/sergio-teixeira-svdabxVg7-4-unsplash.jpg",
             "gallery": [
                 "/images/ouzoud/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
                 "/images/ouzoud/rihards-sarma-mJGl8l1SiJk-unsplash.jpg",
@@ -1610,7 +1610,7 @@ Prepare for a thrilling descent! The trail leads you to the foot of the waterfal
             "id": "explore-de-berbers",
             "name": "Explore The Berbers: Atlas Valleys & Villages",
             "duration": "1_day",
-            "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
+            "image": "/images/ourika/abdelhamid-azoui-BGU0uaY0tJs-unsplash.jpg",
             "gallery": [
                 "/images/ourika/abdelhamid-azoui-BGU0uaY0tJs-unsplash.jpg",
                 "/images/ourika/abderrahman-kamal-MilM52Qj32g-unsplash.jpg",
@@ -1648,7 +1648,7 @@ We’ll then continue to the Imnane Valley, passing through Tamatert village. As
             "id": "excursion-to-the-essaouira",
             "name": "Essaouira Day Trip: A Relaxing Escape",
             "duration": "1_day",
-            "image": "/images/excursions/pete-bread-4eZeMUKdV-8-unsplash.jpg",
+            "image": "/images/essaouira/rigel-ibisQEDxODo-unsplash.jpg",
             "gallery": [
                 "/images/essaouira/youssef-aboutaleb-ad1FM2Xj0QQ-unsplash.jpg",
                 "/images/essaouira/rigel-QWJjSOB9t0Y-unsplash.jpg",
@@ -1699,7 +1699,7 @@ Explore the fascinating history of Essaouira in the heart of its medieval Medina
             "id": "kasbah-ait-ben-haddou-full-day-excursion",
             "name": "Ait Ben Haddou & Ouarzazate Full Day Excursion",
             "duration": "1_day",
-            "image": "/images/excursions/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
+            "image": "/images/ouarzazate/sergio-otoya--3uyPo-2cOE-unsplash.jpg",
             "gallery": [
                 "/images/ouarzazate/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
                 "/images/ouarzazate/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
@@ -1742,7 +1742,7 @@ Explore the magnificent Kasbahs, witness stunning desert landscapes, and discove
             "id": "agafay-desert-sunset-tour",
             "name": "Agafay Desert Sunset Tour",
             "duration": "1_day",
-            "image": "/images/excursions/mostapha-abidour-h9L1GfDgp0s-unsplash.jpg",
+            "image": "/images/agafay/chloe-lefleur-COrxJuZax0U-unsplash.jpg",
             "gallery": [
                 "/images/agafay/aiden-YMhbqDNprrI-unsplash.jpg",
                 "/images/agafay/aiden-vnrzfK5ImL4-unsplash.jpg",
@@ -1786,7 +1786,7 @@ The Agafay Desert, located just an hour's drive from Marrakech's bustling souks 
             "id": "atlas-mountains-trekking-with-berbers",
             "name": "Atlas Mountains Trekking With Berbers",
             "duration": "1_day",
-            "image": "/images/excursions/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
+            "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
