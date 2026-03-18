@@ -8,7 +8,7 @@ export const siteDataFr = {
             "id": "toubkal-treks-2-days-express",
             "name": "Ascension Toubkal Express 2 jours",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+            "image": "/images/toubkal_treks/mads-schmidt-rasmussen-ZN5eC6__AiU-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -82,7 +82,7 @@ Nous n'ajoutons pas de frais supplémentaires cachés. Tous les voyages incluent
             "id": "imlil-azzaden-valleys-2-day-trek",
             "name": "Trek des Vallées de l'Atlas 2 Jours",
             "duration": "2_days",
-            "image": "/images/toubkal_treks/gallery_image_5.jpeg",
+            "image": "/images/toubkal_treks/gallery_image_4.jpeg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -129,7 +129,7 @@ Notre descente nous emmène à travers une forêt de genévriers parfumés, pour
             "id": "toubkal-tres-3-days",
             "name": "Toubkal Hiver 3 Jours",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
+            "image": "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -191,7 +191,7 @@ Le prix du trek varie selon le nombre de participants, la saison et la durée du
             "id": "berber-villages-4-days",
             "name": "Villages Berbères 4 Jours",
             "duration": "4_days",
-            "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
+            "image": "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -245,7 +245,7 @@ Nous avons hâte de vous accueillir au Maroc !`,
             "id": "toubkal-winter-8-days",
             "name": "Toubkal Hiver 8 Jours",
             "duration": "8_days",
-            "image": "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+            "image": "/images/toubkal_treks/gallery_image_5.jpeg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -324,7 +324,7 @@ Morocco Atlas Guide est adapté à la saison et à votre niveau de forme physiqu
             "id": "toubkal-15-days-walk",
             "name": "Massif du Toubkal 15 Jours 14 Nuits",
             "duration": "15_days",
-            "image": "/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg",
+            "image": "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -437,7 +437,7 @@ Rappel : Il s'agit d'un trek exigeant. Soyez prêt pour des conditions météoro
             "id": "3-days-imlil-to-setti-fatma",
             "name": "3 Jours – D'Imlil à Setti Fatma",
             "duration": "3_days",
-            "image": "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+            "image": "/images/toubkal_treks/rihards-sarma-JHeCuXiERFo-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
@@ -618,7 +618,7 @@ Ce qu'il faut apporter :
             "id": "tour-to-merzouga-from-marrakech-3-days-and-2-nights",
             "name": "Circuit Merzouga au départ de Marrakech 3 Jours / 2 Nuits",
             "duration": "3_days",
-            "image": "/images/desert_tours/kristijan-nikodinovski-yrweAIJtSzo-unsplash.jpg",
+            "image": "/images/desert_tours/merzouga5.jpg",
             "gallery": [
                 "/images/desert_tours/merzouga2.jpg",
                 "/images/desert_tours/dan-calderwood-7CPopIsaCkc-unsplash.jpg",
@@ -654,7 +654,7 @@ Ce qu'il faut apporter :
             "id": "marrakech-to-fes-5-day-sahara-desert-tour",
             "name": "Circuit Désert de Marrakech à Fès 5 Jours",
             "duration": "5_days",
-            "image": "/images/desert_tours/peter-thomas-PotqZeNaUZ4-unsplash.jpg",
+            "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/merzouga4.jpg",
                 "/images/desert_tours/kristijan-nikodinovski-RfK4AQchykw-unsplash.jpg",
@@ -701,7 +701,7 @@ Embarquez pour un voyage captivant traversant les paysages majestueux du Maroc, 
             "id": "5-days-trek-atlas-mountains-and-sahara-desert",
             "name": "Trek 5 Jours : Montagnes de l'Atlas et Désert du Sahara",
             "duration": "5_days",
-            "image": "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
+            "image": "/images/desert_tours/merzouga7.jpg",
             "gallery": [
                 "/images/desert_tours/darolti-dan-GJw9zRK_VBs-unsplash.jpg",
                 "/images/desert_tours/oussama-rahib-f7F8URbIx08-unsplash.jpg",
@@ -828,7 +828,7 @@ Embarquez pour une exploration approfondie du glorieux Sud marocain. Cet itinér
             "id": "9-days-trek-saghro-south-morocco",
             "name": "Trek 9 Jours Jebel Saghro Sud Maroc",
             "duration": "9_days",
-            "image": "/images/saghro/Incredible-Saghro-Hike-in-Morocco.webp",
+            "image": "/images/saghro/saghro-biking.jpg",
             "gallery": [
                 "/images/saghro/Jbel-Saghro.jpg",
                 "/images/saghro/mount-saghro.jpg",
@@ -972,7 +972,7 @@ Distance totale : ~60 km — Difficulté : modérée à difficile.`,
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Jours Jebel Sirwa et Vallée du Safran",
             "duration": "11_days",
-            "image": "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
+            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
             "gallery": [
                 "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
                 "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
@@ -1055,7 +1055,7 @@ Idéal pour les amoureux de la nature, ce voyage allie un road trip à travers l
             "id": "imperial-city-8-days",
             "name": "Villes Impériales 8 Jours",
             "duration": "8_days",
-            "image": "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg",
+            "image": "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/ben-ostrower-bjNv5Bg6h4U-unsplash.jpg",
                 "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg",
@@ -1135,7 +1135,7 @@ Points forts : Fès, Meknès, Rabat, Marrakech`,
             "id": "imperial-city-tour-11-days",
             "name": "Grand Tour des Villes Impériales 11 Jours",
             "duration": "11_days",
-            "image": "/images/imperial_cities/hamza-demnati-CJ_DC8Nd2Fk-unsplash.jpg",
+            "image": "/images/imperial_cities/eka-maitri-viryani-qL3_NSPo9o8-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/eka-maitri-viryani-qL3_NSPo9o8-unsplash.jpg",
                 "/images/imperial_cities/framopia-EZqHkkyc0wg-unsplash.jpg",
@@ -1230,7 +1230,7 @@ Points forts : Casablanca, Rabat, Chefchaouen, Volubilis, Meknès, Fès, Merzoug
             "id": "imperial-city-8-days-tour-tangier-chefchaouen-fes-merzouga-desert-marrakech",
             "name": "Circuit 8 Jours : Tanger, Chefchaouen, Fès, Désert et Marrakech",
             "duration": "8_days",
-            "image": "/images/imperial_cities/marrakech6.jpg",
+            "image": "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg",
             "gallery": [
                 "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg",
                 "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg",
@@ -1316,7 +1316,7 @@ Points forts : Tanger, Chefchaouen, Fès, Désert de Merzouga, Ouarzazate, Haut 
             "id": "northern-morocco-5-days",
             "name": "Maroc du Nord : Un Voyage à travers le Temps — 5 Jours",
             "duration": "5_days",
-            "image": "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg",
+            "image": "/images/imperial_cities/marrakech6.jpg",
             "gallery": [
                 "/images/imperial_cities/kristijan-nikodinovski-nkav4Pi-UwY-unsplash.jpg",
                 "/images/imperial_cities/mannie-nami-_aNm8TMzbUI-unsplash.jpg",
@@ -1375,7 +1375,7 @@ Points forts :
             "id": "11-days-best-of-morocco",
             "name": "Le Meilleur du Maroc en 11 Jours",
             "duration": "11_days",
-            "image": "/images/imperial_cities/zakaria-zayane-aBywMnV7ibk-unsplash.jpg",
+            "image": "/images/imperial_cities/marrakech5.jpg",
             "gallery": [
                 "/images/imperial_cities/soulaymane-elyoussfi-oDSEPEtrQFo-unsplash.jpg",
                 "/images/imperial_cities/toni-DBNhQdCG-XA-unsplash.jpg",
@@ -1474,7 +1474,7 @@ Pourquoi réserver ce tour ?
             "id": "marrakech-ouzoud-marrakech",
             "name": "Escapade aux chutes d'Ouzoud : excursion d'une journée",
             "duration": "1_day",
-            "image": "/images/ouzoud/tobias-pfeifer-IBT7zZDTtNg-unsplash.jpg",
+            "image": "/images/ouzoud/rihards-sarma-mJGl8l1SiJk-unsplash.jpg",
             "gallery": [
                 "/images/ouzoud/danai-tsoutreli-tqLc6On9KIA-unsplash.jpg",
                 "/images/ouzoud/rihards-sarma-mJGl8l1SiJk-unsplash.jpg",
@@ -1565,7 +1565,7 @@ Nous poursuivrons ensuite vers la vallée d'Imnane, en passant par Tamatert. Nou
             "id": "excursion-to-the-essaouira",
             "name": "Excursion à Essaouira : Une Escapade Relaxante",
             "duration": "1_day",
-            "image": "/images/essaouira/rigel-ibisQEDxODo-unsplash.jpg",
+            "image": "/images/essaouira/hamza-omlacho-M9GO4Gsd2SM-unsplash.jpg",
             "gallery": [
                 "/images/essaouira/youssef-aboutaleb-ad1FM2Xj0QQ-unsplash.jpg",
                 "/images/essaouira/rigel-QWJjSOB9t0Y-unsplash.jpg",
@@ -1616,7 +1616,7 @@ L'histoire fascinante d'Essaouira se dévoile au cœur de sa médina médiévale
             "id": "kasbah-ait-ben-haddou-full-day-excursion",
             "name": "Excursion à Aït-Ben-Haddou et Ouarzazate",
             "duration": "1_day",
-            "image": "/images/ouarzazate/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
+            "image": "/images/ouarzazate/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
             "gallery": [
                 "/images/ouarzazate/abdou-faiz-lA-P8-vagrI-unsplash.jpg",
                 "/images/ouarzazate/abdou-faiz-mBo2EUfJ7sY-unsplash.jpg",
@@ -1659,7 +1659,7 @@ Explorez les magnifiques kasbahs, admirez des couchers de soleil à couper le so
             "id": "agafay-desert-sunset-tour",
             "name": "Excursion au coucher du soleil dans le désert d'Agafay",
             "duration": "1_day",
-            "image": "/images/agafay/chloe-lefleur-_7BVOQAcmMg-unsplash.jpg",
+            "image": "/images/agafay/kostas-fotiadis-cqR7hPZmA8w-unsplash.jpg",
             "gallery": [
                 "/images/agafay/aiden-YMhbqDNprrI-unsplash.jpg",
                 "/images/agafay/aiden-vnrzfK5ImL4-unsplash.jpg",
@@ -1703,7 +1703,7 @@ Le désert d'Agafay, situé à seulement une heure de route des souks de Marrake
             "id": "atlas-mountains-trekking-with-berbers",
             "name": "Randonnée dans l'Atlas : Villages et Vallées Berbères",
             "duration": "1_day",
-            "image": "/images/toubkal_treks/sven123musik-ai-generated-8635943_1920.png",
+            "image": "/images/toubkal_treks/youssef-gahouchi-Lznyc4uR1hs-unsplash.jpg",
             "gallery": [
                 "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
                 "/images/toubkal_treks/david-magalhaes-LSDknKF5nQA-unsplash.jpg",
