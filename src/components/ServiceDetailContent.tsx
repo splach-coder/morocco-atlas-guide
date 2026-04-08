@@ -100,7 +100,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
     return (
         <div className="min-h-screen bg-white grain">
             {/* Cinematic Hero Section */}
-            <section className="relative h-[100dvh] md:h-[70vh] w-full overflow-hidden">
+            <section className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col">
                 <div className="absolute inset-0">
                     <Image
                         src={image}
@@ -110,10 +110,10 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                         priority
                     />
                     <div className="absolute inset-0 bg-black/40 md:bg-black/30" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent md:from-black/80 md:via-black/20" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent md:from-black/90 md:via-black/30" />
                 </div>
 
-                <div className="relative z-10 w-full h-full flex flex-col justify-end pb-8 px-4 md:pb-16 md:px-12">
+                <div className="relative z-10 w-full flex-grow flex flex-col justify-end pb-12 px-4 md:pb-20 md:px-12">
                     <div className="container mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
@@ -126,7 +126,7 @@ ${guestCount > 1 && typeof price === 'number' ? `💰 Total Price: €${price * 
                                 <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">{t('back')}</span>
                             </Link>
 
-                            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-medium text-white font-playfair mb-6 leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-tighter max-w-5xl text-shadow-lg">
+                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium text-white font-playfair mb-6 leading-tight md:leading-tight tracking-tight max-w-5xl text-shadow-lg text-balance">
                                 {title}
                             </h1>
 

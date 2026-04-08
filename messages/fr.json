@@ -262,7 +262,7 @@
         "form": {
             "titlePart1": "Envoyez une",
             "titlePart2": "Proclamation.",
-            "description": "Parlez-nous du voyage de vos rêves. Nous offrons généralement une réponse personnalisée en moins de 2 heures.",
+            "description": "Parlez-nous du voyage de vos rêves.",
             "name": "Votre Nom",
             "namePlaceholder": "Sarah J.",
             "email": "Courrier Électronique",
@@ -325,13 +325,18 @@
         "titlePart2": "inoubliable",
         "cta": "Voir plus de bonheur",
         "moments": {
-            "1": "Le tour en montgolfière était magique !",
-            "2": "Le désert était incroyable.",
-            "3": "Chaque coucher de soleil donnait l'impression d'être à la maison.",
-            "4": "Tout était parfait.",
-            "5": "Le meilleur moment de ma vie !",
-            "6": "Des souvenirs inoubliables.",
-            "7": "Très recommandé !"
+            "1": "Vraiment une expérience unique dans une vie !",
+            "2": "Les guides étaient exceptionnellement compétents.",
+            "3": "Des vues à couper le souffle à chaque tournant.",
+            "4": "Un mélange parfait de culture et d'aventure.",
+            "5": "Dormir à la belle étoile était irréel.",
+            "6": "Organisation sans faille du début à la fin.",
+            "7": "La nourriture locale que nous avons eue était incroyable.",
+            "8": "Je me suis senti en sécurité et bien pris en charge.",
+            "9": "A dépassé toutes nos attentes !",
+            "10": "Les montagnes de l'Atlas ont complètement volé nos cœurs.",
+            "11": "Hâte de revenir pour un autre trek.",
+            "12": "Des souvenirs qui dureront certainement pour toujours."
         }
     },
     "Header": {

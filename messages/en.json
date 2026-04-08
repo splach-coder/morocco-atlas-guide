@@ -262,7 +262,7 @@
     "form": {
       "titlePart1": "Send a",
       "titlePart2": "Proclamation.",
-      "description": "Tell us about your dream journey. We usually provide a tailored response within 2 hours.",
+      "description": "Tell us about your dream journey.",
       "name": "Your Name",
       "namePlaceholder": "Sarah J.",
       "email": "Email Address",
@@ -325,13 +325,18 @@
     "titlePart2": "unforgettable",
     "cta": "See more happiness",
     "moments": {
-      "1": "Balloon ride was magical!",
-      "2": "The desert was incredible.",
-      "3": "Every sunset felt like home.",
-      "4": "Everything was perfect.",
-      "5": "Best time of my life!",
-      "6": "Unforgettable memories.",
-      "7": "Highly recommended!"
+      "1": "Truly a once-in-a-lifetime experience!",
+      "2": "The guides were exceptionally knowledgeable.",
+      "3": "Breathtaking views at every turn.",
+      "4": "A perfect blend of culture and adventure.",
+      "5": "Sleeping under the stars was unreal.",
+      "6": "Flawless organization from start to finish.",
+      "7": "The local food we had was amazing.",
+      "8": "Felt safe and well taken care of.",
+      "9": "Exceeded all our expectations!",
+      "10": "The Atlas mountains completely stole our hearts.",
+      "11": "Can't wait to come back for another trek.",
+      "12": "Memories that will definitely last forever."
     }
   },
   "Header": {

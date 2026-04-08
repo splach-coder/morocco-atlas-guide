@@ -1083,6 +1083,10 @@
     min-height: 50vh;
   }
 
+  .min-h-\[100dvh\] {
+    min-height: 100dvh;
+  }
+
   .min-h-\[100px\] {
     min-height: 100px;
   }
@@ -2135,6 +2139,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .from-black\/95 {
+    --tw-gradient-from: #000000f2;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .from-black\/95 {
+      --tw-gradient-from: color-mix(in oklab, var(--color-black) 95%, transparent);
+    }
+  }
+
+  .from-black\/95 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .from-neutral-900\/70 {
     --tw-gradient-from: #171717b3;
   }
@@ -2231,6 +2249,21 @@
   }
 
   .via-black\/40 {
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+
+  .via-black\/50 {
+    --tw-gradient-via: #00000080;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .via-black\/50 {
+      --tw-gradient-via: color-mix(in oklab, var(--color-black) 50%, transparent);
+    }
+  }
+
+  .via-black\/50 {
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
@@ -3771,6 +3804,13 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:text-5xl {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -4097,6 +4137,22 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:from-black\/90 {
+      --tw-gradient-from: #000000e6;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .md\:from-black\/90 {
+        --tw-gradient-from: color-mix(in oklab, var(--color-black) 90%, transparent);
+      }
+    }
+
+    .md\:from-black\/90 {
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:via-black\/20 {
       --tw-gradient-via: #0003;
     }
@@ -4108,6 +4164,23 @@
     }
 
     .md\:via-black\/20 {
+      --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+      --tw-gradient-stops: var(--tw-gradient-via-stops);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:via-black\/30 {
+      --tw-gradient-via: #0000004d;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .md\:via-black\/30 {
+        --tw-gradient-via: color-mix(in oklab, var(--color-black) 30%, transparent);
+      }
+    }
+
+    .md\:via-black\/30 {
       --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
       --tw-gradient-stops: var(--tw-gradient-via-stops);
     }
@@ -4176,6 +4249,12 @@
   @media (min-width: 48rem) {
     .md\:pb-16 {
       padding-bottom: calc(var(--spacing) * 16);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:pb-20 {
+      padding-bottom: calc(var(--spacing) * 20);
     }
   }
 
@@ -4262,6 +4341,13 @@
     .md\:leading-\[0\.9\] {
       --tw-leading: .9;
       line-height: .9;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:leading-tight {
+      --tw-leading: var(--leading-tight);
+      line-height: var(--leading-tight);
     }
   }
 
@@ -4491,6 +4577,13 @@
     .lg\:text-8xl {
       font-size: var(--text-8xl);
       line-height: var(--tw-leading, var(--text-8xl--line-height));
+    }
+  }
+
+  @media (min-width: 80rem) {
+    .xl\:text-7xl {
+      font-size: var(--text-7xl);
+      line-height: var(--tw-leading, var(--text-7xl--line-height));
     }
   }
 

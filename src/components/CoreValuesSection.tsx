@@ -11,7 +11,7 @@ export const CoreValuesSection = () => {
     const features = [
         {
             title: t('features.0.title'),
-            image: "/images/toubkal_treks/cermanni-pianchette-top-7989881_1920.jpg",
+            image: "/images/OurPeople.jpeg",
             description: t('features.0.description')
         },
         {

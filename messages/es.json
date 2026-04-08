@@ -262,7 +262,7 @@
         "form": {
             "titlePart1": "Envía una",
             "titlePart2": "Proclamación.",
-            "description": "Cuéntanos sobre el viaje de tus sueños. Normalmente ofrecemos una respuesta a medida en menos de 2 horas.",
+            "description": "Cuéntanos sobre el viaje de tus sueños.",
             "name": "Tu Nombre",
             "namePlaceholder": "Sarah J.",
             "email": "Correo Electrónico",
@@ -325,13 +325,18 @@
         "titlePart2": "inolvidable",
         "cta": "Ver más felicidad",
         "moments": {
-            "1": "¡El paseo en globo fue mágico!",
-            "2": "El desierto fue increíble.",
-            "3": "Cada atardecer sentía como estar en casa.",
-            "4": "Todo fue perfecto.",
-            "5": "¡El mejor momento de mi vida!",
-            "6": "Recuerdos inolvidables.",
-            "7": "¡Muy recomendado!"
+            "1": "¡Realmente una experiencia única en la vida!",
+            "2": "Los guías eran excepcionalmente conocedores.",
+            "3": "Vistas impresionantes a cada paso.",
+            "4": "Una mezcla perfecta de cultura y aventura.",
+            "5": "Dormir bajo las estrellas fue irreal.",
+            "6": "Organización impecable de principio a fin.",
+            "7": "La comida local que probamos fue increíble.",
+            "8": "Me sentí seguro y bien atendido.",
+            "9": "¡Superó todas nuestras expectativas!",
+            "10": "Las montañas del Atlas nos robaron el corazón por completo.",
+            "11": "No puedo esperar a volver para otro trek.",
+            "12": "Recuerdos que definitivamente durarán para siempre."
         }
     },
     "Header": {
