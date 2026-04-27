@@ -50,6 +50,8 @@ export default function Header() {
         { href: `/${locale}/contact`, label: t('contact'), icon: Phone },
     ];
 
+    if (pathname.includes('/links')) return null;
+
     const isWhiteTextHeader = !isScrolled && !isMenuOpen;
     // When menu is open, remove background/border so it blends with the overlay. 
     // Otherwise follow scroll state.

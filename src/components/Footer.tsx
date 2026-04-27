@@ -5,11 +5,15 @@ import Link from 'next/link';
 import { Instagram, Mail, MapPin, Phone, MessageCircle, Facebook } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
     const locale = useLocale();
     const t = useTranslations('Footer');
     const currentYear = new Date().getFullYear();
+    const pathname = usePathname();
+
+    if (pathname.includes('/links')) return null;
 
     return (
         <footer className="bg-neutral-dark text-white pt-16 pb-12 relative overflow-hidden grain">

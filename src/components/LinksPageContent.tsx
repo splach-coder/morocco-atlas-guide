@@ -4,7 +4,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { Instagram, Globe, MessageCircle, MapPin, ExternalLink } from 'lucide-react';
+import { Instagram, Globe } from 'lucide-react';
 import { siteInfo } from '@/data/siteInfo';
 
 const TripAdvisorIcon = () => (
@@ -19,50 +19,6 @@ const WhatsAppIcon = () => (
     </svg>
 );
 
-const cardVariants = {
-    hidden: { opacity: 0, y: 24 },
-    visible: (i: number) => ({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.55, delay: i * 0.1, ease: "easeOut" as const },
-    }),
-};
-
-interface LinkCardProps {
-    href: string;
-    icon: React.ReactNode;
-    label: string;
-    sublabel: string;
-    accentColor: string;
-    index: number;
-    external?: boolean;
-}
-
-const LinkCard = ({ href, icon, label, sublabel, accentColor, index, external = true }: LinkCardProps) => (
-    <motion.a
-        href={href}
-        target={external ? '_blank' : undefined}
-        rel={external ? 'noopener noreferrer' : undefined}
-        custom={index}
-        variants={cardVariants}
-        whileHover={{ scale: 1.025, y: -2 }}
-        whileTap={{ scale: 0.98 }}
-        className="flex items-center gap-4 w-full bg-white rounded-2xl px-5 py-4 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow duration-300 group"
-    >
-        <span
-            className="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center text-white"
-            style={{ backgroundColor: accentColor }}
-        >
-            {icon}
-        </span>
-        <span className="flex-1 text-left">
-            <span className="block text-sm font-semibold text-neutral-dark font-outfit leading-tight">{label}</span>
-            <span className="block text-xs text-neutral-medium font-roboto mt-0.5">{sublabel}</span>
-        </span>
-        <ExternalLink className="w-4 h-4 text-neutral-medium opacity-50 group-hover:opacity-100 transition-opacity" />
-    </motion.a>
-);
-
 export const LinksPageContent = () => {
     const t = useTranslations('LinksPage');
 
@@ -74,111 +30,136 @@ export const LinksPageContent = () => {
             href: siteInfo.socials.tripadvisor,
             icon: <TripAdvisorIcon />,
             label: 'TripAdvisor',
-            sublabel: t('links.tripadvisor'),
-            accentColor: '#00AA6C',
         },
         {
             href: siteInfo.socials.instagram,
             icon: <Instagram className="w-5 h-5" />,
             label: 'Instagram',
-            sublabel: t('links.instagram'),
-            accentColor: '#E1306C',
         },
         {
             href: siteInfo.linksPage.website,
             icon: <Globe className="w-5 h-5" />,
             label: t('links.websiteLabel'),
-            sublabel: t('links.website'),
-            accentColor: '#C1440E',
         },
         {
             href: whatsappUrl,
             icon: <WhatsAppIcon />,
             label: 'WhatsApp',
-            sublabel: t('links.whatsapp'),
-            accentColor: '#25D366',
         },
     ];
 
+    const socials = [
+        { href: siteInfo.socials.tripadvisor, icon: <TripAdvisorIcon /> },
+        { href: siteInfo.socials.instagram, icon: <Instagram className="w-5 h-5" /> },
+        { href: siteInfo.linksPage.website, icon: <Globe className="w-5 h-5" /> },
+        { href: whatsappUrl, icon: <WhatsAppIcon /> },
+    ];
+
     return (
-        <div className="min-h-screen bg-surface-premium grain flex flex-col">
-            <main className="flex-1 flex flex-col items-center justify-center px-4 py-16 pt-28">
-                <div className="w-full max-w-sm mx-auto flex flex-col items-center gap-6">
+        <div className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden">
 
-                    {/* Profile photo */}
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.85 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-                        className="relative w-28 h-28 rounded-full overflow-hidden ring-4 ring-white shadow-xl"
-                    >
-                        <Image
-                            src={siteInfo.linksPage.photo}
-                            alt={siteInfo.linksPage.ownerName}
-                            fill
-                            className="object-cover"
-                            priority
-                        />
-                    </motion.div>
+            {/* Background image */}
+            <div className="absolute inset-0 z-0">
+                <Image
+                    src="/images/toubkal_treks/simomed-toubkal-7278422_1920.jpg"
+                    alt="Toubkal landscape"
+                    fill
+                    className="object-cover"
+                    priority
+                />
+                {/* Dark gradient overlay */}
+                <div className="absolute inset-0 bg-black/50" />
+            </div>
 
-                    {/* Name & title */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 16 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                        className="text-center"
-                    >
-                        <h1 className="text-2xl font-medium font-playfair text-neutral-dark tracking-tight leading-none">
-                            {siteInfo.linksPage.ownerName}
-                        </h1>
-                        <p className="text-primary text-xs font-bold uppercase tracking-[0.35em] font-inter mt-2">
-                            {siteInfo.linksPage.ownerTitle}
-                        </p>
-                        <div className="flex items-center justify-center gap-1 mt-2 text-neutral-medium">
-                            <MapPin className="w-3 h-3" />
-                            <span className="text-xs font-roboto">{siteInfo.brand.founded}</span>
-                        </div>
-                    </motion.div>
+            {/* Content */}
+            <main className="relative z-10 w-full max-w-xs mx-auto flex flex-col items-center gap-5 px-4 py-12">
 
-                    {/* Bio */}
-                    <motion.p
-                        initial={{ opacity: 0, y: 12 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                        className="text-center text-sm text-neutral-medium font-roboto leading-relaxed max-w-xs"
-                    >
-                        {t('bio')}
-                    </motion.p>
-
-                    {/* Divider */}
-                    <motion.div
-                        initial={{ opacity: 0, scaleX: 0 }}
-                        animate={{ opacity: 1, scaleX: 1 }}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        className="w-12 h-px bg-primary/40"
+                {/* Profile photo */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="relative w-20 h-20 rounded-full overflow-hidden ring-2 ring-white/80 shadow-2xl"
+                >
+                    <Image
+                        src={siteInfo.linksPage.photo}
+                        alt={siteInfo.linksPage.ownerName}
+                        fill
+                        className="object-cover"
+                        priority
                     />
+                </motion.div>
 
-                    {/* Link cards */}
-                    <motion.div
-                        className="w-full flex flex-col gap-3"
-                        initial="hidden"
-                        animate="visible"
-                    >
-                        {links.map((link, i) => (
-                            <LinkCard key={link.label} {...link} index={i + 4} />
-                        ))}
-                    </motion.div>
+                {/* Name & bio */}
+                <motion.div
+                    initial={{ opacity: 0, y: 14 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.55, delay: 0.1, ease: "easeOut" }}
+                    className="text-center"
+                >
+                    <h1 className="text-xl font-semibold text-white font-playfair tracking-tight leading-snug">
+                        {siteInfo.linksPage.ownerName}
+                    </h1>
+                    <p className="text-white/75 text-sm font-roboto mt-1 leading-snug max-w-[220px] mx-auto">
+                        {t('bio')}
+                    </p>
+                </motion.div>
 
-                    {/* Bottom brand note */}
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 0.9 }}
-                        className="text-[10px] text-neutral-medium/60 font-roboto text-center mt-2"
-                    >
-                        {t('footer')}
-                    </motion.p>
-                </div>
+                {/* Link buttons */}
+                <motion.div
+                    className="w-full flex flex-col gap-3 mt-1"
+                    initial="hidden"
+                    animate="visible"
+                    variants={{ visible: { transition: { staggerChildren: 0.09, delayChildren: 0.25 } } }}
+                >
+                    {links.map(({ href, icon, label }) => (
+                        <motion.a
+                            key={label}
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            variants={{
+                                hidden: { opacity: 0, y: 18 },
+                                visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
+                            }}
+                            whileHover={{ scale: 1.03 }}
+                            whileTap={{ scale: 0.97 }}
+                            className="relative flex items-center w-full rounded-xl overflow-hidden"
+                            style={{ background: 'rgba(193, 148, 100, 0.55)', backdropFilter: 'blur(8px)' }}
+                        >
+                            {/* Icon cell */}
+                            <span className="flex items-center justify-center w-12 h-12 shrink-0 text-white/90"
+                                style={{ background: 'rgba(0,0,0,0.18)' }}>
+                                {icon}
+                            </span>
+                            {/* Label — centered in the remaining width */}
+                            <span className="flex-1 text-center text-sm font-semibold text-white font-outfit tracking-wide pr-12">
+                                {label}
+                            </span>
+                        </motion.a>
+                    ))}
+                </motion.div>
+
+                {/* Social icons row */}
+                <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.75, ease: "easeOut" }}
+                    className="flex items-center gap-6 mt-2"
+                >
+                    {socials.map(({ href, icon }, i) => (
+                        <a
+                            key={i}
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/70 hover:text-white transition-colors duration-200"
+                        >
+                            {icon}
+                        </a>
+                    ))}
+                </motion.div>
+
             </main>
         </div>
     );

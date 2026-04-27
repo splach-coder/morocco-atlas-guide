@@ -1,4 +1,3 @@
-import { siteConfig } from '@/config/site';
 
 export const siteInfo = {
     name: "Morocco Atlas Guide",
@@ -25,7 +24,7 @@ export const siteInfo = {
         ownerName: "Morocco Atlas Guide",
         ownerTitle: "Berber Mountain & Desert Expert",
         bio: "Born and raised in the High Atlas mountains, I offer authentic, expert-led treks to Toubkal and unforgettable Sahara desert expeditions.",
-        photo: "/images/OurPeople.jpeg",
+        photo: "/images/atlas-legacy.jpg",
         website: "https://www.moroccoatlasguide.com",
     },
     whatsappBookingMessage: "Hello Morocco Atlas Guide, I would like to book: ",

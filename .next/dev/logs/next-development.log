@@ -49,3 +49,10 @@
 [00:32:41.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:32:41.480] Browser WARN    Image with src "/images/logo-1.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:32:41.480] Browser WARN    Image with src "/images/OurPeople.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:57.499] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:40:57.499] Browser WARN    Image with src "/images/toubkal_treks/othman-alghanmi-p2NgMfbJsxs-unsplash.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:23.555] Server  LOG      ✓ Compiled in 144ms
+[00:44:22.343] Server  LOG      ✓ Compiled in 42ms
+[00:45:22.130] Server  LOG      ✓ Compiled in 59ms
+[00:47:10.760] Server  LOG      ✓ Compiled in 35ms
+[00:47:15.838] Browser WARN    Image with src "/images/atlas-legacy.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

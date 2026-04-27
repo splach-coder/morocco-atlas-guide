@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Ultrapc/Desktop/Websites/morocco-atlas-guide/src/app/%5Blocale%5D/links/layout.tsx"],"sourcesContent":["export default function LinksLayout({ children }: { children: React.ReactNode }) {\n    return <>{children}</>;\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,YAAY,EAAE,QAAQ,EAAiC;IAC3E,qBAAO;kBAAG;;AACd"}}]
+}
