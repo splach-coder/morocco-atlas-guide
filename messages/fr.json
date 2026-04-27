@@ -471,5 +471,20 @@
             "bookWhatsApp": "Réserver par WhatsApp",
             "noCommitment": "Sans engagement. Discutez d'abord avec un expert."
         }
+    },
+    "LinksPage": {
+        "meta": {
+            "title": "Morocco Atlas Guide — Liens",
+            "description": "Retrouvez Morocco Atlas Guide sur TripAdvisor, Instagram, WhatsApp et notre site web."
+        },
+        "bio": "Né et élevé dans les montagnes du Haut Atlas, je propose des treks authentiques guidés par des Berbères jusqu'au Toubkal et des expéditions inoubliables dans le désert du Sahara.",
+        "links": {
+            "tripadvisor": "Lisez nos avis",
+            "instagram": "Suivez nos aventures",
+            "websiteLabel": "Notre Site Web",
+            "website": "Explorez tours et destinations",
+            "whatsapp": "Chattez et réservez instantanément"
+        },
+        "footer": "Morocco Atlas Guide · Imlil, Maroc"
     }
 }

@@ -1028,12 +1028,15 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Days Jebel Sirwa Safran Valley",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa & the Saffron Valley — 11 Days
 
@@ -2122,12 +2125,15 @@ What to pack: Hiking shoes, sun hat, sunscreen, water bottle, first-aid kit, sle
                 "id": "jebel-sirwa-and-safran-valley-11-days",
                 "name": "Jebel Sirwa & Safran Valley – 11 Days",
                 "duration": "11_days",
-                "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
+                "image": "/images/Sirwa/sirwa1.jpeg",
                 "gallery": [
-                    "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                    "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
-                    "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                    "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                    "/images/Sirwa/sirwa2.jpeg",
+                    "/images/Sirwa/sirwa3.jpeg",
+                    "/images/Sirwa/sirwa4.jpeg",
+                    "/images/Sirwa/sirwa5.jpeg",
+                    "/images/Sirwa/sirwa6.jpeg",
+                    "/images/Sirwa/sirwa7.jpeg",
+                    "/images/Sirwa/sirwa8.jpeg"
                 ],
                 "description": `Jebel Sirwa & Safran valley – 11 Days
 
@@ -4097,12 +4103,15 @@ Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: pr
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Días Jebel Sirwa Valle del Azafrán",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa y el Valle del Azafrán — 11 Días
 
@@ -5195,12 +5204,15 @@ Qué empacar: Zapatos de senderismo, sombrero para el sol, protector solar, cant
                 "id": "jebel-sirwa-and-safran-valley-11-days",
                 "name": "Jebel Sirwa y Valle del Azafrán – 11 Días",
                 "duration": "11_days",
-                "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
+                "image": "/images/Sirwa/sirwa1.jpeg",
                 "gallery": [
-                    "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                    "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
-                    "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                    "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                    "/images/Sirwa/sirwa2.jpeg",
+                    "/images/Sirwa/sirwa3.jpeg",
+                    "/images/Sirwa/sirwa4.jpeg",
+                    "/images/Sirwa/sirwa5.jpeg",
+                    "/images/Sirwa/sirwa6.jpeg",
+                    "/images/Sirwa/sirwa7.jpeg",
+                    "/images/Sirwa/sirwa8.jpeg"
                 ],
                 "description": `JEBEL SIRWA Y VALLE DEL AZAFRÁN – 11 DÍAS
 
@@ -6425,12 +6437,15 @@ Distance totale : ~60 km — Difficulté : modérée à difficile.`,
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Jours Jebel Sirwa et Vallée du Safran",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa et la Vallée du Safran — 11 Jours
             

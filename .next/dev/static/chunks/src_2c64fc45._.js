@@ -22,8 +22,16 @@ const siteInfo = {
         youtube: "https://www.youtube.com/@adamvlogs24",
         instagram: "https://www.instagram.com/guideatlas?igsh=OG56YjcwbWQxMmh3",
         facebook: "https://www.facebook.com/share/17DTcYHWaL/",
+        tripadvisor: "#",
         twitter: "#",
         linkedin: "#"
+    },
+    linksPage: {
+        ownerName: "Morocco Atlas Guide",
+        ownerTitle: "Berber Mountain & Desert Expert",
+        bio: "Born and raised in the High Atlas mountains, I offer authentic, expert-led treks to Toubkal and unforgettable Sahara desert expeditions.",
+        photo: "/images/OurPeople.jpeg",
+        website: "https://www.moroccoatlasguide.com"
     },
     whatsappBookingMessage: "Hello Morocco Atlas Guide, I would like to book: ",
     // Additional brand info

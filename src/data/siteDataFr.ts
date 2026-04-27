@@ -972,12 +972,15 @@ Distance totale : ~60 km — Difficulté : modérée à difficile.`,
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Jours Jebel Sirwa et Vallée du Safran",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa et la Vallée du Safran — 11 Jours
             

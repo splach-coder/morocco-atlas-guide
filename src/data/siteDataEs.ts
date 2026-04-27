@@ -1024,12 +1024,15 @@ Distancia total: ~60 km — Dificultad: moderada a difícil — Mejor época: pr
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Días Jebel Sirwa Valle del Azafrán",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa y el Valle del Azafrán — 11 Días
 
@@ -2125,12 +2128,15 @@ Qué empacar: Zapatos de senderismo, sombrero para el sol, protector solar, cant
                 "id": "jebel-sirwa-and-safran-valley-11-days",
                 "name": "Jebel Sirwa y Valle del Azafrán – 11 Días",
                 "duration": "11_days",
-                "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
+                "image": "/images/Sirwa/sirwa1.jpeg",
                 "gallery": [
-                    "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                    "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
-                    "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                    "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                    "/images/Sirwa/sirwa2.jpeg",
+                    "/images/Sirwa/sirwa3.jpeg",
+                    "/images/Sirwa/sirwa4.jpeg",
+                    "/images/Sirwa/sirwa5.jpeg",
+                    "/images/Sirwa/sirwa6.jpeg",
+                    "/images/Sirwa/sirwa7.jpeg",
+                    "/images/Sirwa/sirwa8.jpeg"
                 ],
                 "description": `JEBEL SIRWA Y VALLE DEL AZAFRÁN – 11 DÍAS
 

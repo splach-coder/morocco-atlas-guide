@@ -1022,12 +1022,15 @@ Total distance: ~60 km — Difficulty: moderate to difficult — Best seasons: s
             "id": "11-days-jebel-sirwa-safran-valley",
             "name": "11 Days Jebel Sirwa Safran Valley",
             "duration": "11_days",
-            "image": "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
+            "image": "/images/Sirwa/sirwa1.jpeg",
             "gallery": [
-                "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg",
-                "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg"
+                "/images/Sirwa/sirwa2.jpeg",
+                "/images/Sirwa/sirwa3.jpeg",
+                "/images/Sirwa/sirwa4.jpeg",
+                "/images/Sirwa/sirwa5.jpeg",
+                "/images/Sirwa/sirwa6.jpeg",
+                "/images/Sirwa/sirwa7.jpeg",
+                "/images/Sirwa/sirwa8.jpeg"
             ],
             "description": `Jebel Sirwa & the Saffron Valley — 11 Days
 
@@ -2119,12 +2122,15 @@ What to pack: Hiking shoes, sun hat, sunscreen, water bottle, first-aid kit, sle
                 "id": "jebel-sirwa-and-safran-valley-11-days",
                 "name": "Jebel Sirwa & Safran Valley – 11 Days",
                 "duration": "11_days",
-                "image": "/images/desert_tours/gabriele-stravinskaite--mKpYC4RacA-unsplash.jpg",
+                "image": "/images/Sirwa/sirwa1.jpeg",
                 "gallery": [
-                    "/images/desert_tours/dave-meckler-ZzVc3uZXnr8-unsplash.jpg",
-                    "/images/desert_tours/peter-thomas-nF8-ekoE0qw-unsplash.jpg",
-                    "/images/desert_tours/sheila-c-KuXu8rx_1-8-unsplash.jpg",
-                    "/images/desert_tours/tamar-dCMvzMV1jfc-unsplash.jpg"
+                    "/images/Sirwa/sirwa2.jpeg",
+                    "/images/Sirwa/sirwa3.jpeg",
+                    "/images/Sirwa/sirwa4.jpeg",
+                    "/images/Sirwa/sirwa5.jpeg",
+                    "/images/Sirwa/sirwa6.jpeg",
+                    "/images/Sirwa/sirwa7.jpeg",
+                    "/images/Sirwa/sirwa8.jpeg"
                 ],
                 "description": `Jebel Sirwa & Safran valley – 11 Days
 
