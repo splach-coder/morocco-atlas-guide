@@ -46,3 +46,6 @@
 [00:30:50.089] Browser WARN    Image with src "/images/Sirwa/sirwa7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:30:50.089] Browser WARN    Image with src "/images/Sirwa/sirwa8.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:30:50.207] Browser WARN    Image with src "/images/Sirwa/sirwa6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:41.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:41.480] Browser WARN    Image with src "/images/logo-1.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:41.480] Browser WARN    Image with src "/images/OurPeople.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
